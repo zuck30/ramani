@@ -77,7 +77,7 @@ a{color:inherit}
 
 /* ---------------- fixed chrome ---------------- */
 .site-header{
-  position:fixed;top:0;left:0;right:0;z-index:30;
+  position:fixed;top:0;left:0;right:0;z-index:60;
   display:flex;align-items:center;justify-content:flex-end;
   padding:18px 22px;pointer-events:none;
 }
