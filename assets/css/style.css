@@ -264,20 +264,20 @@ button.chip.filter.active{
   button.chip.filter.active{background:rgba(255,255,255,.22)}
 }
 
-/* ---------------- grid + cinematic cards ---------------- */
+/* ---------------- grid + profile cards (fading image) ---------------- */
 .grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
-  gap:14px;margin-top:20px;align-items:stretch;
+  gap:16px;margin-top:20px;align-items:stretch;
 }
 .card{
-  display:flex;flex-direction:column;
-  background:#fff;
-  border:1px solid rgba(0,0,0,.08);
-  border-radius:6px;
-  min-height:170px;
-  padding:18px 20px;
-  text-decoration:none;color:#0b0b0c;
-  transition:background-color .2s ease,border-color .2s ease,transform .15s ease;
+  position:relative;
+  display:block;
+  height:320px;
+  border-radius:20px;
+  overflow:hidden;
+  text-decoration:none;
+  background-color:#f3f4f6;
+  transition:transform 150ms ease,box-shadow 150ms ease;
   /* staggered fade+blur reveal */
   opacity:0;filter:blur(6px);
   animation:reveal .6s ease forwards;
@@ -285,25 +285,91 @@ button.chip.filter.active{
 }
 @keyframes reveal{to{opacity:1;filter:blur(0)}}
 .card:hover{
-  border-color:rgba(0,0,0,.4);
-  transform:translateY(-2px);
+  transform:translateY(-4px);
+  box-shadow:0 12px 24px rgba(0,0,0,.15);
 }
-.card h3{
-  margin:0 0 8px;
-  font-family:var(--font-sans);font-weight:500;font-size:15px;
-  color:#0b0b0c;letter-spacing:.02em;
+
+/* soft base gradient: solid on the left for text, clear on the right */
+.card::before{
+  content:'';position:absolute;inset:0;z-index:1;
+  background:linear-gradient(to right,#f3f4f6 40%,transparent 80%);
 }
-.card p{margin:0 0 12px;font-size:13px;color:rgba(0,0,0,.6)}
-.card .chips{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin-top:auto}
-.card .chip{
-  display:inline-block;
-  padding:5px 14px;
-  background:rgba(0,0,0,.05);
-  border:1px solid rgba(0,0,0,.12);
+
+/* fading image layer: visible on the right, melts into the card on the left */
+.card-bg{
+  position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;
+  background-image:url('../for-card.png');
+  background-size:cover;
+  background-position:center right;
+  background-repeat:no-repeat;
+  -webkit-mask-image:linear-gradient(to right,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 60%);
+  mask-image:linear-gradient(to right,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 60%);
+}
+
+.card-content{
+  position:relative;z-index:2;
+  display:flex;flex-direction:column;justify-content:space-between;
+  height:100%;
+  padding:24px;
+  color:#111827;
+}
+
+.card-top{display:flex;justify-content:flex-end}
+.card-bookmark{
+  width:40px;height:40px;border-radius:50%;
+  background:rgba(255,255,255,.8);
+  display:flex;align-items:center;justify-content:center;
+  color:#111827;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+}
+.card-bookmark svg.quiet{opacity:.35}
+
+.card-main{margin:auto 0}
+.card-title{
+  font-size:24px;font-weight:600;
+  margin:0 0 4px 0;
+  color:#000;
+}
+.card-subtitle{
+  font-size:15px;line-height:1.5;
+  margin:0 0 16px 0;
+  color:#4b5563;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.card-meta{
+  display:flex;flex-wrap:wrap;gap:14px;
+  font-size:13px;color:#6b7280;font-weight:500;
+}
+.meta-item{display:flex;align-items:center;gap:6px}
+.meta-item svg{flex-shrink:0}
+
+.card-bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:10px}
+
+.card-pills{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.mini-pill{
+  font-size:12px;font-weight:600;
+  padding:4px 10px;
   border-radius:999px;
-  font-size:10px;
-  font-weight:500;color:rgba(0,0,0,.65);cursor:default;
+  border:1px solid rgba(0,0,0,.1);
+  color:#111827;
+  background:rgba(255,255,255,.5);
 }
+
+.card-cta{
+  display:flex;align-items:center;gap:6px;
+  background:#fff;color:#000;
+  font-size:14px;font-weight:600;
+  padding:10px 20px;
+  border-radius:999px;
+  box-shadow:0 4px 12px rgba(0,0,0,.1);
+  transition:background 150ms ease;
+  flex-shrink:0;
+}
+.card:hover .card-cta{background:#f3f4f6}
 
 /* ---------------- vibe search ---------------- */
 .vibe-search{
