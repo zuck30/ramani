@@ -3726,5 +3726,37 @@
     "category": "saas-dashboards",
     "added": "2026-11-12",
     "favorite": false
+  },
+  {
+    "url": "https://innocentmasuki.me/",
+    "title": "Innocent Masuki",
+    "why": "Software engineer from Dar es Salaam, Tanzania, with expertise in front-end development (React, React Native, Swift, Kotlin), TypeScript, and various technologies. Currently working at Jigsol Applied Intelligence in London.",
+    "tags": [
+      "developer",
+      "portfolio",
+      "frontend",
+      "tanzania",
+      "software-engineer"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://zuck30.github.io/zuck30",
+    "title": "shadrackovsky",
+    "why": "AI/ML & Software Engineer from Tanzania, obsessed with Chinese open-source AI (DeepSeek, Qwen, etc.). Builds web applications, ML systems, RAG pipelines, and has pre-trained Swahili-GPT. Self-taught with a focus on Chinese AI tools.",
+    "tags": [
+      "ai",
+      "ml",
+      "software-engineer",
+      "portfolio",
+      "tanzania",
+      "chinese-ai",
+      "open-source"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-12",
+    "favorite": false
   }
 ]
