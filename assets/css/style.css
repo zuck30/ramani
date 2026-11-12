@@ -278,45 +278,37 @@ button.chip.filter.active{
 }
 .card{
   display:block;
-  background:var(--glass-bg);
-  border:1px solid var(--glass-border);
+  background:#fff;
+  border:1px solid rgba(0,0,0,.08);
   border-radius:16px;
-  box-shadow:var(--glass-rim);
   padding:18px 20px;
-  text-decoration:none;color:var(--fg);
-  backdrop-filter:blur(14px) saturate(160%);
-  -webkit-backdrop-filter:blur(14px) saturate(160%);
+  text-decoration:none;color:#0b0b0c;
   transition:background-color .2s ease,border-color .2s ease,transform .15s ease;
   /* staggered fade+blur reveal */
   opacity:0;filter:blur(6px);
   animation:reveal .6s ease forwards;
   animation-delay:calc(var(--i,0) * 20ms);
 }
-@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
-  .card{background:rgba(12,12,14,.88)} /* readable without blur */
-}
 @keyframes reveal{to{opacity:1;filter:blur(0)}}
 .card:hover{
-  background:var(--glass-bg-hover);
-  border-color:var(--glass-border-hover);
+  border-color:rgba(0,0,0,.4);
   transform:translateY(-2px);
 }
 .card h3{
   margin:0 0 8px;
   font-family:var(--font-serif);font-weight:600;font-size:18px;
-  color:#fff;letter-spacing:.01em;
+  color:#0b0b0c;letter-spacing:.01em;
 }
-.card p{margin:0 0 12px;font-size:13px;color:var(--w60)}
+.card p{margin:0 0 12px;font-size:13px;color:rgba(0,0,0,.6)}
 .card .chips{display:flex;flex-wrap:wrap;align-items:center;gap:7px}
 .card .chip{
   display:inline-block;
   padding:5px 14px;
-  background:var(--glass-bg);
-  border:1px solid var(--glass-border);
+  background:rgba(0,0,0,.05);
+  border:1px solid rgba(0,0,0,.12);
   border-radius:999px;
-  box-shadow:var(--glass-rim);
   font-size:10px;
-  font-weight:500;color:rgba(255,255,255,.75);cursor:default;
+  font-weight:500;color:rgba(0,0,0,.65);cursor:default;
 }
 
 /* ---------------- vibe search ---------------- */
