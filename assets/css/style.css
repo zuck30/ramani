@@ -64,7 +64,7 @@ a{color:inherit}
   transition:opacity 1.2s ease-in-out;
 }
 .bg-stage video.video-a{opacity:1}
-.bg-scrim{position:absolute;inset:0;background:rgba(0,0,0,.6)}
+.bg-scrim{position:absolute;inset:0;background:rgba(0,0,0,.8)}
 .bg-grain{
   position:absolute;inset:0;pointer-events:none;
   opacity:.08;mix-blend-mode:overlay;
@@ -143,7 +143,7 @@ body.menu-open .menu-toggle .icon-close{display:block}
 }
 .menu.open{pointer-events:auto}
 .menu a{
-  width:48px;height:48px;
+  width:48px;height:48px;cursor:pointer;
   display:inline-flex;align-items:center;justify-content:center;
   border:1px solid transparent;
   border-radius:999px;
@@ -157,12 +157,13 @@ body.menu-open .menu-toggle .icon-close{display:block}
 .menu.open a:nth-child(3){transition-delay:90ms}
 .menu.open a:nth-child(4){transition-delay:120ms}
 .menu:not(.open) a{transition-delay:0ms !important}
-.menu a img{width:26px;height:26px;filter:invert(1);flex-shrink:0}
+.menu a img{width:26px;height:26px;filter:invert(1);flex-shrink:0;transition:transform .2s ease}
 .menu a:hover{
   background:var(--glass-bg);
   border-color:var(--glass-border);
   transform:translateX(-6px);
 }
+.menu a:hover img{transform:scale(1.12)}
 
 /* bottom chrome */
 .bottom-left{position:fixed;left:22px;bottom:18px;z-index:30;pointer-events:none}
@@ -199,8 +200,8 @@ main.wrap{
 }
 .hero-tagline{
   margin:16px 0 0;
-  text-transform:uppercase;letter-spacing:.35em;
-  font-size:10.5px;color:var(--w50);
+  text-transform:uppercase;letter-spacing:.3em;
+  font-size:14px;color:var(--w50);
 }
 
 /* controls row */
@@ -266,13 +267,14 @@ button.chip.filter.active{
 /* ---------------- grid + cinematic cards ---------------- */
 .grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
-  gap:14px;margin-top:20px;
+  gap:14px;margin-top:20px;align-items:stretch;
 }
 .card{
-  display:block;
+  display:flex;flex-direction:column;
   background:#fff;
   border:1px solid rgba(0,0,0,.08);
-  border-radius:16px;
+  border-radius:6px;
+  min-height:170px;
   padding:18px 20px;
   text-decoration:none;color:#0b0b0c;
   transition:background-color .2s ease,border-color .2s ease,transform .15s ease;
@@ -292,7 +294,7 @@ button.chip.filter.active{
   color:#0b0b0c;letter-spacing:.02em;
 }
 .card p{margin:0 0 12px;font-size:13px;color:rgba(0,0,0,.6)}
-.card .chips{display:flex;flex-wrap:wrap;align-items:center;gap:7px}
+.card .chips{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin-top:auto}
 .card .chip{
   display:inline-block;
   padding:5px 14px;
