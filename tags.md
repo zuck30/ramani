@@ -5,7 +5,7 @@ title: Tags
 
 # Tags
 
-Controlled vocabulary — every link uses only these tags.
+Controlled vocabulary - every link uses only these tags.
 
 ### Theme
 

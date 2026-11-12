@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * build-readme.js — generates README.md from data/links.json.
+ * build-readme.js - generates README.md from data/links.json.
  *
  * data/links.json is the single source of truth.
  * Never hand-edit README.md; running this script overwrites it.
@@ -67,11 +67,11 @@ function main() {
   const today = new Date().toISOString().slice(0, 10);
 
   let md = '# ramani\n\n';
-  md += 'A map of the good web — UIs worth stealing from, tools worth keeping.\n\n';
+  md += 'A map of the good web - UIs worth stealing from, tools worth keeping.\n\n';
   md += '**' + links.length + ' links** · last updated ' + today + '\n\n';
   md += '> Auto-generated from [`data/links.json`](data/links.json). Edit that file, not this one.\n';
 
-  // ⭐ Start Here — deduplicated union of all favorite entries, sorted by title.
+  // ⭐ Start Here - deduplicated union of all favorite entries, sorted by title.
   const favorites = links
     .filter((l) => l.favorite)
     .sort((a, b) => a.title.localeCompare(b.title));

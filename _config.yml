@@ -1,8 +1,8 @@
 # ------------------------------------------------------------------
-# GitHub handle — used by _includes/header.html + footer.html for repo links.
+# GitHub handle - used by _includes/header.html + footer.html for repo links.
 # ------------------------------------------------------------------
 title: ramani
-description: A map of the good web — UIs worth stealing from, tools worth keeping.
+description: A map of the good web - UIs worth stealing from, tools worth keeping.
 github_username: zuck30
 url: "https://zuck30.github.io"
 baseurl: "/ramani"

@@ -1,5 +1,5 @@
 /* ============================================================
-   ramani — dandadan cinematic design language
+   ramani - dandadan cinematic design language
    pure black stage · video-backed · white-on-black only
    fonts: Cormorant Garamond (display) + Space Grotesk (ui)
    ============================================================ */
@@ -93,7 +93,7 @@ a{color:inherit}
   filter:invert(1) hue-rotate(180deg) drop-shadow(0 4px 30px rgba(0,0,0,.5));
   mix-blend-mode:screen;
 }
-/* glass base — frosted pill with rim light */
+/* glass base - frosted pill with rim light */
 .glass,
 .bottom-right a,
 .micro-link{
@@ -222,7 +222,7 @@ main.wrap{
 }
 #tags{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 8px}
 
-/* tag filter chips — frosted glass pills */
+/* tag filter chips - frosted glass pills */
 .chip{
   background:none;border:0;padding:6px 2px;
   font-family:var(--font-sans);font-size:10px;font-weight:500;

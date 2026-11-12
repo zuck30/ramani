@@ -1,6 +1,6 @@
 # ramani
 
-A map of the good web — UIs worth stealing from, tools worth keeping.
+A map of the good web - UIs worth stealing from, tools worth keeping.
 
 **292 links** · last updated 2026-11-12
 
@@ -230,7 +230,7 @@ A map of the good web — UIs worth stealing from, tools worth keeping.
 | Site | Why | Tags |
 |------|-----|------|
 | [Antera](https://antera.co.tz) | Tanzanian firm; clean corporate presence. | `tanzania` `africa` |
-| [Azzaman Tanzania](https://azzaman.tz/) | Tanzanian outfit; unclassified — revisit. | `tanzania` `reference` |
+| [Azzaman Tanzania](https://azzaman.tz/) | Tanzanian outfit; unclassified - revisit. | `tanzania` `reference` |
 | [Bahari Web](https://bahariweb.com/) | Tanzanian web studio; bold local portfolio. | `tanzania` `africa` `agency` |
 | [Bonga](https://bonga.co.tz/) | Tanzanian platform; one to watch. | `tanzania` `africa` |
 | [BongaSMS](https://bongasms.com/) | Tanzanian SMS gateway; simple messaging API. | `tanzania` `dev` `africa` |
@@ -256,7 +256,7 @@ A map of the good web — UIs worth stealing from, tools worth keeping.
 | [Tanzania Bureau of Standards](https://www.tbs.go.tz/) | Standards bureau; institutional and formal. | `tanzania` `gov` `africa` |
 | [Tausi](https://tausi.tamisemi.go.tz) | Government jobs portal; dense but functional. | `tanzania` `gov` `africa` |
 | [UTEL](https://utel.co.tz/) | Tanzanian ISP; straightforward telecom services. | `tanzania` `africa` |
-| [VF Tanzania](https://www.vftz.co.tz/) | Tanzanian outfit; unclassified — revisit. | `tanzania` `reference` |
+| [VF Tanzania](https://www.vftz.co.tz/) | Tanzanian outfit; unclassified - revisit. | `tanzania` `reference` |
 | [Wazo Host](https://wazohost.co.tz/) | Tanzanian hosting; no-frills local infrastructure. | `tanzania` `dev` `africa` |
 | [Wazoefu](https://www.wazoefu.com/) | Tanzanian business; worth a closer look. | `tanzania` `africa` |
 
@@ -334,34 +334,34 @@ A map of the good web — UIs worth stealing from, tools worth keeping.
 
 | Site | Why | Tags |
 |------|-----|------|
-| [AAP](https://www.aap.ph/) | unclassified — revisit. | `reference` |
-| [ADEC Kenya](https://www.adec-kenya.com/) | unclassified — revisit. | `reference` |
-| [AgeImmune](https://ageimmune.com/) | unclassified — revisit. | `reference` |
-| [Altalogy](https://www.altalogy.com/) | unclassified — revisit. | `reference` |
-| [Axum](https://axum.earth/) | unclassified — revisit. | `reference` |
-| [BYG Advantage](https://www.bygadvantage.com/) | unclassified — revisit. | `reference` |
+| [AAP](https://www.aap.ph/) | unclassified - revisit. | `reference` |
+| [ADEC Kenya](https://www.adec-kenya.com/) | unclassified - revisit. | `reference` |
+| [AgeImmune](https://ageimmune.com/) | unclassified - revisit. | `reference` |
+| [Altalogy](https://www.altalogy.com/) | unclassified - revisit. | `reference` |
+| [Axum](https://axum.earth/) | unclassified - revisit. | `reference` |
+| [BYG Advantage](https://www.bygadvantage.com/) | unclassified - revisit. | `reference` |
 | [DeepSeek Harness](https://www.deepseek.com/en/harness/) | DeepSeek agent harness writeup; technical reading. | `ai` `dev` |
-| [Earendil](https://earendil.com/) | unclassified — revisit. | `reference` |
-| [Fair](https://fair.io/) | unclassified — revisit. | `reference` |
-| [Flint](https://www.flint.com/) | unclassified — revisit. | `reference` |
+| [Earendil](https://earendil.com/) | unclassified - revisit. | `reference` |
+| [Fair](https://fair.io/) | unclassified - revisit. | `reference` |
+| [Flint](https://www.flint.com/) | unclassified - revisit. | `reference` |
 | [GCI World 2026 Student Guide](https://curved-rambutan-a71.notion.site/GCI-World-2026-September-Student-Guide-971cfa7cece78245925781c15c64559b) | Student guide doc; keep for reference. | `education` `reference` |
-| [Hugo](https://hugoinc.com/) | unclassified — revisit. | `reference` |
+| [Hugo](https://hugoinc.com/) | unclassified - revisit. | `reference` |
 | [Lucumr](https://lucumr.pocoo.org/) | Armin Ronacher's blog; essential longform on software. | `dev` `editorial` `oss` |
 | [Mental Models](https://mentalmodels.co/) | Mental models reference; clear thinking tool. | `reference` `reading` |
-| [Nela Healthcare](https://nelahealthcare.com/) | unclassified — revisit. | `reference` |
-| [Pontem Innovations](https://www.ponteminnovations.ca/) | unclassified — revisit. | `reference` |
-| [Radish](https://www.myradish.com/) | unclassified — revisit. | `reference` |
-| [Rustify](https://rustify.rs/) | unclassified — revisit. | `reference` |
-| [Sensiq](https://sensiq.co/) | unclassified — revisit. | `reference` |
-| [Shared Drive Folder](https://drive.google.com/drive/folders/14cuJTWCwVaVJ3yaxUMExBY0dCkZFwMXj) | Shared folder; contents unclassified — revisit. | `reference` |
-| [Siren](https://siren.io/) | unclassified — revisit. | `reference` |
-| [Slate Demo](https://demo.slate-app.online/app/demo) | unclassified — revisit. | `reference` |
+| [Nela Healthcare](https://nelahealthcare.com/) | unclassified - revisit. | `reference` |
+| [Pontem Innovations](https://www.ponteminnovations.ca/) | unclassified - revisit. | `reference` |
+| [Radish](https://www.myradish.com/) | unclassified - revisit. | `reference` |
+| [Rustify](https://rustify.rs/) | unclassified - revisit. | `reference` |
+| [Sensiq](https://sensiq.co/) | unclassified - revisit. | `reference` |
+| [Shared Drive Folder](https://drive.google.com/drive/folders/14cuJTWCwVaVJ3yaxUMExBY0dCkZFwMXj) | Shared folder; contents unclassified - revisit. | `reference` |
+| [Siren](https://siren.io/) | unclassified - revisit. | `reference` |
+| [Slate Demo](https://demo.slate-app.online/app/demo) | unclassified - revisit. | `reference` |
 | [Spark X2.5 Heretic](https://ollama.com/maternion/spark-x2.5-heretic) | Uncensored model experiment on Ollama; worth a poke. | `ai` `dev` `oss` |
-| [Technobrain Group](https://www.technobraingroup.com/) | unclassified — revisit. | `reference` |
-| [Tekateki Studios](https://www.tekatekistudios.com/) | unclassified — revisit. | `reference` |
+| [Technobrain Group](https://www.technobraingroup.com/) | unclassified - revisit. | `reference` |
+| [Tekateki Studios](https://www.tekatekistudios.com/) | unclassified - revisit. | `reference` |
 | [The Drop Times](https://www.thedroptimes.com/) | Web and dev news outlet; daily industry pulse. | `editorial` `dev` |
 | [Untitled Figma File](https://www.figma.com/design/zuCrG2w3959zW2lWhojHge/Untitled?node-id=0-1) | Own Figma canvas; working reference file. | `tool` `reference` |
-| [Ved-Net](https://www.ved-net.com/en/) | unclassified — revisit. | `reference` |
-| [VIDI Corp](https://vidi-corp.com/) | unclassified — revisit. | `reference` |
+| [Ved-Net](https://www.ved-net.com/en/) | unclassified - revisit. | `reference` |
+| [VIDI Corp](https://vidi-corp.com/) | unclassified - revisit. | `reference` |
 | [World Labs: Atlas](https://www.worldlabs.ai/blog/atlas) | Spatial AI writeup; worth a slow read. | `ai` `reading` |
 | [You Could Have Trained the Kimi K1.5](https://morluto.bearblog.dev/you-could-have-trained-the-kimi-k1-5/) | Essay on training Kimi; worth the read. | `ai` `reading` |
