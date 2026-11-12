@@ -1,367 +1,371 @@
 # ramani
 
-A map of the good web - UIs worth stealing from, tools worth keeping.
-
+ramani is a map of the good web uis worth stealing from, tools worth keeping.
+<p align="center">
+    <a href="zuck30.github.io/ramani">
+        <img src="/assets/ramani-2.png" alt="header banner" width="800">
+    </a>
+</p>
 **292 links** · last updated 2026-11-12
 
-> Auto-generated from [`data/links.json`](data/links.json). Edit that file, not this one.
+> auto-generated from [`data/links.json`](data/links.json). edit that file, not this one.
 
-## ⭐ Start Here
+# ⭐ start here
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [Anduril](https://www.anduril.com/) | Dark cinematic defence UI; great scroll reveals. | `defence` `dark` `cinematic` `motion` |
-| [Apify](https://apify.com/) | Web scraping platform; playful yet technical brand. | `tool` `dev` `saas` `oss` |
-| [Learn Anything](https://learn-anything.xyz) | Maps of what to learn; exactly what it says. | `education` `oss` `tool` `minimal` |
-| [Palantir](https://www.palantir.com) | Dark industrial data platform; the defence aesthetic to beat. | `defence` `dark` `ai` `saas` |
-| [Porsche Racing](https://racing.porsche.com/?locale=en) | Motorsport storytelling; cinematic scroll-driven pages. | `cinematic` `motion` `scroll-driven` `editorial` `dark` |
-| [SaaSpo](https://saaspo.com) | SaaS design inspiration gallery; curation done well. | `reference` `saas` `minimal` `tool` |
-| [The Odin Project](https://www.theodinproject.com/) | Free full-stack curriculum; the gold standard path. | `education` `dev` `oss` |
-| [Untitled UI](https://www.untitledui.com/react/components) | Best-in-class UI kit reference; every pattern solved. | `template` `reference` `minimal` `saas` |
+| [anduril](https://www.anduril.com/) | dark cinematic defence ui; great scroll reveals. | `defence` `dark` `cinematic` `motion` |
+| [apify](https://apify.com/) | web scraping platform; playful yet technical brand. | `tool` `dev` `saas` `oss` |
+| [learn anything](https://learn-anything.xyz) | maps of what to learn; exactly what it says. | `education` `oss` `tool` `minimal` |
+| [palantir](https://www.palantir.com) | dark industrial data platform; the defence aesthetic to beat. | `defence` `dark` `ai` `saas` |
+| [porsche racing](https://racing.porsche.com/?locale=en) | motorsport storytelling; cinematic scroll-driven pages. | `cinematic` `motion` `scroll-driven` `editorial` `dark` |
+| [saaspo](https://saaspo.com) | saas design inspiration gallery; curation done well. | `reference` `saas` `minimal` `tool` |
+| [the odin project](https://www.theodinproject.com/) | free full-stack curriculum; the gold standard path. | `education` `dev` `oss` |
+| [untitled ui](https://www.untitledui.com/react/components) | best-in-class ui kit reference; every pattern solved. | `template` `reference` `minimal` `saas` |
 
-## Landing Pages
+## landing pages
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [Ajazz Store](https://ajazzstore.com/) | Keyboard gear store; enthusiast hardware shop. | `ecommerce` `hardware` |
-| [Antaira](https://www.antaira.com/) | Industrial networking gear; engineering-spec landing. | `hardware` `global` |
-| [Barrick Gold](https://www.barrick.com/English/home/default.aspx) | Gold miner corporate; investor-grade storytelling. | `global` `editorial` |
-| [Beak & Skiff](https://beakandskiff.com/) | Apple orchard brand; warm seasonal marketing. | `food` `light` `minimal` |
-| [Cape Union Mart](https://www.capeunionmart.co.za/) | SA outdoor chain; solid retail merchandising. | `ecommerce` `africa` |
-| [Coco Wyo](https://cocowyo.com/) | Cozy coloring brand; gentle, playful commerce. | `playful` `ecommerce` `colorful` |
-| [Codiste](https://www.codiste.com) | Dev agency landing; clear services storytelling. | `agency` `ai` `dev` |
-| [Cofounder](https://cofounder.co/) | Startup product pitch; confident, minimal type. | `minimal` `saas` |
-| [General Intelligence Company](https://www.generalintelligencecompany.com/) | AI outfit; sharp, modern product landing. | `ai` `minimal` `global` |
-| [GetMyBoat](https://www.getmyboat.com/) | Boat rental marketplace; map-first browsing done well. | `ecommerce` `global` |
-| [Glovo](https://glovoapp.com/en) | Delivery app marketing; energetic color-blocked sections. | `food` `ecommerce` `colorful` `global` |
-| [IKEA](https://www.ikea.com/) | Retail giant; product and wayfinding patterns worth study. | `ecommerce` `global` `light` |
-| [KPMG](https://kpmg.com/xx/en.html) | Big Four global; sober professional identity at scale. | `global` `editorial` |
-| [Mall of the Emirates](https://www.malloftheemirates.com/en) | Mall site; store directories and wayfinding patterns. | `ecommerce` `global` |
-| [Micron](https://www.micron.com/) | Memory chip maker; precise engineering corporate site. | `hardware` `global` |
-| [Nékter Juice Bar](https://www.nekterjuicebar.com/) | Juice bar chain; fresh, colorful franchise marketing. | `food` `colorful` `playful` |
-| [Pingo AI](https://pingo.ai/) | AI product; clean, modern pitch page. | `ai` `saas` |
-| [Porsche Racing](https://racing.porsche.com/?locale=en) | Motorsport storytelling; cinematic scroll-driven pages. | `cinematic` `motion` `scroll-driven` `editorial` `dark` |
-| [Realtor.ca](https://www.realtor.ca/) | Canadian listings; map-driven search UX reference. | `ecommerce` `global` |
-| [Rocket](https://www.rocket.new/) | AI app builder; bold launch-style landing. | `ai` `saas` `tool` |
-| [Sequoia Capital](https://sequoiacap.com/) | VC site with editorial calm; type-driven pages. | `editorial` `minimal` `fintech` |
-| [Teguar](https://teguar.com/) | Industrial computers; spec-driven hardware catalogue. | `hardware` `global` |
-| [Trappers](https://www.trappers.co.za/) | South African outdoor retailer; rugged catalogue pages. | `ecommerce` `africa` |
-| [Uber Eats](https://www.ubereats.com/) | Delivery giant; appetite-first commerce patterns. | `food` `ecommerce` `colorful` `global` |
-| [Walmart](https://www.walmart.com/) | Commerce at scale; checkout and listing patterns. | `ecommerce` `global` |
-| [Webflow](https://webflow.com/) | No-code builder; the marketing bar for SaaS sites. | `saas` `tool` `dev` `motion` |
-| [Yango](https://yango.com/) | Ride and delivery superapp; bold global brand pages. | `global` `playful` |
+| [ajazz store](https://ajazzstore.com/) | keyboard gear store; enthusiast hardware shop. | `ecommerce` `hardware` |
+| [antaira](https://www.antaira.com/) | industrial networking gear; engineering-spec landing. | `hardware` `global` |
+| [barrick gold](https://www.barrick.com/English/home/default.aspx) | gold miner corporate; investor-grade storytelling. | `global` `editorial` |
+| [beak & skiff](https://beakandskiff.com/) | apple orchard brand; warm seasonal marketing. | `food` `light` `minimal` |
+| [cape union mart](https://www.capeunionmart.co.za/) | sa outdoor chain; solid retail merchandising. | `ecommerce` `africa` |
+| [coco wyo](https://cocowyo.com/) | cozy coloring brand; gentle, playful commerce. | `playful` `ecommerce` `colorful` |
+| [codiste](https://www.codiste.com) | dev agency landing; clear services storytelling. | `agency` `ai` `dev` |
+| [cofounder](https://cofounder.co/) | startup product pitch; confident, minimal type. | `minimal` `saas` |
+| [general intelligence company](https://www.generalintelligencecompany.com/) | ai outfit; sharp, modern product landing. | `ai` `minimal` `global` |
+| [getmyboat](https://www.getmyboat.com/) | boat rental marketplace; map-first browsing done well. | `ecommerce` `global` |
+| [glovo](https://glovoapp.com/en) | delivery app marketing; energetic color-blocked sections. | `food` `ecommerce` `colorful` `global` |
+| [ikea](https://www.ikea.com/) | retail giant; product and wayfinding patterns worth study. | `ecommerce` `global` `light` |
+| [kpmg](https://kpmg.com/xx/en.html) | big four global; sober professional identity at scale. | `global` `editorial` |
+| [mall of the emirates](https://www.malloftheemirates.com/en) | mall site; store directories and wayfinding patterns. | `ecommerce` `global` |
+| [micron](https://www.micron.com/) | memory chip maker; precise engineering corporate site. | `hardware` `global` |
+| [nékter juice bar](https://www.nekterjuicebar.com/) | juice bar chain; fresh, colorful franchise marketing. | `food` `colorful` `playful` |
+| [pingo ai](https://pingo.ai/) | ai product; clean, modern pitch page. | `ai` `saas` |
+| [porsche racing](https://racing.porsche.com/?locale=en) | motorsport storytelling; cinematic scroll-driven pages. | `cinematic` `motion` `scroll-driven` `editorial` `dark` |
+| [realtor.ca](https://www.realtor.ca/) | canadian listings; map-driven search ux reference. | `ecommerce` `global` |
+| [rocket](https://www.rocket.new/) | ai app builder; bold launch-style landing. | `ai` `saas` `tool` |
+| [sequoia capital](https://sequoiacap.com/) | vc site with editorial calm; type-driven pages. | `editorial` `minimal` `fintech` |
+| [teguar](https://teguar.com/) | industrial computers; spec-driven hardware catalogue. | `hardware` `global` |
+| [trappers](https://www.trappers.co.za/) | south african outdoor retailer; rugged catalogue pages. | `ecommerce` `africa` |
+| [uber eats](https://www.ubereats.com/) | delivery giant; appetite-first commerce patterns. | `food` `ecommerce` `colorful` `global` |
+| [walmart](https://www.walmart.com/) | commerce at scale; checkout and listing patterns. | `ecommerce` `global` |
+| [webflow](https://webflow.com/) | no-code builder; the marketing bar for saas sites. | `saas` `tool` `dev` `motion` |
+| [yango](https://yango.com/) | ride and delivery superapp; bold global brand pages. | `global` `playful` |
 
-## Saas Dashboards
+## saas dashboards
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [3CX](https://www.3cx.com/) | Self-hosted PBX; utilitarian software marketing. | `saas` `tool` `dev` |
-| [Abacus AI](https://abacus.ai/) | Enterprise AI platform; dense but confident. | `ai` `saas` |
-| [Adalat AI](https://www.adalat.ai/) | AI for legal systems; mission-led startup page. | `ai` `saas` |
-| [Base44](https://base44.com/) | AI app builder; colorful vibecoding energy. | `ai` `saas` `playful` |
-| [Bayesian Health](https://www.bayesianhealth.com/) | Clinical AI; trustworthy healthcare enterprise pages. | `ai` `saas` |
-| [Braintrust](https://www.braintrust.dev/) | AI eval platform; developer-grade design. | `ai` `dev` `saas` |
-| [C3 AI](https://c3.ai/) | Enterprise AI suite; dense but polished B2B. | `ai` `saas` |
-| [Calendly](https://calendly.com/) | Scheduling standard; frictionless onboarding flows. | `saas` `tool` `minimal` |
-| [Cartesia](https://www.cartesia.ai/) | Voice AI models; sleek research-flavored landing. | `ai` `saas` `dev` |
-| [Cerebras](https://www.cerebras.ai/) | Wafer-scale AI compute; bold technical branding. | `ai` `hardware` `saas` |
-| [Cloudflare](https://www.cloudflare.com/) | Internet infrastructure; the reference for scale. | `cloud` `dev` `saas` `global` |
-| [Cobit Solutions](https://cobit-solutions.com/en) | Business software vendor; practical B2B pages. | `saas` `tool` `dev` |
-| [Context](https://www.context.dev/) | Dev tool; lean, terminal-flavored landing. | `dev` `ai` `saas` |
-| [Cortical Labs](https://corticallabs.com/) | Biological computers; wild frontier research story. | `ai` `hardware` |
-| [Deepnote](https://deepnote.com/) | Data notebooks; collaborative, polished product tour. | `saas` `dev` `tool` |
-| [Domyn](https://www.domyn.com/) | AI company; sleek enterprise positioning. | `ai` `saas` |
-| [Fly.io](https://fly.io/) | Infra marketing with actual taste; docs-like vibe. | `dev` `cloud` `saas` `dark` |
-| [Gusto](https://gusto.com/) | Payroll and HR; friendly, human SaaS marketing. | `saas` `fintech` `playful` `light` |
-| [Helpware](https://helpware.com/) | Outsourced support; polished BPO marketing. | `saas` `agency` |
-| [HubSpot](https://www.hubspot.com/) | Marketing suite; orange brand done at scale. | `saas` `colorful` `playful` `global` |
-| [Ideogram](https://ideogram.ai/) | Image generation that actually nails typography. | `ai` `saas` `playful` |
-| [Kilo](https://kilo.ai/) | AI coding platform; agent marketplace energy. | `ai` `dev` `saas` |
-| [Kimi Code](https://www.kimi.com/code/en) | Kimi's coding agent; clean dev-facing landing. | `ai` `dev` `saas` |
-| [MeetKai](https://meetkai.com/) | Conversational AI; friendly product tour. | `ai` `saas` |
-| [MindCloud](https://mindcloud.co/) | Integration platform; tidy B2B pitch. | `saas` `tool` `dev` |
-| [MiniMax](https://www.minimax.io/) | Chinese AI lab; slick global product pages. | `ai` `saas` `global` |
-| [Miro](https://miro.com/) | Collaboration canvas; friendly colorful SaaS marketing. | `saas` `tool` `colorful` `playful` |
-| [Odoo](https://www.odoo.com/) | Open ERP suite; clean modular product pages. | `saas` `oss` `tool` |
-| [OpenAI Codex](https://openai.com/codex/) | OpenAI's coding agent; big-lab product polish. | `ai` `dev` `saas` |
-| [PlanetScale](https://planetscale.com/) | Serverless MySQL; crisp developer infra brand. | `saas` `dev` `cloud` |
-| [Poolside](https://poolside.ai) | AI code models; sleek dark landing. | `ai` `dark` `saas` |
-| [Power BI Consulting Services](https://powerbiconsultingservices.com/) | BI consultancy; niche services, dashboards focus. | `saas` `agency` `tool` |
-| [Primefold](https://primefold.ai/) | AI tool; compact modern launch page. | `ai` `saas` |
-| [ProtoPie](https://www.protopie.io/) | Prototyping tool; motion-first product story. | `tool` `motion` `saas` |
-| [Qwen](https://qwen.ai/home) | Alibaba's open models; research-brand landing. | `ai` `saas` `global` |
-| [Rezi](https://www.rezi.ai/) | AI resume builder; sharp conversion-focused pages. | `ai` `tool` `saas` |
-| [Robin AI](https://robinai.com/) | Legal AI copilot; confident enterprise pitch. | `ai` `saas` |
-| [Samsara](https://www.samsara.com/) | Fleet IoT platform; crisp enterprise SaaS site. | `saas` `hardware` |
-| [Sarvam AI](https://www.sarvam.ai/) | India-first AI models; confident research brand. | `ai` `saas` `global` |
-| [Scaleway](https://www.scaleway.com/en/) | French cloud; playful violet infra marketing. | `cloud` `saas` `dev` |
-| [Sentry](https://sentry.io/welcome/) | Error tracking; great developer DX branding. | `dev` `saas` `tool` |
-| [SupportYourApp](https://supportyourapp.com/) | Support-as-a-service; bold, loud agency branding. | `saas` `agency` |
-| [Toonbee](https://toonbee.ai/) | AI cartoon maker; playful toy-like landing. | `ai` `playful` `saas` |
-| [Valoris](https://www.valoris.ro/) | Romanian BPO; clean corporate services presence. | `agency` `global` |
-| [Virtual Sales](https://www.virtual-sales.com/) | Virtual sales outsourcing; legacy B2B presence. | `saas` `agency` |
-| [Voiceflow](https://www.voiceflow.com/) | Conversational agent builder; clean chat-first UX. | `ai` `saas` `tool` |
-| [World Labs](https://www.worldlabs.ai/) | Spatial AI lab; research-forward landing. | `ai` `saas` `global` |
-| [Z Code](https://zcode.z.ai/en) | Z.ai coding product; GLM-powered IDE play. | `ai` `dev` `saas` |
-| [Zoho](https://www.zoho.com/) | App suite empire; sprawling but consistent branding. | `saas` `tool` `global` |
-| [ZoomInfo](https://zoominfo.com/) | B2B data platform; assertive enterprise sales site. | `saas` `tool` `global` |
+| [3cx](https://www.3cx.com/) | self-hosted pbx; utilitarian software marketing. | `saas` `tool` `dev` |
+| [abacus ai](https://abacus.ai/) | enterprise ai platform; dense but confident. | `ai` `saas` |
+| [adalat ai](https://www.adalat.ai/) | ai for legal systems; mission-led startup page. | `ai` `saas` |
+| [base44](https://base44.com/) | ai app builder; colorful vibecoding energy. | `ai` `saas` `playful` |
+| [bayesian health](https://www.bayesianhealth.com/) | clinical ai; trustworthy healthcare enterprise pages. | `ai` `saas` |
+| [braintrust](https://www.braintrust.dev/) | ai eval platform; developer-grade design. | `ai` `dev` `saas` |
+| [c3 ai](https://c3.ai/) | enterprise ai suite; dense but polished b2b. | `ai` `saas` |
+| [calendly](https://calendly.com/) | scheduling standard; frictionless onboarding flows. | `saas` `tool` `minimal` |
+| [cartesia](https://www.cartesia.ai/) | voice ai models; sleek research-flavored landing. | `ai` `saas` `dev` |
+| [cerebras](https://www.cerebras.ai/) | wafer-scale ai compute; bold technical branding. | `ai` `hardware` `saas` |
+| [cloudflare](https://www.cloudflare.com/) | internet infrastructure; the reference for scale. | `cloud` `dev` `saas` `global` |
+| [cobit solutions](https://cobit-solutions.com/en) | business software vendor; practical b2b pages. | `saas` `tool` `dev` |
+| [context](https://www.context.dev/) | dev tool; lean, terminal-flavored landing. | `dev` `ai` `saas` |
+| [cortical labs](https://corticallabs.com/) | biological computers; wild frontier research story. | `ai` `hardware` |
+| [deepnote](https://deepnote.com/) | data notebooks; collaborative, polished product tour. | `saas` `dev` `tool` |
+| [domyn](https://www.domyn.com/) | ai company; sleek enterprise positioning. | `ai` `saas` |
+| [fly.io](https://fly.io/) | infra marketing with actual taste; docs-like vibe. | `dev` `cloud` `saas` `dark` |
+| [gusto](https://gusto.com/) | payroll and hr; friendly, human saas marketing. | `saas` `fintech` `playful` `light` |
+| [helpware](https://helpware.com/) | outsourced support; polished bpo marketing. | `saas` `agency` |
+| [hubspot](https://www.hubspot.com/) | marketing suite; orange brand done at scale. | `saas` `colorful` `playful` `global` |
+| [ideogram](https://ideogram.ai/) | image generation that actually nails typography. | `ai` `saas` `playful` |
+| [kilo](https://kilo.ai/) | ai coding platform; agent marketplace energy. | `ai` `dev` `saas` |
+| [kimi code](https://www.kimi.com/code/en) | kimi's coding agent; clean dev-facing landing. | `ai` `dev` `saas` |
+| [meetkai](https://meetkai.com/) | conversational ai; friendly product tour. | `ai` `saas` |
+| [mindcloud](https://mindcloud.co/) | integration platform; tidy b2b pitch. | `saas` `tool` `dev` |
+| [minimax](https://www.minimax.io/) | chinese ai lab; slick global product pages. | `ai` `saas` `global` |
+| [miro](https://miro.com/) | collaboration canvas; friendly colorful saas marketing. | `saas` `tool` `colorful` `playful` |
+| [odoo](https://www.odoo.com/) | open erp suite; clean modular product pages. | `saas` `oss` `tool` |
+| [openai codex](https://openai.com/codex/) | openai's coding agent; big-lab product polish. | `ai` `dev` `saas` |
+| [planetscale](https://planetscale.com/) | serverless mysql; crisp developer infra brand. | `saas` `dev` `cloud` |
+| [poolside](https://poolside.ai) | ai code models; sleek dark landing. | `ai` `dark` `saas` |
+| [power bi consulting services](https://powerbiconsultingservices.com/) | bi consultancy; niche services, dashboards focus. | `saas` `agency` `tool` |
+| [primefold](https://primefold.ai/) | ai tool; compact modern launch page. | `ai` `saas` |
+| [protopie](https://www.protopie.io/) | prototyping tool; motion-first product story. | `tool` `motion` `saas` |
+| [qwen](https://qwen.ai/home) | alibaba's open models; research-brand landing. | `ai` `saas` `global` |
+| [rezi](https://www.rezi.ai/) | ai resume builder; sharp conversion-focused pages. | `ai` `tool` `saas` |
+| [robin ai](https://robinai.com/) | legal ai copilot; confident enterprise pitch. | `ai` `saas` |
+| [samsara](https://www.samsara.com/) | fleet iot platform; crisp enterprise saas site. | `saas` `hardware` |
+| [sarvam ai](https://www.sarvam.ai/) | india-first ai models; confident research brand. | `ai` `saas` `global` |
+| [scaleway](https://www.scaleway.com/en/) | french cloud; playful violet infra marketing. | `cloud` `saas` `dev` |
+| [sentry](https://sentry.io/welcome/) | error tracking; great developer dx branding. | `dev` `saas` `tool` |
+| [supportyourapp](https://supportyourapp.com/) | support-as-a-service; bold, loud agency branding. | `saas` `agency` |
+| [toonbee](https://toonbee.ai/) | ai cartoon maker; playful toy-like landing. | `ai` `playful` `saas` |
+| [valoris](https://www.valoris.ro/) | romanian bpo; clean corporate services presence. | `agency` `global` |
+| [virtual sales](https://www.virtual-sales.com/) | virtual sales outsourcing; legacy b2b presence. | `saas` `agency` |
+| [voiceflow](https://www.voiceflow.com/) | conversational agent builder; clean chat-first ux. | `ai` `saas` `tool` |
+| [world labs](https://www.worldlabs.ai/) | spatial ai lab; research-forward landing. | `ai` `saas` `global` |
+| [z code](https://zcode.z.ai/en) | z.ai coding product; glm-powered ide play. | `ai` `dev` `saas` |
+| [zoho](https://www.zoho.com/) | app suite empire; sprawling but consistent branding. | `saas` `tool` `global` |
+| [zoominfo](https://zoominfo.com/) | b2b data platform; assertive enterprise sales site. | `saas` `tool` `global` |
 
-## Fintech
+## fintech
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [Akoya](https://akoya.com/) | Financial data network; understated B2B design. | `fintech` `saas` `dev` |
-| [Atfinity](https://www.atfinity.swiss/) | Swiss regtech; calm, rule-based compliance UI. | `fintech` `saas` `minimal` |
-| [Bank of America](https://www.bankofamerica.com/) | Mega-bank; study the scale and accessibility. | `fintech` `global` |
-| [Breet](https://breet.io/) | Crypto-to-cash for Africa; clean swap flows. | `fintech` `africa` `saas` |
-| [Cardtonic](https://cardtonic.com/) | Gift card trading; bright African fintech brand. | `fintech` `africa` `ecommerce` |
-| [DPO Group](https://dpogroup.com/) | African payment gateway; practical merchant pages. | `fintech` `africa` `saas` |
-| [Envestnet](https://www.envestnet.com/) | Wealth-tech platform; corporate but refined. | `fintech` `saas` `global` |
-| [Firstbase](https://www.firstbase.io/) | Company formation and banking; crisp founder onboarding. | `fintech` `saas` `minimal` |
-| [Flinks](https://www.flinks.com/) | Open banking data; enterprise API pages. | `fintech` `saas` `dev` |
-| [J.P. Morgan](https://www.jpmorgan.com/global) | Banking giant; dense, disciplined finance UI. | `fintech` `global` |
-| [Mercury](https://mercury.com/) | Startup banking; the calm, precise fintech look. | `fintech` `saas` `minimal` |
-| [Method](https://methodfi.com/) | Debt repayment API; clean modern fintech pitch. | `fintech` `saas` `dev` |
-| [MX](https://www.mx.com/) | Financial data platform; quiet enterprise polish. | `fintech` `saas` `dev` |
-| [NMB Bank](https://www.nmbbank.co.tz/) | Tanzania's bank; practical everyday banking UI. | `fintech` `tanzania` `africa` |
-| [Plaid](https://plaid.com/en-gb/) | Bank API standard; developer-first finance design. | `fintech` `saas` `dev` |
-| [Relay](https://relayfi.com/) | Business banking; friendly, clear money UI. | `fintech` `saas` `minimal` |
-| [Selcom Developers](https://developers.selcommobile.com/#introduction) | Tanzanian payment API docs; local fintech in the open. | `fintech` `tanzania` `dev` `africa` |
-| [Smile ID](https://smile.id/) | African identity verification; bold, confident brand. | `fintech` `africa` `saas` |
-| [Stripe](https://stripe.com/) | The reference for developer-first finance design. | `fintech` `saas` `dev` `minimal` |
-| [Stripe Financial Connections](https://stripe.com/financial-connections) | Bank-linking product; great feature page anatomy. | `fintech` `saas` `dev` |
-| [Teller](https://teller.io/) | Bank API startup; sparse, precise developer story. | `fintech` `dev` `minimal` |
-| [TrueLayer](https://truelayer.com/) | Open banking APIs; bold, confident fintech brand. | `fintech` `saas` `dev` |
-| [Yodlee](https://www.yodlee.com/) | OG data aggregation; enterprise finance veteran. | `fintech` `saas` `global` |
+| [akoya](https://akoya.com/) | financial data network; understated b2b design. | `fintech` `saas` `dev` |
+| [atfinity](https://www.atfinity.swiss/) | swiss regtech; calm, rule-based compliance ui. | `fintech` `saas` `minimal` |
+| [bank of america](https://www.bankofamerica.com/) | mega-bank; study the scale and accessibility. | `fintech` `global` |
+| [breet](https://breet.io/) | crypto-to-cash for africa; clean swap flows. | `fintech` `africa` `saas` |
+| [cardtonic](https://cardtonic.com/) | gift card trading; bright african fintech brand. | `fintech` `africa` `ecommerce` |
+| [dpo group](https://dpogroup.com/) | african payment gateway; practical merchant pages. | `fintech` `africa` `saas` |
+| [envestnet](https://www.envestnet.com/) | wealth-tech platform; corporate but refined. | `fintech` `saas` `global` |
+| [firstbase](https://www.firstbase.io/) | company formation and banking; crisp founder onboarding. | `fintech` `saas` `minimal` |
+| [flinks](https://www.flinks.com/) | open banking data; enterprise api pages. | `fintech` `saas` `dev` |
+| [j.p. morgan](https://www.jpmorgan.com/global) | banking giant; dense, disciplined finance ui. | `fintech` `global` |
+| [mercury](https://mercury.com/) | startup banking; the calm, precise fintech look. | `fintech` `saas` `minimal` |
+| [method](https://methodfi.com/) | debt repayment api; clean modern fintech pitch. | `fintech` `saas` `dev` |
+| [mx](https://www.mx.com/) | financial data platform; quiet enterprise polish. | `fintech` `saas` `dev` |
+| [nmb bank](https://www.nmbbank.co.tz/) | tanzania's bank; practical everyday banking ui. | `fintech` `tanzania` `africa` |
+| [plaid](https://plaid.com/en-gb/) | bank api standard; developer-first finance design. | `fintech` `saas` `dev` |
+| [relay](https://relayfi.com/) | business banking; friendly, clear money ui. | `fintech` `saas` `minimal` |
+| [selcom developers](https://developers.selcommobile.com/#introduction) | tanzanian payment api docs; local fintech in the open. | `fintech` `tanzania` `dev` `africa` |
+| [smile id](https://smile.id/) | african identity verification; bold, confident brand. | `fintech` `africa` `saas` |
+| [stripe](https://stripe.com/) | the reference for developer-first finance design. | `fintech` `saas` `dev` `minimal` |
+| [stripe financial connections](https://stripe.com/financial-connections) | bank-linking product; great feature page anatomy. | `fintech` `saas` `dev` |
+| [teller](https://teller.io/) | bank api startup; sparse, precise developer story. | `fintech` `dev` `minimal` |
+| [truelayer](https://truelayer.com/) | open banking apis; bold, confident fintech brand. | `fintech` `saas` `dev` |
+| [yodlee](https://www.yodlee.com/) | og data aggregation; enterprise finance veteran. | `fintech` `saas` `global` |
 
-## Corporate Defence
+## corporate defence
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [Anduril](https://www.anduril.com/) | Dark cinematic defence UI; great scroll reveals. | `defence` `dark` `cinematic` `motion` |
-| [exida](https://www.exida.com/) | Functional safety firm; dense spec-heavy corporate site. | `hardware` `reference` |
-| [IACP](https://www.theiacp.org/) | Police leadership association; formal institutional site. | `gov` `defence` `global` |
-| [Lockheed Martin](https://www.lockheedmartin.com/) | Classic defence contractor; structured and serious. | `defence` `gov` |
-| [Palantir](https://www.palantir.com) | Dark industrial data platform; the defence aesthetic to beat. | `defence` `dark` `ai` `saas` |
-| [RTX](https://www.rtx.com/) | Aerospace defence giant; clean engineering grids. | `defence` `gov` `global` |
+| [anduril](https://www.anduril.com/) | dark cinematic defence ui; great scroll reveals. | `defence` `dark` `cinematic` `motion` |
+| [exida](https://www.exida.com/) | functional safety firm; dense spec-heavy corporate site. | `hardware` `reference` |
+| [iacp](https://www.theiacp.org/) | police leadership association; formal institutional site. | `gov` `defence` `global` |
+| [lockheed martin](https://www.lockheedmartin.com/) | classic defence contractor; structured and serious. | `defence` `gov` |
+| [palantir](https://www.palantir.com) | dark industrial data platform; the defence aesthetic to beat. | `defence` `dark` `ai` `saas` |
+| [rtx](https://www.rtx.com/) | aerospace defence giant; clean engineering grids. | `defence` `gov` `global` |
 
-## Agriculture Farms
+## agriculture farms
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [Access Agriculture](https://www.accessagriculture.org/) | Farmer training videos; practical global-south resource. | `farm` `nonprofit` `africa` `education` |
-| [Bee Worthy Farms](https://www.beeworthyfarms.com/) | Bee farm brand; warm local produce story. | `farm` `food` `playful` |
-| [Bloom Ranch of Acton](https://bloomranchofacton.com/) | Ranch shop; sunny produce-driven commerce. | `farm` `food` `colorful` |
-| [Deck Family Farm](https://www.deckfamilyfarm.com/) | Regenerative family farm; honest pastoral layout. | `farm` `food` `editorial` |
-| [Edenmoor](https://www.edenmoor.com/) | Farm estate; calm pastoral branding. | `farm` `minimal` |
-| [Farm Africa](https://www.farmafrica.org/) | Agri NGO; credible field programs, clear comms. | `farm` `nonprofit` `africa` |
-| [Great Lakes Farms](https://www.greatlakesfarms.ca/) | Orchard farm; cheerful apple-season marketing. | `farm` `food` `playful` |
-| [Magicland Farms](https://www.magiclandfarms.com/) | Family farm market; friendly seasonal info. | `farm` `food` `playful` |
-| [Positively Grown](https://www.positivelygrownllc.com/) | Small grower; simple, sincere farm page. | `farm` `food` `minimal` |
-| [Pure Land Organic](https://www.purelandorganic.com/) | Organic farm; earthy, straightforward offering. | `farm` `food` |
-| [Soul Food Farm](https://www.soulfoodfarm.com/) | Family farm; rustic personal storytelling. | `farm` `food` `editorial` |
-| [Winter Spring CSA](https://www.winterspringcsa.com/) | CSA farm; honest seasonal simplicity. | `farm` `food` `minimal` |
-| [Winter Spring Farm on CSA Coalition](https://www.csacoalition.org/farms/winterspring-farm) | Farm directory listing; how CSAs get discovered. | `farm` `reference` |
-| [Woodstock Farm Sanctuary](https://woodstocksanctuary.org/) | Farm sanctuary; compassionate, story-led design. | `farm` `nonprofit` `editorial` |
+| [access agriculture](https://www.accessagriculture.org/) | farmer training videos; practical global-south resource. | `farm` `nonprofit` `africa` `education` |
+| [bee worthy farms](https://www.beeworthyfarms.com/) | bee farm brand; warm local produce story. | `farm` `food` `playful` |
+| [bloom ranch of acton](https://bloomranchofacton.com/) | ranch shop; sunny produce-driven commerce. | `farm` `food` `colorful` |
+| [deck family farm](https://www.deckfamilyfarm.com/) | regenerative family farm; honest pastoral layout. | `farm` `food` `editorial` |
+| [edenmoor](https://www.edenmoor.com/) | farm estate; calm pastoral branding. | `farm` `minimal` |
+| [farm africa](https://www.farmafrica.org/) | agri ngo; credible field programs, clear comms. | `farm` `nonprofit` `africa` |
+| [great lakes farms](https://www.greatlakesfarms.ca/) | orchard farm; cheerful apple-season marketing. | `farm` `food` `playful` |
+| [magicland farms](https://www.magiclandfarms.com/) | family farm market; friendly seasonal info. | `farm` `food` `playful` |
+| [positively grown](https://www.positivelygrownllc.com/) | small grower; simple, sincere farm page. | `farm` `food` `minimal` |
+| [pure land organic](https://www.purelandorganic.com/) | organic farm; earthy, straightforward offering. | `farm` `food` |
+| [soul food farm](https://www.soulfoodfarm.com/) | family farm; rustic personal storytelling. | `farm` `food` `editorial` |
+| [winter spring csa](https://www.winterspringcsa.com/) | csa farm; honest seasonal simplicity. | `farm` `food` `minimal` |
+| [winter spring farm on csa coalition](https://www.csacoalition.org/farms/winterspring-farm) | farm directory listing; how csas get discovered. | `farm` `reference` |
+| [woodstock farm sanctuary](https://woodstocksanctuary.org/) | farm sanctuary; compassionate, story-led design. | `farm` `nonprofit` `editorial` |
 
-## Food Beverage
+## food beverage
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [Burn Stoves](https://www.burnstoves.com/) | Clean cookstoves; mission-driven product pages. | `food` `africa` `minimal` |
-| [Concept Catering](https://www.concept-catering.de/) | German caterers; refined event presentation. | `food` `minimal` `editorial` |
-| [GG Catering](https://www.ggcatering.com/) | Catering service; appetizing event galleries. | `food` `editorial` |
-| [Juice Press](https://www.juicepress.com/) | Juice brand; loud, confident retail energy. | `food` `colorful` `playful` |
-| [Nourish Cold Pressed](https://nourishcoldpressed.com/) | Cold-pressed juice; clean wellness branding. | `food` `minimal` |
-| [Pedals](https://drinkpedals.com/) | Non-dairy milk; bright fun packaging site. | `food` `playful` `colorful` |
-| [The Little Sicilian](https://thelittlesicilian.net/) | Family pizzeria; warm, homely menu site. | `food` `playful` |
+| [burn stoves](https://www.burnstoves.com/) | clean cookstoves; mission-driven product pages. | `food` `africa` `minimal` |
+| [concept catering](https://www.concept-catering.de/) | german caterers; refined event presentation. | `food` `minimal` `editorial` |
+| [gg catering](https://www.ggcatering.com/) | catering service; appetizing event galleries. | `food` `editorial` |
+| [juice press](https://www.juicepress.com/) | juice brand; loud, confident retail energy. | `food` `colorful` `playful` |
+| [nourish cold pressed](https://nourishcoldpressed.com/) | cold-pressed juice; clean wellness branding. | `food` `minimal` |
+| [pedals](https://drinkpedals.com/) | non-dairy milk; bright fun packaging site. | `food` `playful` `colorful` |
+| [the little sicilian](https://thelittlesicilian.net/) | family pizzeria; warm, homely menu site. | `food` `playful` |
 
-## Education
+## education
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [AI Advent Calendar](https://ai-advent-calendar.replit.app/lesson/models) | Bite-size AI lessons; friendly advent format. | `ai` `education` `dev` |
-| [Building Multimodal Data Pipelines](https://www.deeplearning.ai/courses/building-multimodal-data-pipelines) | Multimodal pipelines course; practical short format. | `ai` `education` `dev` |
-| [FAWE Tanzania](https://fawetanzania.or.tz/) | Girls' education NGO; mission-driven local chapter. | `tanzania` `nonprofit` `education` `africa` |
-| [FE Training](https://www.fe.training/) | Financial engineering training; deep structured learning. | `education` `fintech` `reference` |
-| [Handong Global University](https://www.handong.edu/eng/) | Korean university portal; tidy academic layout. | `education` `global` |
-| [Harvard Business Publishing](https://hbsp.harvard.edu/) | Harvard case studies; serious academic storefront. | `education` `reference` `global` |
-| [Iced Book](https://book.iced.rs/) | Iced GUI book; Rust UI in chaptered docs. | `dev` `oss` `education` `reference` |
-| [Learn Anything](https://learn-anything.xyz) | Maps of what to learn; exactly what it says. | `education` `oss` `tool` `minimal` |
-| [Learn Anything: Django](https://learn-anything.xyz/django) | Django path; structured learning graph. | `education` `dev` `reference` |
-| [Learning Rust](https://learning-rust.github.io/) | Rust from scratch; gentle structured chapters. | `dev` `education` `reference` |
-| [Learning Rust Labs](https://learning-rust.github.io/labs/building-a-containerized-restful-api/) | Containerized Rust API lab; hands-on walkthrough. | `dev` `education` `reference` |
-| [Middlesex University](https://www.mdx.ac.uk/) | London university; solid course marketing. | `education` `global` |
-| [Skillshare](https://www.skillshare.com/en/) | Creative classes; friendly course marketplace. | `education` `playful` `global` |
-| [The Odin Project](https://www.theodinproject.com/) | Free full-stack curriculum; the gold standard path. | `education` `dev` `oss` |
-| [The Rust Book](https://doc.rust-lang.org/book/) | The canonical free Rust text. | `dev` `oss` `education` `reference` |
-| [Todai WebLab](https://weblab.t.u-tokyo.ac.jp/en/) | Tokyo web lab; academic but sharp portfolio. | `education` `dev` |
-| [WAT English](https://www.wojsko-polskie.pl/wat/en/) | Polish military tech academy; institutional English page. | `education` `gov` `defence` |
-| [West Point](https://www.westpoint.edu/) | US Military Academy; disciplined institutional design. | `education` `gov` `defence` |
-| [Youth Employment UK](https://www.youthemployment.org.uk/) | Youth careers nonprofit; friendly, clear guidance. | `nonprofit` `education` |
+| [ai advent calendar](https://ai-advent-calendar.replit.app/lesson/models) | bite-size ai lessons; friendly advent format. | `ai` `education` `dev` |
+| [building multimodal data pipelines](https://www.deeplearning.ai/courses/building-multimodal-data-pipelines) | multimodal pipelines course; practical short format. | `ai` `education` `dev` |
+| [fawe tanzania](https://fawetanzania.or.tz/) | girls' education ngo; mission-driven local chapter. | `tanzania` `nonprofit` `education` `africa` |
+| [fe training](https://www.fe.training/) | financial engineering training; deep structured learning. | `education` `fintech` `reference` |
+| [handong global university](https://www.handong.edu/eng/) | korean university portal; tidy academic layout. | `education` `global` |
+| [harvard business publishing](https://hbsp.harvard.edu/) | harvard case studies; serious academic storefront. | `education` `reference` `global` |
+| [iced book](https://book.iced.rs/) | iced gui book; rust ui in chaptered docs. | `dev` `oss` `education` `reference` |
+| [learn anything](https://learn-anything.xyz) | maps of what to learn; exactly what it says. | `education` `oss` `tool` `minimal` |
+| [learn anything: django](https://learn-anything.xyz/django) | django path; structured learning graph. | `education` `dev` `reference` |
+| [learning rust](https://learning-rust.github.io/) | rust from scratch; gentle structured chapters. | `dev` `education` `reference` |
+| [learning rust labs](https://learning-rust.github.io/labs/building-a-containerized-restful-api/) | containerized rust api lab; hands-on walkthrough. | `dev` `education` `reference` |
+| [middlesex university](https://www.mdx.ac.uk/) | london university; solid course marketing. | `education` `global` |
+| [skillshare](https://www.skillshare.com/en/) | creative classes; friendly course marketplace. | `education` `playful` `global` |
+| [the odin project](https://www.theodinproject.com/) | free full-stack curriculum; the gold standard path. | `education` `dev` `oss` |
+| [the rust book](https://doc.rust-lang.org/book/) | the canonical free rust text. | `dev` `oss` `education` `reference` |
+| [todai weblab](https://weblab.t.u-tokyo.ac.jp/en/) | tokyo web lab; academic but sharp portfolio. | `education` `dev` |
+| [wat english](https://www.wojsko-polskie.pl/wat/en/) | polish military tech academy; institutional english page. | `education` `gov` `defence` |
+| [west point](https://www.westpoint.edu/) | us military academy; disciplined institutional design. | `education` `gov` `defence` |
+| [youth employment uk](https://www.youthemployment.org.uk/) | youth careers nonprofit; friendly, clear guidance. | `nonprofit` `education` |
 
-## Portfolios Creative
+## portfolios creative
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [AND Walsh](https://andwalsh.com/) | Design studio; bold, colorful identity work. | `agency` `colorful` `editorial` |
-| [ArtCraft](https://getartcraft.com/) | Studio portfolio; crafted case-study layouts. | `agency` `colorful` `playful` |
-| [colin.day](https://colin.day/) | Personal site; tiny, sharp, ownable. | `minimal` `dev` |
-| [Dagi Natsuko: Deveaux](https://daginatsuko.com/content/photos/deveaux) | Artist photo series; moody editorial layout. | `editorial` `playful` |
-| [Facet Interactive](https://facetinteractive.com/) | Interactive studio; refined case-study design. | `agency` `minimal` `editorial` |
-| [Future Processing](https://www.future-processing.com/) | Software house; enterprise-grade agency site. | `agency` `dev` `global` |
-| [Hey Clicky](https://www.heyclicky.com/) | Little interactive toy; cursor and click delight. | `playful` `cursor` |
-| [Lance Alexander](https://www.lance-alexander.net/) | Recruitment firm; clean executive branding. | `agency` `minimal` |
-| [Luke Combs](https://www.lukecombs.com/) | Country star site; tour-first music marketing. | `editorial` `playful` |
-| [mirko.in.ua](https://mirko.in.ua/) | Personal dev page; small and direct. | `minimal` `dev` |
-| [Morgan Wallen](https://morganwallen.com/home/) | Artist site; bold tour and merch push. | `editorial` `global` |
-| [Neal.fun](https://neal.fun/) | Web toys done right; endless playful experiments. | `playful` `dev` `colorful` |
-| [Pinnacle Consulting Group](https://pinnacleconsultingroup.co.ke/) | Kenyan consultancy; straightforward corporate identity. | `kenya` `africa` `agency` |
-| [Reenbit](https://reenbit.com/) | Software house; modern studio landing. | `agency` `dev` |
-| [Sabertooth Marketing](https://sabertoothmarketing.co.ke/) | Kenyan marketing agency; bold local branding. | `agency` `kenya` `africa` |
-| [SERHANT.](https://serhant.com) | Real estate as showbiz; loud cinematic listings. | `editorial` `motion` `colorful` |
-| [Six Feet Up](https://sixfeetup.com/) | Python dev shop; confident, colorful agency site. | `agency` `dev` |
-| [The Web Kitchen](https://www.thewebkitchen.co.uk/) | UK studio; restrained, typographic agency site. | `agency` `minimal` `editorial` |
-| [Toolbox Creative](https://toolboxcreative.com/) | Creative agency; bold work showcase. | `agency` `colorful` |
-| [Wavemaker by The Web Kitchen](https://www.thewebkitchen.co.uk/web-design/wavemaker/) | Case study; nice scroll-driven work. | `agency` `motion` `scroll-driven` `editorial` |
+| [and walsh](https://andwalsh.com/) | design studio; bold, colorful identity work. | `agency` `colorful` `editorial` |
+| [artcraft](https://getartcraft.com/) | studio portfolio; crafted case-study layouts. | `agency` `colorful` `playful` |
+| [colin.day](https://colin.day/) | personal site; tiny, sharp, ownable. | `minimal` `dev` |
+| [dagi natsuko: deveaux](https://daginatsuko.com/content/photos/deveaux) | artist photo series; moody editorial layout. | `editorial` `playful` |
+| [facet interactive](https://facetinteractive.com/) | interactive studio; refined case-study design. | `agency` `minimal` `editorial` |
+| [future processing](https://www.future-processing.com/) | software house; enterprise-grade agency site. | `agency` `dev` `global` |
+| [hey clicky](https://www.heyclicky.com/) | little interactive toy; cursor and click delight. | `playful` `cursor` |
+| [lance alexander](https://www.lance-alexander.net/) | recruitment firm; clean executive branding. | `agency` `minimal` |
+| [luke combs](https://www.lukecombs.com/) | country star site; tour-first music marketing. | `editorial` `playful` |
+| [mirko.in.ua](https://mirko.in.ua/) | personal dev page; small and direct. | `minimal` `dev` |
+| [morgan wallen](https://morganwallen.com/home/) | artist site; bold tour and merch push. | `editorial` `global` |
+| [neal.fun](https://neal.fun/) | web toys done right; endless playful experiments. | `playful` `dev` `colorful` |
+| [pinnacle consulting group](https://pinnacleconsultingroup.co.ke/) | kenyan consultancy; straightforward corporate identity. | `kenya` `africa` `agency` |
+| [reenbit](https://reenbit.com/) | software house; modern studio landing. | `agency` `dev` |
+| [sabertooth marketing](https://sabertoothmarketing.co.ke/) | kenyan marketing agency; bold local branding. | `agency` `kenya` `africa` |
+| [serhant.](https://serhant.com) | real estate as showbiz; loud cinematic listings. | `editorial` `motion` `colorful` |
+| [six feet up](https://sixfeetup.com/) | python dev shop; confident, colorful agency site. | `agency` `dev` |
+| [the web kitchen](https://www.thewebkitchen.co.uk/) | uk studio; restrained, typographic agency site. | `agency` `minimal` `editorial` |
+| [toolbox creative](https://toolboxcreative.com/) | creative agency; bold work showcase. | `agency` `colorful` |
+| [wavemaker by the web kitchen](https://www.thewebkitchen.co.uk/web-design/wavemaker/) | case study; nice scroll-driven work. | `agency` `motion` `scroll-driven` `editorial` |
 
-## Local Tanzania
+## local tanzania
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [Antera](https://antera.co.tz) | Tanzanian firm; clean corporate presence. | `tanzania` `africa` |
-| [Azzaman Tanzania](https://azzaman.tz/) | Tanzanian outfit; unclassified - revisit. | `tanzania` `reference` |
-| [Bahari Web](https://bahariweb.com/) | Tanzanian web studio; bold local portfolio. | `tanzania` `africa` `agency` |
-| [Bonga](https://bonga.co.tz/) | Tanzanian platform; one to watch. | `tanzania` `africa` |
-| [BongaSMS](https://bongasms.com/) | Tanzanian SMS gateway; simple messaging API. | `tanzania` `dev` `africa` |
-| [Datamanics](https://datamanics.co.tz/) | Dar data and software shop; practical services. | `tanzania` `dev` `africa` |
-| [Deloitte Tanzania](https://www.deloitte.com/tz/en.html) | Big Four, local lens; polished advisory pages. | `tanzania` `africa` `global` |
-| [EACOP](https://www.eacop.com/) | Pipeline project; corporate infrastructure comms. | `tanzania` `africa` |
-| [Flashnet Exotel](https://flashnet.co.tz/exotel/) | Tanzanian network firm reselling cloud telephony. | `tanzania` `cloud` `africa` |
-| [Habari](https://www.habari.co.tz/) | Tanzanian telecom group; corporate but local. | `tanzania` `africa` |
-| [IFS Consulting](https://ifsconsulting.co.tz/) | Dar consulting firm; straightforward corporate pages. | `tanzania` `africa` |
-| [Immigration Passport Services](https://eservices.immigration.go.tz/online/web/passport) | Passport application portal; government forms flow. | `tanzania` `gov` `africa` |
-| [Manka](https://manka.tz/) | Tanzanian brand; promising local site. | `tanzania` `africa` |
-| [Marie Stopes Tanzania](https://www.mariestopes.or.tz/) | Health nonprofit; warm, accessible local site. | `tanzania` `nonprofit` `africa` |
-| [NetPoa](https://netpoa.com/) | Dar ISP; direct packages and pricing. | `tanzania` `africa` |
-| [NHIF Self Service](https://selfservice.nhif.or.tz/home) | Government self-service portal; practical forms. | `tanzania` `gov` `africa` |
-| [Nilipe](https://nilipe.co.tz/) | Swahili-named payments play; watch this space. | `tanzania` `africa` `fintech` |
-| [PI Tech](https://pitech.co.tz/) | Dar-based IT firm; no-frills services layout. | `tanzania` `dev` `africa` |
-| [Platinum Credit](https://platinumcredit.co.tz/) | East African microloans; direct service pages. | `fintech` `tanzania` `africa` |
-| [PMBet](https://pmbet.co.tz/sw/home) | Swahili betting portal; quick local flows. | `tanzania` `africa` `playful` |
-| [Power Computers](https://powercomputers.co.tz/) | Local tech retailer; dense product catalogue. | `tanzania` `hardware` `ecommerce` `africa` |
-| [Restova](https://www.restova.co.tz/) | Tanzanian brand; promising local product. | `tanzania` `africa` |
-| [SIDO](https://www.sido.go.tz/) | Small-industry support; useful local programs. | `tanzania` `gov` `africa` |
-| [TanzaJob](https://www.tanzajob.com/) | Local job board; functional listing UX. | `tanzania` `africa` `tool` |
-| [Tanzania Bureau of Standards](https://www.tbs.go.tz/) | Standards bureau; institutional and formal. | `tanzania` `gov` `africa` |
-| [Tausi](https://tausi.tamisemi.go.tz) | Government jobs portal; dense but functional. | `tanzania` `gov` `africa` |
-| [UTEL](https://utel.co.tz/) | Tanzanian ISP; straightforward telecom services. | `tanzania` `africa` |
-| [VF Tanzania](https://www.vftz.co.tz/) | Tanzanian outfit; unclassified - revisit. | `tanzania` `reference` |
-| [Wazo Host](https://wazohost.co.tz/) | Tanzanian hosting; no-frills local infrastructure. | `tanzania` `dev` `africa` |
-| [Wazoefu](https://www.wazoefu.com/) | Tanzanian business; worth a closer look. | `tanzania` `africa` |
+| [antera](https://antera.co.tz) | tanzanian firm; clean corporate presence. | `tanzania` `africa` |
+| [azzaman tanzania](https://azzaman.tz/) | tanzanian outfit; unclassified - revisit. | `tanzania` `reference` |
+| [bahari web](https://bahariweb.com/) | tanzanian web studio; bold local portfolio. | `tanzania` `africa` `agency` |
+| [bonga](https://bonga.co.tz/) | tanzanian platform; one to watch. | `tanzania` `africa` |
+| [bongasms](https://bongasms.com/) | tanzanian sms gateway; simple messaging api. | `tanzania` `dev` `africa` |
+| [datamanics](https://datamanics.co.tz/) | dar data and software shop; practical services. | `tanzania` `dev` `africa` |
+| [deloitte tanzania](https://www.deloitte.com/tz/en.html) | big four, local lens; polished advisory pages. | `tanzania` `africa` `global` |
+| [eacop](https://www.eacop.com/) | pipeline project; corporate infrastructure comms. | `tanzania` `africa` |
+| [flashnet exotel](https://flashnet.co.tz/exotel/) | tanzanian network firm reselling cloud telephony. | `tanzania` `cloud` `africa` |
+| [habari](https://www.habari.co.tz/) | tanzanian telecom group; corporate but local. | `tanzania` `africa` |
+| [ifs consulting](https://ifsconsulting.co.tz/) | dar consulting firm; straightforward corporate pages. | `tanzania` `africa` |
+| [immigration passport services](https://eservices.immigration.go.tz/online/web/passport) | passport application portal; government forms flow. | `tanzania` `gov` `africa` |
+| [manka](https://manka.tz/) | tanzanian brand; promising local site. | `tanzania` `africa` |
+| [marie stopes tanzania](https://www.mariestopes.or.tz/) | health nonprofit; warm, accessible local site. | `tanzania` `nonprofit` `africa` |
+| [netpoa](https://netpoa.com/) | dar isp; direct packages and pricing. | `tanzania` `africa` |
+| [nhif self service](https://selfservice.nhif.or.tz/home) | government self-service portal; practical forms. | `tanzania` `gov` `africa` |
+| [nilipe](https://nilipe.co.tz/) | swahili-named payments play; watch this space. | `tanzania` `africa` `fintech` |
+| [pi tech](https://pitech.co.tz/) | dar-based it firm; no-frills services layout. | `tanzania` `dev` `africa` |
+| [platinum credit](https://platinumcredit.co.tz/) | east african microloans; direct service pages. | `fintech` `tanzania` `africa` |
+| [pmbet](https://pmbet.co.tz/sw/home) | swahili betting portal; quick local flows. | `tanzania` `africa` `playful` |
+| [power computers](https://powercomputers.co.tz/) | local tech retailer; dense product catalogue. | `tanzania` `hardware` `ecommerce` `africa` |
+| [restova](https://www.restova.co.tz/) | tanzanian brand; promising local product. | `tanzania` `africa` |
+| [sido](https://www.sido.go.tz/) | small-industry support; useful local programs. | `tanzania` `gov` `africa` |
+| [tanzajob](https://www.tanzajob.com/) | local job board; functional listing ux. | `tanzania` `africa` `tool` |
+| [tanzania bureau of standards](https://www.tbs.go.tz/) | standards bureau; institutional and formal. | `tanzania` `gov` `africa` |
+| [tausi](https://tausi.tamisemi.go.tz) | government jobs portal; dense but functional. | `tanzania` `gov` `africa` |
+| [utel](https://utel.co.tz/) | tanzanian isp; straightforward telecom services. | `tanzania` `africa` |
+| [vf tanzania](https://www.vftz.co.tz/) | tanzanian outfit; unclassified - revisit. | `tanzania` `reference` |
+| [wazo host](https://wazohost.co.tz/) | tanzanian hosting; no-frills local infrastructure. | `tanzania` `dev` `africa` |
+| [wazoefu](https://www.wazoefu.com/) | tanzanian business; worth a closer look. | `tanzania` `africa` |
 
-## Resources
+## resources
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [1001 Fonts](https://www.1001fonts.com/) | Free font archive; old-school but useful. | `reference` `tool` `global` |
-| [302.AI](https://302.ai/) | Pay-as-you-go AI toolbox; utilitarian aggregator. | `ai` `cloud` `dev` `saas` |
-| [99designs](https://99designs.com/) | Design marketplace; crowdsourcing at scale. | `tool` `global` `ecommerce` |
-| [AFL-CIO](https://aflcio.org/) | Labor federation; solid civic storytelling. | `nonprofit` `reference` `global` |
-| [Apify](https://apify.com/) | Web scraping platform; playful yet technical brand. | `tool` `dev` `saas` `oss` |
-| [APITemplate.io](https://apitemplate.io/) | Document templating API; niche tool done simply. | `tool` `saas` `dev` |
-| [AppFlowy](https://appflowy.com/) | Open Notion alternative; clean productivity tool. | `oss` `tool` `dev` `minimal` |
-| [Bear Blog](https://bearblog.dev/) | Minimal blogging; radical lightness done right. | `oss` `minimal` `dev` `tool` `privacy` |
-| [Cal.com](https://cal.com/) | Open scheduling; Calendly's open rival, well branded. | `oss` `tool` `dev` `minimal` |
-| [Cap](https://cap.so/) | Open screen recorder; friendly indie product. | `oss` `tool` `minimal` `dev` |
-| [Charm](https://charm.land/) | Terminal tooling with taste; TUIs as brand. | `dev` `oss` `tool` `playful` |
-| [Conductor](https://www.conductor.build/) | Claude Code manager; tidy multi-agent UI. | `ai` `dev` `tool` |
-| [COSMIC](https://system76.com/cosmic) | System76's Rust desktop; bold open DE design. | `oss` `dev` `hardware` |
-| [CrabNebula](https://crabnebula.dev/) | Rust and DX tooling company; sharp open-source branding. | `oss` `dev` `tool` |
-| [Daytona](https://www.daytona.io/) | Dev environments; fast, dark infra marketing. | `dev` `cloud` `oss` `tool` |
-| [DeepInfra](https://deepinfra.com/) | Model inference API; plain, cheap, developer-first. | `ai` `dev` `cloud` |
-| [E2B](https://e2b.dev/) | Sandboxes for AI agents; hacker-flavored infra. | `dev` `ai` `oss` `cloud` |
-| [egui](https://www.egui.rs/) | Immediate-mode GUI in Rust; fast to ship. | `dev` `oss` `tool` |
-| [EleutherAI](https://www.eleuther.ai) | Open-source AI research collective; plain and honest. | `ai` `oss` `dev` |
-| [Encode AI](https://encodeai.org/) | AI policy org; advocacy with clean civic design. | `ai` `nonprofit` `reference` |
-| [Ente](https://ente.com/) | End-to-end encrypted photos; privacy with polish. | `privacy` `oss` `minimal` `tool` |
-| [Fandom](https://www.fandom.com/) | Wiki empire; massive community knowledge base. | `reference` `global` `playful` |
-| [FlexJobs](https://www.flexjobs.com/) | Remote job board; functional and calm. | `reference` `tool` `global` |
-| [Free3D](https://free3d.com/) | Free 3D model archive; useful asset source. | `tool` `reference` `global` |
-| [Google AI Studio](https://aistudio.google.com/welcome) | Playground for Gemini; fastest way to test prompts. | `ai` `tool` `dev` `global` |
-| [Google Labs](https://labs.google/) | Google's experiments hub; playful product grid. | `ai` `global` `playful` |
-| [GPUI Kit](https://gpui-kit.com/) | Zed's GPUI components; native UI kit for Rust. | `dev` `oss` `tool` `minimal` |
-| [ICANN](https://www.icann.org/en) | Internet governance body; dry but authoritative. | `gov` `reference` `global` |
-| [Iced](https://iced.rs/) | Rust GUI library; Elm-inspired and tidy. | `dev` `oss` `tool` |
-| [Inference.net](https://inference.net/) | GPU inference provider; straightforward dev pricing. | `ai` `cloud` `dev` `saas` |
-| [Jikan](https://jikan.moe/) | Unofficial MyAnimeList API; clean open data. | `dev` `oss` `reference` |
-| [JustSketchMe](https://justsketch.me/) | Poseable figure tool; handy for artists. | `tool` `playful` `dev` |
-| [Kilo CLI](https://kilo.ai/cli) | Kilo's CLI; agents in the terminal. | `ai` `dev` `tool` |
-| [KoboToolbox](https://www.kobotoolbox.org/) | Field data collection toolkit; humanitarian and free. | `tool` `nonprofit` `oss` `reference` |
-| [Land-book](https://land-book.com/) | Landing page gallery; curated design references. | `reference` `minimal` `tool` |
-| [Liners](https://liners.com/) | AI reading assistant; highlight-and-summarize tool. | `ai` `tool` `saas` |
-| [Lummi](https://www.lummi.ai/) | AI stock image library; generous and fast. | `ai` `tool` |
-| [MacPorts Ports](https://ports.macports.org/) | Package browser; utilitarian dev reference. | `dev` `oss` `reference` `tool` |
-| [Made in Webflow: Agriculture](https://webflow.com/made-in-webflow/agriculture) | Curated farm sites built in Webflow. | `reference` `farm` `tool` |
-| [NixOS](https://nixos.org/) | Reproducible OS; docs-driven, principled site. | `oss` `dev` `reference` `minimal` |
-| [NvChad](https://nvchad.com/) | Neovim config; fast, beautiful terminal setup. | `dev` `oss` `minimal` `tool` `dark` |
-| [OnOrca](https://www.onorca.dev/) | Agent orchestration workspace; promising dev tool. | `dev` `ai` `tool` |
-| [Open Source Pledge](https://opensourcepledge.com/) | Funding pledge for OSS; simple, principled page. | `oss` `reference` `minimal` |
-| [OpenCode](https://opencode.ai/) | Open coding agent; the terminal AI workhorse. | `ai` `dev` `oss` `tool` |
-| [Pico CSS](https://picocss.com/) | Classless CSS framework; minimalism as a feature. | `dev` `oss` `minimal` `tool` |
-| [PineTools: Invert Colors](https://pinetools.com/invert-image-colors) | Tiny online utilities; utilitarian tool pages. | `tool` `reference` |
-| [Porkbun](https://porkbun.com/) | Domain registrar with a playful, distinct brand. | `tool` `playful` `dev` |
-| [Pygments](https://pygments.org/) | Syntax highlighter; workhorse of code colors. | `dev` `oss` `reference` `tool` |
-| [Quasar](https://quasar.dev/) | Vue framework; thorough docs and component kit. | `dev` `oss` `tool` |
-| [Reflex](https://reflex.dev/) | Pure-Python web apps; framework done cleanly. | `dev` `oss` `tool` |
-| [Relay Evals](https://relayevals.com/) | LLM eval tooling; pragmatic testing reference. | `ai` `dev` `tool` `reference` |
-| [SaaSpo](https://saaspo.com) | SaaS design inspiration gallery; curation done well. | `reference` `saas` `minimal` `tool` |
-| [Slint](https://slint.dev/) | Rust and embedded UI toolkit; declarative and lean. | `dev` `oss` `tool` |
-| [Sniffnet](https://sniffnet.app/) | Rust network monitor; gorgeous open-source GUI. | `oss` `dev` `tool` |
-| [Sphinx](https://sphinx-doc.org/en/master/index.html) | Docs generator; quietly powers half the ecosystem. | `dev` `oss` `reference` `tool` |
-| [Strawberry Browser](https://strawberrybrowser.com/) | Indie browser; fresh take on browsing tools. | `tool` `dev` `playful` |
-| [Streamline](https://home.streamlinehq.com/) | Icon and illustration sets; fast design resources. | `tool` `reference` `dev` |
-| [T3 Code](https://t3.codes/) | Open AI code editor; terminal-first tooling. | `ai` `dev` `tool` |
-| [TailAdmin](https://tailadmin.com/) | Free Tailwind dashboard templates; handy starting kit. | `template` `saas` `tool` `dev` |
-| [Traccar](https://www.traccar.org/) | Open GPS tracking platform; honest docs-first site. | `oss` `tool` `reference` `dev` |
-| [TVmaze](https://www.tvmaze.com/) | TV database and API; no-nonsense data reference. | `reference` `tool` `global` |
-| [Unkey](https://www.unkey.com/) | API infra; dark, fast, developer-credible. | `dev` `oss` `tool` `dark` |
-| [Untitled UI](https://www.untitledui.com/react/components) | Best-in-class UI kit reference; every pattern solved. | `template` `reference` `minimal` `saas` |
-| [Yahoo! JAPAN](https://www.yahoo.co.jp/) | Japanese portal; dense info hierarchy worth studying. | `global` `colorful` |
-| [Zod](https://zod.dev/) | TypeScript schema validation; tiny, essential, beloved. | `dev` `oss` `tool` `minimal` |
+| [1001 fonts](https://www.1001fonts.com/) | free font archive; old-school but useful. | `reference` `tool` `global` |
+| [302.ai](https://302.ai/) | pay-as-you-go ai toolbox; utilitarian aggregator. | `ai` `cloud` `dev` `saas` |
+| [99designs](https://99designs.com/) | design marketplace; crowdsourcing at scale. | `tool` `global` `ecommerce` |
+| [afl-cio](https://aflcio.org/) | labor federation; solid civic storytelling. | `nonprofit` `reference` `global` |
+| [apify](https://apify.com/) | web scraping platform; playful yet technical brand. | `tool` `dev` `saas` `oss` |
+| [apitemplate.io](https://apitemplate.io/) | document templating api; niche tool done simply. | `tool` `saas` `dev` |
+| [appflowy](https://appflowy.com/) | open notion alternative; clean productivity tool. | `oss` `tool` `dev` `minimal` |
+| [bear blog](https://bearblog.dev/) | minimal blogging; radical lightness done right. | `oss` `minimal` `dev` `tool` `privacy` |
+| [cal.com](https://cal.com/) | open scheduling; calendly's open rival, well branded. | `oss` `tool` `dev` `minimal` |
+| [cap](https://cap.so/) | open screen recorder; friendly indie product. | `oss` `tool` `minimal` `dev` |
+| [charm](https://charm.land/) | terminal tooling with taste; tuis as brand. | `dev` `oss` `tool` `playful` |
+| [conductor](https://www.conductor.build/) | claude code manager; tidy multi-agent ui. | `ai` `dev` `tool` |
+| [cosmic](https://system76.com/cosmic) | system76's rust desktop; bold open de design. | `oss` `dev` `hardware` |
+| [crabnebula](https://crabnebula.dev/) | rust and dx tooling company; sharp open-source branding. | `oss` `dev` `tool` |
+| [daytona](https://www.daytona.io/) | dev environments; fast, dark infra marketing. | `dev` `cloud` `oss` `tool` |
+| [deepinfra](https://deepinfra.com/) | model inference api; plain, cheap, developer-first. | `ai` `dev` `cloud` |
+| [e2b](https://e2b.dev/) | sandboxes for ai agents; hacker-flavored infra. | `dev` `ai` `oss` `cloud` |
+| [egui](https://www.egui.rs/) | immediate-mode gui in rust; fast to ship. | `dev` `oss` `tool` |
+| [eleutherai](https://www.eleuther.ai) | open-source ai research collective; plain and honest. | `ai` `oss` `dev` |
+| [encode ai](https://encodeai.org/) | ai policy org; advocacy with clean civic design. | `ai` `nonprofit` `reference` |
+| [ente](https://ente.com/) | end-to-end encrypted photos; privacy with polish. | `privacy` `oss` `minimal` `tool` |
+| [fandom](https://www.fandom.com/) | wiki empire; massive community knowledge base. | `reference` `global` `playful` |
+| [flexjobs](https://www.flexjobs.com/) | remote job board; functional and calm. | `reference` `tool` `global` |
+| [free3d](https://free3d.com/) | free 3d model archive; useful asset source. | `tool` `reference` `global` |
+| [google ai studio](https://aistudio.google.com/welcome) | playground for gemini; fastest way to test prompts. | `ai` `tool` `dev` `global` |
+| [google labs](https://labs.google/) | google's experiments hub; playful product grid. | `ai` `global` `playful` |
+| [gpui kit](https://gpui-kit.com/) | zed's gpui components; native ui kit for rust. | `dev` `oss` `tool` `minimal` |
+| [icann](https://www.icann.org/en) | internet governance body; dry but authoritative. | `gov` `reference` `global` |
+| [iced](https://iced.rs/) | rust gui library; elm-inspired and tidy. | `dev` `oss` `tool` |
+| [inference.net](https://inference.net/) | gpu inference provider; straightforward dev pricing. | `ai` `cloud` `dev` `saas` |
+| [jikan](https://jikan.moe/) | unofficial myanimelist api; clean open data. | `dev` `oss` `reference` |
+| [justsketchme](https://justsketch.me/) | poseable figure tool; handy for artists. | `tool` `playful` `dev` |
+| [kilo cli](https://kilo.ai/cli) | kilo's cli; agents in the terminal. | `ai` `dev` `tool` |
+| [kobotoolbox](https://www.kobotoolbox.org/) | field data collection toolkit; humanitarian and free. | `tool` `nonprofit` `oss` `reference` |
+| [land-book](https://land-book.com/) | landing page gallery; curated design references. | `reference` `minimal` `tool` |
+| [liners](https://liners.com/) | ai reading assistant; highlight-and-summarize tool. | `ai` `tool` `saas` |
+| [lummi](https://www.lummi.ai/) | ai stock image library; generous and fast. | `ai` `tool` |
+| [macports ports](https://ports.macports.org/) | package browser; utilitarian dev reference. | `dev` `oss` `reference` `tool` |
+| [made in webflow: agriculture](https://webflow.com/made-in-webflow/agriculture) | curated farm sites built in webflow. | `reference` `farm` `tool` |
+| [nixos](https://nixos.org/) | reproducible os; docs-driven, principled site. | `oss` `dev` `reference` `minimal` |
+| [nvchad](https://nvchad.com/) | neovim config; fast, beautiful terminal setup. | `dev` `oss` `minimal` `tool` `dark` |
+| [onorca](https://www.onorca.dev/) | agent orchestration workspace; promising dev tool. | `dev` `ai` `tool` |
+| [open source pledge](https://opensourcepledge.com/) | funding pledge for oss; simple, principled page. | `oss` `reference` `minimal` |
+| [opencode](https://opencode.ai/) | open coding agent; the terminal ai workhorse. | `ai` `dev` `oss` `tool` |
+| [pico css](https://picocss.com/) | classless css framework; minimalism as a feature. | `dev` `oss` `minimal` `tool` |
+| [pinetools: invert colors](https://pinetools.com/invert-image-colors) | tiny online utilities; utilitarian tool pages. | `tool` `reference` |
+| [porkbun](https://porkbun.com/) | domain registrar with a playful, distinct brand. | `tool` `playful` `dev` |
+| [pygments](https://pygments.org/) | syntax highlighter; workhorse of code colors. | `dev` `oss` `reference` `tool` |
+| [quasar](https://quasar.dev/) | vue framework; thorough docs and component kit. | `dev` `oss` `tool` |
+| [reflex](https://reflex.dev/) | pure-python web apps; framework done cleanly. | `dev` `oss` `tool` |
+| [relay evals](https://relayevals.com/) | llm eval tooling; pragmatic testing reference. | `ai` `dev` `tool` `reference` |
+| [saaspo](https://saaspo.com) | saas design inspiration gallery; curation done well. | `reference` `saas` `minimal` `tool` |
+| [slint](https://slint.dev/) | rust and embedded ui toolkit; declarative and lean. | `dev` `oss` `tool` |
+| [sniffnet](https://sniffnet.app/) | rust network monitor; gorgeous open-source gui. | `oss` `dev` `tool` |
+| [sphinx](https://sphinx-doc.org/en/master/index.html) | docs generator; quietly powers half the ecosystem. | `dev` `oss` `reference` `tool` |
+| [strawberry browser](https://strawberrybrowser.com/) | indie browser; fresh take on browsing tools. | `tool` `dev` `playful` |
+| [streamline](https://home.streamlinehq.com/) | icon and illustration sets; fast design resources. | `tool` `reference` `dev` |
+| [t3 code](https://t3.codes/) | open ai code editor; terminal-first tooling. | `ai` `dev` `tool` |
+| [tailadmin](https://tailadmin.com/) | free tailwind dashboard templates; handy starting kit. | `template` `saas` `tool` `dev` |
+| [traccar](https://www.traccar.org/) | open gps tracking platform; honest docs-first site. | `oss` `tool` `reference` `dev` |
+| [tvmaze](https://www.tvmaze.com/) | tv database and api; no-nonsense data reference. | `reference` `tool` `global` |
+| [unkey](https://www.unkey.com/) | api infra; dark, fast, developer-credible. | `dev` `oss` `tool` `dark` |
+| [untitled ui](https://www.untitledui.com/react/components) | best-in-class ui kit reference; every pattern solved. | `template` `reference` `minimal` `saas` |
+| [yahoo! japan](https://www.yahoo.co.jp/) | japanese portal; dense info hierarchy worth studying. | `global` `colorful` |
+| [zod](https://zod.dev/) | typescript schema validation; tiny, essential, beloved. | `dev` `oss` `tool` `minimal` |
 
-## Reading
+## reading
 
-| Site | Why | Tags |
+| site | why | tags |
 |------|-----|------|
-| [AAP](https://www.aap.ph/) | unclassified - revisit. | `reference` |
-| [ADEC Kenya](https://www.adec-kenya.com/) | unclassified - revisit. | `reference` |
-| [AgeImmune](https://ageimmune.com/) | unclassified - revisit. | `reference` |
-| [Altalogy](https://www.altalogy.com/) | unclassified - revisit. | `reference` |
-| [Axum](https://axum.earth/) | unclassified - revisit. | `reference` |
-| [BYG Advantage](https://www.bygadvantage.com/) | unclassified - revisit. | `reference` |
-| [DeepSeek Harness](https://www.deepseek.com/en/harness/) | DeepSeek agent harness writeup; technical reading. | `ai` `dev` |
-| [Earendil](https://earendil.com/) | unclassified - revisit. | `reference` |
-| [Fair](https://fair.io/) | unclassified - revisit. | `reference` |
-| [Flint](https://www.flint.com/) | unclassified - revisit. | `reference` |
-| [GCI World 2026 Student Guide](https://curved-rambutan-a71.notion.site/GCI-World-2026-September-Student-Guide-971cfa7cece78245925781c15c64559b) | Student guide doc; keep for reference. | `education` `reference` |
-| [Hugo](https://hugoinc.com/) | unclassified - revisit. | `reference` |
-| [Lucumr](https://lucumr.pocoo.org/) | Armin Ronacher's blog; essential longform on software. | `dev` `editorial` `oss` |
-| [Mental Models](https://mentalmodels.co/) | Mental models reference; clear thinking tool. | `reference` `reading` |
-| [Nela Healthcare](https://nelahealthcare.com/) | unclassified - revisit. | `reference` |
-| [Pontem Innovations](https://www.ponteminnovations.ca/) | unclassified - revisit. | `reference` |
-| [Radish](https://www.myradish.com/) | unclassified - revisit. | `reference` |
-| [Rustify](https://rustify.rs/) | unclassified - revisit. | `reference` |
-| [Sensiq](https://sensiq.co/) | unclassified - revisit. | `reference` |
-| [Shared Drive Folder](https://drive.google.com/drive/folders/14cuJTWCwVaVJ3yaxUMExBY0dCkZFwMXj) | Shared folder; contents unclassified - revisit. | `reference` |
-| [Siren](https://siren.io/) | unclassified - revisit. | `reference` |
-| [Slate Demo](https://demo.slate-app.online/app/demo) | unclassified - revisit. | `reference` |
-| [Spark X2.5 Heretic](https://ollama.com/maternion/spark-x2.5-heretic) | Uncensored model experiment on Ollama; worth a poke. | `ai` `dev` `oss` |
-| [Technobrain Group](https://www.technobraingroup.com/) | unclassified - revisit. | `reference` |
-| [Tekateki Studios](https://www.tekatekistudios.com/) | unclassified - revisit. | `reference` |
-| [The Drop Times](https://www.thedroptimes.com/) | Web and dev news outlet; daily industry pulse. | `editorial` `dev` |
-| [Untitled Figma File](https://www.figma.com/design/zuCrG2w3959zW2lWhojHge/Untitled?node-id=0-1) | Own Figma canvas; working reference file. | `tool` `reference` |
-| [Ved-Net](https://www.ved-net.com/en/) | unclassified - revisit. | `reference` |
-| [VIDI Corp](https://vidi-corp.com/) | unclassified - revisit. | `reference` |
-| [World Labs: Atlas](https://www.worldlabs.ai/blog/atlas) | Spatial AI writeup; worth a slow read. | `ai` `reading` |
-| [You Could Have Trained the Kimi K1.5](https://morluto.bearblog.dev/you-could-have-trained-the-kimi-k1-5/) | Essay on training Kimi; worth the read. | `ai` `reading` |
+| [aap](https://www.aap.ph/) | unclassified - revisit. | `reference` |
+| [adec kenya](https://www.adec-kenya.com/) | unclassified - revisit. | `reference` |
+| [ageimmune](https://ageimmune.com/) | unclassified - revisit. | `reference` |
+| [altalogy](https://www.altalogy.com/) | unclassified - revisit. | `reference` |
+| [axum](https://axum.earth/) | unclassified - revisit. | `reference` |
+| [byg advantage](https://www.bygadvantage.com/) | unclassified - revisit. | `reference` |
+| [deepseek harness](https://www.deepseek.com/en/harness/) | deepseek agent harness writeup; technical reading. | `ai` `dev` |
+| [earendil](https://earendil.com/) | unclassified - revisit. | `reference` |
+| [fair](https://fair.io/) | unclassified - revisit. | `reference` |
+| [flint](https://www.flint.com/) | unclassified - revisit. | `reference` |
+| [gci world 2026 student guide](https://curved-rambutan-a71.notion.site/GCI-World-2026-September-Student-Guide-971cfa7cece78245925781c15c64559b) | student guide doc; keep for reference. | `education` `reference` |
+| [hugo](https://hugoinc.com/) | unclassified - revisit. | `reference` |
+| [lucumr](https://lucumr.pocoo.org/) | armin ronacher's blog; essential longform on software. | `dev` `editorial` `oss` |
+| [mental models](https://mentalmodels.co/) | mental models reference; clear thinking tool. | `reference` `reading` |
+| [nela healthcare](https://nelahealthcare.com/) | unclassified - revisit. | `reference` |
+| [pontem innovations](https://www.ponteminnovations.ca/) | unclassified - revisit. | `reference` |
+| [radish](https://www.myradish.com/) | unclassified - revisit. | `reference` |
+| [rustify](https://rustify.rs/) | unclassified - revisit. | `reference` |
+| [sensiq](https://sensiq.co/) | unclassified - revisit. | `reference` |
+| [shared drive folder](https://drive.google.com/drive/folders/14cuJTWCwVaVJ3yaxUMExBY0dCkZFwMXj) | shared folder; contents unclassified - revisit. | `reference` |
+| [siren](https://siren.io/) | unclassified - revisit. | `reference` |
+| [slate demo](https://demo.slate-app.online/app/demo) | unclassified - revisit. | `reference` |
+| [spark x2.5 heretic](https://ollama.com/maternion/spark-x2.5-heretic) | uncensored model experiment on ollama; worth a poke. | `ai` `dev` `oss` |
+| [technobrain group](https://www.technobraingroup.com/) | unclassified - revisit. | `reference` |
+| [tekateki studios](https://www.tekatekistudios.com/) | unclassified - revisit. | `reference` |
+| [the drop times](https://www.thedroptimes.com/) | web and dev news outlet; daily industry pulse. | `editorial` `dev` |
+| [untitled figma file](https://www.figma.com/design/zuCrG2w3959zW2lWhojHge/Untitled?node-id=0-1) | own figma canvas; working reference file. | `tool` `reference` |
+| [ved-net](https://www.ved-net.com/en/) | unclassified - revisit. | `reference` |
+| [vidi corp](https://vidi-corp.com/) | unclassified - revisit. | `reference` |
+| [world labs: atlas](https://www.worldlabs.ai/blog/atlas) | spatial ai writeup; worth a slow read. | `ai` `reading` |
+| [you could have trained the kimi k1.5](https://morluto.bearblog.dev/you-could-have-trained-the-kimi-k1-5/) | essay on training kimi; worth the read. | `ai` `reading` |
