@@ -137,29 +137,18 @@ body.menu-open .menu-toggle .icon-close{display:block}
 .backdrop.open{opacity:1;pointer-events:auto}
 .menu{
   position:fixed;top:0;right:0;z-index:50;
-  display:flex;flex-direction:column;align-items:flex-end;gap:14px;
+  display:flex;flex-direction:column;align-items:flex-end;gap:10px;
   padding:84px 22px 40px;
   pointer-events:none;
 }
 .menu.open{pointer-events:auto}
 .menu a{
-  display:inline-flex;align-items:center;gap:14px;
-  width:min(300px,78vw);
-  padding:15px 22px;
+  width:48px;height:48px;
+  display:inline-flex;align-items:center;justify-content:center;
   border:1px solid transparent;
-  text-decoration:none;
-  text-transform:uppercase;letter-spacing:.35em;font-size:11px;
-  color:var(--glass-text);
-  border-radius:16px;
+  border-radius:999px;
   opacity:0;transform:translateX(20px);
-  transition:opacity .35s ease-out,transform .35s ease-out,color .2s ease,background-color .2s ease,border-color .2s ease;
-}
-.menu.open a{
-  background:var(--glass-bg);
-  border-color:var(--glass-border);
-  box-shadow:var(--glass-rim);
-  backdrop-filter:blur(var(--glass-blur)) saturate(160%);
-  -webkit-backdrop-filter:blur(var(--glass-blur)) saturate(160%);
+  transition:opacity .35s ease-out,transform .35s ease-out,background-color .2s ease,border-color .2s ease;
 }
 .menu.open a{opacity:1;transform:translateX(0)}
 /* staggered entrance, ~30ms per item */
@@ -170,9 +159,8 @@ body.menu-open .menu-toggle .icon-close{display:block}
 .menu:not(.open) a{transition-delay:0ms !important}
 .menu a img{width:26px;height:26px;filter:invert(1);flex-shrink:0}
 .menu a:hover{
-  background:var(--glass-bg-hover);
-  border-color:var(--glass-border-hover);
-  color:#fff;
+  background:var(--glass-bg);
+  border-color:var(--glass-border);
   transform:translateX(-6px);
 }
 
@@ -358,7 +346,6 @@ body.search-open .vibe-search{
 @media (max-width:480px){
   .site-header{padding:14px 16px}
   .menu{padding:78px 16px 40px}
-  .menu a{width:min(260px,82vw)}
   .hero{padding-top:13vh}
   .controls{gap:6px 12px}
   #tags{gap:2px 10px}
