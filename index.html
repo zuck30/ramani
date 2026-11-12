@@ -1,0 +1,113 @@
+---
+layout: default
+title: ramani
+---
+
+<h1>ramani</h1>
+<p class="ledger">
+  <strong>{{ site.data.links | size }}</strong> links · <span id="count"></span> shown ·
+  <span class="muted">a map of the good web — UIs worth stealing from, tools worth keeping.</span>
+</p>
+
+<div class="controls">
+  <label class="sr-only" for="search">Search</label>
+  <input id="search" type="search" placeholder="Search titles, whys, tags…" autocomplete="off">
+  <div id="tags" class="tagbox" aria-label="Filter by tag"></div>
+</div>
+
+{% assign favorites = site.data.links | where: "favorite", true | sort: "title" %}
+{% assign the_rest = site.data.links | where_exp: "l", "l.favorite != true" | sort: "title" %}
+{% assign all_links = favorites | concat: the_rest %}
+
+<div id="grid" class="grid">
+  {% for l in all_links %}
+  <a class="card" href="{{ l.url }}" target="_blank" rel="noopener"
+     data-tags="{{ l.tags | join: ',' }}"
+     data-text="{{ l.title | downcase }} {{ l.why | downcase }} {{ l.tags | join: ' ' | downcase }}">
+    <h3>{% if l.favorite %}<span class="star" aria-hidden="true">⭐</span> {% endif %}{{ l.title }}</h3>
+    <p>{{ l.why }}</p>
+    <div class="chips">
+      {% for t in l.tags %}<span class="chip">{{ t }}</span>{% endfor %}
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var grid = document.getElementById('grid');
+  var search = document.getElementById('search');
+  var tagBox = document.getElementById('tags');
+  var count = document.getElementById('count');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+  var active = {};
+
+  // Collect unique tags from the cards.
+  var tags = [];
+  cards.forEach(function (card) {
+    (card.dataset.tags || '').split(',').forEach(function (t) {
+      t = t.trim();
+      if (t && tags.indexOf(t) === -1) tags.push(t);
+    });
+  });
+  tags.sort();
+
+  function filter() {
+    var q = search.value.trim().toLowerCase();
+    var need = tags.filter(function (t) { return active[t]; });
+    var visible = 0;
+    cards.forEach(function (card) {
+      var ok = true;
+      if (q && (card.dataset.text || '').indexOf(q) === -1) ok = false;
+      if (ok && need.length) {
+        var ctags = (card.dataset.tags || '').split(',').map(function (s) { return s.trim(); });
+        for (var i = 0; i < need.length; i++) {
+          if (ctags.indexOf(need[i]) === -1) { ok = false; break; }
+        }
+      }
+      card.classList.toggle('hidden', !ok);
+      if (ok) visible++;
+    });
+    count.textContent = visible + ' / ' + cards.length;
+  }
+
+  // Build filter chips.
+  tags.forEach(function (t) {
+    var chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = 'chip filter';
+    chip.textContent = t;
+    chip.dataset.tag = t;
+    chip.setAttribute('aria-pressed', 'false');
+    chip.addEventListener('click', function () {
+      active[t] = !active[t];
+      chip.classList.toggle('active', !!active[t]);
+      chip.setAttribute('aria-pressed', active[t] ? 'true' : 'false');
+      filter();
+    });
+    tagBox.appendChild(chip);
+  });
+
+  // Clear-all chip.
+  var clear = document.createElement('button');
+  clear.type = 'button';
+  clear.className = 'chip filter';
+  clear.textContent = 'clear ×';
+  clear.addEventListener('click', function () {
+    active = {};
+    tagBox.querySelectorAll('.filter').forEach(function (c) {
+      if (c.dataset.tag) {
+        c.classList.remove('active');
+        c.setAttribute('aria-pressed', 'false');
+      }
+    });
+    search.value = '';
+    filter();
+  });
+  tagBox.appendChild(clear);
+
+  search.addEventListener('input', filter);
+  filter();
+})();
+</script>

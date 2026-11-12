@@ -1,0 +1,21 @@
+# ------------------------------------------------------------------
+# PLACEHOLDER: replace `github_username` below with your GitHub handle.
+# It is used by _includes/header.html + footer.html for repo links.
+# ------------------------------------------------------------------
+title: ramani
+description: A map of the good web — UIs worth stealing from, tools worth keeping.
+github_username: REPLACE_WITH_USERNAME
+url: "https://REPLACE_WITH_USERNAME.github.io"
+baseurl: "/ramani"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - scripts/
+  - node_modules/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - tags.md
