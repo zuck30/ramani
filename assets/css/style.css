@@ -288,8 +288,8 @@ button.chip.filter.active{
 }
 .card h3{
   margin:0 0 8px;
-  font-family:var(--font-serif);font-weight:600;font-size:18px;
-  color:#0b0b0c;letter-spacing:.01em;
+  font-family:var(--font-sans);font-weight:500;font-size:15px;
+  color:#0b0b0c;letter-spacing:.02em;
 }
 .card p{margin:0 0 12px;font-size:13px;color:rgba(0,0,0,.6)}
 .card .chips{display:flex;flex-wrap:wrap;align-items:center;gap:7px}
