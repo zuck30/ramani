@@ -78,7 +78,7 @@ a{color:inherit}
 /* ---------------- fixed chrome ---------------- */
 .site-header{
   position:fixed;top:0;left:0;right:0;z-index:30;
-  display:flex;align-items:center;justify-content:space-between;
+  display:flex;align-items:center;justify-content:flex-end;
   padding:18px 22px;pointer-events:none;
 }
 .site-header > *{pointer-events:auto}
@@ -87,7 +87,7 @@ a{color:inherit}
    via invert + hue-rotate + screen blend so it floats on the video */
 .hero-logo{
   display:block;
-  height:clamp(72px,15vw,150px);
+  height:clamp(44px,8vw,80px);
   width:auto;
   margin:0 auto;
   filter:invert(1) hue-rotate(180deg) drop-shadow(0 4px 30px rgba(0,0,0,.5));
