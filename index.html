@@ -3,15 +3,15 @@ layout: default
 title: ramani
 ---
 
-<h1>ramani</h1>
-<p class="ledger">
-  <strong>{{ site.data.links | size }}</strong> links · <span id="count"></span> shown ·
-  <span class="muted">a map of the good web — UIs worth stealing from, tools worth keeping.</span>
-</p>
+<section class="hero">
+  <h1 class="hero-title">ramani</h1>
+  <p class="hero-tagline">A map of the good web</p>
+</section>
 
 <div class="controls">
-  <label class="sr-only" for="search">Search</label>
-  <input id="search" type="search" placeholder="Search titles, whys, tags…" autocomplete="off">
+  <button id="search-toggle" class="search-toggle" type="button" aria-label="Search the map">
+    <img src="https://cdn-icons-png.flaticon.com/128/149/149852.png" alt="">
+  </button>
   <div id="tags" class="tagbox" aria-label="Filter by tag"></div>
 </div>
 
@@ -21,7 +21,9 @@ title: ramani
 
 <div id="grid" class="grid">
   {% for l in all_links %}
-  <a class="card" href="{{ l.url }}" target="_blank" rel="noopener"
+  {% assign idx = forloop.index0 %}
+  {% if idx > 60 %}{% assign idx = 60 %}{% endif %}
+  <a class="card" style="--i: {{ idx }}" href="{{ l.url }}" target="_blank" rel="noopener"
      data-tags="{{ l.tags | join: ',' }}"
      data-text="{{ l.title | downcase }} {{ l.why | downcase }} {{ l.tags | join: ' ' | downcase }}">
     <h3>{% if l.favorite %}<span class="star" aria-hidden="true">⭐</span> {% endif %}{{ l.title }}</h3>
@@ -33,15 +35,42 @@ title: ramani
   {% endfor %}
 </div>
 
+<div class="vibe-search" id="vibe-search">
+  <label class="sr-only" for="search">Search</label>
+  <input id="search" type="search" placeholder="search the map..." autocomplete="off">
+</div>
+
 <script>
 (function () {
   'use strict';
   var grid = document.getElementById('grid');
   var search = document.getElementById('search');
   var tagBox = document.getElementById('tags');
-  var count = document.getElementById('count');
+  var shownEl = document.getElementById('shown-count');
+  var body = document.body;
   var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
   var active = {};
+
+  function openSearch() {
+    body.classList.add('search-open');
+    search.focus();
+  }
+  function closeSearch() {
+    body.classList.remove('search-open');
+    search.blur();
+  }
+  document.getElementById('search-toggle').addEventListener('click', openSearch);
+  document.addEventListener('ramani:open-search', openSearch);
+  document.addEventListener('ramani:close-search', closeSearch);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && document.activeElement !== search) {
+      e.preventDefault();
+      openSearch();
+    }
+    if (e.key === 'Escape' && body.classList.contains('search-open')) {
+      closeSearch();
+    }
+  });
 
   // Collect unique tags from the cards.
   var tags = [];
@@ -69,7 +98,7 @@ title: ramani
       card.classList.toggle('hidden', !ok);
       if (ok) visible++;
     });
-    count.textContent = visible + ' / ' + cards.length;
+    if (shownEl) shownEl.textContent = visible;
   }
 
   // Build filter chips.

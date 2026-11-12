@@ -1,8 +1,14 @@
-<footer class="site-footer">
-  <div class="wrap">
-    <p>
-      Updated {{ site.time | date: "%Y-%m-%d" }} · {{ site.data.links | size }} links ·
-      <a href="https://github.com/{{ site.github_username }}/ramani/blob/main/README.md">README</a>
-    </p>
-  </div>
-</footer>
+<div class="bottom-left">
+  <p class="micro count-label">
+    {{ site.data.links | size }} LINKS · <span id="shown-count">{{ site.data.links | size }}</span> SHOWN
+  </p>
+  <p class="micro updated-label">UPDATED {{ site.time | date: "%Y-%m-%d" }}</p>
+</div>
+
+<div class="bottom-right">
+  <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener"
+     aria-label="Shadrack on GitHub">
+    <img src="https://cdn-icons-png.flaticon.com/128/25/25471.png" alt="">
+    <span>SHADRACKOVSKY</span>
+  </a>
+</div>

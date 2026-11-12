@@ -5,11 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
+<body data-videos="{{ 'assets/video-1.mp4' | relative_url }},{{ 'assets/video-2.mp4' | relative_url }},{{ 'assets/video-3.mp4' | relative_url }}">
+
+  <div class="bg-stage" aria-hidden="true">
+    <video class="video-a" autoplay muted loop playsinline>
+      <source src="{{ 'assets/video-1.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <video class="video-b" muted loop playsinline></video>
+    <div class="bg-scrim"></div>
+    <div class="bg-grain"></div>
+  </div>
+
   {% include header.html %}
   <main class="wrap">{{ content }}</main>
   {% include footer.html %}
+
+  <script>
+  (function () {
+    'use strict';
+    var stage = document.querySelector('.bg-stage');
+    if (!stage) return;
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var order = (document.body.dataset.videos || '').split(',').filter(Boolean);
+    var a = stage.querySelector('.video-a');
+    var b = stage.querySelector('.video-b');
+    if (!order.length || !a || !b) return;
+
+    var cur = a, nxt = b;
+    var idx = Math.floor(Math.random() * order.length);
+    var timer = null, fading = false, errors = 0;
+
+    cur.src = order[idx];
+    cur.load();
+    var p = cur.play();
+    if (p && p.catch) p.catch(function () { /* autoplay blocked: stays black */ });
+
+    function play(v) {
+      var q = v.play();
+      if (q && q.catch) q.catch(function () {});
+    }
+
+    function swap() {
+      if (document.hidden || fading) return;
+      idx = (idx + 1) % order.length;
+      fading = true;
+      var old = cur;
+      nxt.src = order[idx];
+      nxt.load();
+      play(nxt);
+      setTimeout(function () {
+        nxt.style.opacity = '1';
+        old.style.opacity = '0';
+        cur = nxt; nxt = old;
+        setTimeout(function () { old.pause(); fading = false; }, 1300);
+      }, 250);
+    }
+
+    function start() { if (!timer) timer = setInterval(swap, 20000); }
+    function stop() {
+      if (timer) { clearInterval(timer); timer = null; }
+      if (cur && cur.pause) cur.pause();
+    }
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) { stop(); } else { if (cur) play(cur); start(); }
+    });
+
+    // Resilience: missing/broken videos just leave the stage black.
+    [a, b].forEach(function (v) {
+      v.addEventListener('error', function () {
+        errors++;
+        if (errors >= order.length && timer) { clearInterval(timer); timer = null; }
+      });
+    });
+
+    start();
+  })();
+  </script>
 </body>
 </html>
