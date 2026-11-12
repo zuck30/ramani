@@ -421,4 +421,11 @@ body.search-open .vibe-search{
   .bottom-left .micro{font-size:9px;letter-spacing:.2em}
   .bottom-right{right:16px;bottom:16px}
   .vibe-search{bottom:100px}
+  .grid{grid-template-columns:1fr;gap:14px}
+  .card{height:280px;border-radius:16px}
+  .card-content{padding:20px}
+  .card-title{font-size:20px}
+  .card-subtitle{font-size:14px}
+  .card-bookmark{width:36px;height:36px}
+  .card-bookmark svg{width:20px;height:20px}
 }
