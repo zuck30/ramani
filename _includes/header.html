@@ -1,16 +1,14 @@
 <header class="site-header">
-  <button class="menu-toggle" id="menu-toggle" type="button"
-          aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
-    <img src="https://cdn-icons-png.flaticon.com/128/63/63000.png" alt="">
+  <button class="menu-toggle glass" id="menu-toggle" type="button"
+          aria-label="Toggle menu" aria-expanded="false" aria-controls="site-menu">
+    <img class="icon-burger" src="https://cdn-icons-png.flaticon.com/128/63/63000.png" alt="">
+    <img class="icon-close" src="https://cdn-icons-png.flaticon.com/128/7546/7546863.png" alt="">
   </button>
 </header>
 
 <div class="backdrop" id="menu-backdrop" hidden></div>
 
 <nav class="menu" id="site-menu" aria-label="Site menu">
-  <button class="menu-close" id="menu-close" type="button" aria-label="Close menu">
-    <img src="https://cdn-icons-png.flaticon.com/128/7546/7546863.png" alt="">
-  </button>
   <a href="#" data-action="search">
     <img src="https://cdn-icons-png.flaticon.com/128/751/751463.png" alt="">Search
   </a>
@@ -29,34 +27,32 @@
 (function () {
   'use strict';
   var toggle = document.getElementById('menu-toggle');
-  var closeBtn = document.getElementById('menu-close');
   var menu = document.getElementById('site-menu');
   var backdrop = document.getElementById('menu-backdrop');
   if (!toggle || !menu) return;
 
-  function openMenu() {
-    menu.classList.add('open');
-    backdrop.hidden = false;
-    requestAnimationFrame(function () { backdrop.classList.add('open'); });
-    toggle.setAttribute('aria-expanded', 'true');
-    toggle.style.visibility = 'hidden';
-  }
-  function closeMenu() {
-    menu.classList.remove('open');
-    backdrop.classList.remove('open');
-    toggle.setAttribute('aria-expanded', 'false');
-    toggle.style.visibility = '';
-    setTimeout(function () {
-      if (!menu.classList.contains('open')) backdrop.hidden = true;
-    }, 360);
+  function setMenu(open) {
+    document.body.classList.toggle('menu-open', open);
+    menu.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) {
+      backdrop.hidden = false;
+      requestAnimationFrame(function () { backdrop.classList.add('open'); });
+    } else {
+      backdrop.classList.remove('open');
+      setTimeout(function () {
+        if (!document.body.classList.contains('menu-open')) backdrop.hidden = true;
+      }, 360);
+    }
   }
 
-  toggle.addEventListener('click', openMenu);
-  closeBtn.addEventListener('click', closeMenu);
-  backdrop.addEventListener('click', closeMenu);
+  toggle.addEventListener('click', function () {
+    setMenu(!document.body.classList.contains('menu-open'));
+  });
+  backdrop.addEventListener('click', function () { setMenu(false); });
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
-      closeMenu();
+      setMenu(false);
       document.dispatchEvent(new CustomEvent('ramani:close-search'));
     }
   });
@@ -65,7 +61,7 @@
   if (searchItem) {
     searchItem.addEventListener('click', function (e) {
       e.preventDefault();
-      closeMenu();
+      setMenu(false);
       document.dispatchEvent(new CustomEvent('ramani:open-search'));
     });
   }
