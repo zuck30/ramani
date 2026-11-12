@@ -82,11 +82,15 @@ a{color:inherit}
   padding:18px 22px;pointer-events:none;
 }
 .site-header > *{pointer-events:auto}
-.brand{display:inline-flex;align-items:center;text-decoration:none}
-/* red distressed wordmark on white → white-knockout via invert+hue-rotate+screen */
-.brand-logo{
-  height:30px;width:auto;display:block;
-  filter:invert(1) hue-rotate(180deg);
+
+/* hero logo: red distressed wordmark, white background knocked out
+   via invert + hue-rotate + screen blend so it floats on the video */
+.hero-logo{
+  display:block;
+  height:clamp(72px,15vw,150px);
+  width:auto;
+  margin:0 auto;
+  filter:invert(1) hue-rotate(180deg) drop-shadow(0 4px 30px rgba(0,0,0,.5));
   mix-blend-mode:screen;
 }
 /* glass base — frosted pill with rim light */
