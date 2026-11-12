@@ -1,11 +1,12 @@
 # ramani
 
-ramani is a map of the good web uis worth stealing from, tools worth keeping.
+# ramani is a map of the good web uis worth stealing from, tools worth keeping.
 <p align="center">
     <a href="zuck30.github.io/ramani">
         <img src="/assets/ramani-2.png" alt="header banner" width="800">
     </a>
 </p>
+
 **292 links** · last updated 2026-11-12
 
 > auto-generated from [`data/links.json`](data/links.json). edit that file, not this one.
