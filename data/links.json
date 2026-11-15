@@ -3828,5 +3828,62 @@
     "category": "saas-dashboards",
     "added": "2026-11-15",
     "favorite": false
+  },
+  {
+    "url": "https://hype.co.tz/",
+    "title": "Hype Interactive",
+    "why": "Dar es Salaam studio for product strategy, UI/UX, and web/mobile builds for local and regional clients.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "agency",
+      "dev"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-15",
+    "favorite": false
+  },
+  {
+    "url": "https://www.airtanzania.co.tz/",
+    "title": "Air Tanzania",
+    "why": "National airline website for bookings, destinations, fleet, and travel information.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "travel",
+      "global"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-15",
+    "favorite": false
+  },
+  {
+    "url": "https://www.shuledirect.co.tz/",
+    "title": "Shule Direct",
+    "why": "Tanzanian digital learning platform with curriculum-aligned content, revision tools, and resources for students and teachers.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "education",
+      "edtech"
+    ],
+    "category": "education",
+    "added": "2026-11-15",
+    "favorite": false
+  },
+  {
+    "url": "https://www.ubongo.org/",
+    "title": "Ubongo",
+    "why": "Tanzania-founded edutainment organization creating research-led learning media for children across Africa.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "education",
+      "nonprofit",
+      "playful"
+    ],
+    "category": "education",
+    "added": "2026-11-15",
+    "favorite": false
   }
 ]
