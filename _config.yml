@@ -2,13 +2,37 @@
 # GitHub handle - used by _includes/header.html + footer.html for repo links.
 # ------------------------------------------------------------------
 title: ramani
-description: A map of the good web - UIs worth stealing from, tools worth keeping.
+tagline: A map of the good web
+description: A curated map of web design inspiration, landing pages, SaaS dashboards, fintech, portfolios, and developer tools worth keeping.
+lang: en
+author:
+  name: zuck30
 github_username: zuck30
 url: "https://zuck30.github.io"
 baseurl: "/ramani"
+logo: /assets/ramani-2.png
+image:
+  path: /assets/for-card.png
+  alt: ramani - a map of the good web
+social:
+  name: ramani
+  links:
+    - https://github.com/zuck30/ramani
 
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/for-card.png
+        alt: ramani - a map of the good web
 
 exclude:
   - scripts/
@@ -17,4 +41,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - tags.md
+  - CONTRIBUTION.md
+  - LICENSE

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Tags
+title: Tags | Ramani
+description: Browse Ramani's controlled tag vocabulary for theme, style, industry, region, and use to discover curated web design inspiration and tools.
 ---
 
 # Tags

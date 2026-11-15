@@ -1,9 +1,12 @@
 # ramani
 
-# ramani is a map of the good web uis worth stealing from, tools worth keeping.
+A curated map of the good web: landing pages, SaaS dashboards, fintech, portfolios, developer tools, and African/Tanzanian sites worth learning from.
+
+**Website:** [https://zuck30.github.io/ramani/](https://zuck30.github.io/ramani/) · [Browse by tags](https://zuck30.github.io/ramani/tags/)
+
 <p align="center">
-    <a href="zuck30.github.io/ramani">
-        <img src="/assets/ramani-2.png" alt="header banner" width="800">
+    <a href="https://zuck30.github.io/ramani/">
+        <img src="/assets/ramani-2.png" alt="Ramani - curated map of web design inspiration and tools" width="800">
     </a>
 </p>
 
