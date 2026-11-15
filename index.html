@@ -6,13 +6,13 @@ description: Explore Ramani, a curated map of 300+ websites for web design inspi
 
 <section class="hero">
   <h1 class="sr-only">Ramani - curated web design inspiration and tools</h1>
-  <img class="hero-logo" src="{{ 'assets/logo.png' | relative_url }}" alt="Ramani logo">
+  <img class="hero-logo" src="{{ 'assets/logo.png' | relative_url }}" alt="Ramani logo" width="1536" height="1024" decoding="async" fetchpriority="high">
   <p class="hero-tagline">A map of the good web - curated design inspiration, tools, and standout sites worth keeping.</p>
 </section>
 
 <div class="controls">
   <button id="search-toggle" class="search-toggle glass" type="button" aria-label="Search the map">
-    <img src="https://cdn-icons-png.flaticon.com/128/751/751463.png" alt="">
+    <img src="https://cdn-icons-png.flaticon.com/128/751/751463.png" alt="" width="20" height="20" loading="lazy" decoding="async">
     <span>Search</span>
   </button>
   <div id="tags" class="tagbox" aria-label="Filter by tag"></div>
@@ -29,7 +29,7 @@ description: Explore Ramani, a curated map of 300+ websites for web design inspi
   <a class="card" style="--i: {{ idx }}" href="{{ l.url }}" target="_blank" rel="noopener"
      data-tags="{{ l.tags | join: ',' }}"
      data-text="{{ l.title | downcase }} {{ l.why | downcase }} {{ l.tags | join: ' ' | downcase }}">
-    <div class="card-bg"></div>
+    <div class="card-bg" aria-hidden="true"></div>
     <div class="card-content">
       <div class="card-top">
         <div class="card-bookmark" aria-hidden="true">

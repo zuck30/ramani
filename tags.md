@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Tags | Ramani
-description: Browse Ramani's controlled tag vocabulary for theme, style, industry, region, and use to discover curated web design inspiration and tools.
+title: tags | ramani
+description: browse ramani's controlled tag vocabulary for theme, style, industry, region, and use to discover curated web design inspiration and tools.
 ---
 
-# Tags
+# tags
 
-Controlled vocabulary - every link uses only these tags.
+controlled vocabulary - every link uses only these tags.
 
-### Theme
+### theme
 
 - `dark`
 - `light`
 - `colorful`
 - `monochrome`
 
-### Style
+### style
 
 - `minimal`
 - `brutalist`
@@ -24,13 +24,13 @@ Controlled vocabulary - every link uses only these tags.
 - `playful`
 - `cinematic`
 
-### Motion
+### motion
 
 - `motion`
 - `scroll-driven`
 - `cursor`
 
-### Industry
+### industry
 
 - `fintech`
 - `saas`
@@ -49,14 +49,14 @@ Controlled vocabulary - every link uses only these tags.
 - `oss`
 - `privacy`
 
-### Region
+### region
 
 - `tanzania`
 - `kenya`
 - `africa`
 - `global`
 
-### Use
+### use
 
 - `reference`
 - `template`

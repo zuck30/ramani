@@ -277,11 +277,13 @@ button.chip.filter.active{
   overflow:hidden;
   text-decoration:none;
   background-color:#f3f4f6;
+  content-visibility:auto;
+  contain-intrinsic-size:320px;
   transition:transform 150ms ease,box-shadow 150ms ease;
-  /* staggered fade+blur reveal */
-  opacity:0;filter:blur(6px);
-  animation:reveal .6s ease forwards;
-  animation-delay:calc(var(--i,0) * 20ms);
+  /* staggered fade+blur reveal (limited for perf) */
+  opacity:0;filter:blur(4px);
+  animation:reveal .45s ease forwards;
+  animation-delay:calc(min(var(--i,0), 12) * 25ms);
 }
 @keyframes reveal{to{opacity:1;filter:blur(0)}}
 .card:hover{

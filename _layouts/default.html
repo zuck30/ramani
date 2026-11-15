@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="{{ '/assets/logo.png' | relative_url }}" type="image/png" fetchpriority="high">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="icon" href="{{ '/assets/logo.png' | relative_url }}" type="image/png">
   {% seo %}
@@ -13,10 +14,8 @@
 <body data-videos="{{ 'assets/video-1.mp4' | relative_url }},{{ 'assets/video-2.mp4' | relative_url }},{{ 'assets/video-3.mp4' | relative_url }}">
 
   <div class="bg-stage" aria-hidden="true">
-    <video class="video-a" autoplay muted loop playsinline>
-      <source src="{{ 'assets/video-1.mp4' | relative_url }}" type="video/mp4">
-    </video>
-    <video class="video-b" muted loop playsinline></video>
+    <video class="video-a" muted loop playsinline preload="none"></video>
+    <video class="video-b" muted loop playsinline preload="none"></video>
     <div class="bg-scrim"></div>
     <div class="bg-grain"></div>
   </div>
@@ -30,7 +29,10 @@
     'use strict';
     var stage = document.querySelector('.bg-stage');
     if (!stage) return;
-    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var saveData = navigator.connection && navigator.connection.saveData;
+    var small = window.matchMedia && matchMedia('(max-width: 768px)').matches;
+    if (reduce || saveData || small) return;
 
     var order = (document.body.dataset.videos || '').split(',').filter(Boolean);
     var a = stage.querySelector('.video-a');
@@ -39,16 +41,21 @@
 
     var cur = a, nxt = b;
     var idx = Math.floor(Math.random() * order.length);
-    var timer = null, fading = false, errors = 0;
-
-    cur.src = order[idx];
-    cur.load();
-    var p = cur.play();
-    if (p && p.catch) p.catch(function () { /* autoplay blocked: stays black */ });
+    var timer = null, fading = false, errors = 0, started = false;
 
     function play(v) {
       var q = v.play();
       if (q && q.catch) q.catch(function () {});
+    }
+
+    function init() {
+      if (started) return;
+      started = true;
+      cur.preload = 'auto';
+      cur.src = order[idx];
+      cur.load();
+      play(cur);
+      start();
     }
 
     function swap() {
@@ -56,6 +63,7 @@
       idx = (idx + 1) % order.length;
       fading = true;
       var old = cur;
+      nxt.preload = 'auto';
       nxt.src = order[idx];
       nxt.load();
       play(nxt);
@@ -63,7 +71,7 @@
         nxt.style.opacity = '1';
         old.style.opacity = '0';
         cur = nxt; nxt = old;
-        setTimeout(function () { old.pause(); fading = false; }, 1300);
+        setTimeout(function () { old.pause(); old.removeAttribute('src'); old.load(); fading = false; }, 1300);
       }, 250);
     }
 
@@ -73,7 +81,7 @@
       if (cur && cur.pause) cur.pause();
     }
     document.addEventListener('visibilitychange', function () {
-      if (document.hidden) { stop(); } else { if (cur) play(cur); start(); }
+      if (document.hidden) { stop(); } else if (started) { if (cur) play(cur); start(); }
     });
 
     // Resilience: missing/broken videos just leave the stage black.
@@ -84,7 +92,13 @@
       });
     });
 
-    start();
+    var kick = function () {
+      init();
+      if ('requestIdleCallback' in window) requestIdleCallback(init, { timeout: 3000 });
+      else setTimeout(init, 1200);
+    };
+    if (document.readyState === 'complete') kick();
+    else window.addEventListener('load', kick, { once: true });
   })();
   </script>
 </body>
