@@ -803,15 +803,16 @@
     "favorite": false
   },
   {
-    "url": "https://daginatsuko.com/content/photos/deveaux",
-    "title": "Dagi Natsuko: Deveaux",
-    "why": "Artist photo series; moody editorial layout.",
+    "url": "https://daginatsuko.com/",
+    "title": "DAGINATSUKO",
+    "why": "Personal portfolio showcasing web projects, builds, VRChat worlds, hardware, and photography.",
     "tags": [
-      "editorial",
-      "playful"
+      "portfolio",
+      "dev",
+      "editorial"
     ],
     "category": "portfolios-creative",
-    "added": "2026-11-12",
+    "added": "2026-11-15",
     "favorite": false
   },
   {
@@ -3757,6 +3758,75 @@
     ],
     "category": "portfolios-creative",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://chipsikitaa.com/",
+    "title": "Chipsi Kitaa",
+    "why": "WhatsApp-based chipsi ordering platform for customers and food vendors in Tanzania.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "food",
+      "ecommerce"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-15",
+    "favorite": false
+  },
+  {
+    "url": "https://www.logitechg.com/",
+    "title": "Logitech G",
+    "why": "Gaming gear brand site; product lineup and category merchandising for mice, keyboards, and racing setups.",
+    "tags": [
+      "hardware",
+      "ecommerce",
+      "gaming",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-15",
+    "favorite": false
+  },
+  {
+    "url": "https://www.brela.go.tz/",
+    "title": "BRELA",
+    "why": "Tanzania’s Business Registrations and Licensing Agency; official portal for company, business, and IP services.",
+    "tags": [
+      "tanzania",
+      "gov",
+      "africa",
+      "reference"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-15",
+    "favorite": false
+  },
+  {
+    "url": "https://globaledge.msu.edu/",
+    "title": "globalEDGE",
+    "why": "Michigan State’s international business knowledge hub with country insights, trade data, and learning resources.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-15",
+    "favorite": false
+  },
+  {
+    "url": "https://mistral.ai/",
+    "title": "Mistral AI",
+    "why": "Frontier AI company; model, cloud, and enterprise product pages with strong technical branding.",
+    "tags": [
+      "ai",
+      "saas",
+      "dev",
+      "global"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-15",
     "favorite": false
   }
 ]
