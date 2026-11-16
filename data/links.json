@@ -3897,5 +3897,44 @@
     "category": "landing-pages",
     "added": "2026-11-16",
     "favorite": false
+  },
+  {
+    "url": "https://www.hackfrontend.com/en",
+    "title": "Hack Frontend",
+    "why": "Frontend interview prep platform with JavaScript, React, and TypeScript articles, coding problems, and flashcards.",
+    "tags": [
+      "dev",
+      "education",
+      "tool"
+    ],
+    "category": "education",
+    "added": "2026-11-16",
+    "favorite": false
+  },
+  {
+    "url": "https://hacker.works/",
+    "title": "hacker.works",
+    "why": "Digital product and innovation studio building software, growth, and AI solutions for teams and ventures.",
+    "tags": [
+      "agency",
+      "dev",
+      "global"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-16",
+    "favorite": false
+  },
+  {
+    "url": "https://codecrafters.io/",
+    "title": "CodeCrafters",
+    "why": "Hands-on programming challenges to build Redis, Git, SQLite, and other systems from scratch in your own language.",
+    "tags": [
+      "dev",
+      "education",
+      "tool"
+    ],
+    "category": "education",
+    "added": "2026-11-16",
+    "favorite": false
   }
 ]
