@@ -3885,5 +3885,17 @@
     "category": "education",
     "added": "2026-11-15",
     "favorite": false
+  },
+  {
+    "url": "https://www.jenga.com/index.php",
+    "title": "Jenga",
+    "why": "Official Jenga site; classic block-stacking game brand with products, videos, and shop links.",
+    "tags": [
+      "playful",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-16",
+    "favorite": false
   }
 ]
