@@ -4666,5 +4666,18 @@
     "category": "education",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://www.gov.uk/",
+    "title": "GOV.UK",
+    "why": "UK government services and information portal; benchmark for clear public digital design.",
+    "tags": [
+      "reference",
+      "global",
+      "minimal"
+    ],
+    "category": "resources",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
