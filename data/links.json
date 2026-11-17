@@ -4626,5 +4626,45 @@
     "category": "landing-pages",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://funguo.org/",
+    "title": "FUNGUO Tanzania",
+    "why": "Tanzania innovation programme funding and supporting startups and MSMEs.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "nonprofit"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.developpp.de/en/",
+    "title": "develoPPP",
+    "why": "German development partnership programme funding sustainable private-sector projects.",
+    "tags": [
+      "global",
+      "reference",
+      "nonprofit"
+    ],
+    "category": "resources",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://meltwater.org/",
+    "title": "MEST Africa",
+    "why": "Pan-African tech entrepreneurship training, incubation, and seed funding.",
+    "tags": [
+      "education",
+      "africa",
+      "dev",
+      "nonprofit"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
