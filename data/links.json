@@ -4584,5 +4584,19 @@
     "category": "reading",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://arize.com/",
+    "title": "Arize AI",
+    "why": "Agent observability and evaluation platform; trace, eval, and improve AI systems.",
+    "tags": [
+      "ai",
+      "saas",
+      "dev",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
