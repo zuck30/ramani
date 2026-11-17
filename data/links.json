@@ -4719,5 +4719,18 @@
     "category": "saas-dashboards",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://www.trae.ai/",
+    "title": "Trae AI",
+    "why": "AI coding assistant and IDE for building software faster.",
+    "tags": [
+      "ai",
+      "dev",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
