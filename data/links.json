@@ -4571,5 +4571,18 @@
     "category": "local-tanzania",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://www.macrumors.com/",
+    "title": "MacRumors",
+    "why": "Apple news, rumors, and product coverage; long-running enthusiast pulse.",
+    "tags": [
+      "editorial",
+      "reference",
+      "global"
+    ],
+    "category": "reading",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
