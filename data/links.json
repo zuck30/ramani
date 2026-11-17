@@ -3936,5 +3936,362 @@
     "category": "education",
     "added": "2026-11-16",
     "favorite": false
+  },
+  {
+    "url": "https://www.trackingmore.com/",
+    "title": "TrackingMore",
+    "why": "Multi-carrier shipment tracking API and dashboard for ecommerce and logistics.",
+    "tags": [
+      "saas",
+      "dev",
+      "tool",
+      "global"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.wazotz.com/",
+    "title": "Wazo Tanzania",
+    "why": "Tanzanian maker of teak furniture, toys, and prefab homes with a clean local brand site.",
+    "tags": [
+      "tanzania",
+      "ecommerce",
+      "design",
+      "africa"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://mbi.ufl.edu/",
+    "title": "McKnight Brain Institute",
+    "why": "University of Florida neuroscience institute site with research, training, and news.",
+    "tags": [
+      "education",
+      "reference",
+      "health"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.harvard.edu/",
+    "title": "Harvard University",
+    "why": "Harvard's main site showcasing academics, research, campus life, and institutional storytelling.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.hbs.edu/",
+    "title": "Harvard Business School",
+    "why": "Business school site covering programs, faculty research, insights, and alumni resources.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://fezaschools.org/",
+    "title": "Feza Schools",
+    "why": "Tanzanian school network site spanning nursery to A-Level programs across multiple campuses.",
+    "tags": [
+      "tanzania",
+      "education",
+      "africa"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://web.mit.edu/",
+    "title": "MIT",
+    "why": "Massachusetts Institute of Technology's main site for academics, research, admissions, and campus life.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.caltech.edu/",
+    "title": "Caltech",
+    "why": "California Institute of Technology's site highlighting research, academics, news, and campus resources.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.psu.edu/",
+    "title": "Penn State",
+    "why": "Pennsylvania State University's main site covering academics, admissions, research, and campus life.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.intermiamicf.com/",
+    "title": "Inter Miami CF",
+    "why": "Official club site with news, roster, schedule, tickets, and fan content for Inter Miami CF.",
+    "tags": [
+      "sports",
+      "global",
+      "media"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.mastersportal.com/",
+    "title": "MastersPortal",
+    "why": "Search platform for comparing master's programs and universities worldwide.",
+    "tags": [
+      "education",
+      "tool",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.princeton.edu/",
+    "title": "Princeton University",
+    "why": "Princeton's main site featuring academics, research, admissions, and university news.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.uchicago.edu/",
+    "title": "University of Chicago",
+    "why": "University of Chicago's site for academics, research, admissions, and campus life.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.columbia.edu/",
+    "title": "Columbia University",
+    "why": "Columbia University's main site covering academics, research, admissions, and campus news.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.csuohio.edu/",
+    "title": "Cleveland State University",
+    "why": "Cleveland State University's main site for academics, admissions, research, and campus life.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.njit.edu/",
+    "title": "NJIT",
+    "why": "New Jersey Institute of Technology's site for STEM academics, research, admissions, and campus life.",
+    "tags": [
+      "education",
+      "reference",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.mbu.edu/",
+    "title": "Maranatha Baptist University",
+    "why": "Christian university site covering academics, admissions, online programs, and campus life.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.alasu.edu/",
+    "title": "Alabama State University",
+    "why": "Public HBCU site highlighting academics, admissions, student life, and research.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.alfredstate.edu/",
+    "title": "Alfred State College",
+    "why": "SUNY college site focused on applied learning programs, admissions, and student life.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.allencollege.edu/",
+    "title": "Allen College",
+    "why": "Healthcare-focused college site for nursing and health sciences programs and admissions.",
+    "tags": [
+      "education",
+      "health",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.agnesscott.edu/",
+    "title": "Agnes Scott College",
+    "why": "Women's liberal arts college site covering academics, admissions, and campus life in Atlanta.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.afit.edu/",
+    "title": "Air Force Institute of Technology",
+    "why": "Graduate school and research institution for the U.S. Air and Space Forces with degree and research programs.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.adelphi.edu/",
+    "title": "Adelphi University",
+    "why": "Private university site featuring academics, admissions, research, and campus resources.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.academyart.edu/",
+    "title": "Academy of Art University",
+    "why": "Art and design university site showcasing creative programs, admissions, and student work.",
+    "tags": [
+      "education",
+      "design",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.albertus.edu/",
+    "title": "Albertus Magnus College",
+    "why": "Catholic liberal arts college site for academics, admissions, and campus life in New Haven.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.alverno.edu/",
+    "title": "Alverno College",
+    "why": "Women's college site highlighting ability-based education, programs, and admissions.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://amberton.edu/",
+    "title": "Amberton University",
+    "why": "University site offering flexible, affordable degree programs for working adults.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.aquinas.edu/",
+    "title": "Aquinas College",
+    "why": "Liberal arts college site in Grand Rapids covering academics, admissions, and student life.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
