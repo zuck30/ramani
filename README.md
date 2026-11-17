@@ -11719,7 +11719,6 @@ a curated map of the good web: landing pages, saas dashboards, fintech, portfoli
 | [Maranatha Baptist University](https://www.mbu.edu/) | Christian university site covering academics, admissions, online programs, and campus life. | `education` `reference`|
 | [MastersPortal](https://www.mastersportal.com/) | Search platform for comparing master's programs and universities worldwide. | `education` `tool` `reference` `global`|
 | [McKnight Brain Institute](https://mbi.ufl.edu/) | University of Florida neuroscience institute site with research, training, and news. | `education` `reference` `health`|
-| [MEST Africa](https://meltwater.org/) | Pan-African tech entrepreneurship training, incubation, and seed funding. | `education` `africa` `dev` `nonprofit`|
 | [Middlesex University](https://www.mdx.ac.uk/) | London university; solid course marketing. | `education` `global`|
 | [MIT](https://web.mit.edu/) | Massachusetts Institute of Technology's main site for academics, research, admissions, and campus life. | `education` `reference` `global`|
 | [NJIT](https://www.njit.edu/) | New Jersey Institute of Technology's site for STEM academics, research, admissions, and campus life. | `education` `reference` `global`|
@@ -11804,7 +11803,6 @@ a curated map of the good web: landing pages, saas dashboards, fintech, portfoli
 | [EACOP](https://www.eacop.com/) | Pipeline project; corporate infrastructure comms. | `tanzania` `africa`|
 | [Feza Schools](https://fezaschools.org/) | Tanzanian school network site spanning nursery to A-Level programs across multiple campuses. | `tanzania` `education` `africa`|
 | [Flashnet Exotel](https://flashnet.co.tz/exotel/) | Tanzanian network firm reselling cloud telephony. | `tanzania` `cloud` `africa`|
-| [FUNGUO Tanzania](https://funguo.org/) | Tanzania innovation programme funding and supporting startups and MSMEs. | `tanzania` `africa` `nonprofit`|
 | [Habari](https://www.habari.co.tz/) | Tanzanian telecom group; corporate but local. | `tanzania` `africa`|
 | [Hungry Lion Tanzania](https://hungrylion.co.tz/) | Fried chicken chain in Tanzania; menu, store finder, and bold fast-food branding. | `food` `ecommerce` `tanzania` `africa`|
 | [Hype Interactive](https://hype.co.tz/) | Dar es Salaam studio for product strategy, UI/UX, and web/mobile builds for local and regional clients. | `tanzania` `africa` `agency` `dev`|
@@ -11851,7 +11849,6 @@ a curated map of the good web: landing pages, saas dashboards, fintech, portfoli
 | [CrabNebula](https://crabnebula.dev/) | Rust and DX tooling company; sharp open-source branding. | `oss` `dev` `tool`|
 | [Daytona](https://www.daytona.io/) | Dev environments; fast, dark infra marketing. | `dev` `cloud` `oss` `tool`|
 | [DeepInfra](https://deepinfra.com/) | Model inference API; plain, cheap, developer-first. | `ai` `dev` `cloud`|
-| [develoPPP](https://www.developpp.de/en/) | German development partnership programme funding sustainable private-sector projects. | `global` `reference` `nonprofit`|
 | [E2B](https://e2b.dev/) | Sandboxes for AI agents; hacker-flavored infra. | `dev` `ai` `oss` `cloud`|
 | [egui](https://www.egui.rs/) | Immediate-mode GUI in Rust; fast to ship. | `dev` `oss` `tool`|
 | [EleutherAI](https://www.eleuther.ai) | Open-source AI research collective; plain and honest. | `ai` `oss` `dev`|
