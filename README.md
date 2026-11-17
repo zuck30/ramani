@@ -10,7 +10,7 @@ a curated map of the good web: landing pages, saas dashboards, fintech, portfoli
     </a>
 </p>
 
-**369 links** · last updated 2026-11-17
+**370 links** · last updated 2026-11-17
 
 > auto-generated from [`data/links.json`](data/links.json). edit that file, not this one.
 
@@ -15060,6 +15060,10 @@ a curated map of the good web: landing pages, saas dashboards, fintech, portfoli
 | [SupportYourApp](https://supportyourapp.com/) | Support-as-a-service; bold, loud agency branding. | `saas` `agency`|
 | [Toonbee](https://toonbee.ai/) | AI cartoon maker; playful toy-like landing. | `ai` `playful` `saas`|
 | [TrackingMore](https://www.trackingmore.com/) | Multi-carrier shipment tracking API and dashboard for ecommerce and logistics. | `saas` `dev` `tool` `global`|
+<<<<<<< HEAD
+=======
+| [Trae AI](https://www.trae.ai/) | AI coding assistant and IDE for building software faster. | `ai` `dev` `tool`|
+>>>>>>> dev
 | [Valoris](https://www.valoris.ro/) | Romanian BPO; clean corporate services presence. | `agency` `global`|
 | [Virtual Sales](https://www.virtual-sales.com/) | Virtual sales outsourcing; legacy B2B presence. | `saas` `agency`|
 | [Voiceflow](https://www.voiceflow.com/) | Conversational agent builder; clean chat-first UX. | `ai` `saas` `tool`|
