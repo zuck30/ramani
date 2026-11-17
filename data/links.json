@@ -4557,5 +4557,19 @@
     "category": "education",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://briq.tz/",
+    "title": "BRIQ",
+    "why": "Tanzanian communications platform offering bulk SMS, SMS API, and OTP services for businesses.",
+    "tags": [
+      "tanzania",
+      "saas",
+      "api",
+      "communications"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
