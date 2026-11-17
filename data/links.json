@@ -3844,6 +3844,20 @@
     "favorite": false
   },
   {
+    "url": "https://www.wezatek.pro/",
+    "title": "Wezatek",
+    "why": "Tanzanian digital product engineering company offering software development, UX design, and AI solutions.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "agency",
+      "dev"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
     "url": "https://www.airtanzania.co.tz/",
     "title": "Air Tanzania",
     "why": "National airline website for bookings, destinations, fleet, and travel information.",
