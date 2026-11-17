@@ -4293,5 +4293,29 @@
     "category": "education",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://www.chowan.edu/",
+    "title": "Chowan University",
+    "why": "Faith-centered university site in North Carolina with academics, admissions, and campus life.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.clarke.edu/",
+    "title": "Clarke University",
+    "why": "Liberal arts university site in Dubuque featuring academics, admissions, and student life.",
+    "tags": [
+      "education",
+      "reference"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
