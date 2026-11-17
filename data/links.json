@@ -4679,5 +4679,19 @@
     "category": "resources",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://pawa-ai.com/",
+    "title": "Pawa AI",
+    "why": "AI for African languages and voices; chat, agents, and builder platform.",
+    "tags": [
+      "ai",
+      "saas",
+      "dev",
+      "africa"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
