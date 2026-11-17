@@ -4693,5 +4693,18 @@
     "category": "saas-dashboards",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://app.musiquest.com/welcome",
+    "title": "MusiQuest",
+    "why": "Creative, game-like way to learn music online.",
+    "tags": [
+      "education",
+      "tool",
+      "playful"
+    ],
+    "category": "education",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
