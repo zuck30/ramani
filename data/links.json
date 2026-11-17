@@ -4706,5 +4706,18 @@
     "category": "education",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://hio.ai/",
+    "title": "HiO",
+    "why": "AI business partner for small businesses; handles messages, marketing, and insights.",
+    "tags": [
+      "ai",
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-17",
+    "favorite": false
   }
 ]
