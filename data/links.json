@@ -1768,6 +1768,19 @@
     "favorite": false
   },
   {
+    "url": "https://ligikuu.co.tz/",
+    "title": "Ligi Kuu",
+    "why": "Tanzania Premier League Board; fixtures, results, and league news.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "sports"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-18",
+    "favorite": false
+  },
+  {
     "url": "https://liners.com/",
     "title": "Liners",
     "why": "AI reading assistant; highlight-and-summarize tool.",
@@ -2990,6 +3003,19 @@
     ],
     "category": "resources",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://start.me/",
+    "title": "Start.me",
+    "why": "Personal start page and bookmark manager for links, feeds, and tools.",
+    "tags": [
+      "tool",
+      "reference",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-18",
     "favorite": false
   },
   {
