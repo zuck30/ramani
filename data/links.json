@@ -2742,6 +2742,19 @@
     "favorite": false
   },
   {
+    "url": "https://rubyonrails.org/",
+    "title": "Ruby on Rails",
+    "why": "The framework that made Ruby famous; convention over configuration.",
+    "tags": [
+      "dev",
+      "oss",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-19",
+    "favorite": false
+  },
+  {
     "url": "https://rustify.rs/",
     "title": "Rustify",
     "why": "unclassified - revisit.",
