@@ -546,13 +546,17 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   color:var(--text-strong);
 }
 .card-arrow{
+  display:block;
+  width:14px;height:14px;
   flex-shrink:0;
   margin-inline-start:auto;
   align-self:center;
-  color:var(--text-faint);
-  transition:transform .2s var(--ease-out),color .15s ease;
+  background-color:var(--text-faint);
+  -webkit-mask:url('../icons/arrow-right.png') center/contain no-repeat;
+  mask:url('../icons/arrow-right.png') center/contain no-repeat;
+  transition:transform .2s var(--ease-out),background-color .15s ease;
 }
-.card:hover .card-arrow{transform:translateX(3px);color:var(--link)}
+.card:hover .card-arrow{transform:translateX(3px);background-color:var(--link)}
 
 .card-subtitle{
   margin:0;
@@ -757,7 +761,15 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   transition:background-color .15s ease,border-color .15s ease;
 }
 .btn:hover{background:#444;border-color:#444}
-.btn .btn-arrow{transition:transform .2s var(--ease-out)}
+.btn .btn-arrow{
+  display:block;
+  width:14px;height:14px;
+  flex-shrink:0;
+  background-color:currentColor;
+  -webkit-mask:url('../icons/arrow-right.png') center/contain no-repeat;
+  mask:url('../icons/arrow-right.png') center/contain no-repeat;
+  transition:transform .2s var(--ease-out);
+}
 .btn:hover .btn-arrow{transform:translateX(3px)}
 
 /* 404 */
