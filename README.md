@@ -8,13 +8,13 @@
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
 
-a map of the good web: landing pages, saas dashboards, fintech, portfolios, developer tools, and sites across global, africa and tanzania.
+a map of the good, unsloppy, tasteful web: landing pages, saas dashboards, fintech, portfolios, developer tools, and sites across global, africa and tanzania.
 
-**website:** [website](https://zuck30.github.io/ramani/) · **browse by tags:** [tags](https://zuck30.github.io/ramani/tags/)
+visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https://zuck30.github.io/ramani/tags/)
 
 <p align="center">
   <a href="https://zuck30.github.io/ramani/">
-    <img src="assets/ramani-2.png" alt="ramani, a map of the good web" width="800">
+    <img src="assets/ramani-2.png" alt="ramani, a map of the good, unsloppy, tasteful web" width="800">
   </a>
 </p>
 

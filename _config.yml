@@ -2,7 +2,7 @@
 # GitHub handle - used by _includes/header.html + footer.html for repo links.
 # ------------------------------------------------------------------
 title: ramani
-tagline: A map of the good web
+tagline: A map of the good, unsloppy, tasteful web
 description: A map of web design inspiration, landing pages, SaaS dashboards, fintech, portfolios, and developer tools worth keeping.
 lang: en
 author:
@@ -13,7 +13,7 @@ baseurl: "/ramani"
 logo: /assets/ramani-2.png
 image:
   path: /assets/for-card.png
-  alt: ramani - a map of the good web
+  alt: ramani - a map of the good, unsloppy, tasteful web
 social:
   name: ramani
   links:
@@ -32,7 +32,7 @@ defaults:
     values:
       image:
         path: /assets/for-card.png
-        alt: ramani - a map of the good web
+        alt: ramani - a map of the good, unsloppy, tasteful web
 
 exclude:
   - scripts/
