@@ -14,7 +14,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
 
 <p align="center">
   <a href="https://zuck30.github.io/ramani/">
-    <img src="assets/ramani-2.png" alt="ramani, a map of the good, unsloppy, tasteful web" width="800">
+    <img src="assets/ramani-2.png?v=a6493d86" alt="ramani, a map of the good, unsloppy, tasteful web" width="800">
   </a>
 </p>
 

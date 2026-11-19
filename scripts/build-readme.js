@@ -12,6 +12,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const ROOT = path.join(__dirname, '..');
 const DATA_FILE = path.join(ROOT, 'data', 'links.json');
@@ -79,8 +80,18 @@ function badges(linkCount) {
   ].join('\n');
 }
 
+function assetVersion(relativePath) {
+  try {
+    const buf = fs.readFileSync(path.join(ROOT, relativePath));
+    return crypto.createHash('sha1').update(buf).digest('hex').slice(0, 8);
+  } catch (error) {
+    return '1';
+  }
+}
+
 function intro(links) {
   const today = new Date().toISOString().slice(0, 10);
+  const heroVersion = assetVersion('assets/ramani-2.png');
 
   return [
     '# ramani',
@@ -93,7 +104,7 @@ function intro(links) {
     '',
     '<p align="center">',
     `  <a href="${SITE}">`,
-    '    <img src="assets/ramani-2.png" alt="ramani, a map of the good, unsloppy, tasteful web" width="800">',
+    `    <img src="assets/ramani-2.png?v=${heroVersion}" alt="ramani, a map of the good, unsloppy, tasteful web" width="800">`,
     '  </a>',
     '</p>',
     '',
