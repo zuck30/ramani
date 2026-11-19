@@ -34,6 +34,7 @@ ramani is a static [jekyll](https://jekyllrb.com/) site backed by a single json 
 - **liquid keeps content and layout separate.** `data/links.json` is the only place links live; the home page, tag page and readme are all rendered from it.
 - **ruby is build-time only.** the language choice is about a mature static-site toolchain, not runtime dependencies. visitors download plain html, css and a few lines of javascript.
 - **it stays small and fast.** no bundler, hydration, cdn runtime or database means fast loads and easy long-term maintenance.
+- **i love ruby.** it is my obsession, and the reason this site is built on jekyll.
 
 # requirements
 
