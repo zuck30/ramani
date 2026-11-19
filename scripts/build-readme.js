@@ -177,6 +177,7 @@ function intro(links) {
     '| `assets/css/style.css` | the opencode.ai-inspired design system. |',
     '| `assets/for-card.png` | mascot used as the card background. |',
     '| `assets/nav-logo.png` | navbar logo. |',
+    '| `assets/icons/` | line icons for the sidebar navigation. |',
     '| [coding style](CODINGSTYLE.md) | design language and code conventions. |',
     '| `scripts/build-readme.js` | rebuilds this readme from the json data. |',
     '| `scripts/ruby4-compat.rb` | local shim for jekyll 3.9 on ruby 4. |',

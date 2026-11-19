@@ -179,6 +179,34 @@ a{color:inherit}
   font-variant-numeric:tabular-nums;
 }
 .sidenav .nav-label{white-space:nowrap}
+
+/* leading line icons for each nav item */
+.nav-icon{
+  display:block;flex-shrink:0;
+  width:18px;height:18px;
+  background-color:currentColor;
+  opacity:.9;
+}
+.nav-icon-index{
+  -webkit-mask:url('../icons/nav-index.png') center/contain no-repeat;
+  mask:url('../icons/nav-index.png') center/contain no-repeat;
+}
+.nav-icon-tags{
+  -webkit-mask:url('../icons/nav-tags.png') center/contain no-repeat;
+  mask:url('../icons/nav-tags.png') center/contain no-repeat;
+}
+.nav-icon-search{
+  -webkit-mask:url('../icons/nav-search.png') center/contain no-repeat;
+  mask:url('../icons/nav-search.png') center/contain no-repeat;
+}
+.nav-icon-readme{
+  -webkit-mask:url('../icons/nav-readme.png') center/contain no-repeat;
+  mask:url('../icons/nav-readme.png') center/contain no-repeat;
+}
+.nav-icon-github{
+  -webkit-mask:url('../icons/nav-github.png') center/contain no-repeat;
+  mask:url('../icons/nav-github.png') center/contain no-repeat;
+}
 .nav-external{
   flex-shrink:0;
   margin-inline-start:.15rem;

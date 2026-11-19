@@ -44,7 +44,7 @@ this document explains the design language and engineering conventions used in r
 - tags: no leading hash. tags are square buttons, counts use tabular numbers.
 - search: one line, square, mono placeholder, slash hint.
 - footer: secondary link list with bracket markers, a 14px meta bar and a large mono wordmark.
-- icons: inline svg only, sized with `currentColor`, 1.2px strokes where possible.
+- icons: inline svg for interface glyphs. sidebar navigation icons are png masks tinted with `currentColor`.
 
 **html and liquid**
 
