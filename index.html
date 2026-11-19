@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Ramani - Curated web design inspiration and tools
-description: Explore Ramani, a curated map of 300+ websites for web design inspiration, landing pages, SaaS dashboards, fintech, portfolios, developer tools, and African tech.
+title: Ramani - Web design inspiration and tools
+description: Explore Ramani, a map of 300+ websites for web design inspiration, landing pages, SaaS dashboards, fintech, portfolios, developer tools, and African tech.
 ---
 
 {% assign favorites = site.data.links | where: "favorite", true | sort: "title" %}
@@ -12,7 +12,7 @@ description: Explore Ramani, a curated map of 300+ websites for web design inspi
 
 <section class="hero">
   <h1>A map of the good web</h1>
-  <p class="hero-tagline">Curated design inspiration, tools and standout sites worth keeping — hand-indexed, tagged, and free of ranking noise.</p>
+  <p class="hero-tagline">Design inspiration, tools and standout sites worth keeping. Hand-indexed, tagged, and free of ranking noise.</p>
   <p class="hero-stats">
     <b>{{ link_count }}</b> links
     <span class="sep">/</span>
@@ -75,7 +75,7 @@ description: Explore Ramani, a curated map of 300+ websites for web design inspi
     </div>
   </a>
   {% endfor %}
-  <p class="empty hidden" id="empty">nothing on the map matches that — try clearing a filter.</p>
+  <p class="empty hidden" id="empty">nothing on the map matches that, try clearing a filter.</p>
 </div>
 
 <script>

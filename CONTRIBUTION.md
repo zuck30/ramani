@@ -1,6 +1,6 @@
 # contributing to ramani
 
-`ramani` is a curated map of web uis, tools, and references. link data lives in [`data/links.json`](data/links.json); [`readme.md`](readme.md) is generated from it.
+`ramani` is a map of web uis, tools, and references. link data lives in [`data/links.json`](data/links.json); [`readme.md`](readme.md) is generated from it.
 
 ## adding or updating a link
 

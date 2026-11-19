@@ -2,7 +2,7 @@
 layout: default
 body_class: prose
 title: tags | ramani
-description: browse ramani's controlled tag vocabulary for theme, style, industry, region, and use to discover curated web design inspiration and tools.
+description: browse ramani's controlled tag vocabulary for theme, style, industry, region, and use to discover web design inspiration and tools.
 groups:
   - name: theme
     tags: [dark, light, colorful, monochrome]
@@ -20,7 +20,7 @@ groups:
 
 # tags
 
-Controlled vocabulary — every link on the map uses only these tags. Pick one to filter the index.
+Controlled vocabulary. Every link on the map uses only these tags. Pick one to filter the index.
 
 {% for g in page.groups %}
 <h3 id="{{ g.name }}">{{ g.name }}</h3>

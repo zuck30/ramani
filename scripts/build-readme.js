@@ -34,38 +34,47 @@ const CATEGORY_ORDER = [
   'reading',
 ];
 
-function titleize(slug) {
-  return slug
-    .split('-')
-    .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w))
-    .join(' ');
+function label(slug) {
+  return slug.replace(/-/g, ' ');
 }
 
 function esc(s) {
-  return String(s == null ? '' : s).replace(/\|/g, '\\|').replace(/\r?\n/g, ' ');
+  return String(s == null ? '' : s)
+    .replace(/\|/g, '\\|')
+    .replace(/\r?\n/g, ' ')
+    .replace(/\u2014/g, ',')
+    .replace(/\u2013/g, '-');
+}
+
+function lower(s) {
+  return esc(s).toLowerCase();
 }
 
 function tagList(l) {
   return (l.tags || []).map((t) => '`' + t + '`').join(' ');
 }
 
-function tableRow(l) {
-  return '| [' + esc(l.title) + '](' + l.url + ') | ' + esc(l.why) + ' | ' + tagList(l) + ' |\n';
+function linkUrl(url) {
+  // keep the README to a single '#' (the title heading)
+  return String(url).replace(/#/g, '%23');
 }
 
-const TABLE_HEADER = '| Site | Why | Tags |\n|------|-----|------|\n';
+function tableRow(l) {
+  return '| [' + lower(l.title) + '](' + linkUrl(l.url) + ') | ' + lower(l.why) + ' | ' + tagList(l) + ' |\n';
+}
+
+const TABLE_HEADER = '| site | why | tags |\n|------|-----|------|\n';
 
 function badges(linkCount) {
   const deployUrl = 'https://github.com/' + REPO + '/actions/workflows/jekyll.yml';
-  const deployBadge = 'https://github.com/' + REPO + '/actions/workflows/jekyll.yml/badge.svg';
   return [
-    `[![Deploy](${deployBadge})](${deployUrl})`,
-    `[![Website](https://img.shields.io/website?url=${encodeURIComponent(SITE)}&label=website)](${SITE})`,
-    '[![Jekyll](https://img.shields.io/badge/Jekyll-3.9-CC0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)',
-    '[![Ruby](https://img.shields.io/badge/Ruby-3.x%20%7C%204.x-CC342D?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)',
-    `[![Links](https://img.shields.io/badge/links-${linkCount}-161616)](data/links.json)`,
-    '[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)',
-    '[![PRs welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](CONTRIBUTION.md)',
+    `[![deploy](https://img.shields.io/badge/deploy-github%20pages-black)](${deployUrl})`,
+    `[![website](https://img.shields.io/website?url=${encodeURIComponent(SITE)}&label=website)](${SITE})`,
+    '[![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)',
+    '[![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)',
+    `[![links](https://img.shields.io/badge/links-${linkCount}-161616)](data/links.json)`,
+    '[![license](https://img.shields.io/badge/license-mit-black)](LICENSE)',
+    '[![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)',
   ].join('\n');
 }
 
@@ -77,69 +86,69 @@ function intro(links) {
     '',
     badges(links.length),
     '',
-    'A curated map of the good web: landing pages, SaaS dashboards, fintech, portfolios, developer tools, and African/Tanzanian sites worth learning from.',
+    'a map of the good web: landing pages, saas dashboards, fintech, portfolios, developer tools, and sites across global, africa and tanzania.',
     '',
-    `**Website:** [${SITE}](${SITE}) · **Browse by tags:** [${SITE}tags/](${SITE}tags/)`,
+    `**website:** [website](${SITE}) · **browse by tags:** [tags](${SITE}tags/)`,
     '',
     '<p align="center">',
     `  <a href="${SITE}">`,
-    '    <img src="assets/ramani-2.png" alt="ramani — a map of the good web" width="800">',
+    '    <img src="assets/ramani-2.png" alt="ramani, a map of the good web" width="800">',
     '  </a>',
     '</p>',
     '',
     `**${links.length} links** · last updated ${today}`,
     '',
-    '> The link tables below are generated from [`data/links.json`](data/links.json). Edit that file, not the tables.',
+    '> the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.',
     '',
-    '## Getting started',
+    'see [coding style](CODINGSTYLE.md) for the design language and code conventions.',
     '',
-    'Ramani is a static [Jekyll](https://jekyllrb.com/) site backed by a single JSON data file. There is no database, no API and no client-side framework — the browser only loads HTML, one stylesheet and a small vanilla-JS search/filter script.',
+    '**getting started**',
     '',
-    '### Why Jekyll and Ruby?',
+    'ramani is a static [jekyll](https://jekyllrb.com/) site backed by a single json data file. there is no database, no api and no client-side framework: the browser only loads html, one stylesheet and a small vanilla-js search/filter script.',
     '',
-    '- **GitHub Pages builds it natively.** Pushing to `main` runs Jekyll in GitHub Actions and publishes the result, so hosting is free and requires no server.',
-    '- **Liquid keeps content and layout separate.** `data/links.json` is the only place links live; the home page, tag page and README are all rendered from it.',
-    '- **Ruby is build-time only.** The language choice is about a mature static-site toolchain, not runtime dependencies. Visitors download plain HTML, CSS and a few lines of JavaScript.',
-    '- **It stays small and fast.** No bundler, hydration, CDN runtime or database means fast loads and easy long-term maintenance.',
+    '**why jekyll and ruby?**',
     '',
-    '### Requirements',
+    '- **github pages builds it natively.** pushing to `main` runs jekyll in github actions and publishes the result, so hosting is free and requires no server.',
+    '- **liquid keeps content and layout separate.** `data/links.json` is the only place links live; the home page, tag page and readme are all rendered from it.',
+    '- **ruby is build-time only.** the language choice is about a mature static-site toolchain, not runtime dependencies. visitors download plain html, css and a few lines of javascript.',
+    '- **it stays small and fast.** no bundler, hydration, cdn runtime or database means fast loads and easy long-term maintenance.',
     '',
-    '- Ruby 3.0+ and Bundler (`gem install bundler`) — Ruby 4 works through the included compatibility shim.',
-    '- Node.js 20+ — only needed to regenerate this README.',
+    '**requirements**',
     '',
-    '### Run it locally',
+    '- ruby 3.0+ and bundler (`gem install bundler`). ruby 4 works through the included compatibility shim.',
+    '- node.js 20+, only needed to regenerate this readme.',
+    '',
+    '**run it locally**',
     '',
     '```bash',
     'bundle install',
-    '',
-    '# macOS / Linux (Bash or Zsh)',
     'RUBYOPT="-r./scripts/ruby4-compat.rb" bundle exec jekyll serve --baseurl "" --port 4000',
     '```',
     '',
-    'Open **[http://localhost:4000](http://localhost:4000)** — the development server runs on **port 4000** by default. `--baseurl ""` drops the production `/ramani` prefix so local asset URLs resolve.',
+    'open **[localhost](http://localhost:4000)**: the development server runs on **port 4000** by default. `--baseurl ""` drops the production `/ramani` prefix so local asset urls resolve.',
     '',
-    'If Jekyll stops with `cannot load such file -- webrick` (Ruby 3+ no longer ships it), install it once:',
+    'if jekyll stops with `cannot load such file -- webrick` (ruby 3+ no longer ships it), install it once:',
     '',
     '```bash',
     'gem install webrick',
     '```',
     '',
-    'Or build the site and serve the output with any static server:',
+    'or build the site and serve the output with any static server:',
     '',
     '```bash',
     'RUBYOPT="-r./scripts/ruby4-compat.rb" bundle exec jekyll build --baseurl ""',
     'python3 -m http.server 4000 --directory _site',
     '```',
     '',
-    '### Add a link',
+    '**add a link**',
     '',
-    '1. Add an object to [`data/links.json`](data/links.json):',
+    '1. add an object to [data/links.json](data/links.json):',
     '',
     '```json',
     '{',
     '  "url": "https://example.com",',
-    '  "title": "Example",',
-    '  "why": "One line on what makes it worth keeping.",',
+    '  "title": "example",',
+    '  "why": "one line on what makes it worth keeping.",',
     '  "tags": ["minimal", "saas"],',
     '  "category": "landing-pages",',
     '  "added": "2026-11-19",',
@@ -147,40 +156,43 @@ function intro(links) {
     '}',
     '```',
     '',
-    '2. Regenerate the link tables in this README:',
+    '2. regenerate the link tables in this readme:',
     '',
     '```bash',
     'node scripts/build-readme.js',
     '```',
     '',
-    '3. Commit both files and push to `main`. GitHub Actions builds and deploys the site automatically.',
+    '3. commit both files and push to `main`. github actions builds and deploys the site automatically.',
     '',
-    '### Project layout',
+    '**project layout**',
     '',
-    '| Path | What it is |',
+    '| path | what it is |',
     '|------|------------|',
-    '| `data/links.json` | Source of truth for every site, tag and note. |',
-    '| `index.html` | Home page: hero, search, tag filters and the link grid. |',
-    '| `tags.md` | Controlled tag vocabulary and live counts. |',
-    '| `_layouts/` | Jekyll layout (head, theme boot, page frame). |',
-    '| `_includes/` | Sidebar navigation and footer. |',
-    '| `assets/css/style.css` | The opencode.ai-inspired design system. |',
-    '| `assets/for-card.png` | Mascot used as the card background. |',
-    '| `assets/nav-logo.png` | Navbar logo. |',
-    '| `scripts/build-readme.js` | Rebuilds this README from the JSON data. |',
-    '| `scripts/ruby4-compat.rb` | Local shim for Jekyll 3.9 on Ruby 4. |',
+    '| `data/links.json` | source of truth for every site, tag and note. |',
+    '| `index.html` | home page: hero, search, tag filters and the link grid. |',
+    '| `tags.md` | controlled tag vocabulary and live counts. |',
+    '| `_layouts/` | jekyll layout (head, theme boot, page frame). |',
+    '| `_includes/` | sidebar navigation and footer. |',
+    '| `assets/css/style.css` | the opencode.ai-inspired design system. |',
+    '| `assets/for-card.png` | mascot used as the card background. |',
+    '| `assets/nav-logo.png` | navbar logo. |',
+    '| [coding style](CODINGSTYLE.md) | design language and code conventions. |',
+    '| `scripts/build-readme.js` | rebuilds this readme from the json data. |',
+    '| `scripts/ruby4-compat.rb` | local shim for jekyll 3.9 on ruby 4. |',
     '',
-    '### Deployment',
+    '**deployment**',
     '',
-    'Pushing to `main` triggers [`.github/workflows/jekyll.yml`](.github/workflows/jekyll.yml), which builds the site with `actions/jekyll-build-pages` and deploys it to GitHub Pages. The production base URL is `/ramani`, matching `baseurl` in `_config.yml`.',
+    'pushing to `main` triggers [.github/workflows/jekyll.yml](.github/workflows/jekyll.yml), which builds the site with `actions/jekyll-build-pages` and deploys it to github pages. the production base url is `/ramani`, matching `baseurl` in `_config.yml`.',
     '',
-    '### Contributing',
+    '**contributing**',
     '',
-    'Suggestions and new links are welcome — see [`CONTRIBUTION.md`](CONTRIBUTION.md) or open a pull request. Please keep tags to the vocabulary listed on the [tags page](https://zuck30.github.io/ramani/tags/).',
+    'suggestions and new links are welcome. see [contribution](CONTRIBUTION.md) or open a pull request. please keep tags to the vocabulary listed on the [tags page](https://zuck30.github.io/ramani/tags/).',
     '',
-    '### License',
+    '**license**',
     '',
-    'Released under the [MIT License](LICENSE).',
+    'released under the [mit license](LICENSE).',
+    '',
+    'beautifully made with love by [shadrackovsky](https://github.com/zuck30).',
     '',
     '---',
     '',
@@ -198,22 +210,20 @@ function generateReadme(links) {
 
   let md = intro(links);
 
-  // ⭐ Start Here - deduplicated union of all favorite entries, sorted by title.
   const favorites = links
     .filter((l) => l.favorite)
     .sort((a, b) => a.title.localeCompare(b.title));
   if (favorites.length > 0) {
-    md += '## ⭐ Start here\n\n' + TABLE_HEADER;
+    md += '**start here**\n\n' + TABLE_HEADER;
     for (const l of favorites) md += tableRow(l);
     md += '\n';
   }
 
-  // Category sections in the fixed order.
   for (const cat of CATEGORY_ORDER) {
     const items = groups.get(cat);
     if (!items || items.length === 0) continue;
     items.sort((a, b) => a.title.localeCompare(b.title));
-    md += '## ' + titleize(cat) + '\n\n' + TABLE_HEADER;
+    md += '**' + label(cat) + '**\n\n' + TABLE_HEADER;
     for (const l of items) md += tableRow(l);
     md += '\n';
   }
@@ -228,8 +238,7 @@ function main() {
   }
 
   fs.writeFileSync(OUT_FILE, generateReadme(links));
-  console.log('README.md rebuilt: ' + links.length + ' links across ' +
-    CATEGORY_ORDER.length + ' categories.');
+  console.log('README.md rebuilt: ' + links.length + ' links, lowercase, single # heading.');
 }
 
 main();

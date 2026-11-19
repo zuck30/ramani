@@ -1,5 +1,5 @@
 /* ============================================================
-   ramani — a map of the good web
+   ramani - a map of the good web
    UI modelled on opencode.ai: fixed numbered sidebar, mono
    display type over Inter body copy, hairline rules, dither
    texture, one blue accent, square black buttons.
@@ -103,7 +103,7 @@ a{color:inherit}
 }
 .skip-link:focus-visible{transform:translateY(0)}
 
-/* micro caps label — reserved for metadata rows */
+/* micro caps label - reserved for metadata rows */
 .micro{
   margin:0;
   font-family:var(--font-mono);
@@ -112,7 +112,7 @@ a{color:inherit}
   color:var(--text-faint);
 }
 
-/* dithered band — opencode's texture flourish, done with dots */
+/* dithered band - opencode's texture flourish, done with dots */
 .dither{
   height:3.5rem;
   color:var(--text-strong);
@@ -468,7 +468,7 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   pointer-events:none;
 }
 
-/* dark media strip — the opencode product-tile cue */
+/* dark media strip - the opencode product-tile cue */
 .card-media{
   position:relative;z-index:2;
   display:flex;align-items:flex-start;justify-content:flex-start;
@@ -615,7 +615,8 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   padding-block:1rem;
   border-top:var(--rule);
   font-family:var(--font-mono);
-  font-size:var(--fs-micro);
+  font-size:14px;
+  line-height:1.5;
   color:var(--text-faint);
 }
 .footer-bar a{color:var(--text-weak);text-decoration:none}

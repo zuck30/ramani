@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------
 title: ramani
 tagline: A map of the good web
-description: A curated map of web design inspiration, landing pages, SaaS dashboards, fintech, portfolios, and developer tools worth keeping.
+description: A map of web design inspiration, landing pages, SaaS dashboards, fintech, portfolios, and developer tools worth keeping.
 lang: en
 author:
   name: zuck30
@@ -42,4 +42,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - CONTRIBUTION.md
+  - CODINGSTYLE.md
   - LICENSE
