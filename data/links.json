@@ -4798,5 +4798,44 @@
     "category": "saas-dashboards",
     "added": "2026-11-17",
     "favorite": false
+  },
+  {
+    "url": "https://www.freecodecamp.org/",
+    "title": "freeCodeCamp",
+    "why": "Free coding curriculum with hands-on projects and certifications.",
+    "tags": [
+      "education",
+      "dev",
+      "oss"
+    ],
+    "category": "education",
+    "added": "2026-11-19",
+    "favorite": false
+  },
+  {
+    "url": "https://www.chatdesk.com/",
+    "title": "Chatdesk",
+    "why": "Customer support and engagement platform for ecommerce brands.",
+    "tags": [
+      "saas",
+      "ecommerce",
+      "ai"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-19",
+    "favorite": false
+  },
+  {
+    "url": "https://fullstackopen.com/",
+    "title": "Full Stack Open",
+    "why": "University of Helsinki's free modern web development course.",
+    "tags": [
+      "education",
+      "dev",
+      "oss"
+    ],
+    "category": "education",
+    "added": "2026-11-19",
+    "favorite": false
   }
 ]
