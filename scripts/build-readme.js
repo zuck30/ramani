@@ -43,7 +43,8 @@ function esc(s) {
     .replace(/\|/g, '\\|')
     .replace(/\r?\n/g, ' ')
     .replace(/\u2014/g, ',')
-    .replace(/\u2013/g, '-');
+    .replace(/\u2013/g, '-')
+    .replace(/·/g, ',');
 }
 
 function lower(s) {
@@ -96,7 +97,7 @@ function intro(links) {
     '  </a>',
     '</p>',
     '',
-    `**${links.length} links** · last updated ${today}`,
+    `**${links.length} links**, last updated ${today}`,
     '',
     '> the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.',
     '',

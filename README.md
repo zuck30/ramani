@@ -18,7 +18,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**378 links** · last updated 2026-11-19
+**378 links**, last updated 2026-11-19
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
