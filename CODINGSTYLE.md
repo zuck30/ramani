@@ -29,8 +29,8 @@ this document explains the design language and engineering conventions used in r
 
 # typography
 
-- headings, navigation, indexes and metadata use `--font-mono` (IBM Plex Mono).
-- paragraphs, descriptions and button labels use `--font-sans` (Inter).
+- headings, navigation, indexes and metadata use `--font-mono` (ibm plex mono).
+- paragraphs, descriptions and button labels use `--font-sans` (inter).
 - hero heading: `clamp(2.4rem, 4.45vw, 3.75rem)`, weight 400, line-height 1.04, letter-spacing -0.03em.
 - body copy: 15px with 1.6 line-height.
 - interface buttons: 14px, weight 500.
@@ -87,7 +87,9 @@ this document explains the design language and engineering conventions used in r
 # docs
 
 - `README.md` is generated. edit `data/links.json` and the generator, never the tables by hand.
-- docs use lowercase prose, one top-level heading, no em dashes and no raw urls as link text.
+- documentation prose is lowercase. lowercase proper nouns like github, jekyll and ruby. keep code, commands, urls and file paths in their required case.
+- every heading uses a single `#`. do not use `##` or `###`, and do not use bold text as a heading.
+- no em dashes, no middle dots and no raw urls as link text.
 - links use words on the page, with the destination on hover.
 - the generator lives in `scripts/build-readme.js`.
 
@@ -111,4 +113,4 @@ RUBYOPT="-r./scripts/ruby4-compat.rb" bundle exec jekyll serve --baseurl "" --po
 - [ ] checked in light and dark mode.
 - [ ] keyboard focus and reduced motion still work.
 - [ ] `README.md` regenerated with `node scripts/build-readme.js`.
-- [ ] no em dashes, no leading hashes on tags and lowercase docs.
+- [ ] no em dashes, single-hash headings and lowercase docs.
