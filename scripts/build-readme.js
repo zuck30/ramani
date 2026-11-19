@@ -87,7 +87,7 @@ function intro(links) {
     '',
     badges(links.length),
     '',
-    'a map of the good, unsloppy, tasteful web: landing pages, saas dashboards, fintech, portfolios, developer tools, and sites across global, africa and tanzania.',
+    '# a map of the good, unsloppy, tasteful web: landing pages, saas dashboards, fintech, portfolios, developer tools, and sites across global, africa and tanzania.',
     '',
     `visit the [website](${SITE}) or browse the [tags](${SITE}tags/)`,
     '',
@@ -103,23 +103,23 @@ function intro(links) {
     '',
     'see [coding style](CODINGSTYLE.md) for the design language and code conventions.',
     '',
-    '**getting started**',
+    '# getting started',
     '',
     'ramani is a static [jekyll](https://jekyllrb.com/) site backed by a single json data file. there is no database, no api and no client-side framework: the browser only loads html, one stylesheet and a small vanilla-js search/filter script.',
     '',
-    '**why jekyll and ruby?**',
+    '# why jekyll and ruby?',
     '',
     '- **github pages builds it natively.** pushing to `main` runs jekyll in github actions and publishes the result, so hosting is free and requires no server.',
     '- **liquid keeps content and layout separate.** `data/links.json` is the only place links live; the home page, tag page and readme are all rendered from it.',
     '- **ruby is build-time only.** the language choice is about a mature static-site toolchain, not runtime dependencies. visitors download plain html, css and a few lines of javascript.',
     '- **it stays small and fast.** no bundler, hydration, cdn runtime or database means fast loads and easy long-term maintenance.',
     '',
-    '**requirements**',
+    '# requirements',
     '',
     '- ruby 3.0+ and bundler (`gem install bundler`). ruby 4 works through the included compatibility shim.',
     '- node.js 20+, only needed to regenerate this readme.',
     '',
-    '**run it locally**',
+    '# run it locally',
     '',
     '```bash',
     'bundle install',
@@ -141,7 +141,7 @@ function intro(links) {
     'python3 -m http.server 4000 --directory _site',
     '```',
     '',
-    '**add a link**',
+    '# add a link',
     '',
     '1. add an object to [data/links.json](data/links.json):',
     '',
@@ -165,32 +165,41 @@ function intro(links) {
     '',
     '3. commit both files and push to `main`. github actions builds and deploys the site automatically.',
     '',
-    '**project layout**',
+    '# project layout',
     '',
-    '| path | what it is |',
-    '|------|------------|',
-    '| `data/links.json` | source of truth for every site, tag and note. |',
-    '| `index.html` | home page: hero, search, tag filters and the link grid. |',
-    '| `tags.md` | controlled tag vocabulary and live counts. |',
-    '| `_layouts/` | jekyll layout (head, theme boot, page frame). |',
-    '| `_includes/` | sidebar navigation and footer. |',
-    '| `assets/css/style.css` | the opencode.ai-inspired design system. |',
-    '| `assets/for-card.png` | mascot used as the card background. |',
-    '| `assets/nav-logo.png` | navbar logo. |',
-    '| `assets/icons/` | line icons for the sidebar navigation. |',
-    '| [coding style](CODINGSTYLE.md) | design language and code conventions. |',
-    '| `scripts/build-readme.js` | rebuilds this readme from the json data. |',
-    '| `scripts/ruby4-compat.rb` | local shim for jekyll 3.9 on ruby 4. |',
+    '<div align="center">',
     '',
-    '**deployment**',
+    '<table align="center">',
+    '  <thead>',
+    '    <tr><th>path</th><th>what it is</th></tr>',
+    '  </thead>',
+    '  <tbody>',
+    '    <tr><td><code>data/links.json</code></td><td>source of truth for every site, tag and note.</td></tr>',
+    '    <tr><td><code>index.html</code></td><td>home page: hero, search, tag filters and the link grid.</td></tr>',
+    '    <tr><td><code>tags.md</code></td><td>controlled tag vocabulary and live counts.</td></tr>',
+    '    <tr><td><code>_layouts/</code></td><td>jekyll layout (head, theme boot, page frame).</td></tr>',
+    '    <tr><td><code>_includes/</code></td><td>sidebar navigation and footer.</td></tr>',
+    '    <tr><td><code>assets/css/style.css</code></td><td>the opencode.ai-inspired design system.</td></tr>',
+    '    <tr><td><code>assets/for-card.png</code></td><td>mascot used as the card background.</td></tr>',
+    '    <tr><td><code>assets/nav-logo.png</code></td><td>navbar logo.</td></tr>',
+    '    <tr><td><code>assets/icons/</code></td><td>line icons for the sidebar navigation.</td></tr>',
+    '    <tr><td><a href="CODINGSTYLE.md">coding style</a></td><td>design language and code conventions.</td></tr>',
+    '    <tr><td><code>scripts/build-readme.js</code></td><td>rebuilds this readme from the json data.</td></tr>',
+    '    <tr><td><code>scripts/ruby4-compat.rb</code></td><td>local shim for jekyll 3.9 on ruby 4.</td></tr>',
+    '  </tbody>',
+    '</table>',
+    '',
+    '</div>',
+    '',
+    '# deployment',
     '',
     'pushing to `main` triggers [.github/workflows/jekyll.yml](.github/workflows/jekyll.yml), which builds the site with `actions/jekyll-build-pages` and deploys it to github pages. the production base url is `/ramani`, matching `baseurl` in `_config.yml`.',
     '',
-    '**contributing**',
+    '# contributing',
     '',
     'suggestions and new links are welcome. see [contribution](CONTRIBUTION.md) or open a pull request. please keep tags to the vocabulary listed on the [tags page](https://zuck30.github.io/ramani/tags/).',
     '',
-    '**license**',
+    '# license',
     '',
     'released under the [mit license](LICENSE).',
     '',
@@ -216,7 +225,7 @@ function generateReadme(links) {
     .filter((l) => l.favorite)
     .sort((a, b) => a.title.localeCompare(b.title));
   if (favorites.length > 0) {
-    md += '**start here**\n\n' + TABLE_HEADER;
+    md += '# start here\n\n' + TABLE_HEADER;
     for (const l of favorites) md += tableRow(l);
     md += '\n';
   }
@@ -225,7 +234,7 @@ function generateReadme(links) {
     const items = groups.get(cat);
     if (!items || items.length === 0) continue;
     items.sort((a, b) => a.title.localeCompare(b.title));
-    md += '**' + label(cat) + '**\n\n' + TABLE_HEADER;
+    md += '# ' + label(cat) + '\n\n' + TABLE_HEADER;
     for (const l of items) md += tableRow(l);
     md += '\n';
   }
@@ -240,7 +249,7 @@ function main() {
   }
 
   fs.writeFileSync(OUT_FILE, generateReadme(links));
-  console.log('README.md rebuilt: ' + links.length + ' links, lowercase, single # heading.');
+  console.log('README.md rebuilt: ' + links.length + ' links, lowercase, single-hash headings.');
 }
 
 main();

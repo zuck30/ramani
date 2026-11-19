@@ -8,7 +8,7 @@
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
 
-a map of the good, unsloppy, tasteful web: landing pages, saas dashboards, fintech, portfolios, developer tools, and sites across global, africa and tanzania.
+# a map of the good, unsloppy, tasteful web: landing pages, saas dashboards, fintech, portfolios, developer tools, and sites across global, africa and tanzania.
 
 visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https://zuck30.github.io/ramani/tags/)
 
@@ -24,23 +24,23 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
 
 see [coding style](CODINGSTYLE.md) for the design language and code conventions.
 
-**getting started**
+# getting started
 
 ramani is a static [jekyll](https://jekyllrb.com/) site backed by a single json data file. there is no database, no api and no client-side framework: the browser only loads html, one stylesheet and a small vanilla-js search/filter script.
 
-**why jekyll and ruby?**
+# why jekyll and ruby?
 
 - **github pages builds it natively.** pushing to `main` runs jekyll in github actions and publishes the result, so hosting is free and requires no server.
 - **liquid keeps content and layout separate.** `data/links.json` is the only place links live; the home page, tag page and readme are all rendered from it.
 - **ruby is build-time only.** the language choice is about a mature static-site toolchain, not runtime dependencies. visitors download plain html, css and a few lines of javascript.
 - **it stays small and fast.** no bundler, hydration, cdn runtime or database means fast loads and easy long-term maintenance.
 
-**requirements**
+# requirements
 
 - ruby 3.0+ and bundler (`gem install bundler`). ruby 4 works through the included compatibility shim.
 - node.js 20+, only needed to regenerate this readme.
 
-**run it locally**
+# run it locally
 
 ```bash
 bundle install
@@ -62,7 +62,7 @@ RUBYOPT="-r./scripts/ruby4-compat.rb" bundle exec jekyll build --baseurl ""
 python3 -m http.server 4000 --directory _site
 ```
 
-**add a link**
+# add a link
 
 1. add an object to [data/links.json](data/links.json):
 
@@ -86,32 +86,41 @@ node scripts/build-readme.js
 
 3. commit both files and push to `main`. github actions builds and deploys the site automatically.
 
-**project layout**
+# project layout
 
-| path | what it is |
-|------|------------|
-| `data/links.json` | source of truth for every site, tag and note. |
-| `index.html` | home page: hero, search, tag filters and the link grid. |
-| `tags.md` | controlled tag vocabulary and live counts. |
-| `_layouts/` | jekyll layout (head, theme boot, page frame). |
-| `_includes/` | sidebar navigation and footer. |
-| `assets/css/style.css` | the opencode.ai-inspired design system. |
-| `assets/for-card.png` | mascot used as the card background. |
-| `assets/nav-logo.png` | navbar logo. |
-| `assets/icons/` | line icons for the sidebar navigation. |
-| [coding style](CODINGSTYLE.md) | design language and code conventions. |
-| `scripts/build-readme.js` | rebuilds this readme from the json data. |
-| `scripts/ruby4-compat.rb` | local shim for jekyll 3.9 on ruby 4. |
+<div align="center">
 
-**deployment**
+<table align="center">
+  <thead>
+    <tr><th>path</th><th>what it is</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>data/links.json</code></td><td>source of truth for every site, tag and note.</td></tr>
+    <tr><td><code>index.html</code></td><td>home page: hero, search, tag filters and the link grid.</td></tr>
+    <tr><td><code>tags.md</code></td><td>controlled tag vocabulary and live counts.</td></tr>
+    <tr><td><code>_layouts/</code></td><td>jekyll layout (head, theme boot, page frame).</td></tr>
+    <tr><td><code>_includes/</code></td><td>sidebar navigation and footer.</td></tr>
+    <tr><td><code>assets/css/style.css</code></td><td>the opencode.ai-inspired design system.</td></tr>
+    <tr><td><code>assets/for-card.png</code></td><td>mascot used as the card background.</td></tr>
+    <tr><td><code>assets/nav-logo.png</code></td><td>navbar logo.</td></tr>
+    <tr><td><code>assets/icons/</code></td><td>line icons for the sidebar navigation.</td></tr>
+    <tr><td><a href="CODINGSTYLE.md">coding style</a></td><td>design language and code conventions.</td></tr>
+    <tr><td><code>scripts/build-readme.js</code></td><td>rebuilds this readme from the json data.</td></tr>
+    <tr><td><code>scripts/ruby4-compat.rb</code></td><td>local shim for jekyll 3.9 on ruby 4.</td></tr>
+  </tbody>
+</table>
+
+</div>
+
+# deployment
 
 pushing to `main` triggers [.github/workflows/jekyll.yml](.github/workflows/jekyll.yml), which builds the site with `actions/jekyll-build-pages` and deploys it to github pages. the production base url is `/ramani`, matching `baseurl` in `_config.yml`.
 
-**contributing**
+# contributing
 
 suggestions and new links are welcome. see [contribution](CONTRIBUTION.md) or open a pull request. please keep tags to the vocabulary listed on the [tags page](https://zuck30.github.io/ramani/tags/).
 
-**license**
+# license
 
 released under the [mit license](LICENSE).
 
@@ -119,7 +128,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 
 ---
 
-**start here**
+# start here
 
 | site | why | tags |
 |------|-----|------|
@@ -132,7 +141,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [the odin project](https://www.theodinproject.com/) | free full-stack curriculum; the gold standard path. | `education` `dev` `oss` |
 | [untitled ui](https://www.untitledui.com/react/components) | best-in-class ui kit reference; every pattern solved. | `template` `reference` `minimal` `saas` |
 
-**landing pages**
+# landing pages
 
 | site | why | tags |
 |------|-----|------|
@@ -169,7 +178,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [xiaomi africa](https://www.mi.com/africa-en/) | xiaomi's africa site; phones, wearables, and smart devices showcase. | `hardware` `ecommerce` `africa` `global` |
 | [yango](https://yango.com/) | ride and delivery superapp; bold global brand pages. | `global` `playful` |
 
-**saas dashboards**
+# saas dashboards
 
 | site | why | tags |
 |------|-----|------|
@@ -231,7 +240,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [zoho](https://www.zoho.com/) | app suite empire; sprawling but consistent branding. | `saas` `tool` `global` |
 | [zoominfo](https://zoominfo.com/) | b2b data platform; assertive enterprise sales site. | `saas` `tool` `global` |
 
-**fintech**
+# fintech
 
 | site | why | tags |
 |------|-----|------|
@@ -259,7 +268,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [truelayer](https://truelayer.com/) | open banking apis; bold, confident fintech brand. | `fintech` `saas` `dev` |
 | [yodlee](https://www.yodlee.com/) | og data aggregation; enterprise finance veteran. | `fintech` `saas` `global` |
 
-**corporate defence**
+# corporate defence
 
 | site | why | tags |
 |------|-----|------|
@@ -270,7 +279,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [palantir](https://www.palantir.com) | dark industrial data platform; the defence aesthetic to beat. | `defence` `dark` `ai` `saas` |
 | [rtx](https://www.rtx.com/) | aerospace defence giant; clean engineering grids. | `defence` `gov` `global` |
 
-**agriculture farms**
+# agriculture farms
 
 | site | why | tags |
 |------|-----|------|
@@ -289,7 +298,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [winter spring farm on csa coalition](https://www.csacoalition.org/farms/winterspring-farm) | farm directory listing; how csas get discovered. | `farm` `reference` |
 | [woodstock farm sanctuary](https://woodstocksanctuary.org/) | farm sanctuary; compassionate, story-led design. | `farm` `nonprofit` `editorial` |
 
-**food beverage**
+# food beverage
 
 | site | why | tags |
 |------|-----|------|
@@ -301,7 +310,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [pedals](https://drinkpedals.com/) | non-dairy milk; bright fun packaging site. | `food` `playful` `colorful` |
 | [the little sicilian](https://thelittlesicilian.net/) | family pizzeria; warm, homely menu site. | `food` `playful` |
 
-**education**
+# education
 
 | site | why | tags |
 |------|-----|------|
@@ -380,7 +389,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [youngstown state university](https://ysu.edu/) | public university site in ohio with academics, admissions, research, and campus life. | `education` `reference` |
 | [youth employment uk](https://www.youthemployment.org.uk/) | youth careers nonprofit; friendly, clear guidance. | `nonprofit` `education` |
 
-**portfolios creative**
+# portfolios creative
 
 | site | why | tags |
 |------|-----|------|
@@ -408,7 +417,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [toolbox creative](https://toolboxcreative.com/) | creative agency; bold work showcase. | `agency` `colorful` |
 | [wavemaker by the web kitchen](https://www.thewebkitchen.co.uk/web-design/wavemaker/) | case study; nice scroll-driven work. | `agency` `motion` `scroll-driven` `editorial` |
 
-**local tanzania**
+# local tanzania
 
 | site | why | tags |
 |------|-----|------|
@@ -454,7 +463,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [wazoefu](https://www.wazoefu.com/) | tanzanian business; worth a closer look. | `tanzania` `africa` |
 | [wezatek](https://www.wezatek.pro/) | tanzanian digital product engineering company offering software development, ux design, and ai solutions. | `tanzania` `africa` `agency` `dev` |
 
-**resources**
+# resources
 
 | site | why | tags |
 |------|-----|------|
@@ -528,7 +537,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [yahoo! japan](https://www.yahoo.co.jp/) | japanese portal; dense info hierarchy worth studying. | `global` `colorful` |
 | [zod](https://zod.dev/) | typescript schema validation; tiny, essential, beloved. | `dev` `oss` `tool` `minimal` |
 
-**reading**
+# reading
 
 | site | why | tags |
 |------|-----|------|
