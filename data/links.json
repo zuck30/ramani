@@ -1356,6 +1356,20 @@
     "favorite": false
   },
   {
+    "url": "https://grovemade.com/",
+    "title": "Grovemade",
+    "why": "Premium desk accessories and workspace goods; refined materials and minimal craft.",
+    "tags": [
+      "ecommerce",
+      "hardware",
+      "minimal",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-19",
+    "favorite": false
+  },
+  {
     "url": "https://gusto.com/",
     "title": "Gusto",
     "why": "Payroll and HR; friendly, human SaaS marketing.",
@@ -1442,6 +1456,18 @@
     ],
     "category": "saas-dashboards",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://www.human-md.ai/",
+    "title": "HUMAN.md",
+    "why": "Briana May's manifesto on what humans bring to creative work with AI.",
+    "tags": [
+      "ai",
+      "reading"
+    ],
+    "category": "reading",
+    "added": "2026-11-18",
     "favorite": false
   },
   {
@@ -1765,6 +1791,19 @@
     ],
     "category": "education",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://ligikuu.co.tz/",
+    "title": "Ligi Kuu",
+    "why": "Tanzania Premier League Board; fixtures, results, and league news.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "sports"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-18",
     "favorite": false
   },
   {
@@ -2993,6 +3032,19 @@
     "favorite": false
   },
   {
+    "url": "https://start.me/",
+    "title": "Start.me",
+    "why": "Personal start page and bookmark manager for links, feeds, and tools.",
+    "tags": [
+      "tool",
+      "reference",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-18",
+    "favorite": false
+  },
+  {
     "url": "https://strawberrybrowser.com/",
     "title": "Strawberry Browser",
     "why": "Indie browser; fresh take on browsing tools.",
@@ -3841,6 +3893,20 @@
     ],
     "category": "local-tanzania",
     "added": "2026-11-15",
+    "favorite": false
+  },
+  {
+    "url": "https://www.wezatek.pro/",
+    "title": "Wezatek",
+    "why": "Tanzanian digital product engineering company offering software development, UX design, and AI solutions.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "agency",
+      "dev"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-17",
     "favorite": false
   },
   {
@@ -4731,6 +4797,45 @@
     ],
     "category": "saas-dashboards",
     "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://www.freecodecamp.org/",
+    "title": "freeCodeCamp",
+    "why": "Free coding curriculum with hands-on projects and certifications.",
+    "tags": [
+      "education",
+      "dev",
+      "oss"
+    ],
+    "category": "education",
+    "added": "2026-11-19",
+    "favorite": false
+  },
+  {
+    "url": "https://www.chatdesk.com/",
+    "title": "Chatdesk",
+    "why": "Customer support and engagement platform for ecommerce brands.",
+    "tags": [
+      "saas",
+      "ecommerce",
+      "ai"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-19",
+    "favorite": false
+  },
+  {
+    "url": "https://fullstackopen.com/",
+    "title": "Full Stack Open",
+    "why": "University of Helsinki's free modern web development course.",
+    "tags": [
+      "education",
+      "dev",
+      "oss"
+    ],
+    "category": "education",
+    "added": "2026-11-19",
     "favorite": false
   }
 ]

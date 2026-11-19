@@ -4,7 +4,7 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![Jekyll](https://img.shields.io/badge/Jekyll-3.9-CC0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![Ruby](https://img.shields.io/badge/Ruby-3.x%20%7C%204.x-CC342D?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![Links](https://img.shields.io/badge/links-370-161616)](data/links.json)
+[![Links](https://img.shields.io/badge/links-378-161616)](data/links.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-black.svg)](CONTRIBUTION.md)
 
@@ -18,7 +18,7 @@ A curated map of the good web: landing pages, SaaS dashboards, fintech, portfoli
   </a>
 </p>
 
-**370 links** · last updated 2026-11-19
+**378 links** · last updated 2026-11-19
 
 > The link tables below are generated from [`data/links.json`](data/links.json). Edit that file, not the tables.
 
@@ -143,6 +143,7 @@ Released under the [MIT License](LICENSE).
 | [General Intelligence Company](https://www.generalintelligencecompany.com/) | AI outfit; sharp, modern product landing. | `ai` `minimal` `global` |
 | [GetMyBoat](https://www.getmyboat.com/) | Boat rental marketplace; map-first browsing done well. | `ecommerce` `global` |
 | [Glovo](https://glovoapp.com/en) | Delivery app marketing; energetic color-blocked sections. | `food` `ecommerce` `colorful` `global` |
+| [Grovemade](https://grovemade.com/) | Premium desk accessories and workspace goods; refined materials and minimal craft. | `ecommerce` `hardware` `minimal` `global` |
 | [IKEA](https://www.ikea.com/) | Retail giant; product and wayfinding patterns worth study. | `ecommerce` `global` `light` |
 | [Inter Miami CF](https://www.intermiamicf.com/) | Official club site with news, roster, schedule, tickets, and fan content for Inter Miami CF. | `sports` `global` `media` |
 | [Jenga](https://www.jenga.com/index.php) | Official Jenga site; classic block-stacking game brand with products, videos, and shop links. | `playful` `global` |
@@ -179,6 +180,7 @@ Released under the [MIT License](LICENSE).
 | [Calendly](https://calendly.com/) | Scheduling standard; frictionless onboarding flows. | `saas` `tool` `minimal` |
 | [Cartesia](https://www.cartesia.ai/) | Voice AI models; sleek research-flavored landing. | `ai` `saas` `dev` |
 | [Cerebras](https://www.cerebras.ai/) | Wafer-scale AI compute; bold technical branding. | `ai` `hardware` `saas` |
+| [Chatdesk](https://www.chatdesk.com/) | Customer support and engagement platform for ecommerce brands. | `saas` `ecommerce` `ai` |
 | [Cloudflare](https://www.cloudflare.com/) | Internet infrastructure; the reference for scale. | `cloud` `dev` `saas` `global` |
 | [Cobit Solutions](https://cobit-solutions.com/en) | Business software vendor; practical B2B pages. | `saas` `tool` `dev` |
 | [Context](https://www.context.dev/) | Dev tool; lean, terminal-flavored landing. | `dev` `ai` `saas` |
@@ -320,6 +322,8 @@ Released under the [MIT License](LICENSE).
 | [Columbia University](https://www.columbia.edu/) | Columbia University's main site covering academics, research, admissions, and campus news. | `education` `reference` `global` |
 | [FAWE Tanzania](https://fawetanzania.or.tz/) | Girls' education NGO; mission-driven local chapter. | `tanzania` `nonprofit` `education` `africa` |
 | [FE Training](https://www.fe.training/) | Financial engineering training; deep structured learning. | `education` `fintech` `reference` |
+| [freeCodeCamp](https://www.freecodecamp.org/) | Free coding curriculum with hands-on projects and certifications. | `education` `dev` `oss` |
+| [Full Stack Open](https://fullstackopen.com/) | University of Helsinki's free modern web development course. | `education` `dev` `oss` |
 | [globalEDGE](https://globaledge.msu.edu/) | Michigan State’s international business knowledge hub with country insights, trade data, and learning resources. | `education` `reference` `global` |
 | [Hack Frontend](https://www.hackfrontend.com/en) | Frontend interview prep platform with JavaScript, React, and TypeScript articles, coding problems, and flashcards. | `dev` `education` `tool` |
 | [Handong Global University](https://www.handong.edu/eng/) | Korean university portal; tidy academic layout. | `education` `global` |
@@ -424,6 +428,7 @@ Released under the [MIT License](LICENSE).
 | [Hype Interactive](https://hype.co.tz/) | Dar es Salaam studio for product strategy, UI/UX, and web/mobile builds for local and regional clients. | `tanzania` `africa` `agency` `dev` |
 | [IFS Consulting](https://ifsconsulting.co.tz/) | Dar consulting firm; straightforward corporate pages. | `tanzania` `africa` |
 | [Immigration Passport Services](https://eservices.immigration.go.tz/online/web/passport) | Passport application portal; government forms flow. | `tanzania` `gov` `africa` |
+| [Ligi Kuu](https://ligikuu.co.tz/) | Tanzania Premier League Board; fixtures, results, and league news. | `tanzania` `africa` `sports` |
 | [Manka](https://manka.tz/) | Tanzanian brand; promising local site. | `tanzania` `africa` |
 | [Marie Stopes Tanzania](https://www.mariestopes.or.tz/) | Health nonprofit; warm, accessible local site. | `tanzania` `nonprofit` `africa` |
 | [NetPoa](https://netpoa.com/) | Dar ISP; direct packages and pricing. | `tanzania` `africa` |
@@ -443,6 +448,7 @@ Released under the [MIT License](LICENSE).
 | [Wazo Host](https://wazohost.co.tz/) | Tanzanian hosting; no-frills local infrastructure. | `tanzania` `dev` `africa` |
 | [Wazo Tanzania](https://www.wazotz.com/) | Tanzanian maker of teak furniture, toys, and prefab homes with a clean local brand site. | `tanzania` `ecommerce` `design` `africa` |
 | [Wazoefu](https://www.wazoefu.com/) | Tanzanian business; worth a closer look. | `tanzania` `africa` |
+| [Wezatek](https://www.wezatek.pro/) | Tanzanian digital product engineering company offering software development, UX design, and AI solutions. | `tanzania` `africa` `agency` `dev` |
 
 ## Resources
 
@@ -505,6 +511,7 @@ Released under the [MIT License](LICENSE).
 | [Slint](https://slint.dev/) | Rust and embedded UI toolkit; declarative and lean. | `dev` `oss` `tool` |
 | [Sniffnet](https://sniffnet.app/) | Rust network monitor; gorgeous open-source GUI. | `oss` `dev` `tool` |
 | [Sphinx](https://sphinx-doc.org/en/master/index.html) | Docs generator; quietly powers half the ecosystem. | `dev` `oss` `reference` `tool` |
+| [Start.me](https://start.me/) | Personal start page and bookmark manager for links, feeds, and tools. | `tool` `reference` `global` |
 | [Strawberry Browser](https://strawberrybrowser.com/) | Indie browser; fresh take on browsing tools. | `tool` `dev` `playful` |
 | [Streamline](https://home.streamlinehq.com/) | Icon and illustration sets; fast design resources. | `tool` `reference` `dev` |
 | [T3 Code](https://t3.codes/) | Open AI code editor; terminal-first tooling. | `ai` `dev` `tool` |
@@ -532,6 +539,7 @@ Released under the [MIT License](LICENSE).
 | [Flint](https://www.flint.com/) | unclassified - revisit. | `reference` |
 | [GCI World 2026 Student Guide](https://curved-rambutan-a71.notion.site/GCI-World-2026-September-Student-Guide-971cfa7cece78245925781c15c64559b) | Student guide doc; keep for reference. | `education` `reference` |
 | [Hugo](https://hugoinc.com/) | unclassified - revisit. | `reference` |
+| [HUMAN.md](https://www.human-md.ai/) | Briana May's manifesto on what humans bring to creative work with AI. | `ai` `reading` |
 | [Lucumr](https://lucumr.pocoo.org/) | Armin Ronacher's blog; essential longform on software. | `dev` `editorial` `oss` |
 | [MacRumors](https://www.macrumors.com/) | Apple news, rumors, and product coverage; long-running enthusiast pulse. | `editorial` `reference` `global` |
 | [Mental Models](https://mentalmodels.co/) | Mental models reference; clear thinking tool. | `reference` `reading` |
