@@ -353,34 +353,39 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   margin-top:.75rem;
 }
 
-/* filter chips: bracket-marker buttons, square */
+/* filter chips: soft grey pill buttons, tag names only */
 .chip{
   appearance:none;
   font-family:var(--font-mono);
   font-size:var(--fs-micro);
   line-height:1;
-  color:var(--text-weak);
-  background:none;
-  border:1px solid transparent;
-  padding:.4rem .4rem;
+  color:var(--text);
+  background:var(--bg-weak);
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:.45rem .75rem;
   cursor:pointer;
   transition:color .15s ease,background-color .15s ease,border-color .15s ease;
 }
-.chip::before{content:"#";color:var(--text-faint);margin-inline-end:.125rem}
-.chip:hover{color:var(--text-strong);border-color:var(--border)}
+.chip::before{content:none}
+.chip:hover{
+  color:var(--text-strong);
+  background:var(--bg-weaker);
+  border-color:var(--border-strong);
+}
 .chip.filter.active{
   background:var(--bg-strong);
   border-color:var(--bg-strong);
   color:var(--text-inverted);
 }
-.chip.filter.active::before{color:var(--text-inverted);opacity:.55}
-.chip[data-tag="__clear"]::before{content:none}
 .chip[data-tag="__clear"]{
   margin-inline-start:auto;
-  border-color:var(--border);
   color:var(--text);
 }
-.chip[data-tag="__clear"]:hover{border-color:var(--border-strong);color:var(--text-strong)}
+.chip[data-tag="__clear"]:hover{
+  color:var(--text-strong);
+  border-color:var(--border-strong);
+}
 
 /* ---------------- section head ---------------- */
 .section-head{
@@ -669,8 +674,10 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
 .taglist li{max-width:none}
 .taglist a{
   display:inline-flex;align-items:baseline;gap:.4rem;
-  padding:.45rem .55rem;
+  padding:.45rem .75rem;
   border:var(--rule);
+  border-radius:999px;
+  background:var(--bg-weak);
   font-family:var(--font-mono);
   font-size:var(--fs-meta);
   color:var(--text);
@@ -681,7 +688,7 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
 .taglist a:focus-visible{
   color:var(--text-strong);
   border-color:var(--border-strong);
-  background:var(--bg-weak);
+  background:var(--bg-weaker);
 }
 .taglist b{
   font-weight:400;

@@ -27,7 +27,7 @@ Controlled vocabulary — every link on the map uses only these tags. Pick one t
 <ul class="taglist">
   {% for t in g.tags %}
   {% assign n = site.data.links | where_exp: "l", "l.tags contains t" | size %}
-  <li><a{% if n == 0 %} class="is-empty"{% endif %} href="{{ '/?tag=' | append: t | relative_url }}"><span>#{{ t }}</span><b>{{ n }}</b></a></li>
+  <li><a{% if n == 0 %} class="is-empty"{% endif %} href="{{ '/?tag=' | append: t | relative_url }}"><span>{{ t }}</span><b>{{ n }}</b></a></li>
   {% endfor %}
 </ul>
 {% endfor %}
