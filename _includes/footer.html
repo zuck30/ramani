@@ -1,14 +1,30 @@
-<div class="bottom-left">
-  <p class="micro count-label">
-    {{ site.data.links | size }} LINKS · <span id="shown-count">{{ site.data.links | size }}</span> SHOWN
-  </p>
-  <p class="micro updated-label">UPDATED {{ site.time | date: "%Y-%m-%d" }}</p>
-</div>
+{% assign tag_count = site.data.links | map: "tags" | join: "," | split: "," | uniq | size %}
+{% assign link_count = site.data.links | size %}
+<footer class="site-footer">
+  <div class="footer-top">
+    <nav class="footer-nav" aria-label="Secondary">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}"><span class="footer-box" aria-hidden="true">[ ]</span>index</a></li>
+        <li><a href="{{ '/tags/' | relative_url }}"><span class="footer-box" aria-hidden="true">[ ]</span>tags</a></li>
+        <li><a href="https://github.com/{{ site.github_username }}/ramani" target="_blank" rel="noopener"><span class="footer-box" aria-hidden="true">[ ]</span>source<svg class="nav-external" width="6" height="6" viewBox="0 0 6 6" fill="none" aria-hidden="true"><path d="M0 0.5H5.5V6M5.5 0.5L0.25 5.75" stroke="currentColor"></path></svg></a></li>
+        <li><a href="https://github.com/{{ site.github_username }}/ramani/blob/main/README.md" target="_blank" rel="noopener"><span class="footer-box" aria-hidden="true">[ ]</span>readme<svg class="nav-external" width="6" height="6" viewBox="0 0 6 6" fill="none" aria-hidden="true"><path d="M0 0.5H5.5V6M5.5 0.5L0.25 5.75" stroke="currentColor"></path></svg></a></li>
+        <li><a href="https://github.com/{{ site.github_username }}/ramani/blob/main/CONTRIBUTION.md" target="_blank" rel="noopener"><span class="footer-box" aria-hidden="true">[ ]</span>contribute<svg class="nav-external" width="6" height="6" viewBox="0 0 6 6" fill="none" aria-hidden="true"><path d="M0 0.5H5.5V6M5.5 0.5L0.25 5.75" stroke="currentColor"></path></svg></a></li>
+        <li><a href="https://github.com/{{ site.github_username }}/ramani/blob/main/LICENSE" target="_blank" rel="noopener"><span class="footer-box" aria-hidden="true">[ ]</span>license<svg class="nav-external" width="6" height="6" viewBox="0 0 6 6" fill="none" aria-hidden="true"><path d="M0 0.5H5.5V6M5.5 0.5L0.25 5.75" stroke="currentColor"></path></svg></a></li>
+      </ul>
+    </nav>
 
-<div class="bottom-right">
-  <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener"
-     aria-label="Shadrack on GitHub">
-    <img src="https://cdn-icons-png.flaticon.com/128/25/25471.png" alt="" width="16" height="16" loading="lazy" decoding="async">
-    <span>SHADRACKOVSKY</span>
-  </a>
-</div>
+    <div class="footer-stats">
+      <p><span class="footer-box" aria-hidden="true">[ ]</span>{{ link_count }} links</p>
+      <p><span class="footer-box" aria-hidden="true">[ ]</span>{{ tag_count }} tags</p>
+      <p><span class="footer-box" aria-hidden="true">[ ]</span>updated {{ site.time | date: "%Y-%m-%d" }}</p>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <span>© {{ site.time | date: "%Y" }} ramani</span>
+    <span>Beautifully made with love by <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">shadrackovsky</a></span>
+    <span class="footer-bar-end"><a href="{{ '/' | relative_url }}">a map of the good web</a></span>
+  </div>
+
+  <p class="footer-wordmark" aria-hidden="true">ramani</p>
+</footer>

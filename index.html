@@ -4,23 +4,45 @@ title: Ramani - Curated web design inspiration and tools
 description: Explore Ramani, a curated map of 300+ websites for web design inspiration, landing pages, SaaS dashboards, fintech, portfolios, developer tools, and African tech.
 ---
 
-<section class="hero">
-  <h1 class="sr-only">Ramani - curated web design inspiration and tools</h1>
-  <img class="hero-logo" src="{{ 'assets/logo.png' | relative_url }}" alt="Ramani logo" width="1536" height="1024" decoding="async" fetchpriority="high">
-  <p class="hero-tagline">A map of the good web - curated design inspiration, tools, and standout sites worth keeping.</p>
-</section>
-
-<div class="controls">
-  <button id="search-toggle" class="search-toggle glass" type="button" aria-label="Search the map">
-    <img src="https://cdn-icons-png.flaticon.com/128/751/751463.png" alt="" width="20" height="20" loading="lazy" decoding="async">
-    <span>Search</span>
-  </button>
-  <div id="tags" class="tagbox" aria-label="Filter by tag"></div>
-</div>
-
 {% assign favorites = site.data.links | where: "favorite", true | sort: "title" %}
 {% assign the_rest = site.data.links | where_exp: "l", "l.favorite != true" | sort: "title" %}
 {% assign all_links = favorites | concat: the_rest %}
+{% assign link_count = site.data.links | size %}
+{% assign tag_count = site.data.links | map: "tags" | join: "," | split: "," | uniq | size %}
+
+<section class="hero">
+  <h1>A map of the good web</h1>
+  <p class="hero-tagline">Curated design inspiration, tools and standout sites worth keeping — hand-indexed, tagged, and free of ranking noise.</p>
+  <p class="hero-stats">
+    <b>{{ link_count }}</b> links
+    <span class="sep">/</span>
+    <b>{{ tag_count }}</b> tags
+    <span class="sep">/</span>
+    updated {{ site.time | date: "%Y-%m-%d" }}
+  </p>
+</section>
+
+<div class="dither" aria-hidden="true"></div>
+
+<section class="toolbar" aria-label="Search and filter">
+  <div class="toolbar-row">
+    <label class="search-field" for="search">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <circle cx="6.75" cy="6.75" r="4.75" stroke="currentColor" stroke-width="1.3"></circle>
+        <path d="M10.5 10.5 14.5 14.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"></path>
+      </svg>
+      <input id="search" type="search" placeholder="search titles, notes, tags" autocomplete="off" spellcheck="false" aria-describedby="shown-label">
+      <kbd aria-hidden="true">/</kbd>
+    </label>
+    <p class="shown-label" id="shown-label"><b id="shown-count">{{ link_count }}</b> of {{ link_count }} sites</p>
+  </div>
+  <div id="tags" class="tagbox" aria-label="Filter by tag"></div>
+</section>
+
+<div class="section-head">
+  <h2>index</h2>
+  <span class="section-count">showing <b id="shown-count-top">{{ link_count }}</b> of {{ link_count }}</span>
+</div>
 
 <div id="grid" class="grid">
   {% for l in all_links %}
@@ -28,48 +50,32 @@ description: Explore Ramani, a curated map of 300+ websites for web design inspi
   {% if idx > 60 %}{% assign idx = 60 %}{% endif %}
   <a class="card" style="--i: {{ idx }}" href="{{ l.url }}" target="_blank" rel="noopener"
      data-tags="{{ l.tags | join: ',' }}"
-     data-text="{{ l.title | downcase }} {{ l.why | downcase }} {{ l.tags | join: ' ' | downcase }}">
-    <div class="card-bg" aria-hidden="true"></div>
-    <div class="card-content">
-      <div class="card-top">
-        <div class="card-bookmark" aria-hidden="true">
-          {% if l.favorite %}
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-          {% else %}
-          <svg class="quiet" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-          {% endif %}
-        </div>
-      </div>
-      <div class="card-main">
-        <h3 class="card-title">{{ l.title }}</h3>
-        <p class="card-subtitle">{{ l.why }}</p>
-        <div class="card-meta">
-          <span class="meta-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
-            {{ l.category }}
-          </span>
-          <span class="meta-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
-            {{ l.tags | first }}
-          </span>
-        </div>
-      </div>
-      <div class="card-bottom">
-        <div class="card-pills">
-          {% for t in l.tags limit:3 %}<span class="mini-pill">{{ t }}</span>{% endfor %}
-        </div>
-        <div class="card-cta">
-          Visit <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-        </div>
-      </div>
+     data-text="{{ l.title | downcase }} {{ l.why | downcase }} {{ l.category | downcase }} {{ l.tags | join: ' ' | downcase }}">
+    <span class="card-bg" aria-hidden="true"></span>
+    <span class="card-media" aria-hidden="true">
+      <span class="card-index">{{ forloop.index | prepend: '000' | slice: -3, 3 }}</span>
+      <span class="card-cat">{{ l.category }}</span>
+      {% if l.favorite %}
+      <span class="card-pin" aria-label="Favourite" role="img">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+      </span>
+      {% endif %}
+    </span>
+    <div class="card-body">
+      <h3 class="card-title">
+        {{ l.title }}
+        <svg class="card-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+          <path d="M1 6h9M6.5 1.5 11 6l-4.5 4.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </h3>
+      <p class="card-subtitle">{{ l.why }}</p>
+      <span class="card-meta">
+        <span class="meta-item">{{ l.tags | join: ' · ' }}</span>
+      </span>
     </div>
   </a>
   {% endfor %}
-</div>
-
-<div class="vibe-search" id="vibe-search">
-  <label class="sr-only" for="search">Search</label>
-  <input id="search" type="search" placeholder="search the map..." autocomplete="off">
+  <p class="empty hidden" id="empty">nothing on the map matches that — try clearing a filter.</p>
 </div>
 
 <script>
@@ -79,40 +85,41 @@ description: Explore Ramani, a curated map of 300+ websites for web design inspi
   var search = document.getElementById('search');
   var tagBox = document.getElementById('tags');
   var shownEl = document.getElementById('shown-count');
-  var body = document.body;
+  var shownTopEl = document.getElementById('shown-count-top');
+  var emptyEl = document.getElementById('empty');
   var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+  var total = cards.length;
   var active = {};
 
-  function openSearch() {
-    body.classList.add('search-open');
+  function focusSearch() {
     search.focus();
+    search.select();
   }
-  function closeSearch() {
-    body.classList.remove('search-open');
-    search.blur();
-  }
-  document.getElementById('search-toggle').addEventListener('click', openSearch);
-  document.addEventListener('ramani:open-search', openSearch);
-  document.addEventListener('ramani:close-search', closeSearch);
+  document.addEventListener('ramani:open-search', focusSearch);
   document.addEventListener('keydown', function (e) {
-    if (e.key === '/' && document.activeElement !== search) {
+    var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
+    if (e.key === '/' && !typing) {
       e.preventDefault();
-      openSearch();
+      focusSearch();
     }
-    if (e.key === 'Escape' && body.classList.contains('search-open')) {
-      closeSearch();
+    if (e.key === 'Escape' && document.activeElement === search) {
+      search.value = '';
+      filter();
+      search.blur();
     }
   });
 
-  // Collect unique tags from the cards.
-  var tags = [];
+  // Unique tags with counts, most-used first.
+  var counts = {};
   cards.forEach(function (card) {
     (card.dataset.tags || '').split(',').forEach(function (t) {
       t = t.trim();
-      if (t && tags.indexOf(t) === -1) tags.push(t);
+      if (t) counts[t] = (counts[t] || 0) + 1;
     });
   });
-  tags.sort();
+  var tags = Object.keys(counts).sort(function (a, b) {
+    return counts[b] - counts[a] || (a < b ? -1 : a > b ? 1 : 0);
+  });
 
   function filter() {
     var q = search.value.trim().toLowerCase();
@@ -130,10 +137,13 @@ description: Explore Ramani, a curated map of 300+ websites for web design inspi
       card.classList.toggle('hidden', !ok);
       if (ok) visible++;
     });
-    if (shownEl) shownEl.textContent = visible;
+    shownEl.textContent = visible;
+    if (shownTopEl) shownTopEl.textContent = visible;
+    emptyEl.classList.toggle('hidden', visible !== 0);
   }
 
-  // Build filter chips.
+  // Filter chips.
+  var chipByTag = {};
   tags.forEach(function (t) {
     var chip = document.createElement('button');
     chip.type = 'button';
@@ -147,6 +157,7 @@ description: Explore Ramani, a curated map of 300+ websites for web design inspi
       chip.setAttribute('aria-pressed', active[t] ? 'true' : 'false');
       filter();
     });
+    chipByTag[t] = chip;
     tagBox.appendChild(chip);
   });
 
@@ -154,11 +165,12 @@ description: Explore Ramani, a curated map of 300+ websites for web design inspi
   var clear = document.createElement('button');
   clear.type = 'button';
   clear.className = 'chip filter';
-  clear.textContent = 'clear ×';
+  clear.dataset.tag = '__clear';
+  clear.textContent = 'clear';
   clear.addEventListener('click', function () {
     active = {};
-    tagBox.querySelectorAll('.filter').forEach(function (c) {
-      if (c.dataset.tag) {
+    tagBox.querySelectorAll('.chip.filter').forEach(function (c) {
+      if (c.dataset.tag !== '__clear') {
         c.classList.remove('active');
         c.setAttribute('aria-pressed', 'false');
       }
@@ -169,6 +181,20 @@ description: Explore Ramani, a curated map of 300+ websites for web design inspi
   tagBox.appendChild(clear);
 
   search.addEventListener('input', filter);
+
+  // Deep links from the tags page: /?tag=dark or /?tag=dark,minimal
+  var wanted = (new URLSearchParams(location.search).get('tag') || '')
+    .split(',')
+    .map(function (s) { return s.trim(); })
+    .filter(Boolean);
+  wanted.forEach(function (t) {
+    var chip = chipByTag[t];
+    if (!chip) return;
+    active[t] = true;
+    chip.classList.add('active');
+    chip.setAttribute('aria-pressed', 'true');
+  });
+
   filter();
 })();
 </script>
