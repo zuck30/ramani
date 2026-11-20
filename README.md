@@ -4,7 +4,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-380-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-381-161616)](data/links.json)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
 
@@ -18,7 +18,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**380 links**, last updated 2026-11-20
+**381 links**, last updated 2026-11-20
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -167,6 +167,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [mall of the emirates](https://www.malloftheemirates.com/en) | mall site; store directories and wayfinding patterns. | `ecommerce` `global` |
 | [micron](https://www.micron.com/) | memory chip maker; precise engineering corporate site. | `hardware` `global` |
 | [nékter juice bar](https://www.nekterjuicebar.com/) | juice bar chain; fresh, colorful franchise marketing. | `food` `colorful` `playful` |
+| [palmeiras](https://palmeiras.com.br/) | brazilian football club; bold editorial matchday storytelling. | `sports` `global` `media` `editorial` |
 | [pingo ai](https://pingo.ai/) | ai product; clean, modern pitch page. | `ai` `saas` |
 | [porsche racing](https://racing.porsche.com/?locale=en) | motorsport storytelling; cinematic scroll-driven pages. | `cinematic` `motion` `scroll-driven` `editorial` `dark` |
 | [realtor.ca](https://www.realtor.ca/) | canadian listings; map-driven search ux reference. | `ecommerce` `global` |

@@ -1883,6 +1883,20 @@
     "favorite": false
   },
   {
+    "url": "https://palmeiras.com.br/",
+    "title": "Palmeiras",
+    "why": "Brazilian football club; bold editorial matchday storytelling.",
+    "tags": [
+      "sports",
+      "global",
+      "media",
+      "editorial"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-20",
+    "favorite": false
+  },
+  {
     "url": "https://ports.macports.org/",
     "title": "MacPorts Ports",
     "why": "Package browser; utilitarian dev reference.",
