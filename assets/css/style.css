@@ -589,8 +589,11 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   width:11px;
   height:11px;
   margin-inline:.16rem;
-  vertical-align:-2px;
-  object-fit:contain;
+  vertical-align:-1px;
+  background-color:currentColor;
+  opacity:.75;
+  -webkit-mask:url('../icons/tag-sep.png') center/contain no-repeat;
+  mask:url('../icons/tag-sep.png') center/contain no-repeat;
 }
 
 /* empty state */

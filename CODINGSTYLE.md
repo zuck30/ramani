@@ -43,7 +43,7 @@ this document explains the design language and engineering conventions used in r
 - cards: hairline grid, `assets/for-card.png` as a right-aligned background, a mask and a scrim for readable copy, mono title, inter description, mono tag row.
 - tags: no leading hash. tags are square buttons, counts use tabular numbers.
 - scroll jump: two square buttons above the launcher, one to the footer and one to the top. each hides once its destination is already on screen.
-- card tag rows separate tags with `assets/icons/tag-sep.png` as an inline image, never a text bullet. the last tag has no separator.
+- card tag rows separate tags with `assets/icons/tag-sep.png` as a css mask, never a text bullet. the last tag has no separator.
 - search: one line, square, mono placeholder, slash hint.
 - footer: secondary link list with bracket markers, a 14px meta bar, a contact line and a large mono wordmark.
 - contact: `assets/icons/mail.png` as a css mask tinted with `currentColor`. the address is always visible as text, and `mailto:` links may prefill a subject and body.
