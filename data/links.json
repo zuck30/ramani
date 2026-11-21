@@ -278,6 +278,19 @@
     "favorite": false
   },
   {
+    "url": "https://www.ashbyhq.com/",
+    "title": "Ashby",
+    "why": "all-in-one recruiting suite; ats, scheduling and analytics in one place.",
+    "tags": [
+      "saas",
+      "tool",
+      "global"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://getartcraft.com/",
     "title": "ArtCraft",
     "why": "Studio portfolio; crafted case-study layouts.",
@@ -1436,6 +1449,19 @@
     "favorite": false
   },
   {
+    "url": "https://www.greenhouse.com/",
+    "title": "Greenhouse",
+    "why": "hiring platform; structured interviews and pipeline tracking.",
+    "tags": [
+      "saas",
+      "tool",
+      "global"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://grovemade.com/",
     "title": "Grovemade",
     "why": "Premium desk accessories and workspace goods; refined materials and minimal craft.",
@@ -1885,6 +1911,19 @@
     ],
     "category": "education",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://www.lever.co/",
+    "title": "Lever",
+    "why": "recruiting software; ats and crm in a calm, readable interface.",
+    "tags": [
+      "saas",
+      "tool",
+      "global"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-22",
     "favorite": false
   },
   {
