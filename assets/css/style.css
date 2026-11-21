@@ -547,16 +547,14 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
 }
 .card-arrow{
   display:block;
-  width:14px;height:14px;
+  width:16px;height:16px;
   flex-shrink:0;
   margin-inline-start:auto;
   align-self:center;
-  background-color:var(--text-faint);
-  -webkit-mask:url('../icons/arrow-right.png') center/contain no-repeat;
-  mask:url('../icons/arrow-right.png') center/contain no-repeat;
-  transition:transform .2s var(--ease-out),background-color .15s ease;
+  object-fit:contain;
+  transition:transform .2s var(--ease-out);
 }
-.card:hover .card-arrow{transform:translateX(3px);background-color:var(--link)}
+.card:hover .card-arrow{transform:translateX(3px)}
 
 .card-subtitle{
   margin:0;
