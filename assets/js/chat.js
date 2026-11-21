@@ -190,7 +190,7 @@
     trigger.setAttribute('aria-expanded', 'false');
     trigger.setAttribute('aria-controls', 'ask-panel');
     trigger.setAttribute('aria-label', 'chat with kambarage');
-    trigger.appendChild(avatar(34));
+    trigger.appendChild(avatar(32));
     trigger.appendChild(el('span', 'ask-trigger-label', 'ask kambarage'));
 
     /* panel */
@@ -215,7 +215,7 @@
 
     /* empty state, straight from bruno */
     var empty = el('div', 'ask-empty');
-    empty.appendChild(avatar(64));
+    empty.appendChild(avatar(58));
     empty.appendChild(el('p', 'ask-hello', "hello, i'm kambarage."));
     empty.appendChild(el('p', 'ask-hello-sub',
       "i'm the guide to ramani. i know the " + els.stats.links +
