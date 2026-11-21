@@ -930,7 +930,7 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   flex-direction:column;
   width:306px;
   height:min(576px,calc(100vh - 6rem));
-  border:7px solid var(--chat-frame);
+  border:2px solid var(--chat-frame);
   border-radius:42px;
   box-shadow:var(--chat-shadow);
   overflow:hidden;
