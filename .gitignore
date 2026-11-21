@@ -11,8 +11,8 @@ Gemfile.lock
 # local secrets and generated config. never commit these.
 .env
 .env.*
-!.env.example
 _config.local.yml
+# tracked again once the template is ready to publish. re-add !.env.example then.
 
 # local tooling
 .playwright-cli/
