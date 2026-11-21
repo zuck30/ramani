@@ -107,11 +107,11 @@ function intro(links) {
   const heroVersion = assetVersion('assets/ramani-2.png');
 
   return [
+    '# ramani',
+    '',
     '<p align="center">',
     `  <a href="${SITE}"><img src="assets/nav-logo.png" alt="ramani" width="96"></a>`,
     '</p>',
-    '',
-    '# ramani',
     '',
     badges(links.length),
     '',

@@ -1,8 +1,8 @@
+# ramani
+
 <p align="center">
   <a href="https://zuck30.github.io/ramani/"><img src="assets/nav-logo.png" alt="ramani" width="96"></a>
 </p>
-
-# ramani
 
 [![deploy](https://img.shields.io/badge/deploy-github%20pages-black)](https://github.com/zuck30/ramani/actions/workflows/jekyll.yml)
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
