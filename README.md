@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-398-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-401-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**398 links**, last updated 2026-11-21
+**401 links**, last updated 2026-11-21
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -567,6 +567,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [flaticon](https://www.flaticon.com/) | icon library; huge searchable catalogue with colour and style filters. | `tool` `reference` `design` `global` |
 | [flexjobs](https://www.flexjobs.com/) | remote job board; functional and calm. | `reference` `tool` `global` |
 | [free3d](https://free3d.com/) | free 3d model archive; useful asset source. | `tool` `reference` `global` |
+| [gitapp](https://gitapp.dancodes.online/) | desktop github client; notifications and quick review outside the browser. | `dev` `tool` `global` |
 | [google ai studio](https://aistudio.google.com/welcome) | playground for gemini; fastest way to test prompts. | `ai` `tool` `dev` `global` |
 | [google labs](https://labs.google/) | google's experiments hub; playful product grid. | `ai` `global` `playful` |
 | [gov.uk](https://www.gov.uk/) | uk government services and information portal; benchmark for clear public digital design. | `reference` `global` `minimal` |
@@ -583,6 +584,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [lummi](https://www.lummi.ai/) | ai stock image library; generous and fast. | `ai` `tool` |
 | [macports ports](https://ports.macports.org/) | package browser; utilitarian dev reference. | `dev` `oss` `reference` `tool` |
 | [made in webflow: agriculture](https://webflow.com/made-in-webflow/agriculture) | hand-picked farm sites built in webflow. | `reference` `farm` `tool` |
+| [mobbin](https://mobbin.com/) | ui and ux reference library; searchable mobile and web app screenshots. | `design` `reference` `tool` `global` |
 | [nixos](https://nixos.org/) | reproducible os; docs-driven, principled site. | `oss` `dev` `reference` `minimal` |
 | [nvchad](https://nvchad.com/) | neovim config; fast, beautiful terminal setup. | `dev` `oss` `minimal` `tool` `dark` |
 | [onorca](https://www.onorca.dev/) | agent orchestration workspace; promising dev tool. | `dev` `ai` `tool` |
@@ -600,6 +602,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [ruby on rails](https://rubyonrails.org/) | the framework that made ruby famous; convention over configuration. | `dev` `oss` `tool` |
 | [saaspo](https://saaspo.com) | saas design inspiration gallery; hand-picked selection. | `reference` `saas` `minimal` `tool` |
 | [savefrom](https://en1.savefrom.net) | video downloader; quick save from the web. | `tool` `global` |
+| [screensdesign](https://screensdesign.com/) | app design library; onboarding flows and paywalls with revenue context. | `design` `reference` `tool` `global` |
 | [setapp](https://setapp.com/) | mac app subscription; a curated catalogue of tools for one monthly fee. | `tool` `saas` `global` |
 | [slint](https://slint.dev/) | rust and embedded ui toolkit; declarative and lean. | `dev` `oss` `tool` |
 | [sniffnet](https://sniffnet.app/) | rust network monitor; gorgeous open-source gui. | `oss` `dev` `tool` |

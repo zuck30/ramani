@@ -1395,6 +1395,19 @@
     "favorite": false
   },
   {
+    "url": "https://gitapp.dancodes.online/",
+    "title": "GitApp",
+    "why": "desktop github client; notifications and quick review outside the browser.",
+    "tags": [
+      "dev",
+      "tool",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://glovoapp.com/en",
     "title": "Glovo",
     "why": "Delivery app marketing; energetic color-blocked sections.",
@@ -2259,6 +2272,20 @@
     "favorite": false
   },
   {
+    "url": "https://mobbin.com/",
+    "title": "Mobbin",
+    "why": "ui and ux reference library; searchable mobile and web app screenshots.",
+    "tags": [
+      "design",
+      "reference",
+      "tool",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://morganwallen.com/home/",
     "title": "Morgan Wallen",
     "why": "Artist site; bold tour and merch push.",
@@ -3069,6 +3096,20 @@
     ],
     "category": "fintech",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://screensdesign.com/",
+    "title": "ScreensDesign",
+    "why": "app design library; onboarding flows and paywalls with revenue context.",
+    "tags": [
+      "design",
+      "reference",
+      "tool",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
     "favorite": false
   },
   {
