@@ -2849,6 +2849,20 @@
     "favorite": false
   },
   {
+    "url": "https://www.ruby-lang.org/",
+    "title": "Ruby",
+    "why": "The language itself; a programmer's best friend, docs and community in one calm place.",
+    "tags": [
+      "dev",
+      "oss",
+      "reference",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-21",
+    "favorite": false
+  },
+  {
     "url": "https://rubyonrails.org/",
     "title": "Ruby on Rails",
     "why": "The framework that made Ruby famous; convention over configuration.",
