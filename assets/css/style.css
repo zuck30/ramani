@@ -887,40 +887,27 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
 }
 
 .ask-trigger{
-  position:relative;
   display:flex;
   align-items:center;
   justify-content:center;
-  width:56px;
-  height:56px;
+  width:48px;
+  height:48px;
   padding:0;
   border:0;
-  border-radius:999px;
-  background:var(--chat-user-bg);
-  color:var(--chat-user-ink);
-  box-shadow:0 14px 34px rgba(0,0,0,.24),0 3px 10px rgba(0,0,0,.16);
+  background:none;
   cursor:pointer;
-  transition:transform .18s var(--ease-out),box-shadow .18s ease;
+  transition:transform .18s var(--ease-out);
 }
-.ask-trigger:hover{transform:translateY(-2px) scale(1.02);box-shadow:0 20px 44px rgba(0,0,0,.28),0 4px 12px rgba(0,0,0,.18)}
-.ask-trigger:active{transform:translateY(0) scale(.99)}
-.ask-trigger::before{
-  content:"";
-  position:absolute;
-  inset:-7px;
-  border-radius:999px;
-  border:1px solid var(--chat-user-bg);
-  opacity:0;
-  animation:ask-halo 3.4s ease-out infinite;
-  pointer-events:none;
+.ask-trigger:hover{transform:scale(1.08)}
+.ask-trigger:active{transform:scale(.98)}
+.ask-mark{
+  display:block;
+  width:44px;
+  height:44px;
+  background-color:var(--text-strong);
+  -webkit-mask:url('../nav-logo.png') center/contain no-repeat;
+  mask:url('../nav-logo.png') center/contain no-repeat;
 }
-@keyframes ask-halo{
-  0%{transform:scale(.97);opacity:.45}
-  65%{transform:scale(1.16);opacity:0}
-  100%{opacity:0}
-}
-.ask-trigger .ask-ring{display:none}
-.ask-trigger .ask-disc{inset:0;background:var(--chat-solid)}
 .ask.is-open .ask-trigger{display:none}
 
 /* phone-like frame */
@@ -1213,7 +1200,8 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
 
 @media (max-width:40rem){
   .ask{inset-block-end:1rem;inset-inline-end:1rem}
-  .ask-trigger{width:52px;height:52px}
+  .ask-trigger{width:44px;height:44px}
+  .ask-mark{width:40px;height:40px}
   .ask-panel{
     inset:auto 0 0 0;
     width:100%;
@@ -1236,7 +1224,7 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
 /* ---------------- scroll jump ---------------- */
 .scroll-jump{
   position:fixed;
-  inset-block-end:calc(1.5rem + 56px + .75rem);
+  inset-block-end:calc(1.5rem + 48px + .75rem);
   inset-inline-end:1.5rem;
   z-index:70;
   display:flex;
@@ -1273,7 +1261,7 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
 }
 
 @media (max-width:40rem){
-  .scroll-jump{inset-block-end:calc(1rem + 52px + .6rem);inset-inline-end:1rem}
+  .scroll-jump{inset-block-end:calc(1rem + 44px + .6rem);inset-inline-end:1rem}
 }
 
 @media (prefers-reduced-motion:reduce){
