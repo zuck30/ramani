@@ -468,6 +468,19 @@
     "favorite": false
   },
   {
+    "url": "https://www.bored.com/",
+    "title": "Bored.com",
+    "why": "Entertainment portal; games, quizzes and playful time-wasting.",
+    "tags": [
+      "playful",
+      "media",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-21",
+    "favorite": false
+  },
+  {
     "url": "https://www.braintrust.dev/",
     "title": "Braintrust",
     "why": "AI eval platform; developer-grade design.",
