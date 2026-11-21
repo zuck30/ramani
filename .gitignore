@@ -7,3 +7,9 @@ vendor/
 Gemfile.lock
 .DS_Store
 .bundle/
+
+# local secrets and generated config. never commit these.
+.env
+.env.*
+!.env.example
+_config.local.yml

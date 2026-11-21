@@ -111,6 +111,8 @@ node scripts/build-readme.js
     <tr><td><a href="supabase/README.md">supabase</a></td><td>the edge function that answers the chat panel.</td></tr>
     <tr><td><a href="CODINGSTYLE.md">coding style</a></td><td>design language and code conventions.</td></tr>
     <tr><td><code>scripts/build-readme.js</code></td><td>rebuilds this readme from the json data.</td></tr>
+    <tr><td><code>scripts/env.js</code></td><td>turns the gitignored .env into a local jekyll override.</td></tr>
+    <tr><td><code>.env.example</code></td><td>the shape of .env, without the values.</td></tr>
     <tr><td><code>scripts/ruby4-compat.rb</code></td><td>local shim for jekyll 3.9 on ruby 4.</td></tr>
   </tbody>
 </table>

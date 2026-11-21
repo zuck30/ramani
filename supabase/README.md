@@ -51,7 +51,26 @@ supabase secrets set DEEPSEEK_API_KEY=sk-...
 supabase functions deploy ramani-chat
 ```
 
-5. point the site at it. open `_config.yml` and fill in both values.
+5. point the site at it. for local work, copy `.env.example` to `.env` and fill
+   it in, then generate the local config.
+
+```
+cp .env.example .env
+# edit .env, set SUPABASE_URL and SUPABASE_ANON_KEY
+node scripts/env.js
+```
+
+6. build locally with the generated override. without the second config the
+   widget stays hidden.
+
+```
+RUBYOPT="-r./scripts/ruby4-compat.rb" bundle exec jekyll build --baseurl "" \
+  --config _config.yml,_config.local.yml
+```
+
+7. for production, put the same two values in `_config.yml`, because github
+   pages has no access to `.env`. the anon key is public by design, so it is safe
+   to commit there. then push, and the trigger appears in the bottom right corner.
 
 ```
 chat:
@@ -59,17 +78,21 @@ chat:
   key: "<your anon public key>"
 ```
 
-6. rebuild and push. the trigger appears in the bottom right corner.
-
 # configuration
 
 | name | where | default | what it does |
 |------|-------|---------|--------------|
 | `chat.endpoint` | `_config.yml` | empty | function url. empty hides the widget. |
 | `chat.key` | `_config.yml` | empty | supabase anon key. public by design. |
+| `SUPABASE_URL` | `.env` | none | project url, used to generate `_config.local.yml`. |
+| `SUPABASE_ANON_KEY` | `.env` | none | anon key, used to generate `_config.local.yml`. |
+| `CHAT_FUNCTION` | `.env` | `ramani-chat` | function name, if you rename it. |
 | `DEEPSEEK_API_KEY` | supabase secret | none | the only secret. never put it in the repo. |
 | `DEEPSEEK_MODEL` | supabase secret | `deepseek-chat` | model name, if you want another. |
 | `ALLOWED_ORIGIN` | supabase secret | `*` | lock cors to your site once it works. |
+
+`.env` is gitignored, and so is the `_config.local.yml` it generates. `.env.example`
+is tracked, so the shape of the file is always visible without the values.
 
 # cost and abuse
 
@@ -82,7 +105,9 @@ front of the function, and set `ALLOWED_ORIGIN` to the site.
 
 # local testing
 
-the widget hides when `chat.endpoint` is empty, so to try it locally either
-deploy the function first, or set a temporary endpoint in `_config.yml`, build,
-and stub the network in the browser. remember to empty the values before you
-commit.
+copy `.env.example` to `.env`, fill in the supabase url and anon key, run
+`node scripts/env.js`, then build with `--config _config.yml,_config.local.yml`.
+that writes a gitignored `_config.local.yml` and the widget appears locally.
+
+if the function is not deployed yet, the panel opens and answers with the offline
+message. that is expected, and it proves the wiring without needing the key.
