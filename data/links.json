@@ -1949,6 +1949,19 @@
     "favorite": false
   },
   {
+    "url": "https://portal.maliasili.go.tz/",
+    "title": "MNRT Portal",
+    "why": "Ministry of Natural Resources and Tourism portal; sector services and notices.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "gov"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-21",
+    "favorite": false
+  },
+  {
     "url": "https://palmeiras.com.br/",
     "title": "Palmeiras",
     "why": "Brazilian football club; bold editorial matchday storytelling.",
@@ -2000,6 +2013,19 @@
     ],
     "category": "agriculture-farms",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://maliasili.go.tz/",
+    "title": "Ministry of Natural Resources and Tourism",
+    "why": "Tanzanian ministry site; official tourism and conservation information.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "gov"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-21",
     "favorite": false
   },
   {

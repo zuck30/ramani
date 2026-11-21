@@ -195,8 +195,8 @@ to submit a link, or to suggest your own site to be added or featured, email
 mwalyangashadrack@gmail.com. the subject line "suggest a link for ramani" is
 already prefilled by the site footer.
 
-the tags page at /tags/ lists the controlled vocabulary, and every tag there
-filters the index. the design language and code conventions are in CODINGSTYLE.md.
+the tags page at https://zuck30.github.io/ramani/tags/ lists the controlled
+vocabulary, and every tag there filters the index. the design language and code conventions are in CODINGSTYLE.md.
 the licence is mit. it was made by shadrackovsky.
 `;
 }

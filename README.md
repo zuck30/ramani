@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-388-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-390-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**388 links**, last updated 2026-11-21
+**390 links**, last updated 2026-11-21
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -509,6 +509,8 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [ligi kuu](https://ligikuu.co.tz/) | tanzania premier league board; fixtures, results, and league news. | `tanzania` `africa` `sports` |
 | [manka](https://manka.tz/) | tanzanian brand; promising local site. | `tanzania` `africa` |
 | [marie stopes tanzania](https://www.mariestopes.or.tz/) | health nonprofit; warm, accessible local site. | `tanzania` `nonprofit` `africa` |
+| [ministry of natural resources and tourism](https://maliasili.go.tz/) | tanzanian ministry site; official tourism and conservation information. | `tanzania` `africa` `gov` |
+| [mnrt portal](https://portal.maliasili.go.tz/) | ministry of natural resources and tourism portal; sector services and notices. | `tanzania` `africa` `gov` |
 | [netpoa](https://netpoa.com/) | dar isp; direct packages and pricing. | `tanzania` `africa` |
 | [nhif self service](https://selfservice.nhif.or.tz/home) | government self-service portal; practical forms. | `tanzania` `gov` `africa` |
 | [nilipe](https://nilipe.co.tz/) | swahili-named payments play; watch this space. | `tanzania` `africa` `fintech` |
