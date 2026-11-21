@@ -121,6 +121,7 @@ this document explains the design language and engineering conventions used in r
 - `README.md` is generated. edit `data/links.json` and the generator, never the tables by hand.
 - documentation prose is lowercase. lowercase proper nouns like github, jekyll and ruby. keep code, commands, urls and file paths in their required case.
 - every heading uses a single `#`. do not use `##` or `###`, and do not use bold text as a heading.
+- the readme title is a wordmark image, not a heading. github strips inline styles and caps heading size, so an image is the only way to make it large. the heading rule still applies to every section below it.
 - no em dashes, no middle dots and no raw urls as link text.
 - links use words on the page, with the destination on hover.
 - the generator lives in `scripts/build-readme.js`.

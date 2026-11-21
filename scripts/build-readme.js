@@ -107,12 +107,15 @@ function intro(links) {
   const heroVersion = assetVersion('assets/ramani-2.png');
 
   return [
-    '# ramani',
+    '<div align="center">',
+    '  <img src="assets/ramani-wordmark-dark.png#gh-light-mode-only" alt="ramani" width="420">',
+    '  <img src="assets/ramani-wordmark-light.png#gh-dark-mode-only" alt="ramani" width="420">',
+    '  <br><br>',
+    `  <a href="${SITE}"><img src="assets/nav-logo.png#gh-light-mode-only" alt="ramani" width="96"></a>`,
+    `  <a href="${SITE}"><img src="assets/nav-logo-light.png#gh-dark-mode-only" alt="ramani" width="96"></a>`,
+    '</div>',
     '',
-    '<p align="center">',
-    `  <a href="${SITE}"><img src="assets/nav-logo.png" alt="ramani" width="96"></a>`,
-    '</p>',
-    '',
+
     badges(links.length),
     '',
     '# a map of the good, unsloppy, tasteful web: landing pages, saas dashboards, fintech, portfolios, developer tools, and sites across global, africa and tanzania.',

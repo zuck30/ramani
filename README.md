@@ -1,8 +1,10 @@
-# ramani
-
-<p align="center">
-  <a href="https://zuck30.github.io/ramani/"><img src="assets/nav-logo.png" alt="ramani" width="96"></a>
-</p>
+<div align="center">
+  <img src="assets/ramani-wordmark-dark.png#gh-light-mode-only" alt="ramani" width="420">
+  <img src="assets/ramani-wordmark-light.png#gh-dark-mode-only" alt="ramani" width="420">
+  <br><br>
+  <a href="https://zuck30.github.io/ramani/"><img src="assets/nav-logo.png#gh-light-mode-only" alt="ramani" width="96"></a>
+  <a href="https://zuck30.github.io/ramani/"><img src="assets/nav-logo-light.png#gh-dark-mode-only" alt="ramani" width="96"></a>
+</div>
 
 [![deploy](https://img.shields.io/badge/deploy-github%20pages-black)](https://github.com/zuck30/ramani/actions/workflows/jekyll.yml)
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
