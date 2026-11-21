@@ -139,8 +139,16 @@ built with these, and grateful for them.
 <p align="center">
   <a href="https://www.ruby-lang.org/"><img src="assets/header-ruby-logo.png" alt="ruby" height="30"></a>
   &nbsp;&nbsp;&nbsp;
+  <a href="https://jekyllrb.com/"><img src="assets/jekyll.png#gh-dark-mode-only" alt="jekyll" height="24"></a>
+  <a href="https://pages.github.com/"><img src="assets/github-pages.png#gh-light-mode-only" alt="github pages" height="26"></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://supabase.com/"><img src="assets/supabase-logo-green-black-transp.png#gh-light-mode-only" alt="supabase" height="20"></a>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://www.deepseek.com/"><img src="assets/deepseek.png" alt="deepseek" height="20"></a>
   &nbsp;&nbsp;&nbsp;
+  <a href="https://nodejs.org/"><img src="assets/nodejs_logo_icon_168945.svg#gh-light-mode-only" alt="node.js" height="20"></a>
+  &nbsp;&nbsp;
+  <a href="https://inkscape.org/"><img src="assets/inkscape_logo_icon_145169.svg#gh-light-mode-only" alt="inkscape" height="26"></a>
   <a href="https://www.flaticon.com/"><img src="assets/flaticon-color-negative.png#gh-dark-mode-only" alt="flaticon" height="18"></a>
 </p>
 
