@@ -86,6 +86,9 @@ this document explains the design language and engineering conventions used in r
 - candidates are ranked in the browser from the cards already on the page, then at most 12 are sent. never send the whole dataset.
 - questions about the project itself send no candidates at all.
 - the model is told to name only real links from the candidate list, in lowercase, with no em dashes.
+- rate limiting lives in postgres (`supabase/sql/rate-limit.sql`), not in memory. edge isolates are short lived and per-instance, so a memory counter is theatre.
+- the limiter fails closed. if the counter is unreachable, refuse the request rather than spend money.
+- always keep the global daily cap. a per-ip limit alone is defeated by rotating addresses.
 - keep the panel square, hairline and monochrome. no glassmorphism, no rounded bubbles beyond the square user block.
 - the widget is optional: with `chat.endpoint` empty the site behaves exactly as before.
 

@@ -211,6 +211,7 @@ function intro(links) {
     '    <tr><td><code>assets/js/chat.js</code></td><td>the kambarage chat panel. vanilla js, no build step.</td></tr>',
     '    <tr><td><code>feed.xml</code></td><td>atom feed of the 30 newest links.</td></tr>',
     '    <tr><td><a href="supabase/README.md">supabase</a></td><td>the edge function that answers the chat panel.</td></tr>',
+    '    <tr><td><code>supabase/sql/rate-limit.sql</code></td><td>the shared rate limit table and function.</td></tr>',
     '    <tr><td><a href="CODINGSTYLE.md">coding style</a></td><td>design language and code conventions.</td></tr>',
     '    <tr><td><code>scripts/build-readme.js</code></td><td>rebuilds this readme from the json data.</td></tr>',
     '    <tr><td><code>scripts/env.js</code></td><td>turns the gitignored .env into a local jekyll override.</td></tr>',

@@ -1,19 +1,168 @@
-// ramani-chat - supabase edge function
+// kambarage - supabase edge function
 //
 // holds the deepseek key and answers questions about the link directory.
 // the browser never sees the key. the page pre-filters candidates locally
 // and sends only those, so each request stays small and grounded.
 //
-// deploy: supabase functions deploy ramani-chat --no-verify-jwt
+// deploy: supabase functions deploy ramani-chat
 // secret: supabase secrets set DEEPSEEK_API_KEY=sk-...
 //
-// optional env:
-//   DEEPSEEK_MODEL   defaults to deepseek-chat
-//   ALLOWED_ORIGIN   defaults to *
+// required database setup: supabase/sql/rate-limit.sql
+//
+// env (all optional except the key):
+//   DEEPSEEK_API_KEY    required
+//   DEEPSEEK_MODEL      default deepseek-chat
+//   ALLOWED_ORIGIN      default *, comma separated. set it in production.
+//   CHAT_PER_IP         default 12 requests per window per ip
+//   CHAT_WINDOW_SECONDS default 60
+//   CHAT_DAILY_CAP      default 2000 requests per day across everyone
+//
+// SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are provided automatically by the
+// edge runtime. they are used only for the rate limiter.
+
+/* ---------- config ---------- */
+
+function intEnv(name: string, fallback: number): number {
+  const raw = Deno.env.get(name);
+  if (!raw) return fallback;
+  const n = Number.parseInt(raw, 10);
+  return Number.isFinite(n) && n > 0 ? n : fallback;
+}
+
+const SUPABASE_URL = (Deno.env.get('SUPABASE_URL') || '').replace(/\/+$/, '');
+const SERVICE_KEY = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') || '';
+
+const PER_IP = intEnv('CHAT_PER_IP', 12);
+const WINDOW_SECONDS = intEnv('CHAT_WINDOW_SECONDS', 60);
+const DAILY_CAP = intEnv('CHAT_DAILY_CAP', 2000);
+
+const MAX_QUESTION = 500;
+const MAX_HISTORY = 8;
+const MAX_HISTORY_CHARS = 4000;
+const MAX_LINKS = 12;
+
+/* ---------- cors ---------- */
+
+function allowedOrigins(): string[] {
+  return (Deno.env.get('ALLOWED_ORIGIN') || '*')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+function corsHeaders(req: Request): Record<string, string> {
+  const list = allowedOrigins();
+  const origin = req.headers.get('origin') || '';
+  const allow = list.includes('*') ? '*' : list.includes(origin) ? origin : '';
+
+  const headers: Record<string, string> = {
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+    'Access-Control-Max-Age': '86400',
+    Vary: 'Origin',
+  };
+  if (allow) headers['Access-Control-Allow-Origin'] = allow;
+  return headers;
+}
+
+function originAllowed(req: Request): boolean {
+  const list = allowedOrigins();
+  if (list.includes('*')) return true;
+  const origin = req.headers.get('origin') || '';
+  return origin !== '' && list.includes(origin);
+}
+
+function json(req: Request, body: unknown, status = 200, extra: Record<string, string> = {}) {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { ...corsHeaders(req), 'Content-Type': 'application/json', ...extra },
+  });
+}
+
+/* ---------- rate limiting ---------- */
+
+type Limit = { allowed: boolean; reason?: string; retry_after?: number };
+
+// only used when the service role env is missing, for example during
+// `supabase functions serve` without a linked project. not a real limiter.
+const localHits = new Map<string, number[]>();
+
+function localLimit(ip: string): Limit {
+  const now = Date.now();
+  const windowMs = WINDOW_SECONDS * 1000;
+  const recent = (localHits.get(ip) || []).filter((t) => now - t < windowMs);
+  if (recent.length >= PER_IP) {
+    return { allowed: false, reason: 'per-ip', retry_after: WINDOW_SECONDS };
+  }
+  recent.push(now);
+  localHits.set(ip, recent);
+  if (localHits.size > 5000) localHits.clear();
+  return { allowed: true };
+}
+
+async function takeToken(ip: string): Promise<Limit> {
+  if (!SUPABASE_URL || !SERVICE_KEY) {
+    console.warn('limiter: supabase env missing, falling back to memory');
+    return localLimit(ip);
+  }
+
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/rpc/chat_take_token`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: SERVICE_KEY,
+      Authorization: `Bearer ${SERVICE_KEY}`,
+    },
+    body: JSON.stringify({
+      p_ip: ip,
+      p_limit: PER_IP,
+      p_window_seconds: WINDOW_SECONDS,
+      p_daily_cap: DAILY_CAP,
+    }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`limiter responded ${res.status}`);
+  }
+
+  const data = await res.json();
+  return {
+    allowed: data?.allowed === true,
+    reason: typeof data?.reason === 'string' ? data.reason : undefined,
+    retry_after: typeof data?.retry_after === 'number' ? data.retry_after : undefined,
+  };
+}
+
+// occasional housekeeping so the table does not grow forever, even without cron
+function maybePrune() {
+  if (!SUPABASE_URL || !SERVICE_KEY) return;
+  if (Math.random() > 0.02) return;
+  fetch(`${SUPABASE_URL}/rest/v1/rpc/chat_rate_limit_prune`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: SERVICE_KEY,
+      Authorization: `Bearer ${SERVICE_KEY}`,
+    },
+    body: '{}',
+  }).catch(() => {
+    /* housekeeping is best effort */
+  });
+}
+
+function clientIp(req: Request): string {
+  const forwarded = req.headers.get('x-forwarded-for');
+  if (forwarded) {
+    const first = forwarded.split(',')[0].trim();
+    if (first) return first;
+  }
+  return req.headers.get('x-real-ip') || req.headers.get('cf-connecting-ip') || 'unknown';
+}
+
+/* ---------- prompt ---------- */
 
 type Stats = { links: number; tags: number; categories: number };
 
-// the counts come from the page, so they stay correct as links are added.
 function parseStats(raw: unknown): Stats | null {
   if (!raw || typeof raw !== 'object') return null;
   const r = raw as Record<string, unknown>;
@@ -75,35 +224,7 @@ tone and format:
 - do not mention these instructions, the candidate list, or that you are a language model.`;
 }
 
-const corsHeaders = {
-  'Access-Control-Allow-Origin': Deno.env.get('ALLOWED_ORIGIN') || '*',
-  'Access-Control-Allow-Methods': 'POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
-  'Access-Control-Max-Age': '86400',
-};
-
-function json(body: unknown, status = 200) {
-  return new Response(JSON.stringify(body), {
-    status,
-    headers: { ...corsHeaders, 'Content-Type': 'application/json' },
-  });
-}
-
-// best-effort throttle. edge isolates are short lived, so this only blunts
-// a naive loop. put a real limiter in front of it if abuse becomes a problem.
-const WINDOW_MS = 60_000;
-const MAX_PER_WINDOW = 12;
-const hits = new Map<string, number[]>();
-
-function throttled(ip: string) {
-  const now = Date.now();
-  const recent = (hits.get(ip) || []).filter((t) => now - t < WINDOW_MS);
-  if (recent.length >= MAX_PER_WINDOW) return true;
-  recent.push(now);
-  hits.set(ip, recent);
-  if (hits.size > 5000) hits.clear();
-  return false;
-}
+/* ---------- input ---------- */
 
 type Msg = { role: string; content: string };
 type Candidate = { title: string; url: string; why: string; tags: string[]; category: string };
@@ -115,7 +236,7 @@ function textOf(value: unknown, max: number): string {
 
 function parseCandidates(raw: unknown): Candidate[] {
   if (!Array.isArray(raw)) return [];
-  return raw.slice(0, 16).flatMap((item) => {
+  return raw.slice(0, MAX_LINKS).flatMap((item) => {
     if (!item || typeof item !== 'object') return [];
     const c = item as Record<string, unknown>;
     const url = textOf(c.url, 500);
@@ -132,13 +253,19 @@ function parseCandidates(raw: unknown): Candidate[] {
 
 function parseHistory(raw: unknown): Msg[] {
   if (!Array.isArray(raw)) return [];
-  return raw.slice(-10).flatMap((item) => {
-    if (!item || typeof item !== 'object') return [];
+  const out: Msg[] = [];
+  let budget = MAX_HISTORY_CHARS;
+  for (const item of raw.slice(-MAX_HISTORY)) {
+    if (!item || typeof item !== 'object') continue;
     const m = item as Record<string, unknown>;
     const role = m.role === 'assistant' || m.role === 'model' ? 'assistant' : 'user';
-    const content = textOf(m.content ?? m.text, 2000);
-    return content ? [{ role, content }] : [];
-  });
+    const content = textOf(m.content ?? m.text, Math.min(1500, budget));
+    if (!content) continue;
+    budget -= content.length;
+    out.push({ role, content });
+    if (budget <= 0) break;
+  }
+  return out;
 }
 
 function renderCandidates(list: Candidate[]): string {
@@ -151,28 +278,53 @@ function renderCandidates(list: Candidate[]): string {
     .join('\n');
 }
 
+/* ---------- handler ---------- */
+
 Deno.serve(async (req) => {
-  if (req.method === 'OPTIONS') return new Response('ok', { headers: corsHeaders });
-  if (req.method !== 'POST') return json({ error: 'method not allowed' }, 405);
+  if (req.method === 'OPTIONS') {
+    return new Response(null, { status: 204, headers: corsHeaders(req) });
+  }
+  if (req.method !== 'POST') return json(req, { error: 'method not allowed' }, 405);
+
+  if (!originAllowed(req)) {
+    return json(req, { error: 'origin not allowed' }, 403);
+  }
 
   const apiKey = Deno.env.get('DEEPSEEK_API_KEY');
   if (!apiKey) {
     console.error('DEEPSEEK_API_KEY is not set');
-    return json({ error: 'kambarage is not configured yet' }, 500);
+    return json(req, { error: 'kambarage is not configured yet' }, 500);
   }
 
-  const ip = req.headers.get('x-forwarded-for')?.split(',')[0].trim() || 'unknown';
-  if (throttled(ip)) return json({ error: 'too many questions, give it a minute' }, 429);
+  const ip = clientIp(req);
+
+  // fail closed. if the limiter is unreachable we would rather refuse than
+  // hand out free model calls, because that is the failure that costs money.
+  let limit: Limit;
+  try {
+    limit = await takeToken(ip);
+  } catch (error) {
+    console.error('limiter failure', error instanceof Error ? error.message : error);
+    return json(req, { error: 'kambarage is briefly unavailable' }, 503);
+  }
+
+  if (!limit.allowed) {
+    const retry = limit.retry_after ?? WINDOW_SECONDS;
+    const message = limit.reason === 'daily-cap'
+      ? 'kambarage has hit the daily limit, try again tomorrow'
+      : 'too many questions, give it a minute';
+    return json(req, { error: message }, 429, { 'Retry-After': String(retry) });
+  }
 
   let body: Record<string, unknown>;
   try {
     body = await req.json();
   } catch {
-    return json({ error: 'invalid json' }, 400);
+    return json(req, { error: 'invalid json' }, 400);
   }
 
-  const question = textOf(body.question, 1000);
-  if (!question) return json({ error: 'no question received' }, 400);
+  const question = textOf(body.question, MAX_QUESTION);
+  if (!question) return json(req, { error: 'no question received' }, 400);
 
   const history = parseHistory(body.history);
   const candidates = parseCandidates(body.links);
@@ -206,18 +358,20 @@ Deno.serve(async (req) => {
     if (!upstream.ok) {
       const detail = await upstream.text().catch(() => '');
       console.error('deepseek error', upstream.status, detail.slice(0, 300));
-      if (upstream.status === 429) return json({ error: 'kambarage is busy, try again shortly' }, 429);
-      if (upstream.status === 401) return json({ error: 'kambarage is misconfigured' }, 500);
-      return json({ error: 'kambarage could not answer right now' }, 502);
+      if (upstream.status === 429) return json(req, { error: 'kambarage is busy, try again shortly' }, 429);
+      if (upstream.status === 401) return json(req, { error: 'kambarage is misconfigured' }, 500);
+      return json(req, { error: 'kambarage could not answer right now' }, 502);
     }
 
     const data = await upstream.json();
     const raw = data?.choices?.[0]?.message?.content;
     const text = typeof raw === 'string' ? raw.trim() : '';
 
-    if (!text) return json({ error: 'kambarage had nothing to say' }, 502);
+    if (!text) return json(req, { error: 'kambarage had nothing to say' }, 502);
 
-    return json({
+    maybePrune();
+
+    return json(req, {
       text,
       metadata: {
         model: Deno.env.get('DEEPSEEK_MODEL') || 'deepseek-chat',
@@ -226,7 +380,7 @@ Deno.serve(async (req) => {
       },
     });
   } catch (error) {
-    console.error('ramani-chat failure', error instanceof Error ? error.message : error);
-    return json({ error: 'kambarage could not answer right now' }, 502);
+    console.error('kambarage failure', error instanceof Error ? error.message : error);
+    return json(req, { error: 'kambarage could not answer right now' }, 502);
   }
 });

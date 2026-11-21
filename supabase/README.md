@@ -37,13 +37,18 @@ supabase login
 supabase link --project-ref <your-project-ref>
 ```
 
-3. store the key the function needs. this is the only real secret.
+3. create the rate limit table and function. paste `supabase/sql/rate-limit.sql`
+   into the supabase sql editor and run it. it is safe to run more than once.
+   without it the function falls back to an in-memory limiter, which is not
+   enough in production.
+
+4. store the key the function needs. this is the only real secret.
 
 ```
 supabase secrets set DEEPSEEK_API_KEY=sk-...
 ```
 
-4. deploy the function. jwt verification is already turned off in
+5. deploy the function. jwt verification is already turned off in
    `supabase/config.toml`, because the page calls it with the public anon key and
    no user session.
 
@@ -51,7 +56,7 @@ supabase secrets set DEEPSEEK_API_KEY=sk-...
 supabase functions deploy ramani-chat
 ```
 
-5. point the site at it. for local work, copy `.env.example` to `.env` and fill
+6. point the site at it. for local work, copy `.env.example` to `.env` and fill
    it in, then generate the local config.
 
 ```
@@ -60,7 +65,7 @@ cp .env.example .env
 node scripts/env.js
 ```
 
-6. build locally with the generated override. without the second config the
+7. build locally with the generated override. without the second config the
    widget stays hidden.
 
 ```
@@ -68,7 +73,7 @@ RUBYOPT="-r./scripts/ruby4-compat.rb" bundle exec jekyll build --baseurl "" \
   --config _config.yml,_config.local.yml
 ```
 
-7. for production, put the same two values in `_config.yml`, because github
+8. for production, put the same two values in `_config.yml`, because github
    pages has no access to `.env`. the anon key is public by design, so it is safe
    to commit there. then push, and the trigger appears in the bottom right corner.
 
@@ -90,6 +95,9 @@ chat:
 | `DEEPSEEK_API_KEY` | supabase secret | none | the only secret. never put it in the repo. |
 | `DEEPSEEK_MODEL` | supabase secret | `deepseek-chat` | model name, if you want another. |
 | `ALLOWED_ORIGIN` | supabase secret | `*` | lock cors to your site once it works. |
+| `CHAT_PER_IP` | supabase secret | `12` | requests allowed per ip per window. |
+| `CHAT_WINDOW_SECONDS` | supabase secret | `60` | length of the per ip window. |
+| `CHAT_DAILY_CAP` | supabase secret | `2000` | total requests per day, all ips. the budget guard. |
 
 `.env` is gitignored, and so is the `_config.local.yml` it generates. `.env.example`
 is tracked, so the shape of the file is always visible without the values.
@@ -97,11 +105,43 @@ is tracked, so the shape of the file is always visible without the values.
 # cost and abuse
 
 a request sends about a dozen candidate links plus the question, roughly 700
-tokens in and a few hundred out, so it is cheap per answer. the function has a
-best-effort throttle of 12 questions a minute per ip, kept in memory per edge
-isolate. that blunts a naive loop but is not a real rate limiter. if strangers
-start burning your credits, put cloudflare turnstile or a kv-backed limiter in
-front of the function, and set `ALLOWED_ORIGIN` to the site.
+tokens in and a few hundred out, so it is cheap per answer. the risk is not one
+expensive request, it is many cheap ones from someone who found the url.
+
+three layers defend that, in order of importance:
+
+- **daily cap.** `chat_rate_limit` sums every hit for the day across all ips. once
+  the total passes `CHAT_DAILY_CAP`, everyone gets a 429 until midnight. this is
+  the layer that protects the wallet, because rotating ips does not get around a
+  global total.
+- **per ip window.** a fixed window per ip, default 12 requests a minute. this
+  stops one person hammering the endpoint, and the row is shared by every edge
+  isolate instead of living in memory.
+- **origin check.** when `ALLOWED_ORIGIN` is set, requests from any other origin
+  get a 403. note this is a speed bump, not a wall: a script can send any origin
+  header it likes. it only stops the lazy case of someone embedding your endpoint
+  in their own page.
+
+the limiter fails closed. if postgres cannot be reached, the function returns 503
+rather than handing out free model calls, because an outage that costs nothing is
+better than one that costs money.
+
+input is also capped before it reaches the model: the question at 500 characters,
+history at 8 messages and 4000 characters total, and candidates at 12. that stops
+a caller from inflating the token bill on a single request.
+
+## if it is still abused
+
+the daily cap protects your budget but not your uptime. if the cap keeps getting
+hit by strangers, add cloudflare turnstile in front of the function:
+
+1. create a turnstile site in the cloudflare dashboard.
+2. add the site key to the widget and verify the token in the function before
+   the model call.
+3. set `ALLOWED_ORIGIN` to the site so the widget is the only normal caller.
+
+the anon key being public is expected and is not the problem. the deepseek key
+never leaves supabase, so the worst case is wasted calls, never a leaked key.
 
 # local testing
 

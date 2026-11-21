@@ -337,7 +337,11 @@
         });
       })
       .then(function (result) {
-        if (!result.ok) throw new Error(result.body.error || 'request failed');
+        if (!result.ok) {
+          var failure = new Error(result.body.error || 'request failed');
+          failure.userFacing = true;
+          throw failure;
+        }
         var answer = String(result.body.text || '').trim();
         if (!answer) throw new Error('empty answer');
         if (typing.parentNode) typing.parentNode.removeChild(typing);
@@ -347,9 +351,11 @@
       })
       .catch(function (err) {
         if (typing.parentNode) typing.parentNode.removeChild(typing);
-        addMessage('model', 'kambarage is not reachable right now. ' +
-          'try the tags page, or email mwalyangashadrack@gmail.com.');
-        if (window.console) console.warn('ramani chat:', err && err.message);
+        var message = err && err.userFacing
+          ? String(err.message)
+          : 'kambarage is not reachable right now. try the tags page, or email mwalyangashadrack@gmail.com.';
+        addMessage('model', message);
+        if (window.console) console.warn('kambarage:', err && err.message);
       })
       .then(function () {
         busy = false;
