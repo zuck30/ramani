@@ -92,6 +92,7 @@ this document explains the design language and engineering conventions used in r
 - always keep the global daily cap. a per-ip limit alone is defeated by rotating addresses.
 - keep the frame: round launcher, glass panel with a dark frame, rotating avatar ring, pill input, gradient prompt chips. this is the one place the site is allowed soft corners and a colour accent.
 - the launcher is the bare map mark, with no disc or circle behind it. it is tinted `--text-strong` so it reads against the page in both themes.
+- the launcher floats gently and shows a small `ask kambarage` label on hover and keyboard focus. the float stops under reduced motion.
 - the panel must still adapt to the theme. tokens are scoped on `.ask` and use `light-dark()`, never hard-coded white.
 - the widget is optional: with `chat.endpoint` empty the site behaves exactly as before.
 

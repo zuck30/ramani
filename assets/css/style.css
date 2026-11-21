@@ -887,6 +887,7 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
 }
 
 .ask-trigger{
+  position:relative;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -896,10 +897,26 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   border:0;
   background:none;
   cursor:pointer;
-  transition:transform .18s var(--ease-out);
 }
-.ask-trigger:hover{transform:scale(1.08)}
-.ask-trigger:active{transform:scale(.98)}
+.ask-trigger::after{
+  content:"ask kambarage";
+  position:absolute;
+  inset-block-start:50%;
+  inset-inline-end:calc(100% + 10px);
+  padding:.3rem .5rem;
+  background:var(--text-strong);
+  color:var(--bg);
+  font-family:var(--font-mono);
+  font-size:11px;
+  line-height:1.2;
+  white-space:nowrap;
+  opacity:0;
+  transform:translateY(-50%) translateX(4px);
+  transition:opacity .15s ease,transform .15s ease;
+  pointer-events:none;
+}
+.ask-trigger:hover::after,
+.ask-trigger:focus-visible::after{opacity:1;transform:translateY(-50%) translateX(0)}
 .ask-mark{
   display:block;
   width:44px;
@@ -907,6 +924,23 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   background-color:var(--text-strong);
   -webkit-mask:url('../nav-logo.png') center/contain no-repeat;
   mask:url('../nav-logo.png') center/contain no-repeat;
+  transform-origin:center;
+  animation:ask-float 4.2s ease-in-out infinite;
+  transition:transform .2s var(--ease-out),filter .2s ease;
+}
+@keyframes ask-float{
+  0%,100%{transform:translateY(0) rotate(0)}
+  50%{transform:translateY(-4px) rotate(1.5deg)}
+}
+.ask-trigger:hover .ask-mark,
+.ask-trigger:focus-visible .ask-mark{
+  animation:none;
+  transform:scale(1.12) rotate(-3deg);
+  filter:drop-shadow(0 5px 8px rgba(0,0,0,.28));
+}
+.ask-trigger:active .ask-mark{
+  animation:none;
+  transform:scale(1.04);
 }
 .ask.is-open .ask-trigger{display:none}
 
