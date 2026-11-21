@@ -1161,6 +1161,19 @@
     "favorite": false
   },
   {
+    "url": "https://www.finn.no/",
+    "title": "Finn.no",
+    "why": "Norwegian classifieds marketplace; dense listings with clear hierarchy.",
+    "tags": [
+      "ecommerce",
+      "global",
+      "minimal"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-21",
+    "favorite": false
+  },
+  {
     "url": "https://www.firstbase.io/",
     "title": "Firstbase",
     "why": "Company formation and banking; crisp founder onboarding.",
