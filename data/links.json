@@ -2175,6 +2175,19 @@
     "favorite": false
   },
   {
+    "url": "https://neststudio.netlify.app",
+    "title": "Nest Studio",
+    "why": "Portfolio site for a design studio; clean grid and calm type.",
+    "tags": [
+      "portfolio",
+      "minimal",
+      "global"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-21",
+    "favorite": false
+  },
+  {
     "url": "https://netpoa.com/",
     "title": "NetPoa",
     "why": "Dar ISP; direct packages and pricing.",

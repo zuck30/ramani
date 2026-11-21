@@ -4,7 +4,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-382-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-383-161616)](data/links.json)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
 
@@ -18,7 +18,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**382 links**, last updated 2026-11-21
+**383 links**, last updated 2026-11-21
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -410,6 +410,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [mirko.in.ua](https://mirko.in.ua/) | personal dev page; small and direct. | `minimal` `dev` |
 | [morgan wallen](https://morganwallen.com/home/) | artist site; bold tour and merch push. | `editorial` `global` |
 | [neal.fun](https://neal.fun/) | web toys done right; endless playful experiments. | `playful` `dev` `colorful` |
+| [nest studio](https://neststudio.netlify.app) | portfolio site for a design studio; clean grid and calm type. | `portfolio` `minimal` `global` |
 | [pinnacle consulting group](https://pinnacleconsultingroup.co.ke/) | kenyan consultancy; straightforward corporate identity. | `kenya` `africa` `agency` |
 | [reenbit](https://reenbit.com/) | software house; modern studio landing. | `agency` `dev` |
 | [sabertooth marketing](https://sabertoothmarketing.co.ke/) | kenyan marketing agency; bold local branding. | `agency` `kenya` `africa` |
