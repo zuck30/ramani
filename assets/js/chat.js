@@ -237,7 +237,7 @@
 
     var prompts = el('div', 'ask-prompts');
     [
-      'dark fintech dashboards',
+      'fintech sites',
       'best portfolios',
       'sites from tanzania',
       'how do i submit a link'
