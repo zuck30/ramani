@@ -43,7 +43,8 @@ this document explains the design language and engineering conventions used in r
 - cards: hairline grid, `assets/for-card.png` as a right-aligned background, a mask and a scrim for readable copy, mono title, inter description, mono tag row.
 - tags: no leading hash. tags are square buttons, counts use tabular numbers.
 - search: one line, square, mono placeholder, slash hint.
-- footer: secondary link list with bracket markers, a 14px meta bar and a large mono wordmark.
+- footer: secondary link list with bracket markers, a 14px meta bar, a contact line and a large mono wordmark.
+- contact: `assets/icons/mail.png` as a css mask tinted with `currentColor`. the address is always visible as text, and `mailto:` links may prefill a subject and body.
 - icons: inline svg for interface glyphs. sidebar navigation icons are png masks tinted with `currentColor`.
 
 # html and liquid

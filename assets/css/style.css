@@ -641,6 +641,23 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   color:var(--text-weak);
 }
 .footer-stats .footer-box{margin-inline-end:.5rem}
+.footer-contact{margin-top:.5rem}
+.footer-contact a{
+  display:inline-flex;align-items:center;gap:.5rem;
+  color:var(--text-weak);
+  text-decoration:none;
+  transition:color .15s ease;
+  overflow-wrap:anywhere;
+}
+.footer-contact a:hover,
+.footer-contact a:active{color:var(--text-strong)}
+.footer-mail{
+  display:block;flex-shrink:0;
+  width:15px;height:15px;
+  background-color:currentColor;
+  -webkit-mask:url('../icons/mail.png') center/contain no-repeat;
+  mask:url('../icons/mail.png') center/contain no-repeat;
+}
 
 .footer-bar{
   display:flex;flex-wrap:wrap;align-items:center;gap:.75rem 1.5rem;
