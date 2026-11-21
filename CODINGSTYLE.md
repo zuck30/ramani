@@ -89,7 +89,8 @@ this document explains the design language and engineering conventions used in r
 - rate limiting lives in postgres (`supabase/sql/rate-limit.sql`), not in memory. edge isolates are short lived and per-instance, so a memory counter is theatre.
 - the limiter fails closed. if the counter is unreachable, refuse the request rather than spend money.
 - always keep the global daily cap. a per-ip limit alone is defeated by rotating addresses.
-- keep the panel square, hairline and monochrome. no glassmorphism, no rounded bubbles beyond the square user block.
+- keep the frame close to bruno in antera: round launcher, glass panel with a dark frame, rotating avatar ring, pill input, gradient prompt chips. this is the one place the site is allowed soft corners and a colour accent.
+- the panel must still adapt to the theme. tokens are scoped on `.ask` and use `light-dark()`, never hard-coded white.
 - the widget is optional: with `chat.endpoint` empty the site behaves exactly as before.
 
 # data
