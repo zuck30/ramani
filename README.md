@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-401-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-408-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**401 links**, last updated 2026-11-21
+**408 links**, last updated 2026-11-21
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -213,6 +213,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [coco wyo](https://cocowyo.com/) | cozy coloring brand; gentle, playful commerce. | `playful` `ecommerce` `colorful` |
 | [codiste](https://www.codiste.com) | dev agency landing; clear services storytelling. | `agency` `ai` `dev` |
 | [cofounder](https://cofounder.co/) | startup product pitch; confident, minimal type. | `minimal` `saas` |
+| [deeplead](https://www.deeplead.io/) | lead timeline predictor; one input, one blunt promise. | `saas` `tool` |
 | [finn.no](https://www.finn.no/) | norwegian classifieds marketplace; dense listings with clear hierarchy. | `ecommerce` `global` `minimal` |
 | [general intelligence company](https://www.generalintelligencecompany.com/) | ai outfit; sharp, modern product landing. | `ai` `minimal` `global` |
 | [getmyboat](https://www.getmyboat.com/) | boat rental marketplace; map-first browsing done well. | `ecommerce` `global` |
@@ -221,6 +222,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [gumroad](https://gumroad.com/) | creator commerce platform; playful, confident marketing. | `ecommerce` `saas` `playful` `colorful` |
 | [ikea](https://www.ikea.com/) | retail giant; product and wayfinding patterns worth study. | `ecommerce` `global` `light` |
 | [inter miami cf](https://www.intermiamicf.com/) | official club site with news, roster, schedule, tickets, and fan content for inter miami cf. | `sports` `global` `media` |
+| [jarrett](https://www.gojarrett.com/) | logistics and supply chain site; dense corporate storytelling. | `global` |
 | [jenga](https://www.jenga.com/index.php) | official jenga site; classic block-stacking game brand with products, videos, and shop links. | `playful` `global` |
 | [kpmg](https://kpmg.com/xx/en.html) | big four global; sober professional identity at scale. | `global` `editorial` |
 | [logitech g](https://www.logitechg.com/) | gaming gear brand site; product lineup and category merchandising for mice, keyboards, and racing setups. | `hardware` `ecommerce` `gaming` `global` |
@@ -552,6 +554,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [cal.com](https://cal.com/) | open scheduling; calendly's open rival, well branded. | `oss` `tool` `dev` `minimal` |
 | [cap](https://cap.so/) | open screen recorder; friendly indie product. | `oss` `tool` `minimal` `dev` |
 | [charm](https://charm.land/) | terminal tooling with taste; tuis as brand. | `dev` `oss` `tool` `playful` |
+| [cloudmersive](https://www.cloudmersive.com/) | api suite; document conversion, validation and security endpoints. | `api` `tool` `dev` |
 | [conductor](https://www.conductor.build/) | claude code manager; tidy multi-agent ui. | `ai` `dev` `tool` |
 | [cosmic](https://system76.com/cosmic) | system76's rust desktop; bold open de design. | `oss` `dev` `hardware` |
 | [crabnebula](https://crabnebula.dev/) | rust and dx tooling company; sharp open-source branding. | `oss` `dev` `tool` |
@@ -559,6 +562,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [deepinfra](https://deepinfra.com/) | model inference api; plain, cheap, developer-first. | `ai` `dev` `cloud` |
 | [developpp](https://www.developpp.de/en/) | german development partnership programme funding sustainable private-sector projects. | `global` `reference` `nonprofit` |
 | [e2b](https://e2b.dev/) | sandboxes for ai agents; hacker-flavored infra. | `dev` `ai` `oss` `cloud` |
+| [eden ai](https://www.edenai.co/) | ai gateway and llm router; one api across roughly a thousand models. | `ai` `api` `tool` |
 | [egui](https://www.egui.rs/) | immediate-mode gui in rust; fast to ship. | `dev` `oss` `tool` |
 | [eleutherai](https://www.eleuther.ai) | open-source ai research collective; plain and honest. | `ai` `oss` `dev` |
 | [encode ai](https://encodeai.org/) | ai policy org; advocacy with clean civic design. | `ai` `nonprofit` `reference` |
@@ -567,6 +571,8 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [flaticon](https://www.flaticon.com/) | icon library; huge searchable catalogue with colour and style filters. | `tool` `reference` `design` `global` |
 | [flexjobs](https://www.flexjobs.com/) | remote job board; functional and calm. | `reference` `tool` `global` |
 | [free3d](https://free3d.com/) | free 3d model archive; useful asset source. | `tool` `reference` `global` |
+| [gandr](https://gandr.ai/) | text-to-speech and voice cloning; flat per-stream pricing across 23 languages. | `ai` `tool` `saas` |
+| [geekflare](https://geekflare.com/) | scraping, search and screenshot apis; one key across three endpoints. | `dev` `api` `tool` |
 | [gitapp](https://gitapp.dancodes.online/) | desktop github client; notifications and quick review outside the browser. | `dev` `tool` `global` |
 | [google ai studio](https://aistudio.google.com/welcome) | playground for gemini; fastest way to test prompts. | `ai` `tool` `dev` `global` |
 | [google labs](https://labs.google/) | google's experiments hub; playful product grid. | `ai` `global` `playful` |
@@ -574,6 +580,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [gpui kit](https://gpui-kit.com/) | zed's gpui components; native ui kit for rust. | `dev` `oss` `tool` `minimal` |
 | [icann](https://www.icann.org/en) | internet governance body; dry but authoritative. | `gov` `reference` `global` |
 | [iced](https://iced.rs/) | rust gui library; elm-inspired and tidy. | `dev` `oss` `tool` |
+| [imagga](https://imagga.com/) | image and video recognition apis; tagging, moderation and visual search. | `ai` `api` `tool` |
 | [inference.net](https://inference.net/) | gpu inference provider; straightforward dev pricing. | `ai` `cloud` `dev` `saas` |
 | [jikan](https://jikan.moe/) | unofficial myanimelist api; clean open data. | `dev` `oss` `reference` |
 | [justsketchme](https://justsketch.me/) | poseable figure tool; handy for artists. | `tool` `playful` `dev` |
