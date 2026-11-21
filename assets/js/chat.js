@@ -9,12 +9,10 @@
 
   var endpointMeta = document.querySelector('meta[name="ramani-chat-endpoint"]');
   var keyMeta = document.querySelector('meta[name="ramani-chat-key"]');
-  var avatarMeta = document.querySelector('meta[name="ramani-chat-avatar"]');
   if (!endpointMeta) return;
 
   var ENDPOINT = (endpointMeta.getAttribute('content') || '').trim();
   var KEY = keyMeta ? (keyMeta.getAttribute('content') || '').trim() : '';
-  var AVATAR = avatarMeta ? (avatarMeta.getAttribute('content') || '').trim() : '';
   if (!ENDPOINT) return;
 
   var STOP = {
@@ -192,11 +190,8 @@
     trigger.setAttribute('aria-expanded', 'false');
     trigger.setAttribute('aria-controls', 'ask-panel');
     trigger.setAttribute('aria-label', 'chat with kambarage');
-    var face = document.createElement('img');
-    face.alt = '';
-    face.setAttribute('aria-hidden', 'true');
-    if (AVATAR) face.src = AVATAR;
-    trigger.appendChild(face);
+    trigger.appendChild(avatar(34));
+    trigger.appendChild(el('span', 'ask-trigger-label', 'ask kambarage'));
 
     /* panel */
     var panel = el('div', 'ask-panel');

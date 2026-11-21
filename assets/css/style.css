@@ -888,23 +888,47 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   z-index:80;
 }
 
-/* launcher */
+/* launcher: a labelled pill so it reads as an invitation, not decoration */
 .ask-trigger{
-  display:flex;
+  position:relative;
+  display:inline-flex;
   align-items:center;
-  justify-content:center;
-  width:78px;
-  height:78px;
-  padding:0;
+  gap:.55rem;
+  padding:.5rem .95rem .5rem .5rem;
   border:0;
   border-radius:999px;
-  background:var(--chat-solid);
-  box-shadow:0 14px 34px rgba(0,0,0,.22),0 3px 10px rgba(0,0,0,.14);
+  background:var(--chat-user-bg);
+  color:var(--chat-user-ink);
+  box-shadow:0 14px 34px rgba(0,0,0,.24),0 3px 10px rgba(0,0,0,.16);
   cursor:pointer;
-  transition:transform .18s var(--ease-out),background-color .15s ease;
+  transition:transform .18s var(--ease-out),box-shadow .18s ease;
 }
-.ask-trigger:hover{transform:translateY(-2px)}
-.ask-trigger img{display:block;width:64px;height:64px;object-fit:contain}
+.ask-trigger:hover{transform:translateY(-2px) scale(1.02);box-shadow:0 20px 44px rgba(0,0,0,.28),0 4px 12px rgba(0,0,0,.18)}
+.ask-trigger:active{transform:translateY(0) scale(.99)}
+.ask-trigger::before{
+  content:"";
+  position:absolute;
+  inset:-7px;
+  border-radius:999px;
+  border:1px solid var(--chat-user-bg);
+  opacity:0;
+  animation:ask-halo 3.4s ease-out infinite;
+  pointer-events:none;
+}
+@keyframes ask-halo{
+  0%{transform:scale(.97);opacity:.45}
+  65%{transform:scale(1.16);opacity:0}
+  100%{opacity:0}
+}
+.ask-trigger .ask-ring{display:none}
+.ask-trigger .ask-disc{inset:0;background:var(--chat-solid)}
+.ask-trigger-label{
+  font-family:var(--font-sans);
+  font-size:13px;
+  font-weight:600;
+  letter-spacing:-.01em;
+  white-space:nowrap;
+}
 .ask.is-open .ask-trigger{display:none}
 
 /* phone-like frame */
@@ -1180,8 +1204,8 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
 
 @media (max-width:40rem){
   .ask{inset-block-end:1rem;inset-inline-end:1rem}
-  .ask-trigger{width:64px;height:64px}
-  .ask-trigger img{width:52px;height:52px}
+  .ask-trigger{padding:.45rem .8rem .45rem .45rem;gap:.45rem}
+  .ask-trigger-label{font-size:12.5px}
   .ask-panel{
     inset:auto 0 0 0;
     width:100%;
