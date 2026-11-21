@@ -13,3 +13,7 @@ Gemfile.lock
 .env.*
 !.env.example
 _config.local.yml
+
+# local tooling
+.playwright-cli/
+.mimocode/

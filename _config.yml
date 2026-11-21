@@ -12,8 +12,7 @@ email: mwalyangashadrack@gmail.com
 
 # ---------------------------------------------------------------
 # kambarage - the chat widget.
-# leave both empty to hide the widget entirely.
-# after deploying supabase/functions/ramani-chat, set:
+# an empty endpoint hides the widget. values look like:
 #   endpoint: https://<project-ref>.supabase.co/functions/v1/ramani-chat
 #   key: the project's anon (public) key
 # the anon key is safe to expose. the deepseek key lives only in supabase.

@@ -5,7 +5,7 @@ this document explains the design language and engineering conventions used in r
 # design principles
 
 - monochrome, high contrast and quiet. colour is reserved for the card art and the one blue accent.
-- inspired by opencode.ai, which is the new project i'm contributing to: fixed numbered sidebar, mono display type, inter body copy, hairline rules, generous whitespace, and so on.
+- inspired by opencode.ai: fixed numbered sidebar, mono display type, inter body copy, hairline rules, generous whitespace, and so on.
 - square corners everywhere. no shadows, no glassmorphism, no rounded cards.
 - content first. the interface should disappear behind the links.
 - every tag, count and link comes from [data/links.json](data/links.json).
@@ -88,7 +88,7 @@ this document explains the design language and engineering conventions used in r
 - candidates are ranked in the browser from the cards already on the page, then at most 12 are sent. never send the whole dataset.
 - questions about the project itself send no candidates at all.
 - the model is told to name only real links from the candidate list, in lowercase, with no em dashes.
-- rate limiting lives in postgres (`supabase/sql/rate-limit.sql`), not in memory. edge isolates are short lived and per-instance, so a memory counter is theatre.
+- rate limiting lives in postgres (`supabase/sql/rate-limit.sql`), not in memory. edge isolates are short lived and per-instance, so an in-memory counter cannot enforce a shared limit.
 - the limiter fails closed. if the counter is unreachable, refuse the request rather than spend money.
 - always keep the global daily cap. a per-ip limit alone is defeated by rotating addresses.
 - keep the frame: round launcher, glass panel with a dark frame, rotating avatar ring, pill input, gradient prompt chips. this is the one place the site is allowed soft corners and a colour accent.

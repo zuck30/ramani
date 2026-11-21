@@ -1,10 +1,10 @@
 # contributing to ramani
 
-`ramani` is a map of web uis, tools, and references. link data lives in [`data/links.json`](data/links.json); [`readme.md`](readme.md) is generated from it.
+`ramani` is a map of web uis, tools, and references. link data lives in [`data/links.json`](data/links.json); [`README.md`](README.md) is generated from it.
 
-## adding or updating a link
+# adding or updating a link
 
-1. edit `data/links.json` (do not edit generated tables in `readme.md` directly).
+1. edit `data/links.json` (do not edit generated tables in `README.md` directly).
 2. add or update an entry with these fields:
    - `url`: canonical page url
    - `title`: site or page name
@@ -17,17 +17,17 @@
    ```bash
    node scripts/build-readme.js
    ```
-4. verify the new/updated entry appears correctly in `readme.md`.
+4. verify the new/updated entry appears correctly in `README.md`.
 
-## guidelines
+# guidelines
 
 - keep entries unique (avoid duplicate urls).
 - prefer stable, top-level urls unless a specific page is the reference.
 - write `why` as a concise description of what makes the site useful or notable.
 - reuse existing tags/categories where possible for consistency.
-- keep changes focused and include both `data/links.json` and regenerated `readme.md` in the same contribution.
+- keep changes focused and include both `data/links.json` and regenerated `README.md` in the same contribution.
 
-## development notes
+# development notes
 
 - readme generation is handled by [`scripts/build-readme.js`](scripts/build-readme.js) (node.js, no external dependencies).
 - the site is built with jekyll/github pages; generated and source content should stay in sync.
