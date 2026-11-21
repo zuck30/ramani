@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-391-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-392-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**391 links**, last updated 2026-11-21
+**392 links**, last updated 2026-11-21
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -313,6 +313,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [bank of america](https://www.bankofamerica.com/) | mega-bank; study the scale and accessibility. | `fintech` `global` |
 | [breet](https://breet.io/) | crypto-to-cash for africa; clean swap flows. | `fintech` `africa` `saas` |
 | [cardtonic](https://cardtonic.com/) | gift card trading; bright african fintech brand. | `fintech` `africa` `ecommerce` |
+| [clickpesa](https://clickpesa.com/) | tanzanian payment platform; collections, payouts and risk management for smes and microfinance. | `fintech` `tanzania` `africa` `api` |
 | [dpo group](https://dpogroup.com/) | african payment gateway; practical merchant pages. | `fintech` `africa` `saas` |
 | [envestnet](https://www.envestnet.com/) | wealth-tech platform; corporate but refined. | `fintech` `saas` `global` |
 | [firstbase](https://www.firstbase.io/) | company formation and banking; crisp founder onboarding. | `fintech` `saas` `minimal` |

@@ -676,6 +676,20 @@
     "favorite": false
   },
   {
+    "url": "https://clickpesa.com/",
+    "title": "ClickPesa",
+    "why": "Tanzanian payment platform; collections, payouts and risk management for smes and microfinance.",
+    "tags": [
+      "fintech",
+      "tanzania",
+      "africa",
+      "api"
+    ],
+    "category": "fintech",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.cloudflare.com/",
     "title": "Cloudflare",
     "why": "Internet infrastructure; the reference for scale.",
