@@ -64,12 +64,12 @@ description: Explore Ramani, a map of 300+ websites for web design inspiration, 
     <div class="card-body">
       <h3 class="card-title">
         {{ l.title }}
-        <img class="card-arrow" src="{{ '/assets/icons/card-arrow.png' | relative_url }}" width="16" height="16" alt="" aria-hidden="true">
+        <span class="card-arrow" aria-hidden="true"></span>
       </h3>
       <p class="card-subtitle">{{ l.why }}</p>
       <span class="card-meta">
         <span class="meta-item">
-          {% for t in l.tags %}<span class="meta-tag">{{ t }}{% unless forloop.last %}<span class="meta-dot" aria-hidden="true"></span>{% endunless %}</span>{% unless forloop.last %}&#32;{% endunless %}{% endfor %}
+          {% for t in l.tags %}<span class="meta-tag">{{ t }}{% unless forloop.last %}<img class="meta-dot" src="{{ '/assets/icons/tag-sep.png' | relative_url }}" width="11" height="11" alt="" aria-hidden="true">{% endunless %}</span>{% unless forloop.last %}&#32;{% endunless %}{% endfor %}
         </span>
       </span>
     </div>
