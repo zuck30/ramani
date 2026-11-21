@@ -205,10 +205,7 @@
     var close = el('button', 'ask-close');
     close.type = 'button';
     close.setAttribute('aria-label', 'close chat');
-    close.innerHTML =
-      '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">' +
-      '<path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.8" ' +
-      'stroke-linecap="round" stroke-linejoin="round"></path></svg>';
+    close.innerHTML = '<span class="ask-close-icon" aria-hidden="true"></span>';
     panel.appendChild(close);
 
     var log = el('div', 'ask-log');

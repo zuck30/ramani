@@ -973,6 +973,14 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   transition:background-color .15s ease;
 }
 .ask-close:hover{background:var(--chat-hair)}
+.ask-close-icon{
+  display:block;
+  width:18px;
+  height:18px;
+  background-color:currentColor;
+  -webkit-mask:url('../icons/chat-close.png') center/contain no-repeat;
+  mask:url('../icons/chat-close.png') center/contain no-repeat;
+}
 
 /* scroll area */
 .ask-log{
