@@ -182,7 +182,7 @@
     trigger.setAttribute('aria-expanded', 'false');
     trigger.setAttribute('aria-controls', 'ask-panel');
     trigger.setAttribute('aria-label', 'chat with kambarage');
-    trigger.appendChild(avatar(32));
+    trigger.appendChild(avatar(48));
 
     var panel = el('div', 'ask-panel');
     panel.id = 'ask-panel';
