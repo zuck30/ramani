@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-397-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-398-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**397 links**, last updated 2026-11-21
+**398 links**, last updated 2026-11-21
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -600,6 +600,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [ruby on rails](https://rubyonrails.org/) | the framework that made ruby famous; convention over configuration. | `dev` `oss` `tool` |
 | [saaspo](https://saaspo.com) | saas design inspiration gallery; hand-picked selection. | `reference` `saas` `minimal` `tool` |
 | [savefrom](https://en1.savefrom.net) | video downloader; quick save from the web. | `tool` `global` |
+| [setapp](https://setapp.com/) | mac app subscription; a curated catalogue of tools for one monthly fee. | `tool` `saas` `global` |
 | [slint](https://slint.dev/) | rust and embedded ui toolkit; declarative and lean. | `dev` `oss` `tool` |
 | [sniffnet](https://sniffnet.app/) | rust network monitor; gorgeous open-source gui. | `oss` `dev` `tool` |
 | [sphinx](https://sphinx-doc.org/en/master/index.html) | docs generator; quietly powers half the ecosystem. | `dev` `oss` `reference` `tool` |
