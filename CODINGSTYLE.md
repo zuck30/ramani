@@ -84,6 +84,16 @@ this document explains the design language and engineering conventions used in r
 - tags are lowercase and hyphenated. reuse the vocabulary on the tags page.
 - after editing data, run `node scripts/build-readme.js`.
 
+# feed
+
+- `feed.xml` is an atom feed of the 30 newest links, rendered by jekyll from `data/links.json`.
+- it needs no build step and no dependency: edit `feed.xml`, never generate it in script.
+- entries are sorted by `added` descending. same-date entries keep their `links.json` order so readers do not re-flag old items.
+- each entry carries the url as its stable `id`, the `why` as `summary`, why plus category plus tags as `content`, and one `category` element per tag.
+- all urls are absolute, built from `site.url` and `site.baseurl`.
+- escape every interpolated value. the html block is escaped once, for `content type="html"`.
+- the feed is announced in `_layouts/default.html` with a `rel="alternate"` link and linked from the footer.
+
 # docs
 
 - `README.md` is generated. edit `data/links.json` and the generator, never the tables by hand.
@@ -113,4 +123,5 @@ RUBYOPT="-r./scripts/ruby4-compat.rb" bundle exec jekyll serve --baseurl "" --po
 - [ ] checked in light and dark mode.
 - [ ] keyboard focus and reduced motion still work.
 - [ ] `README.md` regenerated with `node scripts/build-readme.js`.
+- [ ] `feed.xml` still parses as atom after a data change.
 - [ ] no em dashes, single-hash headings and lowercase docs.
