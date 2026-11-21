@@ -102,47 +102,6 @@ chat:
 `.env` is gitignored, and so is the `_config.local.yml` it generates. `.env.example`
 is tracked, so the shape of the file is always visible without the values.
 
-# cost and abuse
-
-a request sends about a dozen candidate links plus the question, roughly 700
-tokens in and a few hundred out, so it is cheap per answer. the risk is not one
-expensive request, it is many cheap ones from someone who found the url.
-
-three layers defend that, in order of importance:
-
-- **daily cap.** `chat_rate_limit` sums every hit for the day across all ips. once
-  the total passes `CHAT_DAILY_CAP`, everyone gets a 429 until midnight. this is
-  the layer that protects the wallet, because rotating ips does not get around a
-  global total.
-- **per ip window.** a fixed window per ip, default 12 requests a minute. this
-  stops one person hammering the endpoint, and the row is shared by every edge
-  isolate instead of living in memory.
-- **origin check.** when `ALLOWED_ORIGIN` is set, requests from any other origin
-  get a 403. note this is a speed bump, not a wall: a script can send any origin
-  header it likes. it only stops the lazy case of someone embedding your endpoint
-  in their own page.
-
-the limiter fails closed. if postgres cannot be reached, the function returns 503
-rather than handing out free model calls, because an outage that costs nothing is
-better than one that costs money.
-
-input is also capped before it reaches the model: the question at 500 characters,
-history at 8 messages and 4000 characters total, and candidates at 12. that stops
-a caller from inflating the token bill on a single request.
-
-## if it is still abused
-
-the daily cap protects your budget but not your uptime. if the cap keeps getting
-hit by strangers, add cloudflare turnstile in front of the function:
-
-1. create a turnstile site in the cloudflare dashboard.
-2. add the site key to the widget and verify the token in the function before
-   the model call.
-3. set `ALLOWED_ORIGIN` to the site so the widget is the only normal caller.
-
-the anon key being public is expected and is not the problem. the deepseek key
-never leaves supabase, so the worst case is wasted calls, never a leaked key.
-
 # local testing
 
 copy `.env.example` to `.env`, fill in the supabase url and anon key, run
