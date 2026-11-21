@@ -9,6 +9,18 @@ author:
   name: zuck30
 github_username: zuck30
 email: mwalyangashadrack@gmail.com
+
+# ---------------------------------------------------------------
+# ask ramani - the chat widget.
+# leave both empty to hide the widget entirely.
+# after deploying supabase/functions/ramani-chat, set:
+#   endpoint: https://<project-ref>.supabase.co/functions/v1/ramani-chat
+#   key: the project's anon (public) key
+# the anon key is safe to expose. the deepseek key lives only in supabase.
+# ---------------------------------------------------------------
+chat:
+  endpoint: ""
+  key: ""
 url: "https://zuck30.github.io"
 baseurl: "/ramani"
 logo: /assets/ramani-2.png
@@ -37,6 +49,7 @@ defaults:
 
 exclude:
   - scripts/
+  - supabase/
   - node_modules/
   - vendor/
   - Gemfile

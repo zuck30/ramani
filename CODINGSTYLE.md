@@ -79,6 +79,16 @@ this document explains the design language and engineering conventions used in r
 - scope queries to the smallest container possible.
 - never hard-code content in script. read it from the rendered cards or the json data.
 
+# chat
+
+- `assets/js/chat.js` is vanilla javascript, no dependencies, and builds itself only when the page declares a chat endpoint.
+- the widget never holds an api key. it posts to `supabase/functions/ramani-chat`, which keeps the secret.
+- candidates are ranked in the browser from the cards already on the page, then at most 12 are sent. never send the whole dataset.
+- questions about the project itself send no candidates at all.
+- the model is told to name only real links from the candidate list, in lowercase, with no em dashes.
+- keep the panel square, hairline and monochrome. no glassmorphism, no rounded bubbles beyond the square user block.
+- the widget is optional: with `chat.endpoint` empty the site behaves exactly as before.
+
 # data
 
 - `data/links.json` is the only content source.
