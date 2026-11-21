@@ -132,6 +132,23 @@ pushing to `main` triggers [.github/workflows/jekyll.yml](.github/workflows/jeky
 
 suggestions and new links are welcome. see [contribution](CONTRIBUTION.md) or open a pull request. please keep tags to the vocabulary listed on the [tags page](https://zuck30.github.io/ramani/tags/).
 
+# credits
+
+built with these, and grateful for them.
+
+- [jekyll](https://jekyllrb.com/) generates the site, with [kramdown](https://kramdown.gettalong.org/) for markdown and the [seo tag](https://github.com/jekyll/jekyll-seo-tag) and [sitemap](https://github.com/jekyll/jekyll-sitemap) plugins.
+- [ruby](https://www.ruby-lang.org/) is the language underneath.
+- [github pages](https://pages.github.com/) hosts the site and [github actions](https://github.com/features/actions) builds and deploys it.
+- [ibm plex mono](https://www.ibm.com/plex/) and [inter](https://rsms.me/inter/) are the typefaces, served by [google fonts](https://fonts.google.com/).
+- [flaticon](https://www.flaticon.com/) supplied the icons across the interface.
+- [inkscape](https://inkscape.org/) drew the logo.
+- [node.js](https://nodejs.org/) runs the small scripts that generate this readme and the local config.
+- [supabase](https://supabase.com/) hosts the edge function behind the chat panel.
+- [deepseek](https://www.deepseek.com/) is the model it calls.
+- [shields.io](https://shields.io/) renders the badges at the top.
+
+the interface takes its design language from [opencode](https://opencode.ai/).
+
 # license
 
 released under the [mit license](LICENSE).
