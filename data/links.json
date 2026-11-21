@@ -1214,6 +1214,20 @@
     "favorite": false
   },
   {
+    "url": "https://www.flaticon.com/",
+    "title": "Flaticon",
+    "why": "Icon library; huge searchable catalogue with colour and style filters.",
+    "tags": [
+      "tool",
+      "reference",
+      "design",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-21",
+    "favorite": false
+  },
+  {
     "url": "https://www.flexjobs.com/",
     "title": "FlexJobs",
     "why": "Remote job board; functional and calm.",

@@ -11,7 +11,7 @@ groups:
   - name: motion
     tags: [motion, scroll-driven, cursor]
   - name: industry
-    tags: [fintech, saas, agency, ecommerce, education, gov, nonprofit, farm, food, travel, defence, dev, ai, cloud, hardware, oss, privacy]
+    tags: [fintech, saas, agency, ecommerce, education, gov, nonprofit, farm, food, travel, defence, dev, design, ai, cloud, hardware, oss, privacy]
   - name: region
     tags: [tanzania, kenya, africa, global]
   - name: use
