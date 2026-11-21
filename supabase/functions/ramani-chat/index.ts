@@ -1,24 +1,23 @@
-// kambarage - supabase edge function
+// ramani-chat - Supabase edge function.
 //
-// holds the deepseek key and answers questions about the link directory.
-// the browser never sees the key. the page pre-filters candidates locally
-// and sends only those, so each request stays small and grounded.
+// Proxies requests to DeepSeek and holds the API key, which is never exposed to
+// the browser. The page pre-filters candidate links locally and sends only the
+// matching subset, so each request stays small and grounded in real data.
 //
-// deploy: supabase functions deploy ramani-chat
-// secret: supabase secrets set DEEPSEEK_API_KEY=sk-...
+// Deploy:  supabase functions deploy ramani-chat
+// Secret:  supabase secrets set DEEPSEEK_API_KEY=sk-...
+// Schema:  supabase/sql/rate-limit.sql
 //
-// required database setup: supabase/sql/rate-limit.sql
+// Environment (all optional except the API key):
+//   DEEPSEEK_API_KEY     required
+//   DEEPSEEK_MODEL       default deepseek-chat
+//   ALLOWED_ORIGIN       default *, comma separated; set in production
+//   CHAT_PER_IP          default 12 requests per window per address
+//   CHAT_WINDOW_SECONDS  default 60
+//   CHAT_DAILY_CAP       default 2000 requests per day across all addresses
 //
-// env (all optional except the key):
-//   DEEPSEEK_API_KEY    required
-//   DEEPSEEK_MODEL      default deepseek-chat
-//   ALLOWED_ORIGIN      default *, comma separated. set it in production.
-//   CHAT_PER_IP         default 12 requests per window per ip
-//   CHAT_WINDOW_SECONDS default 60
-//   CHAT_DAILY_CAP      default 2000 requests per day across everyone
-//
-// SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are provided automatically by the
-// edge runtime. they are used only for the rate limiter.
+// SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are injected by the edge runtime
+// and are used only for rate limiting.
 
 /* ---------- config ---------- */
 
@@ -83,7 +82,7 @@ function json(req: Request, body: unknown, status = 200, extra: Record<string, s
 
 type Limit = { allowed: boolean; reason?: string; retry_after?: number };
 
-// fallback for local serve, where the service role env is absent.
+// In-memory fallback for local serve, where the service role env is absent.
 const localHits = new Map<string, number[]>();
 
 function localLimit(ip: string): Limit {
@@ -132,7 +131,7 @@ async function takeToken(ip: string): Promise<Limit> {
   };
 }
 
-// prune now and then, in case pg_cron is not configured
+// Occasionally prune expired rows when pg_cron is not configured.
 function maybePrune() {
   if (!SUPABASE_URL || !SERVICE_KEY) return;
   if (Math.random() > 0.02) return;
@@ -145,7 +144,7 @@ function maybePrune() {
     },
     body: '{}',
   }).catch(() => {
-    /* housekeeping is best effort */
+    /* Best effort; failures are ignored. */
   });
 }
 
@@ -297,7 +296,7 @@ Deno.serve(async (req) => {
 
   const ip = clientIp(req);
 
-  // fail closed: an unreachable limiter must not become free model calls.
+  // Fail closed: an unreachable limiter must not allow unthrottled model calls.
   let limit: Limit;
   try {
     limit = await takeToken(ip);

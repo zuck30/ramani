@@ -1,16 +1,15 @@
--- rate limiting for kambarage (supabase/functions/ramani-chat)
+-- Rate limiting for the ramani-chat edge function.
 --
--- run this once in the supabase sql editor, then deploy the function.
--- it is safe to run more than once.
+-- Run once in the Supabase SQL editor. The script is idempotent.
 --
--- why postgres and not memory: edge isolates are short lived and there are
--- many of them, so an in-memory counter is both forgetful and per-instance.
--- a shared table gives one true counter across every isolate.
+-- Counters live in Postgres rather than in the edge runtime because isolates
+-- are short lived and per-instance, so an in-memory counter cannot enforce a
+-- limit shared by all requests.
 --
--- two layers, because they defend different things:
---   per ip   -> stops one person hammering the endpoint.
---   daily cap -> stops a botnet rotating ips. this is the one that protects
---                your wallet, because it cannot be evaded by changing address.
+-- Two limits apply:
+--   per ip     caps requests from one address inside a window.
+--   daily cap  caps total requests per day across all addresses, so the limit
+--              still applies when the source address changes.
 
 create table if not exists public.chat_rate_limit (
   ip     text        not null,
@@ -22,8 +21,8 @@ create table if not exists public.chat_rate_limit (
 create index if not exists chat_rate_limit_bucket_idx
   on public.chat_rate_limit (bucket);
 
--- no policies on purpose. only the security definer function below touches it,
--- and the anon key can neither read nor write it.
+-- RLS is enabled with no policies, so the table is reachable only through the
+-- SECURITY DEFINER functions below.
 alter table public.chat_rate_limit enable row level security;
 
 create or replace function public.chat_take_token(
@@ -50,18 +49,18 @@ begin
     return jsonb_build_object('allowed', false, 'reason', 'bad-config');
   end if;
 
-  -- fixed window: every request in the same window shares one row
+  -- Fixed window: every request in the same window maps to one row.
   v_bucket := to_timestamp(
     floor(extract(epoch from now()) / p_window_seconds) * p_window_seconds
   );
 
-  -- atomic increment. concurrent requests serialise on the primary key.
+  -- Atomic increment; concurrent requests serialize on the primary key.
   insert into public.chat_rate_limit as t (ip, bucket, hits)
   values (p_ip, v_bucket, 1)
   on conflict (ip, bucket) do update set hits = t.hits + 1
   returning t.hits into v_hits;
 
-  -- total for today, across every ip
+  -- Total for the current day across all addresses.
   select coalesce(sum(hits), 0) into v_used
   from public.chat_rate_limit
   where bucket >= date_trunc('day', now());
@@ -89,15 +88,15 @@ begin
 end;
 $$;
 
--- execute is granted to public by default in postgres. take it back so only
--- the service role, which the edge function already holds, can call it.
+-- Postgres grants EXECUTE to PUBLIC by default. Restrict both functions to the
+-- service role, which the edge function already uses.
 revoke all on function public.chat_take_token(text, integer, integer, integer) from public;
 revoke all on function public.chat_take_token(text, integer, integer, integer) from anon;
 revoke all on function public.chat_take_token(text, integer, integer, integer) from authenticated;
 grant execute on function public.chat_take_token(text, integer, integer, integer) to service_role;
 
--- housekeeping: drop rows older than two days. call it from cron, or let the
--- edge function's occasional prune handle it.
+-- Removes rows older than two days. Called by pg_cron when configured,
+-- otherwise by the edge function.
 create or replace function public.chat_rate_limit_prune()
 returns void
 language sql
@@ -112,7 +111,7 @@ revoke all on function public.chat_rate_limit_prune() from anon;
 revoke all on function public.chat_rate_limit_prune() from authenticated;
 grant execute on function public.chat_rate_limit_prune() to service_role;
 
--- optional: schedule the prune if pg_cron is enabled on the project.
+-- Optional: schedule the prune when pg_cron is enabled.
 -- select cron.schedule(
 --   'prune-chat-rate-limit',
 --   '17 * * * *',
