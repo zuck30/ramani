@@ -69,7 +69,7 @@ description: Explore Ramani, a map of 300+ websites for web design inspiration, 
       <p class="card-subtitle">{{ l.why }}</p>
       <span class="card-meta">
         <span class="meta-item">
-          {% for t in l.tags %}<span class="meta-tag">{{ t }}{% unless forloop.last %}<span class="meta-dot" aria-hidden="true"></span>{% endunless %}</span>{% endfor %}
+          {% for t in l.tags %}<span class="meta-tag">{{ t }}{% unless forloop.last %}<span class="meta-dot" aria-hidden="true"></span>{% endunless %}</span>{% unless forloop.last %}&#32;{% endunless %}{% endfor %}
         </span>
       </span>
     </div>
