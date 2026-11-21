@@ -1,9 +1,3 @@
-/* ============================================================
-   kambarage - a small chat panel over the link directory.
-   vanilla js, no dependencies, progressive enhancement: it only
-   builds itself when the page declares a chat endpoint.
-   the frame and empty state follow bruno in antera.
-   ============================================================ */
 (function () {
   'use strict';
 
@@ -27,7 +21,6 @@
   var MAX_CANDIDATES = 12;
   var MAX_HISTORY = 6;
 
-  // questions about ramani itself, not about links to look at
   var GUIDE = /submit|contribute|contribution|licen[cs]e|readme|github|\bemail\b|contact|who made|how (is|was) (it|this|ramani) (built|made)|source code|tags page|what is ramani|about ramani|how does ramani/i;
 
   var links = null;
@@ -184,7 +177,6 @@
     var all = getLinks();
     els.stats = counts(all);
 
-    /* launcher */
     var trigger = el('button', 'ask-trigger');
     trigger.type = 'button';
     trigger.setAttribute('aria-expanded', 'false');
@@ -193,7 +185,6 @@
     trigger.appendChild(avatar(32));
     trigger.appendChild(el('span', 'ask-trigger-label', 'ask kambarage'));
 
-    /* panel */
     var panel = el('div', 'ask-panel');
     panel.id = 'ask-panel';
     panel.setAttribute('role', 'dialog');
@@ -213,7 +204,6 @@
     log.setAttribute('aria-live', 'polite');
     log.setAttribute('aria-relevant', 'additions');
 
-    /* empty state, straight from bruno */
     var empty = el('div', 'ask-empty');
     empty.appendChild(avatar(58));
     empty.appendChild(el('p', 'ask-hello', "hello, i'm kambarage."));
@@ -244,7 +234,6 @@
     empty.appendChild(prompts);
     log.appendChild(empty);
 
-    /* compose */
     var compose = el('div', 'ask-compose');
     var form = el('form', 'ask-field');
 
@@ -373,7 +362,6 @@
     return row;
   }
 
-  // bruno fakes streaming. do the same, but instant when motion is reduced.
   function reveal(node, text, done) {
     var reduce = window.matchMedia &&
       window.matchMedia('(prefers-reduced-motion: reduce)').matches;

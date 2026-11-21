@@ -83,8 +83,7 @@ function json(req: Request, body: unknown, status = 200, extra: Record<string, s
 
 type Limit = { allowed: boolean; reason?: string; retry_after?: number };
 
-// only used when the service role env is missing, for example during
-// `supabase functions serve` without a linked project. not a real limiter.
+// fallback for local serve, where the service role env is absent.
 const localHits = new Map<string, number[]>();
 
 function localLimit(ip: string): Limit {
@@ -133,7 +132,7 @@ async function takeToken(ip: string): Promise<Limit> {
   };
 }
 
-// occasional housekeeping so the table does not grow forever, even without cron
+// prune now and then, in case pg_cron is not configured
 function maybePrune() {
   if (!SUPABASE_URL || !SERVICE_KEY) return;
   if (Math.random() > 0.02) return;
@@ -298,8 +297,7 @@ Deno.serve(async (req) => {
 
   const ip = clientIp(req);
 
-  // fail closed. if the limiter is unreachable we would rather refuse than
-  // hand out free model calls, because that is the failure that costs money.
+  // fail closed: an unreachable limiter must not become free model calls.
   let limit: Limit;
   try {
     limit = await takeToken(ip);
