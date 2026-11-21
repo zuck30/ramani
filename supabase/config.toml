@@ -1,0 +1,8 @@
+# supabase cli config for ramani
+# the chat function is called by a static page with the public anon key,
+# so jwt verification stays off. the function holds the real secret.
+
+project_id = "ramani"
+
+[functions.ramani-chat]
+verify_jwt = false

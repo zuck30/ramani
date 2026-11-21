@@ -43,11 +43,12 @@ supabase link --project-ref <your-project-ref>
 supabase secrets set DEEPSEEK_API_KEY=sk-...
 ```
 
-4. deploy the function. `--no-verify-jwt` is required because the page calls it
-   with the public anon key and no user session.
+4. deploy the function. jwt verification is already turned off in
+   `supabase/config.toml`, because the page calls it with the public anon key and
+   no user session.
 
 ```
-supabase functions deploy ramani-chat --no-verify-jwt
+supabase functions deploy ramani-chat
 ```
 
 5. point the site at it. open `_config.yml` and fill in both values.
