@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-395-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-397-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**395 links**, last updated 2026-11-21
+**397 links**, last updated 2026-11-21
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -546,6 +546,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [apify](https://apify.com/) | web scraping platform; playful yet technical brand. | `tool` `dev` `saas` `oss` |
 | [apitemplate.io](https://apitemplate.io/) | document templating api; niche tool done simply. | `tool` `saas` `dev` |
 | [appflowy](https://appflowy.com/) | open notion alternative; clean productivity tool. | `oss` `tool` `dev` `minimal` |
+| [appsumo](https://appsumo.com/) | lifetime software deals; a marketplace of tools sold without monthly fees. | `saas` `ecommerce` `tool` `global` |
 | [bear blog](https://bearblog.dev/) | minimal blogging; radical lightness done right. | `oss` `minimal` `dev` `tool` `privacy` |
 | [bored.com](https://www.bored.com/) | entertainment portal; games, quizzes and playful time-wasting. | `playful` `media` `global` |
 | [cal.com](https://cal.com/) | open scheduling; calendly's open rival, well branded. | `oss` `tool` `dev` `minimal` |
@@ -594,6 +595,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [quasar](https://quasar.dev/) | vue framework; thorough docs and component kit. | `dev` `oss` `tool` |
 | [reflex](https://reflex.dev/) | pure-python web apps; framework done cleanly. | `dev` `oss` `tool` |
 | [relay evals](https://relayevals.com/) | llm eval tooling; pragmatic testing reference. | `ai` `dev` `tool` `reference` |
+| [rpcs3](https://rpcs3.net/) | open-source playstation 3 emulator; builds, compatibility lists and progress reports. | `gaming` `oss` `tool` |
 | [ruby](https://www.ruby-lang.org/) | the language itself; a programmer's best friend, docs and community in one calm place. | `dev` `oss` `reference` `tool` |
 | [ruby on rails](https://rubyonrails.org/) | the framework that made ruby famous; convention over configuration. | `dev` `oss` `tool` |
 | [saaspo](https://saaspo.com) | saas design inspiration gallery; hand-picked selection. | `reference` `saas` `minimal` `tool` |

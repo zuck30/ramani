@@ -278,6 +278,20 @@
     "favorite": false
   },
   {
+    "url": "https://appsumo.com/",
+    "title": "AppSumo",
+    "why": "lifetime software deals; a marketplace of tools sold without monthly fees.",
+    "tags": [
+      "saas",
+      "ecommerce",
+      "tool",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.ashbyhq.com/",
     "title": "Ashby",
     "why": "all-in-one recruiting suite; ats, scheduling and analytics in one place.",
@@ -2912,6 +2926,19 @@
     ],
     "category": "landing-pages",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://rpcs3.net/",
+    "title": "RPCS3",
+    "why": "open-source playstation 3 emulator; builds, compatibility lists and progress reports.",
+    "tags": [
+      "gaming",
+      "oss",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
     "favorite": false
   },
   {
