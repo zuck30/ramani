@@ -42,6 +42,7 @@ this document explains the design language and engineering conventions used in r
 - buttons: square, flat, 2.5rem tall, 1.1rem horizontal padding and 12px gaps. light buttons are white with black text. active and dark buttons are charcoal with white text. counts are muted grey.
 - cards: hairline grid, `assets/for-card.png` as a right-aligned background, a mask and a scrim for readable copy, mono title, inter description, mono tag row.
 - tags: no leading hash. tags are square buttons, counts use tabular numbers.
+- scroll jump: two square buttons above the launcher, one to the footer and one to the top. each hides once its destination is already on screen.
 - card tag rows separate tags with `assets/icons/tag-dot.png` as a css mask, never a text bullet. the last tag has no separator.
 - search: one line, square, mono placeholder, slash hint.
 - footer: secondary link list with bracket markers, a 14px meta bar, a contact line and a large mono wordmark.
@@ -89,8 +90,8 @@ this document explains the design language and engineering conventions used in r
 - rate limiting lives in postgres (`supabase/sql/rate-limit.sql`), not in memory. edge isolates are short lived and per-instance, so a memory counter is theatre.
 - the limiter fails closed. if the counter is unreachable, refuse the request rather than spend money.
 - always keep the global daily cap. a per-ip limit alone is defeated by rotating addresses.
-- keep the frame: labelled launcher pill, glass panel with a dark frame, rotating avatar ring, pill input, gradient prompt chips. this is the one place the site is allowed soft corners and a colour accent.
-- the launcher must stay recognisable: the avatar plus the words "ask kambarage", on the inverted surface so it reads against the page in both themes.
+- keep the frame: round launcher, glass panel with a dark frame, rotating avatar ring, pill input, gradient prompt chips. this is the one place the site is allowed soft corners and a colour accent.
+- the launcher is a round bubble carrying the map mark, on the inverted surface so it reads against the page in both themes.
 - the panel must still adapt to the theme. tokens are scoped on `.ask` and use `light-dark()`, never hard-coded white.
 - the widget is optional: with `chat.endpoint` empty the site behaves exactly as before.
 
