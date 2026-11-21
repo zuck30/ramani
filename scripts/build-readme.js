@@ -21,6 +21,18 @@ const OUT_FILE = path.join(ROOT, 'README.md');
 const REPO = 'zuck30/ramani';
 const SITE = 'https://zuck30.github.io/ramani/';
 
+// single source of truth for the contact address is _config.yml
+function siteEmail() {
+  try {
+    const cfg = fs.readFileSync(path.join(ROOT, '_config.yml'), 'utf8');
+    const m = cfg.match(/^email:\s*(\S+)\s*$/m);
+    if (m) return m[1];
+  } catch (error) {
+    /* fall through to the default below */
+  }
+  return 'mwalyangashadrack@gmail.com';
+}
+
 const CATEGORY_ORDER = [
   'landing-pages',
   'saas-dashboards',
@@ -75,6 +87,7 @@ function badges(linkCount) {
     '[![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)',
     '[![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)',
     `[![links](https://img.shields.io/badge/links-${linkCount}-161616)](data/links.json)`,
+    `[![email](https://img.shields.io/badge/email-${encodeURIComponent(siteEmail())}-3b5cf6)](mailto:${siteEmail()})`,
     '[![license](https://img.shields.io/badge/license-mit-black)](LICENSE)',
     '[![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)',
   ].join('\n');

@@ -84,6 +84,7 @@ this document explains the design language and engineering conventions used in r
 - categories come from `CATEGORY_ORDER` in `scripts/build-readme.js`.
 - tags are lowercase and hyphenated. reuse the vocabulary on the tags page.
 - after editing data, run `node scripts/build-readme.js`.
+- the contact email lives once, in `_config.yml`. the footer reads `site.email` and the readme generator parses the same key. never hard-code the address in a template or a script.
 
 # feed
 
