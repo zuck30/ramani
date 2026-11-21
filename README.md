@@ -129,6 +129,14 @@ node scripts/build-readme.js
 
 the site has a small chat panel called kambarage in the bottom right corner. it recommends links from the map and answers questions about the project itself. the page ranks the links in the browser and sends only a handful of candidates to a supabase edge function, which holds the api key and calls the model. the widget stays hidden until `chat.endpoint` is set in `_config.yml`. see [supabase](supabase/README.md) for the deploy steps.
 
+<div align="center">
+  <img src="assets/shot-1.png" alt="asking kambarage to introduce itself" width="760">
+  <br><br>
+  <img src="assets/shot-2.png" alt="kambarage recommending tanzanian fintech links in swahili" width="760">
+  <br><br>
+  <img src="assets/shot-3.png" alt="kambarage continuing in swahili and pointing to the tags page" width="760">
+</div>
+
 # deployment
 
 pushing to `main` triggers [.github/workflows/jekyll.yml](.github/workflows/jekyll.yml), which builds the site with `actions/jekyll-build-pages` and deploys it to github pages. the production base url is `/ramani`, matching `baseurl` in `_config.yml`.
