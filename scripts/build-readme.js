@@ -107,6 +107,10 @@ function intro(links) {
   const heroVersion = assetVersion('assets/ramani-2.png');
 
   return [
+    '<p align="center">',
+    `  <a href="${SITE}"><img src="assets/nav-logo.png" alt="ramani" width="96"></a>`,
+    '</p>',
+    '',
     '# ramani',
     '',
     badges(links.length),
@@ -252,6 +256,8 @@ function intro(links) {
     '  &nbsp;&nbsp;',
     '  <a href="https://inkscape.org/"><img src="assets/inkscape_logo_icon_145169.svg#gh-light-mode-only" alt="inkscape" height="26"></a>',
     '  <a href="https://www.flaticon.com/"><img src="assets/flaticon-color-negative.png#gh-dark-mode-only" alt="flaticon" height="18"></a>',
+    '  &nbsp;&nbsp;',
+    '  <a href="https://opencode.ai/"><img src="assets/opencode-wordmark-light.svg#gh-light-mode-only" alt="opencode" height="20"></a>',
     '</p>',
     '',
     '- [jekyll](https://jekyllrb.com/) generates the site, with [kramdown](https://kramdown.gettalong.org/) for markdown and the [seo tag](https://github.com/jekyll/jekyll-seo-tag) and [sitemap](https://github.com/jekyll/jekyll-sitemap) plugins.',

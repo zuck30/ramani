@@ -47,7 +47,8 @@ this document explains the design language and engineering conventions used in r
 - search: one line, square, mono placeholder, slash hint.
 - footer: secondary link list with bracket markers, a 14px meta bar, a contact line and a large mono wordmark.
 - contact: `assets/icons/mail.png` as a css mask tinted with `currentColor`. the address is always visible as text, and `mailto:` links may prefill a subject and body.
-- icons: inline svg for interface glyphs. sidebar navigation icons are png masks tinted with `currentColor`.
+- icons come from flaticon only. every file in `assets/icons/` is a flaticon png, used as a css mask tinted with `currentColor` so it follows the theme.
+- never mix icon packs and never draw a new icon by hand. the two tiny inline svg marks, the external arrow and the favourite pin, are the only exception because they scale with text.
 
 # html and liquid
 
