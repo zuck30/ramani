@@ -1129,20 +1129,10 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   display:flex;
   align-items:center;
   gap:.5rem;
-  padding:.35rem .45rem .35rem .6rem;
+  padding:.35rem .4rem .35rem .85rem;
   border-radius:26px;
   background:var(--chat-field);
   border:1px solid var(--chat-hair);
-}
-.ask-mic{
-  display:grid;
-  place-items:center;
-  width:26px;
-  height:26px;
-  flex-shrink:0;
-  border:0;
-  background:none;
-  color:var(--chat-weak);
 }
 .ask-input{
   flex:1;
@@ -1172,6 +1162,14 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   transition:opacity .15s ease;
 }
 .ask-send:disabled{opacity:.45;cursor:default}
+.ask-send-icon{
+  display:block;
+  width:15px;
+  height:15px;
+  background-color:currentColor;
+  -webkit-mask:url('../icons/send.png') center/contain no-repeat;
+  mask:url('../icons/send.png') center/contain no-repeat;
+}
 .ask-homebar{
   width:112px;
   height:5px;

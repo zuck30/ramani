@@ -256,17 +256,6 @@
     var compose = el('div', 'ask-compose');
     var form = el('form', 'ask-field');
 
-    var mic = el('button', 'ask-mic');
-    mic.type = 'button';
-    mic.setAttribute('aria-label', 'voice input');
-    mic.tabIndex = -1;
-    mic.innerHTML =
-      '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">' +
-      '<path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z" ' +
-      'stroke="currentColor" stroke-width="1.6"></path>' +
-      '<path d="M19 11a7 7 0 0 1-14 0M12 18v3" stroke="currentColor" stroke-width="1.6" ' +
-      'stroke-linecap="round"></path></svg>';
-
     var input = el('input', 'ask-input');
     input.type = 'text';
     input.name = 'q';
@@ -277,13 +266,8 @@
     var submit = el('button', 'ask-send');
     submit.type = 'submit';
     submit.setAttribute('aria-label', 'send');
-    submit.innerHTML =
-      '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">' +
-      '<path d="M22 2 11 13" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>' +
-      '<path d="M22 2 15 22l-4-9-9-4z" stroke="currentColor" stroke-width="1.8" ' +
-      'stroke-linejoin="round"></path></svg>';
+    submit.innerHTML = '<span class="ask-send-icon" aria-hidden="true"></span>';
 
-    form.appendChild(mic);
     form.appendChild(input);
     form.appendChild(submit);
 
