@@ -579,8 +579,27 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   color:var(--text-faint);
 }
 .card-meta .meta-item{
-  white-space:normal;
+  display:inline-flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:.3rem .35rem;
   line-height:1.5;
+}
+.card-meta .meta-tag{
+  display:inline-flex;
+  align-items:center;
+  gap:.35rem;
+  white-space:nowrap;
+}
+.card-meta .meta-dot{
+  display:block;
+  width:9px;
+  height:9px;
+  flex-shrink:0;
+  background-color:currentColor;
+  opacity:.75;
+  -webkit-mask:url('../icons/tag-dot.png') center/contain no-repeat;
+  mask:url('../icons/tag-dot.png') center/contain no-repeat;
 }
 
 /* empty state */
