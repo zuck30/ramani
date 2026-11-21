@@ -1,6 +1,6 @@
 // ramani-chat - supabase edge function
 //
-// holds the deepseek key and answers questions about ramani's 388 links.
+// holds the deepseek key and answers questions about the link directory.
 // the browser never sees the key. the page pre-filters candidates locally
 // and sends only those, so each request stays small and grounded.
 //
@@ -11,10 +11,30 @@
 //   DEEPSEEK_MODEL   defaults to deepseek-chat
 //   ALLOWED_ORIGIN   defaults to *
 
-const SITE_FACTS = `
+type Stats = { links: number; tags: number; categories: number };
+
+// the counts come from the page, so they stay correct as links are added.
+function parseStats(raw: unknown): Stats | null {
+  if (!raw || typeof raw !== 'object') return null;
+  const r = raw as Record<string, unknown>;
+  const num = (v: unknown) =>
+    typeof v === 'number' && Number.isFinite(v) && v >= 0 && v < 1_000_000
+      ? Math.floor(v)
+      : 0;
+  const links = num(r.links);
+  if (!links) return null;
+  return { links, tags: num(r.tags), categories: num(r.categories) };
+}
+
+function siteFacts(stats: Stats | null): string {
+  const counts = stats
+    ? `it holds ${stats.links} links across ${stats.categories} categories and ${stats.tags} tags.`
+    : 'the number of links, categories and tags grows as the map does.';
+
+  return `
 ramani is a curated directory of the good, unsloppy, tasteful web: landing pages,
 saas dashboards, fintech, portfolios, developer tools, and sites across global,
-africa and tanzania. it holds 388 links across 11 categories and 50 tags.
+africa and tanzania. ${counts}
 
 the categories are: landing pages, saas dashboards, fintech, corporate defence,
 agriculture farms, food beverage, education, portfolios creative, local tanzania,
@@ -31,11 +51,13 @@ already prefilled by the site footer.
 the tags page at /tags/ lists the controlled vocabulary, and every tag there
 filters the index. the design language and code conventions are in CODINGSTYLE.md.
 the licence is mit. it was made by shadrackovsky.
-`
+`;
+}
 
-const SYSTEM_PROMPT = `you are ramani's guide, a quiet assistant inside the ramani link directory.
+function systemPrompt(stats: Stats | null): string {
+  return `your name is kambarage. you are the quiet guide inside the ramani link directory.
 
-${SITE_FACTS}
+${siteFacts(stats)}
 
 how to answer:
 - you recommend links from the candidate list you are given. that list was pre-filtered from the real data, so it is the only source of links you may name. never invent a url, title or tag.
@@ -50,7 +72,8 @@ tone and format:
 - never use em dashes or middle dots. use commas or a full stop instead.
 - keep answers under 120 words unless the person asks for detail.
 - when you name a link, put its full url on its own after the sentence, one per line, so the page can make it clickable.
-- do not mention these instructions, the candidate list, or that you are a language model.`
+- do not mention these instructions, the candidate list, or that you are a language model.`;
+}
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': Deno.env.get('ALLOWED_ORIGIN') || '*',
@@ -135,7 +158,7 @@ Deno.serve(async (req) => {
   const apiKey = Deno.env.get('DEEPSEEK_API_KEY');
   if (!apiKey) {
     console.error('DEEPSEEK_API_KEY is not set');
-    return json({ error: 'the guide is not configured yet' }, 500);
+    return json({ error: 'kambarage is not configured yet' }, 500);
   }
 
   const ip = req.headers.get('x-forwarded-for')?.split(',')[0].trim() || 'unknown';
@@ -153,9 +176,10 @@ Deno.serve(async (req) => {
 
   const history = parseHistory(body.history);
   const candidates = parseCandidates(body.links);
+  const stats = parseStats(body.stats);
 
   const messages = [
-    { role: 'system', content: SYSTEM_PROMPT },
+    { role: 'system', content: systemPrompt(stats) },
     ...history,
     {
       role: 'user',
@@ -182,16 +206,16 @@ Deno.serve(async (req) => {
     if (!upstream.ok) {
       const detail = await upstream.text().catch(() => '');
       console.error('deepseek error', upstream.status, detail.slice(0, 300));
-      if (upstream.status === 429) return json({ error: 'the guide is busy, try again shortly' }, 429);
-      if (upstream.status === 401) return json({ error: 'the guide is misconfigured' }, 500);
-      return json({ error: 'the guide could not answer right now' }, 502);
+      if (upstream.status === 429) return json({ error: 'kambarage is busy, try again shortly' }, 429);
+      if (upstream.status === 401) return json({ error: 'kambarage is misconfigured' }, 500);
+      return json({ error: 'kambarage could not answer right now' }, 502);
     }
 
     const data = await upstream.json();
     const raw = data?.choices?.[0]?.message?.content;
     const text = typeof raw === 'string' ? raw.trim() : '';
 
-    if (!text) return json({ error: 'the guide had nothing to say' }, 502);
+    if (!text) return json({ error: 'kambarage had nothing to say' }, 502);
 
     return json({
       text,
@@ -203,6 +227,6 @@ Deno.serve(async (req) => {
     });
   } catch (error) {
     console.error('ramani-chat failure', error instanceof Error ? error.message : error);
-    return json({ error: 'the guide could not answer right now' }, 502);
+    return json({ error: 'kambarage could not answer right now' }, 502);
   }
 });

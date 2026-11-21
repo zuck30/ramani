@@ -1,11 +1,11 @@
-# ask ramani
+# kambarage
 
-the chat panel on the site. it answers two kinds of question:
+the chat panel on the site. kambarage answers two kinds of question:
 
 - link questions: which sites on the map match what you are after.
 - site questions: how to submit a link, what the tags mean, the licence, how it is built.
 
-it is deliberately small. the page pre-filters the 388 links in the browser and
+it is deliberately small. the page pre-filters the links in the browser and
 sends only about a dozen candidates per request, so the model never has to hold
 the whole directory and cannot invent a url.
 

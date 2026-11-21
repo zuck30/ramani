@@ -127,7 +127,7 @@ RUBYOPT="-r./scripts/ruby4-compat.rb" bundle exec jekyll serve --baseurl "" --po
 - open [localhost](http://localhost:4000).
 - production uses the `/ramani` base url from `_config.yml`.
 - build with `RUBYOPT="-r./scripts/ruby4-compat.rb" bundle exec jekyll build --baseurl ""`.
-- the ask ramani widget needs `.env`. copy `.env.example` to `.env`, fill it in, run `node scripts/env.js`, then add `--config _config.yml,_config.local.yml` to the build.
+- the kambarage widget needs `.env`. copy `.env.example` to `.env`, fill it in, run `node scripts/env.js`, then add `--config _config.yml,_config.local.yml` to the build.
 - `.env` and `_config.local.yml` are gitignored. never commit either.
 - deploy by pushing to `main`. github actions runs jekyll and publishes to pages.
 

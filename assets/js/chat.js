@@ -1,5 +1,5 @@
 /* ============================================================
-   ask ramani - a small chat panel over the 388 links.
+   kambarage - a small chat panel over the link directory.
    vanilla js, no dependencies, progressive enhancement: it only
    builds itself when the page declares a chat endpoint.
    ============================================================ */
@@ -98,12 +98,30 @@
     return score;
   }
 
+  function getLinks() {
+    if (!links) links = readLinks();
+    return links;
+  }
+
+  function counts(all) {
+    var tags = {}, cats = {};
+    for (var i = 0; i < all.length; i++) {
+      for (var j = 0; j < all[i].tags.length; j++) tags[all[i].tags[j]] = 1;
+      if (all[i].category) cats[all[i].category] = 1;
+    }
+    return {
+      links: all.length,
+      tags: Object.keys(tags).length,
+      categories: Object.keys(cats).length
+    };
+  }
+
   function pick(question) {
     if (GUIDE.test(question)) return [];
-    if (!links) links = readLinks();
+    var all = getLinks();
     var tokens = tokenize(question);
     var phrase = tokens.join(' ');
-    var ranked = links.map(function (link) {
+    var ranked = all.map(function (link) {
       return { link: link, score: scoreLink(link, tokens, phrase) };
     });
     ranked.sort(function (a, b) { return b.score - a.score; });
@@ -143,13 +161,16 @@
     var panel = el('div', 'ask-panel');
     panel.id = 'ask-panel';
     panel.setAttribute('role', 'dialog');
-    panel.setAttribute('aria-label', 'ask ramani');
+    panel.setAttribute('aria-label', 'ask kambarage');
     panel.hidden = true;
 
     var head = el('div', 'ask-head');
     var titleWrap = el('div', 'ask-head-title');
-    titleWrap.appendChild(el('span', 'ask-name', 'ask ramani'));
-    titleWrap.appendChild(el('span', 'ask-sub', 'a guide to the 388 links'));
+    titleWrap.appendChild(el('span', 'ask-name', 'kambarage'));
+    var all = getLinks();
+    var stats = counts(all);
+    els.stats = stats;
+    titleWrap.appendChild(el('span', 'ask-sub', 'a guide to the ' + stats.links + ' links'));
     var close = el('button', 'ask-close', 'close');
     close.type = 'button';
     head.appendChild(titleWrap);
@@ -162,7 +183,7 @@
 
     var intro = el('div', 'ask-intro');
     intro.appendChild(el('p', 'ask-bleed',
-      'ask for a kind of site and i will pull it off the map. tags, categories, or a plain sentence all work.'));
+      'i am kambarage, a guide to the map. ask for a kind of site and i will pull it off. tags, categories, or a plain sentence all work.'));
     var prompts = el('div', 'ask-prompts');
     ['dark fintech dashboards', 'best portfolios', 'sites from tanzania', 'how do i submit a link']
       .forEach(function (q) {
@@ -178,7 +199,7 @@
     var input = el('input', 'ask-input');
     input.type = 'text';
     input.name = 'q';
-    input.placeholder = 'ask about a link...';
+    input.placeholder = 'ask kambarage...';
     input.autocomplete = 'off';
     input.setAttribute('aria-label', 'your question');
     var submit = el('button', 'ask-send');
@@ -306,7 +327,8 @@
       body: JSON.stringify({
         question: text,
         history: history.slice(-MAX_HISTORY),
-        links: candidates
+        links: candidates,
+        stats: els.stats
       })
     })
       .then(function (res) {
@@ -325,7 +347,7 @@
       })
       .catch(function (err) {
         if (typing.parentNode) typing.parentNode.removeChild(typing);
-        addMessage('model', 'the guide is not reachable right now. ' +
+        addMessage('model', 'kambarage is not reachable right now. ' +
           'try the tags page, or email mwalyangashadrack@gmail.com.');
         if (window.console) console.warn('ramani chat:', err && err.message);
       })

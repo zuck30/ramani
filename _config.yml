@@ -11,7 +11,7 @@ github_username: zuck30
 email: mwalyangashadrack@gmail.com
 
 # ---------------------------------------------------------------
-# ask ramani - the chat widget.
+# kambarage - the chat widget.
 # leave both empty to hide the widget entirely.
 # after deploying supabase/functions/ramani-chat, set:
 #   endpoint: https://<project-ref>.supabase.co/functions/v1/ramani-chat
