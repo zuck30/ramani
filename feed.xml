@@ -1,0 +1,35 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>ramani</title>
+  <subtitle>a map of the good, unsloppy, tasteful web: landing pages, saas dashboards, fintech, portfolios, developer tools, and sites across global, africa and tanzania.</subtitle>
+  <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/" rel="alternate" type="text/html"/>
+  <id>{{ site.url }}{{ site.baseurl }}/feed.xml</id>
+  {% assign entries = site.data.links | sort: "added" | reverse %}
+  {% assign newest = entries | first %}
+  <updated>{{ newest.added | date_to_xmlschema }}</updated>
+  <author>
+    <name>shadrackovsky</name>
+    <uri>{{ site.url }}{{ site.baseurl }}/</uri>
+  </author>
+  <rights>mit license</rights>
+  {% for entry in entries limit: 30 %}
+  {% capture entry_html %}<p>{{ entry.why }}</p><p>category: {{ entry.category | replace: "-", " " }} | tags: {% for t in entry.tags %}{{ t }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>{% endcapture %}
+  <entry>
+    <title>{{ entry.title | escape }}</title>
+    <link href="{{ entry.url | escape }}" rel="alternate" type="text/html"/>
+    <id>{{ entry.url | escape }}</id>
+    <updated>{{ entry.added | date_to_xmlschema }}</updated>
+    <summary type="text">{{ entry.why | escape }}</summary>
+    <content type="html">{{ entry_html | escape }}</content>
+    <category term="{{ entry.category | escape }}"/>
+    {% for t in entry.tags %}
+    <category term="{{ t | escape }}"/>
+    {% endfor %}
+  </entry>
+  {% endfor %}
+</feed>
