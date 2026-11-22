@@ -2907,6 +2907,19 @@
     "favorite": false
   },
   {
+    "url": "https://picsart.com/",
+    "title": "Picsart",
+    "why": "image and video editor; a full creative suite inside the browser.",
+    "tags": [
+      "design",
+      "tool",
+      "saas"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://pinetools.com/invert-image-colors",
     "title": "PineTools: Invert Colors",
     "why": "Tiny online utilities; utilitarian tool pages.",
