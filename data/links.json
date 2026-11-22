@@ -2145,6 +2145,19 @@
     "favorite": false
   },
   {
+    "url": "https://landoffer.ai/",
+    "title": "LandOffer",
+    "why": "ai job search; resume-based alerts and autofilled applications.",
+    "tags": [
+      "ai",
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://learn-anything.xyz",
     "title": "Learn Anything",
     "why": "Maps of what to learn; exactly what it says.",
