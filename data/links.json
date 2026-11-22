@@ -3660,6 +3660,19 @@
     "favorite": false
   },
   {
+    "url": "https://tally.so/",
+    "title": "Tally",
+    "why": "free form builder; unlimited forms and a typing-first editor.",
+    "tags": [
+      "saas",
+      "tool",
+      "minimal"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.tanzajob.com/",
     "title": "TanzaJob",
     "why": "Local job board; functional listing UX.",
@@ -3909,6 +3922,18 @@
     ],
     "category": "resources",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://www.typeform.com/",
+    "title": "Typeform",
+    "why": "form builder with ai automation; conversational one-question flow.",
+    "tags": [
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-22",
     "favorite": false
   },
   {

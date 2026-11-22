@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-421-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-423-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**421 links**, last updated 2026-11-22
+**423 links**, last updated 2026-11-22
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -300,10 +300,12 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [scaleway](https://www.scaleway.com/en/) | french cloud; playful violet infra marketing. | `cloud` `saas` `dev` |
 | [sentry](https://sentry.io/welcome/) | error tracking; great developer dx branding. | `dev` `saas` `tool` |
 | [supportyourapp](https://supportyourapp.com/) | support-as-a-service; bold, loud agency branding. | `saas` `agency` |
+| [tally](https://tally.so/) | free form builder; unlimited forms and a typing-first editor. | `saas` `tool` `minimal` |
 | [ticketpro](https://www.ticketonline.pro/) | event ticketing over whatsapp; scanning and check-in for door staff. | `saas` `tool` `tanzania` |
 | [toonbee](https://toonbee.ai/) | ai cartoon maker; playful toy-like landing. | `ai` `playful` `saas` |
 | [trackingmore](https://www.trackingmore.com/) | multi-carrier shipment tracking api and dashboard for ecommerce and logistics. | `saas` `dev` `tool` `global` |
 | [trae ai](https://www.trae.ai/) | ai coding assistant and ide for building software faster. | `ai` `dev` `tool` |
+| [typeform](https://www.typeform.com/) | form builder with ai automation; conversational one-question flow. | `saas` `tool` |
 | [valoris](https://www.valoris.ro/) | romanian bpo; clean corporate services presence. | `agency` `global` |
 | [vesence](https://www.vesence.com/) | agent-native cloud computer; agents work across email, files and terminal while you review. | `ai` `saas` `cloud` `tool` |
 | [virtual sales](https://www.virtual-sales.com/) | virtual sales outsourcing; legacy b2b presence. | `saas` `agency` |
