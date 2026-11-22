@@ -2631,6 +2631,20 @@
     "favorite": false
   },
   {
+    "url": "https://notify.africa/",
+    "title": "Notify Africa",
+    "why": "tanzanian messaging platform; bulk sms, whatsapp api and chatbots.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "dev",
+      "saas"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.notion.com/",
     "title": "Notion",
     "why": "ai workspace; documents, databases and agents on one surface.",
