@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-428-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-430-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**428 links**, last updated 2026-11-22
+**430 links**, last updated 2026-11-22
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -222,6 +222,8 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [grovemade](https://grovemade.com/) | premium desk accessories and workspace goods; refined materials and minimal craft. | `ecommerce` `hardware` `minimal` `global` |
 | [gumroad](https://gumroad.com/) | creator commerce platform; playful, confident marketing. | `ecommerce` `saas` `playful` `colorful` |
 | [ikea](https://www.ikea.com/) | retail giant; product and wayfinding patterns worth study. | `ecommerce` `global` `light` |
+| [instagram, about](https://about.instagram.com/) | corporate about site; oversized editorial type and a gradient-outlined cta. | `editorial` `minimal` `global` |
+| [instagram, careers](https://about.instagram.com/about-us/careers) | careers page in the same system; eyebrow labels and a photo collage. | `editorial` `minimal` `global` |
 | [inter miami cf](https://www.intermiamicf.com/) | official club site with news, roster, schedule, tickets, and fan content for inter miami cf. | `sports` `global` `media` |
 | [jarrett](https://www.gojarrett.com/) | logistics and supply chain site; dense corporate storytelling. | `global` |
 | [jenga](https://www.jenga.com/index.php) | official jenga site; classic block-stacking game brand with products, videos, and shop links. | `playful` `global` |

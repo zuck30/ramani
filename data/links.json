@@ -76,6 +76,32 @@
     "favorite": false
   },
   {
+    "url": "https://about.instagram.com/",
+    "title": "Instagram, about",
+    "why": "corporate about site; oversized editorial type and a gradient-outlined cta.",
+    "tags": [
+      "editorial",
+      "minimal",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
+    "url": "https://about.instagram.com/about-us/careers",
+    "title": "Instagram, careers",
+    "why": "careers page in the same system; eyebrow labels and a photo collage.",
+    "tags": [
+      "editorial",
+      "minimal",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.accessagriculture.org/",
     "title": "Access Agriculture",
     "why": "Farmer training videos; practical global-south resource.",
