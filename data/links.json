@@ -767,6 +767,19 @@
     "favorite": false
   },
   {
+    "url": "https://chrisstapleton.com/",
+    "title": "Chris Stapleton",
+    "why": "artist site; compressed type, muted photography and a stark tour list.",
+    "tags": [
+      "editorial",
+      "dark",
+      "global"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://clickpesa.com/",
     "title": "ClickPesa",
     "why": "Tanzanian payment platform; collections, payouts and risk management for smes and microfinance.",
@@ -1934,6 +1947,18 @@
     ],
     "category": "fintech",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://www.jacksondeanmusic.com/",
+    "title": "Jackson Dean",
+    "why": "artist site; tour dates and records for a country act.",
+    "tags": [
+      "editorial",
+      "global"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-22",
     "favorite": false
   },
   {
