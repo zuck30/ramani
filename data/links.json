@@ -4063,6 +4063,19 @@
     "favorite": false
   },
   {
+    "url": "https://wagtail.org/",
+    "title": "Wagtail",
+    "why": "open-source django cms; python-based, flexible and well documented.",
+    "tags": [
+      "dev",
+      "oss",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.walmart.com/",
     "title": "Walmart",
     "why": "Commerce at scale; checkout and listing patterns.",
