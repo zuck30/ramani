@@ -2080,6 +2080,20 @@
     "favorite": false
   },
   {
+    "url": "https://www.kittl.com/",
+    "title": "Kittl",
+    "why": "ai design platform; image generation, mockups and curated type in one editor.",
+    "tags": [
+      "design",
+      "ai",
+      "tool",
+      "saas"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.kobotoolbox.org/",
     "title": "KoboToolbox",
     "why": "Field data collection toolkit; humanitarian and free.",
