@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-417-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-420-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**417 links**, last updated 2026-11-22
+**420 links**, last updated 2026-11-22
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -300,6 +300,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [scaleway](https://www.scaleway.com/en/) | french cloud; playful violet infra marketing. | `cloud` `saas` `dev` |
 | [sentry](https://sentry.io/welcome/) | error tracking; great developer dx branding. | `dev` `saas` `tool` |
 | [supportyourapp](https://supportyourapp.com/) | support-as-a-service; bold, loud agency branding. | `saas` `agency` |
+| [ticketpro](https://www.ticketonline.pro/) | event ticketing over whatsapp; scanning and check-in for door staff. | `saas` `tool` `tanzania` |
 | [toonbee](https://toonbee.ai/) | ai cartoon maker; playful toy-like landing. | `ai` `playful` `saas` |
 | [trackingmore](https://www.trackingmore.com/) | multi-carrier shipment tracking api and dashboard for ecommerce and logistics. | `saas` `dev` `tool` `global` |
 | [trae ai](https://www.trae.ai/) | ai coding assistant and ide for building software faster. | `ai` `dev` `tool` |
@@ -508,6 +509,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [datamanics](https://datamanics.co.tz/) | dar data and software shop; practical services. | `tanzania` `dev` `africa` |
 | [deloitte tanzania](https://www.deloitte.com/tz/en.html) | big four, local lens; polished advisory pages. | `tanzania` `africa` `global` |
 | [eacop](https://www.eacop.com/) | pipeline project; corporate infrastructure comms. | `tanzania` `africa` |
+| [fayen](https://fayen.co.tz/) | tanzanian travel booking; flights and trip planning in one flow. | `tanzania` `africa` `travel` |
 | [feza schools](https://fezaschools.org/) | tanzanian school network site spanning nursery to a-level programs across multiple campuses. | `tanzania` `education` `africa` |
 | [flashnet exotel](https://flashnet.co.tz/exotel/) | tanzanian network firm reselling cloud telephony. | `tanzania` `cloud` `africa` |
 | [funguo tanzania](https://funguo.org/) | tanzania innovation programme funding and supporting startups and msmes. | `tanzania` `africa` `nonprofit` |
@@ -517,6 +519,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [ifs consulting](https://ifsconsulting.co.tz/) | dar consulting firm; straightforward corporate pages. | `tanzania` `africa` |
 | [immigration passport services](https://eservices.immigration.go.tz/online/web/passport) | passport application portal; government forms flow. | `tanzania` `gov` `africa` |
 | [ligi kuu](https://ligikuu.co.tz/) | tanzania premier league board; fixtures, results, and league news. | `tanzania` `africa` `sports` |
+| [luxury tours and safaris](https://www.luxurytoursandsafaris.com/) | tanzanian safari operator; serengeti, zanzibar and kilimanjaro itineraries. | `tanzania` `africa` `travel` |
 | [manka](https://manka.tz/) | tanzanian brand; promising local site. | `tanzania` `africa` |
 | [marie stopes tanzania](https://www.mariestopes.or.tz/) | health nonprofit; warm, accessible local site. | `tanzania` `nonprofit` `africa` |
 | [ministry of natural resources and tourism](https://maliasili.go.tz/) | tanzanian ministry site; official tourism and conservation information. | `tanzania` `africa` `gov` |

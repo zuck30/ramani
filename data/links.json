@@ -1292,6 +1292,19 @@
     "favorite": false
   },
   {
+    "url": "https://fayen.co.tz/",
+    "title": "Fayen",
+    "why": "tanzanian travel booking; flights and trip planning in one flow.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "travel"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.fe.training/",
     "title": "FE Training",
     "why": "Financial engineering training; deep structured learning.",
@@ -2179,6 +2192,19 @@
     ],
     "category": "resources",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://www.luxurytoursandsafaris.com/",
+    "title": "Luxury Tours and Safaris",
+    "why": "tanzanian safari operator; serengeti, zanzibar and kilimanjaro itineraries.",
+    "tags": [
+      "tanzania",
+      "africa",
+      "travel"
+    ],
+    "category": "local-tanzania",
+    "added": "2026-11-22",
     "favorite": false
   },
   {
@@ -3717,6 +3743,19 @@
     ],
     "category": "fintech",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://www.ticketonline.pro/",
+    "title": "Ticketpro",
+    "why": "event ticketing over whatsapp; scanning and check-in for door staff.",
+    "tags": [
+      "saas",
+      "tool",
+      "tanzania"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-22",
     "favorite": false
   },
   {
