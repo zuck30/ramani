@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-435-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-438-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**435 links**, last updated 2026-11-22
+**438 links**, last updated 2026-11-22
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -205,6 +205,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 
 | site | why | tags |
 |------|-----|------|
+| [7-eleven careers](https://careers.7-eleven.com/) | retail careers site; plain listing pages and a strong brand block. | `editorial` `global` |
 | [airis:net](https://airisnet.com/) | computer vision company; restrained technical presentation. | `ai` `global` |
 | [ajazz store](https://ajazzstore.com/) | keyboard gear store; enthusiast hardware shop. | `ecommerce` `hardware` |
 | [amazon careers](https://www.amazon.jobs/en) | large-scale job board; search-first header and three clear pathways. | `editorial` `global` |
@@ -217,6 +218,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [cofounder](https://cofounder.co/) | startup product pitch; confident, minimal type. | `minimal` `saas` |
 | [deeplead](https://www.deeplead.io/) | lead timeline predictor; one input, one blunt promise. | `saas` `tool` |
 | [finn.no](https://www.finn.no/) | norwegian classifieds marketplace; dense listings with clear hierarchy. | `ecommerce` `global` `minimal` |
+| [first orion](https://firstorion.com/) | branded calling and caller id; a dense b2b product site. | `saas` `global` |
 | [general intelligence company](https://www.generalintelligencecompany.com/) | ai outfit; sharp, modern product landing. | `ai` `minimal` `global` |
 | [getmyboat](https://www.getmyboat.com/) | boat rental marketplace; map-first browsing done well. | `ecommerce` `global` |
 | [glovo](https://glovoapp.com/en) | delivery app marketing; energetic color-blocked sections. | `food` `ecommerce` `colorful` `global` |
@@ -232,6 +234,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [logitech g](https://www.logitechg.com/) | gaming gear brand site; product lineup and category merchandising for mice, keyboards, and racing setups. | `hardware` `ecommerce` `gaming` `global` |
 | [machinetutors](https://machinetutors.com/) | ai consultancy; quiet, engineering-led presentation. | `ai` `agency` `global` |
 | [mall of the emirates](https://www.malloftheemirates.com/en) | mall site; store directories and wayfinding patterns. | `ecommerce` `global` |
+| [mckesson careers](https://careers.mckesson.com/en) | healthcare careers site; search-led hero and clear role categories. | `editorial` `global` |
 | [micron](https://www.micron.com/) | memory chip maker; precise engineering corporate site. | `hardware` `global` |
 | [nékter juice bar](https://www.nekterjuicebar.com/) | juice bar chain; fresh, colorful franchise marketing. | `food` `colorful` `playful` |
 | [palmeiras](https://palmeiras.com.br/) | brazilian football club; bold editorial matchday storytelling. | `sports` `global` `media` `editorial` |

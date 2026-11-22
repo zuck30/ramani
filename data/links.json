@@ -752,6 +752,30 @@
     "favorite": false
   },
   {
+    "url": "https://careers.7-eleven.com/",
+    "title": "7-Eleven Careers",
+    "why": "retail careers site; plain listing pages and a strong brand block.",
+    "tags": [
+      "editorial",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
+    "url": "https://careers.mckesson.com/en",
+    "title": "McKesson Careers",
+    "why": "healthcare careers site; search-led hero and clear role categories.",
+    "tags": [
+      "editorial",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.cartesia.ai/",
     "title": "Cartesia",
     "why": "Voice AI models; sleek research-flavored landing.",
@@ -1405,6 +1429,18 @@
     ],
     "category": "fintech",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://firstorion.com/",
+    "title": "First Orion",
+    "why": "branded calling and caller id; a dense b2b product site.",
+    "tags": [
+      "saas",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-22",
     "favorite": false
   },
   {
