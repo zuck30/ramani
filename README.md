@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-433-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-435-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**433 links**, last updated 2026-11-22
+**435 links**, last updated 2026-11-22
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -207,6 +207,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 |------|-----|------|
 | [airis:net](https://airisnet.com/) | computer vision company; restrained technical presentation. | `ai` `global` |
 | [ajazz store](https://ajazzstore.com/) | keyboard gear store; enthusiast hardware shop. | `ecommerce` `hardware` |
+| [amazon careers](https://www.amazon.jobs/en) | large-scale job board; search-first header and three clear pathways. | `editorial` `global` |
 | [antaira](https://www.antaira.com/) | industrial networking gear; engineering-spec landing. | `hardware` `global` |
 | [barrick gold](https://www.barrick.com/English/home/default.aspx) | gold miner corporate; investor-grade storytelling. | `global` `editorial` |
 | [beak & skiff](https://beakandskiff.com/) | apple orchard brand; warm seasonal marketing. | `food` `light` `minimal` |
@@ -345,6 +346,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [stripe financial connections](https://stripe.com/financial-connections) | bank-linking product; great feature page anatomy. | `fintech` `saas` `dev` |
 | [teller](https://teller.io/) | bank api startup; sparse, precise developer story. | `fintech` `dev` `minimal` |
 | [truelayer](https://truelayer.com/) | open banking apis; bold, confident fintech brand. | `fintech` `saas` `dev` |
+| [upstart](https://www.upstart.com/) | ai lending marketplace; credit decisions and partner origination. | `fintech` `ai` `global` |
 | [yodlee](https://www.yodlee.com/) | og data aggregation; enterprise finance veteran. | `fintech` `saas` `global` |
 
 # corporate defence

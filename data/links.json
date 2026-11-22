@@ -224,6 +224,18 @@
     "favorite": false
   },
   {
+    "url": "https://www.amazon.jobs/en",
+    "title": "Amazon Careers",
+    "why": "large-scale job board; search-first header and three clear pathways.",
+    "tags": [
+      "editorial",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://andwalsh.com/",
     "title": "AND Walsh",
     "why": "Design studio; bold, colorful identity work.",
@@ -4093,6 +4105,19 @@
     ],
     "category": "resources",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://www.upstart.com/",
+    "title": "Upstart",
+    "why": "ai lending marketplace; credit decisions and partner origination.",
+    "tags": [
+      "fintech",
+      "ai",
+      "global"
+    ],
+    "category": "fintech",
+    "added": "2026-11-22",
     "favorite": false
   },
   {
