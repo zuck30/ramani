@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-408-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-415-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**408 links**, last updated 2026-11-21
+**415 links**, last updated 2026-11-22
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -205,6 +205,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 
 | site | why | tags |
 |------|-----|------|
+| [airis:net](https://airisnet.com/) | computer vision company; restrained technical presentation. | `ai` `global` |
 | [ajazz store](https://ajazzstore.com/) | keyboard gear store; enthusiast hardware shop. | `ecommerce` `hardware` |
 | [antaira](https://www.antaira.com/) | industrial networking gear; engineering-spec landing. | `hardware` `global` |
 | [barrick gold](https://www.barrick.com/English/home/default.aspx) | gold miner corporate; investor-grade storytelling. | `global` `editorial` |
@@ -226,6 +227,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [jenga](https://www.jenga.com/index.php) | official jenga site; classic block-stacking game brand with products, videos, and shop links. | `playful` `global` |
 | [kpmg](https://kpmg.com/xx/en.html) | big four global; sober professional identity at scale. | `global` `editorial` |
 | [logitech g](https://www.logitechg.com/) | gaming gear brand site; product lineup and category merchandising for mice, keyboards, and racing setups. | `hardware` `ecommerce` `gaming` `global` |
+| [machinetutors](https://machinetutors.com/) | ai consultancy; quiet, engineering-led presentation. | `ai` `agency` `global` |
 | [mall of the emirates](https://www.malloftheemirates.com/en) | mall site; store directories and wayfinding patterns. | `ecommerce` `global` |
 | [micron](https://www.micron.com/) | memory chip maker; precise engineering corporate site. | `hardware` `global` |
 | [nékter juice bar](https://www.nekterjuicebar.com/) | juice bar chain; fresh, colorful franchise marketing. | `food` `colorful` `playful` |
@@ -549,6 +551,8 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [apitemplate.io](https://apitemplate.io/) | document templating api; niche tool done simply. | `tool` `saas` `dev` |
 | [appflowy](https://appflowy.com/) | open notion alternative; clean productivity tool. | `oss` `tool` `dev` `minimal` |
 | [appsumo](https://appsumo.com/) | lifetime software deals; a marketplace of tools sold without monthly fees. | `saas` `ecommerce` `tool` `global` |
+| [art institute of chicago api](https://api.artic.edu/docs/) | museum rest api; documented endpoints for collection data. | `api` `design` `reference` |
+| [art search](https://artsearch.io/) | semantic art search api; a million works filterable by epoch and material. | `api` `design` `tool` |
 | [bear blog](https://bearblog.dev/) | minimal blogging; radical lightness done right. | `oss` `minimal` `dev` `tool` `privacy` |
 | [bored.com](https://www.bored.com/) | entertainment portal; games, quizzes and playful time-wasting. | `playful` `media` `global` |
 | [cal.com](https://cal.com/) | open scheduling; calendly's open rival, well branded. | `oss` `tool` `dev` `minimal` |
@@ -584,6 +588,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [inference.net](https://inference.net/) | gpu inference provider; straightforward dev pricing. | `ai` `cloud` `dev` `saas` |
 | [jikan](https://jikan.moe/) | unofficial myanimelist api; clean open data. | `dev` `oss` `reference` |
 | [justsketchme](https://justsketch.me/) | poseable figure tool; handy for artists. | `tool` `playful` `dev` |
+| [keen](https://keen.io/) | event streaming platform on apache kafka; managed and quick to start. | `dev` `api` `cloud` `tool` |
 | [kilo cli](https://kilo.ai/cli) | kilo's cli; agents in the terminal. | `ai` `dev` `tool` |
 | [kobotoolbox](https://www.kobotoolbox.org/) | field data collection toolkit; humanitarian and free. | `tool` `nonprofit` `oss` `reference` |
 | [land-book](https://land-book.com/) | landing page gallery; hand-picked design references. | `reference` `minimal` `tool` |
@@ -592,6 +597,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [macports ports](https://ports.macports.org/) | package browser; utilitarian dev reference. | `dev` `oss` `reference` `tool` |
 | [made in webflow: agriculture](https://webflow.com/made-in-webflow/agriculture) | hand-picked farm sites built in webflow. | `reference` `farm` `tool` |
 | [mobbin](https://mobbin.com/) | ui and ux reference library; searchable mobile and web app screenshots. | `design` `reference` `tool` `global` |
+| [nekos api](https://nekosapi.com/) | open-source anime image api; reference for small api docs done well. | `api` `tool` `open-source` |
 | [nixos](https://nixos.org/) | reproducible os; docs-driven, principled site. | `oss` `dev` `reference` `minimal` |
 | [nvchad](https://nvchad.com/) | neovim config; fast, beautiful terminal setup. | `dev` `oss` `minimal` `tool` `dark` |
 | [onorca](https://www.onorca.dev/) | agent orchestration workspace; promising dev tool. | `dev` `ai` `tool` |
@@ -634,6 +640,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [adec kenya](https://www.adec-kenya.com/) | unclassified - revisit. | `reference` |
 | [ageimmune](https://ageimmune.com/) | unclassified - revisit. | `reference` |
 | [altalogy](https://www.altalogy.com/) | unclassified - revisit. | `reference` |
+| [anime news network](https://www.animenewsnetwork.com/) | anime news and encyclopedia; dense, long-running editorial archive. | `media` `editorial` `global` |
 | [axum](https://axum.earth/) | unclassified - revisit. | `reference` |
 | [byg advantage](https://www.bygadvantage.com/) | unclassified - revisit. | `reference` |
 | [deepseek harness](https://www.deepseek.com/en/harness/) | deepseek agent harness writeup; technical reading. | `ai` `dev` |

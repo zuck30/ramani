@@ -162,6 +162,18 @@
     "favorite": false
   },
   {
+    "url": "https://airisnet.com/",
+    "title": "airis:net",
+    "why": "computer vision company; restrained technical presentation.",
+    "tags": [
+      "ai",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://akoya.com/",
     "title": "Akoya",
     "why": "Financial data network; understated B2B design.",
@@ -213,6 +225,19 @@
     "favorite": true
   },
   {
+    "url": "https://www.animenewsnetwork.com/",
+    "title": "Anime News Network",
+    "why": "anime news and encyclopedia; dense, long-running editorial archive.",
+    "tags": [
+      "media",
+      "editorial",
+      "global"
+    ],
+    "category": "reading",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.antaira.com/",
     "title": "Antaira",
     "why": "Industrial networking gear; engineering-spec landing.",
@@ -251,6 +276,19 @@
     "favorite": true
   },
   {
+    "url": "https://api.artic.edu/docs/",
+    "title": "Art Institute of Chicago API",
+    "why": "museum rest api; documented endpoints for collection data.",
+    "tags": [
+      "api",
+      "design",
+      "reference"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://apitemplate.io/",
     "title": "APITemplate.io",
     "why": "Document templating API; niche tool done simply.",
@@ -286,6 +324,19 @@
       "ecommerce",
       "tool",
       "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
+    "url": "https://artsearch.io/",
+    "title": "Art Search",
+    "why": "semantic art search api; a million works filterable by epoch and material.",
+    "tags": [
+      "api",
+      "design",
+      "tool"
     ],
     "category": "resources",
     "added": "2026-11-22",
@@ -1886,6 +1937,20 @@
     "favorite": false
   },
   {
+    "url": "https://keen.io/",
+    "title": "Keen",
+    "why": "event streaming platform on apache kafka; managed and quick to start.",
+    "tags": [
+      "dev",
+      "api",
+      "cloud",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://kilo.ai/",
     "title": "Kilo",
     "why": "AI coding platform; agent marketplace energy.",
@@ -2171,6 +2236,19 @@
     "favorite": false
   },
   {
+    "url": "https://machinetutors.com/",
+    "title": "Machinetutors",
+    "why": "ai consultancy; quiet, engineering-led presentation.",
+    "tags": [
+      "ai",
+      "agency",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://www.magiclandfarms.com/",
     "title": "Magicland Farms",
     "why": "Family farm market; friendly seasonal info.",
@@ -2409,6 +2487,19 @@
     ],
     "category": "portfolios-creative",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://nekosapi.com/",
+    "title": "Nekos API",
+    "why": "open-source anime image api; reference for small api docs done well.",
+    "tags": [
+      "api",
+      "tool",
+      "open-source"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
     "favorite": false
   },
   {
