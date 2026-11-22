@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-415-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-417-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**415 links**, last updated 2026-11-22
+**417 links**, last updated 2026-11-22
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -283,6 +283,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [minimax](https://www.minimax.io/) | chinese ai lab; slick global product pages. | `ai` `saas` `global` |
 | [miro](https://miro.com/) | collaboration canvas; friendly colorful saas marketing. | `saas` `tool` `colorful` `playful` |
 | [mistral ai](https://mistral.ai/) | frontier ai company; model, cloud, and enterprise product pages with strong technical branding. | `ai` `saas` `dev` `global` |
+| [notion](https://www.notion.com/) | ai workspace; documents, databases and agents on one surface. | `saas` `tool` |
 | [odoo](https://www.odoo.com/) | open erp suite; clean modular product pages. | `saas` `oss` `tool` |
 | [openai codex](https://openai.com/codex/) | openai's coding agent; big-lab product polish. | `ai` `dev` `saas` |
 | [pawa ai](https://pawa-ai.com/) | ai for african languages and voices; chat, agents, and builder platform. | `ai` `saas` `dev` `africa` |
@@ -600,6 +601,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [nekos api](https://nekosapi.com/) | open-source anime image api; reference for small api docs done well. | `api` `tool` `open-source` |
 | [nixos](https://nixos.org/) | reproducible os; docs-driven, principled site. | `oss` `dev` `reference` `minimal` |
 | [nvchad](https://nvchad.com/) | neovim config; fast, beautiful terminal setup. | `dev` `oss` `minimal` `tool` `dark` |
+| [obsidian](https://obsidian.md/) | local-first markdown notes; calm typography and a deep plugin ecosystem. | `tool` `minimal` |
 | [onorca](https://www.onorca.dev/) | agent orchestration workspace; promising dev tool. | `dev` `ai` `tool` |
 | [open source pledge](https://opensourcepledge.com/) | funding pledge for oss; simple, principled page. | `oss` `reference` `minimal` |
 | [opencode](https://opencode.ai/) | open coding agent; the terminal ai workhorse. | `ai` `dev` `oss` `tool` |

@@ -2605,6 +2605,18 @@
     "favorite": false
   },
   {
+    "url": "https://www.notion.com/",
+    "title": "Notion",
+    "why": "ai workspace; documents, databases and agents on one surface.",
+    "tags": [
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://nourishcoldpressed.com/",
     "title": "Nourish Cold Pressed",
     "why": "Cold-pressed juice; clean wellness branding.",
@@ -2629,6 +2641,18 @@
     ],
     "category": "resources",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://obsidian.md/",
+    "title": "Obsidian",
+    "why": "local-first markdown notes; calm typography and a deep plugin ecosystem.",
+    "tags": [
+      "tool",
+      "minimal"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
     "favorite": false
   },
   {
