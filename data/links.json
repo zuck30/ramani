@@ -740,6 +740,19 @@
     "favorite": false
   },
   {
+    "url": "https://chacc.dev/",
+    "title": "ChaCC API",
+    "why": "fastapi modular platform; clear docs for a plug-and-play backend.",
+    "tags": [
+      "dev",
+      "api",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://charm.land/",
     "title": "Charm",
     "why": "Terminal tooling with taste; TUIs as brand.",

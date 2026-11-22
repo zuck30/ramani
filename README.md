@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-424-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-425-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**424 links**, last updated 2026-11-22
+**425 links**, last updated 2026-11-22
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -564,6 +564,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [bored.com](https://www.bored.com/) | entertainment portal; games, quizzes and playful time-wasting. | `playful` `media` `global` |
 | [cal.com](https://cal.com/) | open scheduling; calendly's open rival, well branded. | `oss` `tool` `dev` `minimal` |
 | [cap](https://cap.so/) | open screen recorder; friendly indie product. | `oss` `tool` `minimal` `dev` |
+| [chacc api](https://chacc.dev/) | fastapi modular platform; clear docs for a plug-and-play backend. | `dev` `api` `tool` |
 | [charm](https://charm.land/) | terminal tooling with taste; tuis as brand. | `dev` `oss` `tool` `playful` |
 | [cloudmersive](https://www.cloudmersive.com/) | api suite; document conversion, validation and security endpoints. | `api` `tool` `dev` |
 | [conductor](https://www.conductor.build/) | claude code manager; tidy multi-agent ui. | `ai` `dev` `tool` |
