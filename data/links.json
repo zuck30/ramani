@@ -1574,6 +1574,19 @@
     "favorite": false
   },
   {
+    "url": "https://goodweb.com.au/",
+    "title": "Good Web Solutions",
+    "why": "australian wordpress studio; straightforward small-business site design.",
+    "tags": [
+      "agency",
+      "design",
+      "global"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-22",
+    "favorite": false
+  },
+  {
     "url": "https://aistudio.google.com/welcome",
     "title": "Google AI Studio",
     "why": "Playground for Gemini; fastest way to test prompts.",
