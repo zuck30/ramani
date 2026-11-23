@@ -105,10 +105,7 @@
     var panel = el('div', 'palette-panel');
 
     var field = el('div', 'palette-field');
-    field.innerHTML =
-      '<svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">' +
-      '<circle cx="6.75" cy="6.75" r="4.75" stroke="currentColor" stroke-width="1.3"></circle>' +
-      '<path d="M10.5 10.5 14.5 14.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"></path></svg>';
+    field.innerHTML = '<span class="palette-search-icon" aria-hidden="true"></span>';
 
     var input = el('input', 'palette-input');
     input.type = 'text';
