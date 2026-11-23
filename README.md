@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-465-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-477-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**465 links**, last updated 2026-11-23
+**477 links**, last updated 2026-11-23
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -294,10 +294,17 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [cobit solutions](https://cobit-solutions.com/en) | business software vendor; practical b2b pages. | `saas` `tool` `dev` |
 | [context](https://www.context.dev/) | dev tool; lean, terminal-flavored landing. | `dev` `ai` `saas` |
 | [cortical labs](https://corticallabs.com/) | biological computers; wild frontier research story. | `ai` `hardware` |
+| [customer.io](https://customer.io/) | customer engagement platform; messaging automation for saas. | `saas` `tool` `marketing` |
 | [deepnote](https://deepnote.com/) | data notebooks; collaborative, polished product tour. | `saas` `dev` `tool` |
 | [domyn](https://www.domyn.com/) | ai company; sleek enterprise positioning. | `ai` `saas` |
+| [doordash](https://www.doordash.com/) | food delivery marketplace; polished consumer app and brand. | `saas` `global` |
+| [fernand](https://getfernand.com/) | shared inbox and customer support tool; clean support ux. | `saas` `tool` |
 | [fly.io](https://fly.io/) | infra marketing with actual taste; docs-like vibe. | `dev` `cloud` `saas` `dark` |
+| [giga](https://giga.ai/) | ai platform; modern agent and automation tooling. | `ai` `saas` `tool` |
+| [glide](https://www.glideapps.com/) | no-code app builder; turn spreadsheets into apps. | `saas` `tool` `dev` |
 | [greenhouse](https://www.greenhouse.com/) | hiring platform; structured interviews and pipeline tracking. | `saas` `tool` `global` |
+| [griffin](https://www.griffin.com/) | banking-as-a-service platform; embedded finance apis. | `saas` `dev` `cloud` |
+| [gumloop](https://www.gumloop.com/) | no-code ai workflow builder; automate tasks with llms. | `ai` `saas` `tool` `dev` |
 | [gusto](https://gusto.com/) | payroll and hr; friendly, human saas marketing. | `saas` `fintech` `playful` `light` |
 | [helpware](https://helpware.com/) | outsourced support; polished bpo marketing. | `saas` `agency` |
 | [hio](https://hio.ai/) | ai business partner for small businesses; handles messages, marketing, and insights. | `ai` `saas` `tool` |
@@ -308,6 +315,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [landoffer](https://landoffer.ai/) | ai job search; resume-based alerts and autofilled applications. | `ai` `saas` `tool` |
 | [lattice](https://lattice.com/) | hr platform; structured, people-first marketing. | `saas` `tool` `global` |
 | [lever](https://www.lever.co/) | recruiting software; ats and crm in a calm, readable interface. | `saas` `tool` `global` |
+| [localcan](https://www.localcan.com/) | local tunneling tool; expose localhost to the internet. | `dev` `tool` |
 | [meetkai](https://meetkai.com/) | conversational ai; friendly product tour. | `ai` `saas` |
 | [mindcloud](https://mindcloud.co/) | integration platform; tidy b2b pitch. | `saas` `tool` `dev` |
 | [minimax](https://www.minimax.io/) | chinese ai lab; slick global product pages. | `ai` `saas` `global` |
@@ -316,6 +324,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [notion](https://www.notion.com/) | ai workspace; documents, databases and agents on one surface. | `saas` `tool` |
 | [odoo](https://www.odoo.com/) | open erp suite; clean modular product pages. | `saas` `oss` `tool` |
 | [openai codex](https://openai.com/codex/) | openai's coding agent; big-lab product polish. | `ai` `dev` `saas` |
+| [papermark](https://www.papermark.com/) | secure virtual data room and document sharing for m&a and fundraising. | `saas` `tool` `security` |
 | [pawa ai](https://pawa-ai.com/) | ai for african languages and voices; chat, agents, and builder platform. | `ai` `saas` `dev` `africa` |
 | [planetscale](https://planetscale.com/) | serverless mysql; crisp developer infra brand. | `saas` `dev` `cloud` |
 | [poolside](https://poolside.ai) | ai code models; sleek dark landing. | `ai` `dark` `saas` |
@@ -323,8 +332,10 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [primefold](https://primefold.ai/) | ai tool; compact modern launch page. | `ai` `saas` |
 | [protopie](https://www.protopie.io/) | prototyping tool; motion-first product story. | `tool` `motion` `saas` |
 | [qwen](https://qwen.ai/home) | alibaba's open models; research-brand landing. | `ai` `saas` `global` |
+| [relume](https://www.relume.ai/) | ai website builder; assembles marketing sites from human-built components. | `ai` `saas` `tool` |
 | [rezi](https://www.rezi.ai/) | ai resume builder; sharp conversion-focused pages. | `ai` `tool` `saas` |
 | [robin ai](https://robinai.com/) | legal ai copilot; confident enterprise pitch. | `ai` `saas` |
+| [roommaster](https://www.roommaster.com/) | all-in-one hotel management software; pms, booking, and revenue tools. | `saas` `tool` |
 | [samsara](https://www.samsara.com/) | fleet iot platform; crisp enterprise saas site. | `saas` `hardware` |
 | [sarvam ai](https://www.sarvam.ai/) | india-first ai models; confident research brand. | `ai` `saas` `global` |
 | [scaleway](https://www.scaleway.com/en/) | french cloud; playful violet infra marketing. | `cloud` `saas` `dev` |
@@ -335,6 +346,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [toonbee](https://toonbee.ai/) | ai cartoon maker; playful toy-like landing. | `ai` `playful` `saas` |
 | [trackingmore](https://www.trackingmore.com/) | multi-carrier shipment tracking api and dashboard for ecommerce and logistics. | `saas` `dev` `tool` `global` |
 | [trae ai](https://www.trae.ai/) | ai coding assistant and ide for building software faster. | `ai` `dev` `tool` |
+| [twin](https://twin.so/) | ai agent platform; build and run autonomous agents. | `ai` `saas` `tool` |
 | [typeform](https://www.typeform.com/) | form builder with ai automation; conversational one-question flow. | `saas` `tool` |
 | [valoris](https://www.valoris.ro/) | romanian bpo; clean corporate services presence. | `agency` `global` |
 | [vesence](https://www.vesence.com/) | agent-native cloud computer; agents work across email, files and terminal while you review. | `ai` `saas` `cloud` `tool` |
