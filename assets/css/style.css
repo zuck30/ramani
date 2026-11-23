@@ -207,6 +207,15 @@ a{color:inherit}
   -webkit-mask:url('../icons/nav-github.png') center/contain no-repeat;
   mask:url('../icons/nav-github.png') center/contain no-repeat;
 }
+.nav-key{
+  display:grid;place-items:center;
+  flex-shrink:0;
+  width:18px;height:18px;
+  font-family:var(--font-mono);
+  font-size:14px;
+  line-height:1;
+  opacity:.9;
+}
 .nav-external{
   flex-shrink:0;
   margin-inline-start:.15rem;
@@ -1411,6 +1420,28 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
   font-family:inherit;
   font-size:inherit;
 }
+.palette-group{display:flex;align-items:center;gap:.35rem}
+.palette-label{margin-inline-start:.15rem}
+.palette-key{
+  display:grid;place-items:center;
+  width:22px;height:22px;
+  border:var(--rule);
+  background:transparent;
+  color:var(--text-faint);
+  cursor:pointer;
+  padding:0;
+}
+.palette-key:hover{color:var(--text-strong);border-color:var(--text-strong)}
+.palette-key-icon{
+  display:block;
+  width:12px;height:12px;
+  background-color:currentColor;
+}
+.palette-key-up .palette-key-icon,.palette-key-up{ }
+.palette-key-icon.palette-key-up{ -webkit-mask:url('../icons/palette-up.png') center/contain no-repeat; mask:url('../icons/palette-up.png') center/contain no-repeat; }
+.palette-key-icon.palette-key-down{ -webkit-mask:url('../icons/palette-down.png') center/contain no-repeat; mask:url('../icons/palette-down.png') center/contain no-repeat; }
+.palette-key-icon.palette-key-enter{ -webkit-mask:url('../icons/palette-enter.png') center/contain no-repeat; mask:url('../icons/palette-enter.png') center/contain no-repeat; }
+.palette-key-icon.palette-key-escape{ -webkit-mask:url('../icons/palette-escape.png') center/contain no-repeat; mask:url('../icons/palette-escape.png') center/contain no-repeat; }
 .is-palette{overflow:hidden}
 
 @media (prefers-reduced-motion:reduce){

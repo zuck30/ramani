@@ -128,9 +128,19 @@
 
     var foot = el('div', 'palette-foot');
     foot.innerHTML =
-      '<span><kbd>up</kbd><kbd>down</kbd> move</span>' +
-      '<span><kbd>enter</kbd> open</span>' +
-      '<span><kbd>esc</kbd> close</span>';
+      '<span class="palette-group">' +
+      '<button class="palette-key" type="button" data-palette="up" aria-label="previous link" title="previous link"><span class="palette-key-icon palette-key-up"></span></button>' +
+      '<button class="palette-key" type="button" data-palette="down" aria-label="next link" title="next link"><span class="palette-key-icon palette-key-down"></span></button>' +
+      '<span class="palette-label">move</span>' +
+      '</span>' +
+      '<span class="palette-group">' +
+      '<button class="palette-key" type="button" data-palette="enter" aria-label="open selected link" title="open selected link"><span class="palette-key-icon palette-key-enter"></span></button>' +
+      '<span class="palette-label">open</span>' +
+      '</span>' +
+      '<span class="palette-group">' +
+      '<button class="palette-key" type="button" data-palette="escape" aria-label="close palette" title="close palette"><span class="palette-key-icon palette-key-escape"></span></button>' +
+      '<span class="palette-label">close</span>' +
+      '</span>';
 
     panel.appendChild(field);
     panel.appendChild(list);
@@ -148,6 +158,16 @@
 
     root.addEventListener('click', function (e) {
       if (e.target === root) close();
+    });
+
+    foot.addEventListener('click', function (e) {
+      var btn = e.target && e.target.closest ? e.target.closest('[data-palette]') : null;
+      if (!btn) return;
+      var action = btn.getAttribute('data-palette');
+      if (action === 'up') move(-1);
+      else if (action === 'down') move(1);
+      else if (action === 'enter') openActive();
+      else if (action === 'escape') close();
     });
 
     input.addEventListener('keydown', function (e) {
