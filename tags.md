@@ -1,7 +1,7 @@
 ---
 layout: default
 body_class: prose
-title: tags | ramani
+title: tags
 description: browse ramani's controlled tag vocabulary for theme, style, industry, region, and use to discover web design inspiration and tools.
 groups:
   - name: theme

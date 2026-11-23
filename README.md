@@ -93,6 +93,8 @@ node scripts/build-readme.js
 
 3. commit both files and push to `main`. github actions builds and deploys the site automatically.
 
+for a one-off suggestion, the [submit a link form](https://github.com/zuck30/ramani/issues/new?template=submit-a-link.yml) is enough.
+
 # project layout
 
 <div align="center">
@@ -115,6 +117,8 @@ node scripts/build-readme.js
     <tr><td><code>assets/js/palette.js</code></td><td>the command palette behind `⌘K` and `ctrl K`.</td></tr>
     <tr><td><code>assets/js/scroll-jump.js</code></td><td>the jump-to-top and jump-to-footer buttons.</td></tr>
     <tr><td><code>feed.xml</code></td><td>atom feed of the 30 newest links.</td></tr>
+    <tr><td><code>privacy.md</code></td><td>plain-language note on analytics and the chat.</td></tr>
+    <tr><td><code>.github/</code></td><td>build workflows and the submit a link issue form.</td></tr>
     <tr><td><a href="supabase/README.md">supabase</a></td><td>the edge function that answers the chat panel.</td></tr>
     <tr><td><code>supabase/sql/rate-limit.sql</code></td><td>the shared rate limit table and function.</td></tr>
     <tr><td><a href="CODINGSTYLE.md">coding style</a></td><td>design language and code conventions.</td></tr>
@@ -139,13 +143,17 @@ the site has a small chat panel called kambarage in the bottom right corner. it 
   <img src="assets/shot-3.png" alt="kambarage continuing in swahili and pointing to the tags page" width="760">
 </div>
 
+# analytics
+
+page views and card clicks are measured with [goatcounter](https://www.goatcounter.com/) when `analytics.goatcounter` holds a site code in `_config.yml`. the script is only included in production builds, so analytics stays off locally and stays off in production until a code is set. the counts are aggregate and cookie-free; no ip addresses, cookies or cross-site identifiers are stored. the [privacy page](https://zuck30.github.io/ramani/privacy/) has the full note.
+
 # deployment
 
 pushing to `main` triggers [.github/workflows/jekyll.yml](.github/workflows/jekyll.yml), which builds the site with `actions/jekyll-build-pages` and deploys it to github pages. the production base url is `/ramani`, matching `baseurl` in `_config.yml`.
 
 # contributing
 
-suggestions and new links are welcome. see [contribution](CONTRIBUTION.md) or open a pull request. please keep tags to the vocabulary listed on the [tags page](https://zuck30.github.io/ramani/tags/).
+suggestions and new links are welcome. use the [submit a link form](https://github.com/zuck30/ramani/issues/new?template=submit-a-link.yml), see [contribution](CONTRIBUTION.md), or open a pull request. please keep tags to the vocabulary listed on the [tags page](https://zuck30.github.io/ramani/tags/).
 
 # credits
 
@@ -177,6 +185,7 @@ built with these, and grateful for them.
 - [inkscape](https://inkscape.org/) drew the logo.
 - [node.js](https://nodejs.org/) runs the small scripts that generate this readme and the local config.
 - [supabase](https://supabase.com/) hosts the edge function behind the chat panel.
+- [goatcounter](https://www.goatcounter.com/) measures page views without cookies or personal data.
 - [deepseek](https://www.deepseek.com/) is the model it calls.
 - [shields.io](https://shields.io/) renders the badges at the top.
 

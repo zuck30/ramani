@@ -51,7 +51,7 @@ description: Explore Ramani, a map of 420+ websites for web design inspiration, 
   {% if idx > 60 %}{% assign idx = 60 %}{% endif %}
   <a class="card" style="--i: {{ idx }}" href="{{ l.url }}" target="_blank" rel="noopener"
      data-tags="{{ l.tags | join: ',' }}"
-     data-text="{{ l.title | downcase }} {{ l.why | downcase }} {{ l.category | downcase }} {{ l.tags | join: ' ' | downcase }}">
+     data-text="{{ l.title | downcase }} {{ l.why | downcase }} {{ l.category | downcase }} {{ l.tags | join: ' ' | downcase }}"{% if site.analytics.goatcounter and site.analytics.goatcounter != "" %}{% assign card_host = l.url | split: '//' | last | split: '/' | first | remove_first: 'www.' %} data-goatcounter-click="outbound-{{ card_host }}" data-goatcounter-title="{{ l.title | escape }}" data-goatcounter-no-session="1"{% endif %}>
     <span class="card-bg" aria-hidden="true"></span>
     <span class="card-media" aria-hidden="true">
       <span class="card-index">{{ forloop.index | prepend: '000' | slice: -3, 3 }}</span>

@@ -25,6 +25,9 @@
   <meta name="ramani-chat-key" content="{{ site.chat.key }}">
   {% endif %}
   {% seo %}
+  {% if site.analytics.goatcounter and site.analytics.goatcounter != "" and jekyll.environment == "production" %}
+  <script data-goatcounter="https://{{ site.analytics.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  {% endif %}
 </head>
 <body>
 

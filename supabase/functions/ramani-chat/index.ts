@@ -179,7 +179,7 @@ function siteFacts(stats: Stats | null): string {
     : 'the number of links, categories and tags grows as the map does.';
 
   return `
-ramani is a curated directory of the good, unsloppy, tasteful web: landing pages,
+ramani is a directory of the good, unsloppy, tasteful web: landing pages,
 saas dashboards, fintech, portfolios, developer tools, and sites across global,
 africa and tanzania. ${counts}
 
@@ -191,9 +191,10 @@ the site is built with jekyll and ruby, hosted on github pages, and every link
 lives in one json file. the source is at github.com/zuck30/ramani and the readme
 is generated from that json.
 
-to submit a link, or to suggest your own site to be added or featured, email
-mwalyangashadrack@gmail.com. the subject line "suggest a link for ramani" is
-already prefilled by the site footer.
+to submit a link, use the submit a link form at
+github.com/zuck30/ramani/issues/new?template=submit-a-link.yml. email
+mwalyangashadrack@gmail.com is the fallback for anything that does not fit the
+form.
 
 the tags page at https://zuck30.github.io/ramani/tags/ lists the controlled
 vocabulary, and every tag there filters the index. the design language and code conventions are in CODINGSTYLE.md.

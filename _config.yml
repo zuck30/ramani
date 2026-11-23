@@ -17,6 +17,12 @@ email: mwalyangashadrack@gmail.com
 #   key: the project's anon (public) key
 # the anon key is safe to expose. the deepseek key lives only in supabase.
 # ---------------------------------------------------------------
+analytics:
+  # cookie-free page views and card clicks. sign up at goatcounter.com, then
+  # set the code (the subdomain before .goatcounter.com) to enable it in
+  # production builds. leave empty to disable.
+  goatcounter: ""
+
 chat:
   endpoint: "https://dglxtvgprcautjmbline.supabase.co/functions/v1/ramani-chat"
   key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRnbHh0dmdwcmNhdXRqbWJsaW5lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA5MTY0NTcsImV4cCI6MjA5NjQ5MjQ1N30.8mKiOyB-AAsPIbk4WNtm5YYFWs_zAbLeGj-wixGINkM"

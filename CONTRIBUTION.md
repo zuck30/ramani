@@ -2,6 +2,10 @@
 
 `ramani` is a map of web uis, tools, and references. link data lives in [`data/links.json`](data/links.json); [`README.md`](README.md) is generated from it.
 
+# suggesting a link
+
+the fastest route is the [submit a link form](https://github.com/zuck30/ramani/issues/new?template=submit-a-link.yml). it asks for the url, a title, a short note, a category and tags. if you prefer email, write to [mwalyangashadrack@gmail.com](mailto:mwalyangashadrack@gmail.com).
+
 # adding or updating a link
 
 1. edit `data/links.json` (do not edit generated tables in `README.md` directly).

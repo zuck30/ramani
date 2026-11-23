@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: email the maintainer
+    url: mailto:mwalyangashadrack@gmail.com?subject=suggest%20a%20link%20for%20ramani
+    about: for private notes or anything that does not fit the form.
+  - name: contribution guide
+    url: https://github.com/zuck30/ramani/blob/main/CONTRIBUTION.md
+    about: how links, tags and categories work.

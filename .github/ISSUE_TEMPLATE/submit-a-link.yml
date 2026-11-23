@@ -1,0 +1,70 @@
+name: submit a link
+description: suggest a site for the map
+title: "[link] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        thanks for adding to the map. one suggestion per issue, please.
+        read the [contribution guide](https://github.com/zuck30/ramani/blob/main/CONTRIBUTION.md) and check the [tags page](https://zuck30.github.io/ramani/tags/) before submitting.
+  - type: input
+    id: url
+    attributes:
+      label: site url
+      description: the canonical page, starting with https://
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: title
+      description: the name shown on the card.
+      placeholder: example
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: why it belongs
+      description: one or two sentences on what makes it good. be specific about the design, the writing or the tool.
+      placeholder: a calm product page with clear pricing and a strong type system.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: category
+      description: choose the closest fit. pick "not sure" if none apply.
+      options:
+        - landing pages
+        - saas dashboards
+        - fintech
+        - corporate defence
+        - agriculture farms
+        - food beverage
+        - education
+        - portfolios creative
+        - local tanzania
+        - resources
+        - reading
+        - not sure
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: tags
+      description: two or three lowercase tags, comma separated. reuse existing tags where possible.
+      placeholder: minimal, saas, global
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: checks
+      options:
+        - label: the site is live and i searched the index for duplicates.
+          required: true
+        - label: i have no undisclosed affiliation with this site.
+          required: true

@@ -116,6 +116,14 @@ this document explains the design language and engineering conventions used in r
 - escape every interpolated value. the html block is escaped once, for `content type="html"`.
 - the feed is announced in `_layouts/default.html` with a `rel="alternate"` link and linked from the footer.
 
+# analytics
+
+- goatcounter is the only measurement tool. no google analytics, tracking pixels or session recording.
+- `analytics.goatcounter` in `_config.yml` holds the site code. when it is empty the layout emits no script and cards carry no tracking attributes.
+- the script is included only when `jekyll.environment` is `production`, so local builds never report.
+- cards carry `data-goatcounter-click="outbound-<host>"`, which counts a click as an event. keep those attributes conditional in `index.html`.
+- `privacy.md` is the public explanation. update it whenever measurement changes.
+
 # docs
 
 - `README.md` is generated. edit `data/links.json` and the generator, never the tables by hand.
@@ -125,6 +133,7 @@ this document explains the design language and engineering conventions used in r
 - no em dashes, no middle dots and no raw urls as link text.
 - links use words on the page, with the destination on hover.
 - the generator lives in `scripts/build-readme.js`.
+- the submission form lives in `.github/ISSUE_TEMPLATE/submit-a-link.yml`. keep its category list in sync with `CATEGORY_ORDER` in the generator.
 
 # local workflow
 
@@ -149,4 +158,5 @@ RUBYOPT="-r./scripts/ruby4-compat.rb" bundle exec jekyll serve --baseurl "" --po
 - [ ] keyboard focus and reduced motion still work.
 - [ ] `README.md` regenerated with `node scripts/build-readme.js`.
 - [ ] `feed.xml` still parses as atom after a data change.
+- [ ] analytics stays opt-in and production only.
 - [ ] no em dashes, single-hash headings and lowercase docs.
