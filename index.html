@@ -26,14 +26,15 @@ description: Explore Ramani, a map of 420+ websites for web design inspiration, 
 
 <section class="toolbar" aria-label="Search and filter">
   <div class="toolbar-row">
-    <label class="search-field" for="search">
+    <div class="search-field">
       <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
         <circle cx="6.75" cy="6.75" r="4.75" stroke="currentColor" stroke-width="1.3"></circle>
         <path d="M10.5 10.5 14.5 14.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"></path>
       </svg>
-      <input id="search" type="search" placeholder="search titles, notes, tags" autocomplete="off" spellcheck="false" aria-describedby="shown-label">
+      <input id="search" type="search" placeholder="search titles, notes, tags" autocomplete="off" spellcheck="false" aria-label="search titles, notes and tags" aria-describedby="shown-label">
       <kbd aria-hidden="true">/</kbd>
-    </label>
+      <button class="palette-hint" id="palette-hint" type="button" aria-label="open command palette" aria-keyshortcuts="Meta+K Control+K" title="jump to a link">&#8984;K</button>
+    </div>
     <p class="shown-label" id="shown-label"><b id="shown-count">{{ link_count }}</b> of {{ link_count }} sites</p>
   </div>
   <div id="tags" class="tagbox" aria-label="Filter by tag"></div>
