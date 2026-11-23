@@ -21,7 +21,7 @@ analytics:
   # cookie-free page views and card clicks. sign up at goatcounter.com, then
   # set the code (the subdomain before .goatcounter.com) to enable it in
   # production builds. leave empty to disable.
-  goatcounter: ""
+  goatcounter: "zuck30"
 
 chat:
   endpoint: "https://dglxtvgprcautjmbline.supabase.co/functions/v1/ramani-chat"
