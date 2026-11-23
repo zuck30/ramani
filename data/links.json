@@ -420,6 +420,32 @@
     "favorite": false
   },
   {
+    "url": "https://auth0.com/",
+    "title": "Auth0",
+    "why": "authentication platform; developer-first docs and product pages.",
+    "tags": [
+      "dev",
+      "api",
+      "saas"
+    ],
+    "category": "resources",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://awana.digital/",
+    "title": "Awana Digital",
+    "why": "non-profit studio; co-developing technology for social justice.",
+    "tags": [
+      "nonprofit",
+      "design",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://axum.earth/",
     "title": "Axum",
     "why": "unclassified - revisit.",
@@ -543,6 +569,31 @@
     ],
     "category": "agriculture-farms",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://beta.gouv.fr/",
+    "title": "beta.gouv.fr",
+    "why": "french public services incubator; plain, civic design.",
+    "tags": [
+      "gov",
+      "design",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://bitcoin.org/en/",
+    "title": "Bitcoin",
+    "why": "reference site for bitcoin; plain explainers and downloads.",
+    "tags": [
+      "reference",
+      "reading"
+    ],
+    "category": "resources",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
@@ -815,6 +866,19 @@
     "favorite": false
   },
   {
+    "url": "https://chain.com/",
+    "title": "Chain",
+    "why": "stablecoin infrastructure; cards, wallets and payouts over one api.",
+    "tags": [
+      "fintech",
+      "api",
+      "global"
+    ],
+    "category": "fintech",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://charm.land/",
     "title": "Charm",
     "why": "Terminal tooling with taste; TUIs as brand.",
@@ -839,6 +903,19 @@
     ],
     "category": "portfolios-creative",
     "added": "2026-11-22",
+    "favorite": false
+  },
+  {
+    "url": "https://www.cityofsydney.nsw.gov.au/",
+    "title": "City of Sydney",
+    "why": "council site; service-first navigation at scale.",
+    "tags": [
+      "gov",
+      "reference",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
@@ -1535,6 +1612,19 @@
     "favorite": false
   },
   {
+    "url": "https://www.foia.gov/",
+    "title": "FOIA.gov",
+    "why": "public records portal; plain language and clear steps.",
+    "tags": [
+      "gov",
+      "reference",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://free3d.com/",
     "title": "Free3D",
     "why": "Free 3D model archive; useful asset source.",
@@ -1854,6 +1944,19 @@
     ],
     "category": "portfolios-creative",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://himatt.com/",
+    "title": "Matt Grey",
+    "why": "product design consultant; restrained case studies and clear writing.",
+    "tags": [
+      "portfolio",
+      "design",
+      "minimal"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
@@ -2219,6 +2322,19 @@
     "favorite": false
   },
   {
+    "url": "https://lattice.com/",
+    "title": "Lattice",
+    "why": "hr platform; structured, people-first marketing.",
+    "tags": [
+      "saas",
+      "tool",
+      "global"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://learn-anything.xyz",
     "title": "Learn Anything",
     "why": "Maps of what to learn; exactly what it says.",
@@ -2453,6 +2569,19 @@
     "favorite": false
   },
   {
+    "url": "https://www.mailta.pe/",
+    "title": "MailTape",
+    "why": "music discovery; illustrated weekly playlists.",
+    "tags": [
+      "media",
+      "colorful",
+      "playful"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://maliasili.go.tz/",
     "title": "Ministry of Natural Resources and Tourism",
     "why": "Tanzanian ministry site; official tourism and conservation information.",
@@ -2500,6 +2629,19 @@
     ],
     "category": "local-tanzania",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://www.markdownguide.org/",
+    "title": "Markdown Guide",
+    "why": "reference guide for markdown; plain, searchable docs.",
+    "tags": [
+      "reference",
+      "reading",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
@@ -2728,6 +2870,19 @@
     ],
     "category": "portfolios-creative",
     "added": "2026-11-21",
+    "favorite": false
+  },
+  {
+    "url": "http://netflix.com/tz/",
+    "title": "Netflix",
+    "why": "streaming landing page; poster-led rows and a dark canvas.",
+    "tags": [
+      "media",
+      "cinematic",
+      "dark"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
@@ -3300,6 +3455,18 @@
     "favorite": false
   },
   {
+    "url": "https://rehanbutt.com/",
+    "title": "Rehan Butt",
+    "why": "ui and ux portfolio; wide-ranging work and speaking archive.",
+    "tags": [
+      "portfolio",
+      "design"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://relayfi.com/",
     "title": "Relay",
     "why": "Business banking; friendly, clear money UI.",
@@ -3310,6 +3477,18 @@
     ],
     "category": "fintech",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://release.mozilla.org/",
+    "title": "Mozilla Release Management",
+    "why": "engineering blog; shipping notes from the firefox team.",
+    "tags": [
+      "dev",
+      "editorial"
+    ],
+    "category": "reading",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
@@ -3644,6 +3823,19 @@
     "favorite": false
   },
   {
+    "url": "https://www.sketch.com/",
+    "title": "Sketch",
+    "why": "design and prototyping app; a calm, work-first interface.",
+    "tags": [
+      "design",
+      "tool",
+      "saas"
+    ],
+    "category": "resources",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://www.skillshare.com/en/",
     "title": "Skillshare",
     "why": "Creative classes; friendly course marketplace.",
@@ -3665,6 +3857,32 @@
     ],
     "category": "reading",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://dev.twitch.tv/",
+    "title": "Twitch Developers",
+    "why": "developer portal; api docs for live streaming.",
+    "tags": [
+      "dev",
+      "media",
+      "api"
+    ],
+    "category": "resources",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://developer.spotify.com/",
+    "title": "Spotify for Developers",
+    "why": "developer portal; clear api docs and a strong dark theme.",
+    "tags": [
+      "dev",
+      "media",
+      "api"
+    ],
+    "category": "resources",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
@@ -3822,6 +4040,19 @@
     ],
     "category": "saas-dashboards",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "http://sydneynewyearseve.com/",
+    "title": "Sydney New Year's Eve",
+    "why": "event site; cinematic countdown and a bold typographic lockup.",
+    "tags": [
+      "cinematic",
+      "colorful",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
@@ -4117,6 +4348,19 @@
     "favorite": false
   },
   {
+    "url": "https://www.twitchcon.com/",
+    "title": "TwitchCon",
+    "why": "creator convention site; loud, event-first energy.",
+    "tags": [
+      "playful",
+      "colorful",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://www.typeform.com/",
     "title": "Typeform",
     "why": "form builder with ai automation; conversational one-question flow.",
@@ -4154,6 +4398,19 @@
     ],
     "category": "resources",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://unstats.un.org/unsd/wsd/2025/index.html",
+    "title": "World Statistics Day",
+    "why": "un campaign microsite; editorial data storytelling.",
+    "tags": [
+      "gov",
+      "editorial",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
@@ -4825,6 +5082,19 @@
     "favorite": false
   },
   {
+    "url": "https://wearecollins.com/",
+    "title": "COLLINS",
+    "why": "brand agency; confident type-driven case studies.",
+    "tags": [
+      "agency",
+      "design",
+      "editorial"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://mbi.ufl.edu/",
     "title": "McKnight Brain Institute",
     "why": "University of Florida neuroscience institute site with research, training, and news.",
@@ -5211,6 +5481,19 @@
     ],
     "category": "education",
     "added": "2026-11-17",
+    "favorite": false
+  },
+  {
+    "url": "https://yeoman.io/",
+    "title": "Yeoman",
+    "why": "scaffolding tool for modern web apps; docs that get to the point.",
+    "tags": [
+      "dev",
+      "oss",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
