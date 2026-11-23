@@ -5963,5 +5963,158 @@
     "category": "education",
     "added": "2026-11-19",
     "favorite": false
+  },
+  {
+    "url": "https://www.relume.ai/",
+    "title": "Relume",
+    "why": "AI website builder; assembles marketing sites from human-built components.",
+    "tags": [
+      "ai",
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://www.papermark.com/",
+    "title": "Papermark",
+    "why": "Secure virtual data room and document sharing for M&A and fundraising.",
+    "tags": [
+      "saas",
+      "tool",
+      "security"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://www.roommaster.com/",
+    "title": "roommaster",
+    "why": "All-in-one hotel management software; PMS, booking, and revenue tools.",
+    "tags": [
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://twin.so/",
+    "title": "Twin",
+    "why": "AI agent platform; build and run autonomous agents.",
+    "tags": [
+      "ai",
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://giga.ai/",
+    "title": "Giga",
+    "why": "AI platform; modern agent and automation tooling.",
+    "tags": [
+      "ai",
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://www.gumloop.com/",
+    "title": "Gumloop",
+    "why": "No-code AI workflow builder; automate tasks with LLMs.",
+    "tags": [
+      "ai",
+      "saas",
+      "tool",
+      "dev"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://www.griffin.com/",
+    "title": "Griffin",
+    "why": "Banking-as-a-service platform; embedded finance APIs.",
+    "tags": [
+      "saas",
+      "dev",
+      "cloud"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://customer.io/",
+    "title": "Customer.io",
+    "why": "Customer engagement platform; messaging automation for SaaS.",
+    "tags": [
+      "saas",
+      "tool",
+      "marketing"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://www.glideapps.com/",
+    "title": "Glide",
+    "why": "No-code app builder; turn spreadsheets into apps.",
+    "tags": [
+      "saas",
+      "tool",
+      "dev"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://getfernand.com/",
+    "title": "Fernand",
+    "why": "Shared inbox and customer support tool; clean support UX.",
+    "tags": [
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://www.doordash.com/",
+    "title": "DoorDash",
+    "why": "Food delivery marketplace; polished consumer app and brand.",
+    "tags": [
+      "saas",
+      "global"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
+    "url": "https://www.localcan.com/",
+    "title": "LocalCan",
+    "why": "Local tunneling tool; expose localhost to the internet.",
+    "tags": [
+      "dev",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-23",
+    "favorite": false
   }
 ]
