@@ -63,7 +63,7 @@ this document explains the design language and engineering conventions used in r
 # css
 
 - one stylesheet: `assets/css/style.css`.
-- the stylesheet is linked with a `?v=` build timestamp so a deploy never pairs new html with a cached stylesheet.
+- the stylesheet and scripts are linked with a `?v=` build timestamp so a deploy never pairs new html with a cached asset.
 - order: tokens, reset and base, layout, components, prose, responsive, reduced motion.
 - separate sections with short `/* ---- name ---- */` comments.
 - logical properties (`inline`, `block`, `margin-inline`) are preferred.
