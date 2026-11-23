@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://somewhere.com/",
+    "title": "Somewhere",
+    "why": "Remote talent hiring platform; confident saas marketing.",
+    "tags": [
+      "saas",
+      "global",
+      "marketing"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://www.1001fonts.com/",
     "title": "1001 Fonts",
     "why": "Free font archive; old-school but useful.",
@@ -2862,7 +2875,7 @@
   },
   {
     "url": "https://www.nekterjuicebar.com/",
-    "title": "Nékter Juice Bar",
+    "title": "N\u00e9kter Juice Bar",
     "why": "Juice bar chain; fresh, colorful franchise marketing.",
     "tags": [
       "food",
@@ -4943,7 +4956,7 @@
   {
     "url": "https://www.brela.go.tz/",
     "title": "BRELA",
-    "why": "Tanzania’s Business Registrations and Licensing Agency; official portal for company, business, and IP services.",
+    "why": "Tanzania\u2019s Business Registrations and Licensing Agency; official portal for company, business, and IP services.",
     "tags": [
       "tanzania",
       "gov",
@@ -4957,7 +4970,7 @@
   {
     "url": "https://globaledge.msu.edu/",
     "title": "globalEDGE",
-    "why": "Michigan State’s international business knowledge hub with country insights, trade data, and learning resources.",
+    "why": "Michigan State\u2019s international business knowledge hub with country insights, trade data, and learning resources.",
     "tags": [
       "education",
       "reference",
