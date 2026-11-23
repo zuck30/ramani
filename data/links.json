@@ -933,6 +933,19 @@
     "favorite": false
   },
   {
+    "url": "https://cloudcannon.com/",
+    "title": "CloudCannon",
+    "why": "git-backed cms; visual editing for static sites.",
+    "tags": [
+      "dev",
+      "saas",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://www.cloudflare.com/",
     "title": "Cloudflare",
     "why": "Internet infrastructure; the reference for scale.",
@@ -2785,6 +2798,18 @@
     "favorite": false
   },
   {
+    "url": "https://www.moma.org/",
+    "title": "MoMA",
+    "why": "museum of modern art; exhibition-led editorial layout.",
+    "tags": [
+      "editorial",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://morganwallen.com/home/",
     "title": "Morgan Wallen",
     "why": "Artist site; bold tour and merch push.",
@@ -3811,6 +3836,19 @@
     "favorite": false
   },
   {
+    "url": "https://www.siteleaf.com/",
+    "title": "Siteleaf",
+    "why": "friendly cms for static sites; jekyll-first publishing.",
+    "tags": [
+      "dev",
+      "tool",
+      "saas"
+    ],
+    "category": "resources",
+    "added": "2026-11-23",
+    "favorite": false
+  },
+  {
     "url": "https://sixfeetup.com/",
     "title": "Six Feet Up",
     "why": "Python dev shop; confident, colorful agency site.",
@@ -4499,6 +4537,18 @@
     ],
     "category": "saas-dashboards",
     "added": "2026-11-22",
+    "favorite": false
+  },
+  {
+    "url": "https://vesterheim.org/",
+    "title": "Vesterheim",
+    "why": "norwegian-american museum; collection-led storytelling.",
+    "tags": [
+      "editorial",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-23",
     "favorite": false
   },
   {
