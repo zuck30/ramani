@@ -1442,7 +1442,7 @@ html[data-theme="dark"] .theme-toggle .theme-icon[data-when="dark"]{display:bloc
 .palette-key:hover{color:var(--text-strong)}
 .palette-key-icon{
   display:block;
-  width:18px;height:18px;
+  width:22px;height:22px;
   background-color:currentColor;
 }
 .palette-key-up .palette-key-icon,.palette-key-up{ }
