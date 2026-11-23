@@ -117,7 +117,7 @@
     input.placeholder = 'jump to a link, tag or category';
     input.setAttribute('aria-label', 'search links');
     input.setAttribute('role', 'combobox');
-    input.setAttribute('aria-expanded', 'true');
+    input.setAttribute('aria-expanded', 'false');
     input.setAttribute('aria-controls', 'palette-list');
     field.appendChild(input);
 
@@ -166,6 +166,8 @@
       } else if (e.key === 'Enter') {
         e.preventDefault();
         openActive();
+      } else if (e.key === 'Tab') {
+        e.preventDefault();
       }
     });
   }
@@ -252,6 +254,7 @@
     previousFocus = document.activeElement;
     els.root.hidden = false;
     document.body.classList.add('is-palette');
+    els.input.setAttribute('aria-expanded', 'true');
     els.input.value = '';
     render('');
     els.input.focus();
@@ -261,6 +264,7 @@
     if (!built || els.root.hidden) return;
     els.root.hidden = true;
     document.body.classList.remove('is-palette');
+    els.input.setAttribute('aria-expanded', 'false');
     if (previousFocus && previousFocus.focus) previousFocus.focus();
   }
 
