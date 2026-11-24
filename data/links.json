@@ -986,6 +986,19 @@
     "favorite": false
   },
   {
+    "url": "https://www.chatbot.com/",
+    "title": "Chatbot",
+    "why": "Live chat and customer support platform; clean SaaS marketing.",
+    "tags": [
+      "saas",
+      "tool",
+      "global"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-24",
+    "favorite": false
+  },
+  {
     "url": "https://cobit-solutions.com/en",
     "title": "Cobit Solutions",
     "why": "Business software vendor; practical B2B pages.",
@@ -3748,6 +3761,18 @@
     ],
     "category": "resources",
     "added": "2026-11-22",
+    "favorite": false
+  },
+  {
+    "url": "https://senjaropay.com/",
+    "title": "SenjaRoPay",
+    "why": "Payment platform; simple transaction flows.",
+    "tags": [
+      "fintech",
+      "saas"
+    ],
+    "category": "fintech",
+    "added": "2026-11-24",
     "favorite": false
   },
   {
