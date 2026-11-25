@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-480-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-481-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**480 links**, last updated 2026-11-24
+**481 links**, last updated 2026-11-25
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -281,6 +281,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [3cx](https://www.3cx.com/) | self-hosted pbx; utilitarian software marketing. | `saas` `tool` `dev` |
 | [abacus ai](https://abacus.ai/) | enterprise ai platform; dense but confident. | `ai` `saas` |
 | [adalat ai](https://www.adalat.ai/) | ai for legal systems; mission-led startup page. | `ai` `saas` |
+| [africa's talking](https://africastalking.com) | african communications platform; sms, voice, ussd and payments apis for developers. | `saas` `dev` `africa` `tool` |
 | [arize ai](https://arize.com/) | agent observability and evaluation platform; trace, eval, and improve ai systems. | `ai` `saas` `dev` `tool` |
 | [ashby](https://www.ashbyhq.com/) | all-in-one recruiting suite; ats, scheduling and analytics in one place. | `saas` `tool` `global` |
 | [base44](https://base44.com/) | ai app builder; colorful vibecoding energy. | `ai` `saas` `playful` |

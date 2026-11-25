@@ -6154,5 +6154,19 @@
     "category": "saas-dashboards",
     "added": "2026-11-23",
     "favorite": false
+  },
+  {
+    "url": "https://africastalking.com",
+    "title": "Africa's Talking",
+    "why": "African communications platform; sms, voice, ussd and payments apis for developers.",
+    "tags": [
+      "saas",
+      "dev",
+      "africa",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-25",
+    "favorite": false
   }
 ]
