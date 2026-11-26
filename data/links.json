@@ -6182,5 +6182,280 @@
     "category": "resources",
     "added": "2026-11-26",
     "favorite": false
+  },
+  {
+    "url": "https://rome.mrdoob.com/",
+    "title": "ROME",
+    "why": "Interactive 3D film for Danger Mouse's Rome; scrolling cinematic WebGL.",
+    "tags": [
+      "motion",
+      "cinematic",
+      "design"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://www.sloyd.ai/",
+    "title": "Sloyd",
+    "why": "AI 3D model generator; controllable assets for games, design and 3D printing.",
+    "tags": [
+      "ai",
+      "tool",
+      "dev"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://www.neural4d.com/home",
+    "title": "Neural4D",
+    "why": "Text and image to 3D generator; fast, production-ready assets.",
+    "tags": [
+      "ai",
+      "tool",
+      "design"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://ludo.ai/",
+    "title": "Ludo.ai",
+    "why": "AI game asset pipeline; sprites, icons, textures, music and 3D in one place.",
+    "tags": [
+      "ai",
+      "tool",
+      "dev"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://vaalentin.github.io/2015/",
+    "title": "Vaalentin 2015",
+    "why": "French creative developer's WebGL experiments; playful browser visuals.",
+    "tags": [
+      "motion",
+      "dev",
+      "playful"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://www.monks.com/",
+    "title": "Monks",
+    "why": "Global content, data, media and tech agency; bold digital brand work.",
+    "tags": [
+      "agency",
+      "global",
+      "design"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://pablotheflamingo.com/",
+    "title": "Pablo the Flamingo",
+    "why": "Music-driven illustrated toy; Matter.js and Three.js mischief.",
+    "tags": [
+      "playful",
+      "colorful",
+      "motion"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://helloenjoy.itch.io/hellorun",
+    "title": "Hello Run",
+    "why": "Hypnotic 3D runner game built around speed and rhythm.",
+    "tags": [
+      "playful",
+      "motion",
+      "design"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://kiddisco.asmallgame.com/",
+    "title": "Kid Disco",
+    "why": "WebGL browser game with a Boy vs Bacteria soundtrack; playful arcade energy.",
+    "tags": [
+      "playful",
+      "colorful",
+      "motion"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://elevenlabs.io",
+    "title": "ElevenLabs",
+    "why": "AI voice generator and voice agents; lifelike speech in 90+ languages.",
+    "tags": [
+      "ai",
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://www.uberviz.io/",
+    "title": "Uberviz",
+    "why": "Creative data visualization studio; code-driven motion experiments.",
+    "tags": [
+      "design",
+      "motion",
+      "agency"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://heraclosgame.com/",
+    "title": "Heraclos",
+    "why": "WebGL adventure game; Gobelins student project with cinematic atmosphere.",
+    "tags": [
+      "playful",
+      "motion",
+      "design"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://render.com/",
+    "title": "Render",
+    "why": "Cloud platform for deploying and scaling apps; developer-first infrastructure.",
+    "tags": [
+      "cloud",
+      "dev",
+      "saas"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://vestra.ai/",
+    "title": "Vestra",
+    "why": "AI teammates for your own AI office; proactive agent-led workflows.",
+    "tags": [
+      "ai",
+      "saas",
+      "tool"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://comma.surf/",
+    "title": "Comma",
+    "why": "Open-source 24/7 personal AI agent; always-on and self-hostable.",
+    "tags": [
+      "ai",
+      "oss",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://www.rabbit.tech/",
+    "title": "Rabbit",
+    "why": "rabbit OS3 and r1; pocket AI hardware with an agentic web interface.",
+    "tags": [
+      "hardware",
+      "ai",
+      "minimal"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://note.com/",
+    "title": "Note",
+    "why": "Japanese platform for essays, manga, photos and audio; creator-first publishing.",
+    "tags": [
+      "reading",
+      "editorial",
+      "global"
+    ],
+    "category": "reading",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://www.bloomreach.com/en",
+    "title": "Bloomreach",
+    "why": "AI personalization platform; real-time customer experiences across channels.",
+    "tags": [
+      "ai",
+      "saas",
+      "ecommerce"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://www.scaler.com/",
+    "title": "Scaler",
+    "why": "Tech upskilling academy; structured engineering and AI curriculum.",
+    "tags": [
+      "education",
+      "dev",
+      "ai"
+    ],
+    "category": "education",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://aws.amazon.com/?nc2=h_home",
+    "title": "Amazon Web Services",
+    "why": "Amazon's cloud platform; the default breadth of infrastructure and AI services.",
+    "tags": [
+      "cloud",
+      "dev",
+      "tool",
+      "global"
+    ],
+    "category": "saas-dashboards",
+    "added": "2026-11-26",
+    "favorite": false
+  },
+  {
+    "url": "https://tinyhumans.ai/",
+    "title": "TinyHumans",
+    "why": "Open-source AI agents for desktop and coding; OpenHuman and Medulla.",
+    "tags": [
+      "ai",
+      "oss",
+      "dev",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-26",
+    "favorite": false
   }
 ]

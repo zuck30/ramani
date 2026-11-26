@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-482-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-503-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**482 links**, last updated 2026-11-26
+**503 links**, last updated 2026-11-26
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -239,12 +239,15 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [glovo](https://glovoapp.com/en) | delivery app marketing; energetic color-blocked sections. | `food` `ecommerce` `colorful` `global` |
 | [grovemade](https://grovemade.com/) | premium desk accessories and workspace goods; refined materials and minimal craft. | `ecommerce` `hardware` `minimal` `global` |
 | [gumroad](https://gumroad.com/) | creator commerce platform; playful, confident marketing. | `ecommerce` `saas` `playful` `colorful` |
+| [hello run](https://helloenjoy.itch.io/hellorun) | hypnotic 3d runner game built around speed and rhythm. | `playful` `motion` `design` |
+| [heraclos](https://heraclosgame.com/) | webgl adventure game; gobelins student project with cinematic atmosphere. | `playful` `motion` `design` |
 | [ikea](https://www.ikea.com/) | retail giant; product and wayfinding patterns worth study. | `ecommerce` `global` `light` |
 | [instagram, about](https://about.instagram.com/) | corporate about site; oversized editorial type and a gradient-outlined cta. | `editorial` `minimal` `global` |
 | [instagram, careers](https://about.instagram.com/about-us/careers) | careers page in the same system; eyebrow labels and a photo collage. | `editorial` `minimal` `global` |
 | [inter miami cf](https://www.intermiamicf.com/) | official club site with news, roster, schedule, tickets, and fan content for inter miami cf. | `sports` `global` `media` |
 | [jarrett](https://www.gojarrett.com/) | logistics and supply chain site; dense corporate storytelling. | `global` |
 | [jenga](https://www.jenga.com/index.php) | official jenga site; classic block-stacking game brand with products, videos, and shop links. | `playful` `global` |
+| [kid disco](https://kiddisco.asmallgame.com/) | webgl browser game with a boy vs bacteria soundtrack; playful arcade energy. | `playful` `colorful` `motion` |
 | [kpmg](https://kpmg.com/xx/en.html) | big four global; sober professional identity at scale. | `global` `editorial` |
 | [logitech g](https://www.logitechg.com/) | gaming gear brand site; product lineup and category merchandising for mice, keyboards, and racing setups. | `hardware` `ecommerce` `gaming` `global` |
 | [machinetutors](https://machinetutors.com/) | ai consultancy; quiet, engineering-led presentation. | `ai` `agency` `global` |
@@ -258,6 +261,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [palmeiras](https://palmeiras.com.br/) | brazilian football club; bold editorial matchday storytelling. | `sports` `global` `media` `editorial` |
 | [pingo ai](https://pingo.ai/) | ai product; clean, modern pitch page. | `ai` `saas` |
 | [porsche racing](https://racing.porsche.com/?locale=en) | motorsport storytelling; cinematic scroll-driven pages. | `cinematic` `motion` `scroll-driven` `editorial` `dark` |
+| [rabbit](https://www.rabbit.tech/) | rabbit os3 and r1; pocket ai hardware with an agentic web interface. | `hardware` `ai` `minimal` |
 | [realtor.ca](https://www.realtor.ca/) | canadian listings; map-driven search ux reference. | `ecommerce` `global` |
 | [rocket](https://www.rocket.new/) | ai app builder; bold launch-style landing. | `ai` `saas` `tool` |
 | [sequoia capital](https://sequoiacap.com/) | vc site with editorial calm; type-driven pages. | `editorial` `minimal` `fintech` |
@@ -282,10 +286,12 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [abacus ai](https://abacus.ai/) | enterprise ai platform; dense but confident. | `ai` `saas` |
 | [adalat ai](https://www.adalat.ai/) | ai for legal systems; mission-led startup page. | `ai` `saas` |
 | [africa's talking](https://africastalking.com) | african communications platform; sms, voice, ussd and payments apis for developers. | `saas` `dev` `africa` `tool` |
+| [amazon web services](https://aws.amazon.com/?nc2=h_home) | amazon's cloud platform; the default breadth of infrastructure and ai services. | `cloud` `dev` `tool` `global` |
 | [arize ai](https://arize.com/) | agent observability and evaluation platform; trace, eval, and improve ai systems. | `ai` `saas` `dev` `tool` |
 | [ashby](https://www.ashbyhq.com/) | all-in-one recruiting suite; ats, scheduling and analytics in one place. | `saas` `tool` `global` |
 | [base44](https://base44.com/) | ai app builder; colorful vibecoding energy. | `ai` `saas` `playful` |
 | [bayesian health](https://www.bayesianhealth.com/) | clinical ai; trustworthy healthcare enterprise pages. | `ai` `saas` |
+| [bloomreach](https://www.bloomreach.com/en) | ai personalization platform; real-time customer experiences across channels. | `ai` `saas` `ecommerce` |
 | [braintrust](https://www.braintrust.dev/) | ai eval platform; developer-grade design. | `ai` `dev` `saas` |
 | [c3 ai](https://c3.ai/) | enterprise ai suite; dense but polished b2b. | `ai` `saas` |
 | [calendly](https://calendly.com/) | scheduling standard; frictionless onboarding flows. | `saas` `tool` `minimal` |
@@ -301,6 +307,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [deepnote](https://deepnote.com/) | data notebooks; collaborative, polished product tour. | `saas` `dev` `tool` |
 | [domyn](https://www.domyn.com/) | ai company; sleek enterprise positioning. | `ai` `saas` |
 | [doordash](https://www.doordash.com/) | food delivery marketplace; polished consumer app and brand. | `saas` `global` |
+| [elevenlabs](https://elevenlabs.io) | ai voice generator and voice agents; lifelike speech in 90+ languages. | `ai` `saas` `tool` |
 | [fernand](https://getfernand.com/) | shared inbox and customer support tool; clean support ux. | `saas` `tool` |
 | [fly.io](https://fly.io/) | infra marketing with actual taste; docs-like vibe. | `dev` `cloud` `saas` `dark` |
 | [giga](https://giga.ai/) | ai platform; modern agent and automation tooling. | `ai` `saas` `tool` |
@@ -319,11 +326,13 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [lattice](https://lattice.com/) | hr platform; structured, people-first marketing. | `saas` `tool` `global` |
 | [lever](https://www.lever.co/) | recruiting software; ats and crm in a calm, readable interface. | `saas` `tool` `global` |
 | [localcan](https://www.localcan.com/) | local tunneling tool; expose localhost to the internet. | `dev` `tool` |
+| [ludo.ai](https://ludo.ai/) | ai game asset pipeline; sprites, icons, textures, music and 3d in one place. | `ai` `tool` `dev` |
 | [meetkai](https://meetkai.com/) | conversational ai; friendly product tour. | `ai` `saas` |
 | [mindcloud](https://mindcloud.co/) | integration platform; tidy b2b pitch. | `saas` `tool` `dev` |
 | [minimax](https://www.minimax.io/) | chinese ai lab; slick global product pages. | `ai` `saas` `global` |
 | [miro](https://miro.com/) | collaboration canvas; friendly colorful saas marketing. | `saas` `tool` `colorful` `playful` |
 | [mistral ai](https://mistral.ai/) | frontier ai company; model, cloud, and enterprise product pages with strong technical branding. | `ai` `saas` `dev` `global` |
+| [neural4d](https://www.neural4d.com/home) | text and image to 3d generator; fast, production-ready assets. | `ai` `tool` `design` |
 | [notion](https://www.notion.com/) | ai workspace; documents, databases and agents on one surface. | `saas` `tool` |
 | [odoo](https://www.odoo.com/) | open erp suite; clean modular product pages. | `saas` `oss` `tool` |
 | [openai codex](https://openai.com/codex/) | openai's coding agent; big-lab product polish. | `ai` `dev` `saas` |
@@ -336,6 +345,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [protopie](https://www.protopie.io/) | prototyping tool; motion-first product story. | `tool` `motion` `saas` |
 | [qwen](https://qwen.ai/home) | alibaba's open models; research-brand landing. | `ai` `saas` `global` |
 | [relume](https://www.relume.ai/) | ai website builder; assembles marketing sites from human-built components. | `ai` `saas` `tool` |
+| [render](https://render.com/) | cloud platform for deploying and scaling apps; developer-first infrastructure. | `cloud` `dev` `saas` |
 | [rezi](https://www.rezi.ai/) | ai resume builder; sharp conversion-focused pages. | `ai` `tool` `saas` |
 | [robin ai](https://robinai.com/) | legal ai copilot; confident enterprise pitch. | `ai` `saas` |
 | [roommaster](https://www.roommaster.com/) | all-in-one hotel management software; pms, booking, and revenue tools. | `saas` `tool` |
@@ -343,6 +353,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [sarvam ai](https://www.sarvam.ai/) | india-first ai models; confident research brand. | `ai` `saas` `global` |
 | [scaleway](https://www.scaleway.com/en/) | french cloud; playful violet infra marketing. | `cloud` `saas` `dev` |
 | [sentry](https://sentry.io/welcome/) | error tracking; great developer dx branding. | `dev` `saas` `tool` |
+| [sloyd](https://www.sloyd.ai/) | ai 3d model generator; controllable assets for games, design and 3d printing. | `ai` `tool` `dev` |
 | [supportyourapp](https://supportyourapp.com/) | support-as-a-service; bold, loud agency branding. | `saas` `agency` |
 | [tally](https://tally.so/) | free form builder; unlimited forms and a typing-first editor. | `saas` `tool` `minimal` |
 | [ticketpro](https://www.ticketonline.pro/) | event ticketing over whatsapp; scanning and check-in for door staff. | `saas` `tool` `tanzania` |
@@ -353,6 +364,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [typeform](https://www.typeform.com/) | form builder with ai automation; conversational one-question flow. | `saas` `tool` |
 | [valoris](https://www.valoris.ro/) | romanian bpo; clean corporate services presence. | `agency` `global` |
 | [vesence](https://www.vesence.com/) | agent-native cloud computer; agents work across email, files and terminal while you review. | `ai` `saas` `cloud` `tool` |
+| [vestra](https://vestra.ai/) | ai teammates for your own ai office; proactive agent-led workflows. | `ai` `saas` `tool` |
 | [virtual sales](https://www.virtual-sales.com/) | virtual sales outsourcing; legacy b2b presence. | `saas` `agency` |
 | [voiceflow](https://www.voiceflow.com/) | conversational agent builder; clean chat-first ux. | `ai` `saas` `tool` |
 | [world labs](https://www.worldlabs.ai/) | spatial ai lab; research-forward landing. | `ai` `saas` `global` |
@@ -482,6 +494,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [njit](https://www.njit.edu/) | new jersey institute of technology's site for stem academics, research, admissions, and campus life. | `education` `reference` `global` |
 | [penn state](https://www.psu.edu/) | pennsylvania state university's main site covering academics, admissions, research, and campus life. | `education` `reference` `global` |
 | [princeton university](https://www.princeton.edu/) | princeton's main site featuring academics, research, admissions, and university news. | `education` `reference` `global` |
+| [scaler](https://www.scaler.com/) | tech upskilling academy; structured engineering and ai curriculum. | `education` `dev` `ai` |
 | [shule direct](https://www.shuledirect.co.tz/) | tanzanian digital learning platform with curriculum-aligned content, revision tools, and resources for students and teachers. | `tanzania` `africa` `education` `edtech` |
 | [skillshare](https://www.skillshare.com/en/) | creative classes; friendly course marketplace. | `education` `playful` `global` |
 | [the odin project](https://www.theodinproject.com/) | free full-stack curriculum; the gold standard path. | `education` `dev` `oss` |
@@ -534,18 +547,23 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [luke combs](https://www.lukecombs.com/) | country star site; tour-first music marketing. | `editorial` `playful` |
 | [matt grey](https://himatt.com/) | product design consultant; restrained case studies and clear writing. | `portfolio` `design` `minimal` |
 | [mirko.in.ua](https://mirko.in.ua/) | personal dev page; small and direct. | `minimal` `dev` |
+| [monks](https://www.monks.com/) | global content, data, media and tech agency; bold digital brand work. | `agency` `global` `design` |
 | [morgan wallen](https://morganwallen.com/home/) | artist site; bold tour and merch push. | `editorial` `global` |
 | [neal.fun](https://neal.fun/) | web toys done right; endless playful experiments. | `playful` `dev` `colorful` |
 | [nest studio](https://neststudio.netlify.app) | portfolio site for a design studio; clean grid and calm type. | `portfolio` `minimal` `global` |
+| [pablo the flamingo](https://pablotheflamingo.com/) | music-driven illustrated toy; matter.js and three.js mischief. | `playful` `colorful` `motion` |
 | [pinnacle consulting group](https://pinnacleconsultingroup.co.ke/) | kenyan consultancy; straightforward corporate identity. | `kenya` `africa` `agency` |
 | [reenbit](https://reenbit.com/) | software house; modern studio landing. | `agency` `dev` |
 | [rehan butt](https://rehanbutt.com/) | ui and ux portfolio; wide-ranging work and speaking archive. | `portfolio` `design` |
+| [rome](https://rome.mrdoob.com/) | interactive 3d film for danger mouse's rome; scrolling cinematic webgl. | `motion` `cinematic` `design` |
 | [sabertooth marketing](https://sabertoothmarketing.co.ke/) | kenyan marketing agency; bold local branding. | `agency` `kenya` `africa` |
 | [serhant.](https://serhant.com) | real estate as showbiz; loud cinematic listings. | `editorial` `motion` `colorful` |
 | [shadrackovsky](https://zuck30.github.io/zuck30) | ai/ml & software engineer from tanzania, obsessed with chinese open-source ai (deepseek, qwen, etc.). builds web applications, ml systems, rag pipelines, and has pre-trained swahili-gpt. self-taught with a focus on chinese ai tools. | `ai` `ml` `software-engineer` `portfolio` `tanzania` `chinese-ai` `open-source` |
 | [six feet up](https://sixfeetup.com/) | python dev shop; confident, colorful agency site. | `agency` `dev` |
 | [the web kitchen](https://www.thewebkitchen.co.uk/) | uk studio; restrained, typographic agency site. | `agency` `minimal` `editorial` |
 | [toolbox creative](https://toolboxcreative.com/) | creative agency; bold work showcase. | `agency` `colorful` |
+| [uberviz](https://www.uberviz.io/) | creative data visualization studio; code-driven motion experiments. | `design` `motion` `agency` |
+| [vaalentin 2015](https://vaalentin.github.io/2015/) | french creative developer's webgl experiments; playful browser visuals. | `motion` `dev` `playful` |
 | [wavemaker by the web kitchen](https://www.thewebkitchen.co.uk/web-design/wavemaker/) | case study; nice scroll-driven work. | `agency` `motion` `scroll-driven` `editorial` |
 
 # local tanzania
@@ -624,6 +642,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [charm](https://charm.land/) | terminal tooling with taste; tuis as brand. | `dev` `oss` `tool` `playful` |
 | [cloudcannon](https://cloudcannon.com/) | git-backed cms; visual editing for static sites. | `dev` `saas` `tool` |
 | [cloudmersive](https://www.cloudmersive.com/) | api suite; document conversion, validation and security endpoints. | `api` `tool` `dev` |
+| [comma](https://comma.surf/) | open-source 24/7 personal ai agent; always-on and self-hostable. | `ai` `oss` `tool` |
 | [conductor](https://www.conductor.build/) | claude code manager; tidy multi-agent ui. | `ai` `dev` `tool` |
 | [cosmic](https://system76.com/cosmic) | system76's rust desktop; bold open de design. | `oss` `dev` `hardware` |
 | [crabnebula](https://crabnebula.dev/) | rust and dx tooling company; sharp open-source branding. | `oss` `dev` `tool` |
@@ -699,6 +718,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [streamline](https://home.streamlinehq.com/) | icon and illustration sets; fast design resources. | `tool` `reference` `dev` |
 | [t3 code](https://t3.codes/) | open ai code editor; terminal-first tooling. | `ai` `dev` `tool` |
 | [tailadmin](https://tailadmin.com/) | free tailwind dashboard templates; handy starting kit. | `template` `saas` `tool` `dev` |
+| [tinyhumans](https://tinyhumans.ai/) | open-source ai agents for desktop and coding; openhuman and medulla. | `ai` `oss` `dev` `tool` |
 | [traccar](https://www.traccar.org/) | open gps tracking platform; honest docs-first site. | `oss` `tool` `reference` `dev` |
 | [tvmaze](https://www.tvmaze.com/) | tv database and api; no-nonsense data reference. | `reference` `tool` `global` |
 | [twitch developers](https://dev.twitch.tv/) | developer portal; api docs for live streaming. | `dev` `media` `api` |
@@ -732,6 +752,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [mental models](https://mentalmodels.co/) | mental models reference; clear thinking tool. | `reference` `reading` |
 | [mozilla release management](https://release.mozilla.org/) | engineering blog; shipping notes from the firefox team. | `dev` `editorial` |
 | [nela healthcare](https://nelahealthcare.com/) | unclassified - revisit. | `reference` |
+| [note](https://note.com/) | japanese platform for essays, manga, photos and audio; creator-first publishing. | `reading` `editorial` `global` |
 | [pontem innovations](https://www.ponteminnovations.ca/) | unclassified - revisit. | `reference` |
 | [radish](https://www.myradish.com/) | unclassified - revisit. | `reference` |
 | [rustify](https://rustify.rs/) | unclassified - revisit. | `reference` |
