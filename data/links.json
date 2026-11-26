@@ -6168,5 +6168,19 @@
     "category": "saas-dashboards",
     "added": "2026-11-25",
     "favorite": false
+  },
+  {
+    "url": "https://rubygems.org/",
+    "title": "RubyGems",
+    "why": "Official ruby gem registry; the default package source for bundler and most rails projects.",
+    "tags": [
+      "dev",
+      "oss",
+      "tool",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-26",
+    "favorite": false
   }
 ]
