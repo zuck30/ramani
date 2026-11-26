@@ -6457,5 +6457,18 @@
     "category": "resources",
     "added": "2026-11-26",
     "favorite": false
+  },
+  {
+    "url": "https://itrust.co.tz/",
+    "title": "iTrust Finance",
+    "why": "Tanzanian investment, brokerage, loans and payments platform; one-stop finance marketing.",
+    "tags": [
+      "fintech",
+      "tanzania",
+      "africa"
+    ],
+    "category": "fintech",
+    "added": "2026-11-26",
+    "favorite": false
   }
 ]

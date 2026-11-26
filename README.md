@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-503-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-504-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**503 links**, last updated 2026-11-26
+**504 links**, last updated 2026-11-26
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -387,6 +387,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [envestnet](https://www.envestnet.com/) | wealth-tech platform; corporate but refined. | `fintech` `saas` `global` |
 | [firstbase](https://www.firstbase.io/) | company formation and banking; crisp founder onboarding. | `fintech` `saas` `minimal` |
 | [flinks](https://www.flinks.com/) | open banking data; enterprise api pages. | `fintech` `saas` `dev` |
+| [itrust finance](https://itrust.co.tz/) | tanzanian investment, brokerage, loans and payments platform; one-stop finance marketing. | `fintech` `tanzania` `africa` |
 | [j.p. morgan](https://www.jpmorgan.com/global) | banking giant; dense, disciplined finance ui. | `fintech` `global` |
 | [mercury](https://mercury.com/) | startup banking; the calm, precise fintech look. | `fintech` `saas` `minimal` |
 | [method](https://methodfi.com/) | debt repayment api; clean modern fintech pitch. | `fintech` `saas` `dev` |
