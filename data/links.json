@@ -880,19 +880,6 @@
     "favorite": false
   },
   {
-    "url": "https://chacc.dev/",
-    "title": "ChaCC API",
-    "why": "fastapi modular platform; clear docs for a plug-and-play backend.",
-    "tags": [
-      "dev",
-      "api",
-      "tool"
-    ],
-    "category": "resources",
-    "added": "2026-11-22",
-    "favorite": false
-  },
-  {
     "url": "https://chain.com/",
     "title": "Chain",
     "why": "stablecoin infrastructure; cards, wallets and payouts over one api.",
@@ -2243,6 +2230,19 @@
     ],
     "category": "resources",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://joycetower.ie/",
+    "title": "James Joyce Tower",
+    "why": "Literary museum; collection-led storytelling with confident editorial pacing.",
+    "tags": [
+      "editorial",
+      "global",
+      "reference"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-27",
     "favorite": false
   },
   {

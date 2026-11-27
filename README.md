@@ -245,6 +245,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [instagram, about](https://about.instagram.com/) | corporate about site; oversized editorial type and a gradient-outlined cta. | `editorial` `minimal` `global` |
 | [instagram, careers](https://about.instagram.com/about-us/careers) | careers page in the same system; eyebrow labels and a photo collage. | `editorial` `minimal` `global` |
 | [inter miami cf](https://www.intermiamicf.com/) | official club site with news, roster, schedule, tickets, and fan content for inter miami cf. | `sports` `global` `media` |
+| [james joyce tower](https://joycetower.ie/) | literary museum; collection-led storytelling with confident editorial pacing. | `editorial` `global` `reference` |
 | [jarrett](https://www.gojarrett.com/) | logistics and supply chain site; dense corporate storytelling. | `global` |
 | [jenga](https://www.jenga.com/index.php) | official jenga site; classic block-stacking game brand with products, videos, and shop links. | `playful` `global` |
 | [kid disco](https://kiddisco.asmallgame.com/) | webgl browser game with a boy vs bacteria soundtrack; playful arcade energy. | `playful` `colorful` `motion` |
@@ -640,7 +641,6 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [bored.com](https://www.bored.com/) | entertainment portal; games, quizzes and playful time-wasting. | `playful` `media` `global` |
 | [cal.com](https://cal.com/) | open scheduling; calendly's open rival, well branded. | `oss` `tool` `dev` `minimal` |
 | [cap](https://cap.so/) | open screen recorder; friendly indie product. | `oss` `tool` `minimal` `dev` |
-| [chacc api](https://chacc.dev/) | fastapi modular platform; clear docs for a plug-and-play backend. | `dev` `api` `tool` |
 | [charm](https://charm.land/) | terminal tooling with taste; tuis as brand. | `dev` `oss` `tool` `playful` |
 | [cloudcannon](https://cloudcannon.com/) | git-backed cms; visual editing for static sites. | `dev` `saas` `tool` |
 | [cloudmersive](https://www.cloudmersive.com/) | api suite; document conversion, validation and security endpoints. | `api` `tool` `dev` |
