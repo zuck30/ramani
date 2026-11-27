@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-504-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-507-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**504 links**, last updated 2026-11-26
+**507 links**, last updated 2026-11-27
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -627,6 +627,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [302.ai](https://302.ai/) | pay-as-you-go ai toolbox; utilitarian aggregator. | `ai` `cloud` `dev` `saas` |
 | [99designs](https://99designs.com/) | design marketplace; crowdsourcing at scale. | `tool` `global` `ecommerce` |
 | [afl-cio](https://aflcio.org/) | labor federation; solid civic storytelling. | `nonprofit` `reference` `global` |
+| [apiframe](https://apiframe.ai/) | generative media api; one endpoint for image, video, and music models. | `ai` `api` `dev` `saas` |
 | [apify](https://apify.com/) | web scraping platform; playful yet technical brand. | `tool` `dev` `saas` `oss` |
 | [apitemplate.io](https://apitemplate.io/) | document templating api; niche tool done simply. | `tool` `saas` `dev` |
 | [appflowy](https://appflowy.com/) | open notion alternative; clean productivity tool. | `oss` `tool` `dev` `minimal` |
@@ -647,6 +648,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [conductor](https://www.conductor.build/) | claude code manager; tidy multi-agent ui. | `ai` `dev` `tool` |
 | [cosmic](https://system76.com/cosmic) | system76's rust desktop; bold open de design. | `oss` `dev` `hardware` |
 | [crabnebula](https://crabnebula.dev/) | rust and dx tooling company; sharp open-source branding. | `oss` `dev` `tool` |
+| [cyanite](https://cyanite.ai/) | ai music tagging and similarity search; clear product framing for a technical api. | `ai` `api` `dev` `media` |
 | [daytona](https://www.daytona.io/) | dev environments; fast, dark infra marketing. | `dev` `cloud` `oss` `tool` |
 | [deepinfra](https://deepinfra.com/) | model inference api; plain, cheap, developer-first. | `ai` `dev` `cloud` |
 | [developpp](https://www.developpp.de/en/) | german development partnership programme funding sustainable private-sector projects. | `global` `reference` `nonprofit` |
@@ -657,6 +659,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [encode ai](https://encodeai.org/) | ai policy org; advocacy with clean civic design. | `ai` `nonprofit` `reference` |
 | [ente](https://ente.com/) | end-to-end encrypted photos; privacy with polish. | `privacy` `oss` `minimal` `tool` |
 | [fandom](https://www.fandom.com/) | wiki empire; massive community knowledge base. | `reference` `global` `playful` |
+| [feed.fm](https://www.feed.fm/) | licensed music api and sdks for apps; clear b2b pitch with live player demos. | `api` `saas` `media` `dev` |
 | [flaticon](https://www.flaticon.com/) | icon library; huge searchable catalogue with colour and style filters. | `tool` `reference` `design` `global` |
 | [flexjobs](https://www.flexjobs.com/) | remote job board; functional and calm. | `reference` `tool` `global` |
 | [foia.gov](https://www.foia.gov/) | public records portal; plain language and clear steps. | `gov` `reference` `global` |

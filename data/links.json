@@ -313,6 +313,20 @@
     "favorite": false
   },
   {
+    "url": "https://apiframe.ai/",
+    "title": "Apiframe",
+    "why": "Generative media API; one endpoint for image, video, and music models.",
+    "tags": [
+      "ai",
+      "api",
+      "dev",
+      "saas"
+    ],
+    "category": "resources",
+    "added": "2026-11-27",
+    "favorite": false
+  },
+  {
     "url": "https://apify.com/",
     "title": "Apify",
     "why": "Web scraping platform; playful yet technical brand.",
@@ -1139,6 +1153,20 @@
     "favorite": false
   },
   {
+    "url": "https://cyanite.ai/",
+    "title": "Cyanite",
+    "why": "AI music tagging and similarity search; clear product framing for a technical api.",
+    "tags": [
+      "ai",
+      "api",
+      "dev",
+      "media"
+    ],
+    "category": "resources",
+    "added": "2026-11-27",
+    "favorite": false
+  },
+  {
     "url": "https://daginatsuko.com/",
     "title": "DAGINATSUKO",
     "why": "Personal portfolio showcasing web projects, builds, VRChat worlds, hardware, and photography.",
@@ -1519,6 +1547,20 @@
     ],
     "category": "education",
     "added": "2026-11-12",
+    "favorite": false
+  },
+  {
+    "url": "https://www.feed.fm/",
+    "title": "Feed.fm",
+    "why": "Licensed music api and sdks for apps; clear b2b pitch with live player demos.",
+    "tags": [
+      "api",
+      "saas",
+      "media",
+      "dev"
+    ],
+    "category": "resources",
+    "added": "2026-11-27",
     "favorite": false
   },
   {
