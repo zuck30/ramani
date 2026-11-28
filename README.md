@@ -10,7 +10,7 @@
 [![website](https://img.shields.io/website?url=https%3A%2F%2Fzuck30.github.io%2Framani%2F&label=website)](https://zuck30.github.io/ramani/)
 [![jekyll](https://img.shields.io/badge/jekyll-3.9-cc0000?logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![ruby](https://img.shields.io/badge/ruby-3.x%20%7C%204.x-cc342d?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
-[![links](https://img.shields.io/badge/links-507-161616)](data/links.json)
+[![links](https://img.shields.io/badge/links-519-161616)](data/links.json)
 [![email](https://img.shields.io/badge/email-mwalyangashadrack%40gmail.com-3b5cf6)](mailto:mwalyangashadrack@gmail.com)
 [![license](https://img.shields.io/badge/license-mit-black)](LICENSE)
 [![prs welcome](https://img.shields.io/badge/prs-welcome-black)](CONTRIBUTION.md)
@@ -25,7 +25,7 @@ visit the [website](https://zuck30.github.io/ramani/) or browse the [tags](https
   </a>
 </p>
 
-**507 links**, last updated 2026-11-27
+**519 links**, last updated 2026-11-28
 
 > the link tables below are generated from [data/links.json](data/links.json). edit that file, not the tables.
 
@@ -230,6 +230,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [coco wyo](https://cocowyo.com/) | cozy coloring brand; gentle, playful commerce. | `playful` `ecommerce` `colorful` |
 | [codiste](https://www.codiste.com) | dev agency landing; clear services storytelling. | `agency` `ai` `dev` |
 | [cofounder](https://cofounder.co/) | startup product pitch; confident, minimal type. | `minimal` `saas` |
+| [craft](https://www.craft.do/) | notes and docs app; soft product-led storytelling with a disciplined visual system. | `saas` `design` `minimal` |
 | [deeplead](https://www.deeplead.io/) | lead timeline predictor; one input, one blunt promise. | `saas` `tool` |
 | [finn.no](https://www.finn.no/) | norwegian classifieds marketplace; dense listings with clear hierarchy. | `ecommerce` `global` `minimal` |
 | [fintie](https://www.fintie.com/) | device case store; clear category merchandising and a light product grid. | `ecommerce` `colorful` `global` |
@@ -256,9 +257,11 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [mall of the emirates](https://www.malloftheemirates.com/en) | mall site; store directories and wayfinding patterns. | `ecommerce` `global` |
 | [mckesson careers](https://careers.mckesson.com/en) | healthcare careers site; search-led hero and clear role categories. | `editorial` `global` |
 | [micron](https://www.micron.com/) | memory chip maker; precise engineering corporate site. | `hardware` `global` |
+| [mindmarket](https://mindmarket.com/) | global qualitative research agency; one-partner positioning and clean sector navigation. | `agency` `global` |
 | [moma](https://www.moma.org/) | museum of modern art; exhibition-led editorial layout. | `editorial` `global` |
 | [nékter juice bar](https://www.nekterjuicebar.com/) | juice bar chain; fresh, colorful franchise marketing. | `food` `colorful` `playful` |
 | [netflix](http://netflix.com/tz/) | streaming landing page; poster-led rows and a dark canvas. | `media` `cinematic` `dark` |
+| [outlier](https://outlier.ai/) | expert marketplace from scale ai; humans writing and grading the prompts that train models. | `ai` `saas` `global` |
 | [palmeiras](https://palmeiras.com.br/) | brazilian football club; bold editorial matchday storytelling. | `sports` `global` `media` `editorial` |
 | [pingo ai](https://pingo.ai/) | ai product; clean, modern pitch page. | `ai` `saas` |
 | [porsche racing](https://racing.porsche.com/?locale=en) | motorsport storytelling; cinematic scroll-driven pages. | `cinematic` `motion` `scroll-driven` `editorial` `dark` |
@@ -266,6 +269,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [realtor.ca](https://www.realtor.ca/) | canadian listings; map-driven search ux reference. | `ecommerce` `global` |
 | [rocket](https://www.rocket.new/) | ai app builder; bold launch-style landing. | `ai` `saas` `tool` |
 | [sequoia capital](https://sequoiacap.com/) | vc site with editorial calm; type-driven pages. | `editorial` `minimal` `fintech` |
+| [slush](https://slush.org/) | founder-focused startup event; dense editorial grid and a bold countdown. | `editorial` `global` |
 | [somewhere](https://somewhere.com/) | remote talent hiring platform; confident saas marketing. | `saas` `global` `marketing` |
 | [sydney new year's eve](http://sydneynewyearseve.com/) | event site; cinematic countdown and a bold typographic lockup. | `cinematic` `colorful` `global` |
 | [teguar](https://teguar.com/) | industrial computers; spec-driven hardware catalogue. | `hardware` `global` |
@@ -416,6 +420,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [lockheed martin](https://www.lockheedmartin.com/) | classic defence contractor; structured and serious. | `defence` `gov` |
 | [palantir](https://www.palantir.com) | dark industrial data platform; the defence aesthetic to beat. | `defence` `dark` `ai` `saas` |
 | [rtx](https://www.rtx.com/) | aerospace defence giant; clean engineering grids. | `defence` `gov` `global` |
+| [scout ai](https://scoutco.ai/) | defence robotics foundation model; dark mission-console framing for autonomous vehicles. | `defence` `ai` `hardware` |
 
 # agriculture farms
 
@@ -471,6 +476,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [cleveland state university](https://www.csuohio.edu/) | cleveland state university's main site for academics, admissions, research, and campus life. | `education` `reference` `global` |
 | [codecrafters](https://codecrafters.io/) | hands-on programming challenges to build redis, git, sqlite, and other systems from scratch in your own language. | `dev` `education` `tool` |
 | [columbia university](https://www.columbia.edu/) | columbia university's main site covering academics, research, admissions, and campus news. | `education` `reference` `global` |
+| [duolingo](https://www.duolingo.com/) | language learning at consumer scale; mascot-led onboarding that never feels like homework. | `education` `playful` `global` |
 | [fawe tanzania](https://fawetanzania.or.tz/) | girls' education ngo; mission-driven local chapter. | `tanzania` `nonprofit` `education` `africa` |
 | [fe training](https://www.fe.training/) | financial engineering training; deep structured learning. | `education` `fintech` `reference` |
 | [freecodecamp](https://www.freecodecamp.org/) | free coding curriculum with hands-on projects and certifications. | `education` `dev` `oss` |
@@ -482,6 +488,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [harvard business school](https://www.hbs.edu/) | business school site covering programs, faculty research, insights, and alumni resources. | `education` `reference` `global` |
 | [harvard university](https://www.harvard.edu/) | harvard's main site showcasing academics, research, campus life, and institutional storytelling. | `education` `reference` `global` |
 | [iced book](https://book.iced.rs/) | iced gui book; rust ui in chaptered docs. | `dev` `oss` `education` `reference` |
+| [kira learning](https://www.kira-learning.com/) | ai operating system for schools; instruction, assessment and intervention as one loop. | `education` `ai` `saas` |
 | [learn anything](https://learn-anything.xyz) | maps of what to learn; exactly what it says. | `education` `oss` `tool` `minimal` |
 | [learn anything: django](https://learn-anything.xyz/django) | django path; structured learning graph. | `education` `dev` `reference` |
 | [learning rust](https://learning-rust.github.io/) | rust from scratch; gentle structured chapters. | `dev` `education` `reference` |
@@ -497,6 +504,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [penn state](https://www.psu.edu/) | pennsylvania state university's main site covering academics, admissions, research, and campus life. | `education` `reference` `global` |
 | [princeton university](https://www.princeton.edu/) | princeton's main site featuring academics, research, admissions, and university news. | `education` `reference` `global` |
 | [scaler](https://www.scaler.com/) | tech upskilling academy; structured engineering and ai curriculum. | `education` `dev` `ai` |
+| [scout](https://www.scoutforschools.com/) | agentic student information system; enrollment, compliance and reporting in one record. | `education` `saas` `ai` |
 | [shule direct](https://www.shuledirect.co.tz/) | tanzanian digital learning platform with curriculum-aligned content, revision tools, and resources for students and teachers. | `tanzania` `africa` `education` `edtech` |
 | [skillshare](https://www.skillshare.com/en/) | creative classes; friendly course marketplace. | `education` `playful` `global` |
 | [the odin project](https://www.theodinproject.com/) | free full-stack curriculum; the gold standard path. | `education` `dev` `oss` |
@@ -566,6 +574,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [toolbox creative](https://toolboxcreative.com/) | creative agency; bold work showcase. | `agency` `colorful` |
 | [uberviz](https://www.uberviz.io/) | creative data visualization studio; code-driven motion experiments. | `design` `motion` `agency` |
 | [vaalentin 2015](https://vaalentin.github.io/2015/) | french creative developer's webgl experiments; playful browser visuals. | `motion` `dev` `playful` |
+| [vansita addanki](https://vansita.design/) | product designer portfolio; ai and b2b case studies beside a playful experiments shelf. | `design` `minimal` |
 | [wavemaker by the web kitchen](https://www.thewebkitchen.co.uk/web-design/wavemaker/) | case study; nice scroll-driven work. | `agency` `motion` `scroll-driven` `editorial` |
 
 # local tanzania
@@ -681,6 +690,8 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [kilo cli](https://kilo.ai/cli) | kilo's cli; agents in the terminal. | `ai` `dev` `tool` |
 | [kittl](https://www.kittl.com/) | ai design platform; image generation, mockups and curated type in one editor. | `design` `ai` `tool` `saas` |
 | [kobotoolbox](https://www.kobotoolbox.org/) | field data collection toolkit; humanitarian and free. | `tool` `nonprofit` `oss` `reference` |
+| [kyoto travel](https://kyoto.travel/en/) | kyoto city official guide; deep wayfinding across areas, seasons and itineraries. | `travel` `reference` `global` |
+| [lalal.ai](https://www.lalal.ai/) | stem splitter and vocal remover; one upload, one job, no clutter. | `ai` `tool` |
 | [land-book](https://land-book.com/) | landing page gallery; hand-picked design references. | `reference` `minimal` `tool` |
 | [liners](https://liners.com/) | ai reading assistant; highlight-and-summarize tool. | `ai` `tool` `saas` |
 | [lummi](https://www.lummi.ai/) | ai stock image library; generous and fast. | `ai` `tool` |
@@ -701,6 +712,7 @@ beautifully made with love by [shadrackovsky](https://github.com/zuck30).
 | [porkbun](https://porkbun.com/) | domain registrar with a playful, distinct brand. | `tool` `playful` `dev` |
 | [pygments](https://pygments.org/) | syntax highlighter; workhorse of code colors. | `dev` `oss` `reference` `tool` |
 | [quasar](https://quasar.dev/) | vue framework; thorough docs and component kit. | `dev` `oss` `tool` |
+| [refero](https://refero.design/) | curated ui and ux screenshot library; searchable patterns from shipped products. | `design` `reference` `tool` |
 | [reflex](https://reflex.dev/) | pure-python web apps; framework done cleanly. | `dev` `oss` `tool` |
 | [relay evals](https://relayevals.com/) | llm eval tooling; pragmatic testing reference. | `ai` `dev` `tool` `reference` |
 | [rpcs3](https://rpcs3.net/) | open-source playstation 3 emulator; builds, compatibility lists and progress reports. | `gaming` `oss` `tool` |

@@ -6512,5 +6512,157 @@
     "category": "fintech",
     "added": "2026-11-26",
     "favorite": false
+  },
+  {
+    "url": "https://outlier.ai/",
+    "title": "Outlier",
+    "why": "Expert marketplace from Scale AI; humans writing and grading the prompts that train models.",
+    "tags": [
+      "ai",
+      "saas",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://www.kira-learning.com/",
+    "title": "Kira Learning",
+    "why": "AI operating system for schools; instruction, assessment and intervention as one loop.",
+    "tags": [
+      "education",
+      "ai",
+      "saas"
+    ],
+    "category": "education",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://kyoto.travel/en/",
+    "title": "Kyoto Travel",
+    "why": "Kyoto City official guide; deep wayfinding across areas, seasons and itineraries.",
+    "tags": [
+      "travel",
+      "reference",
+      "global"
+    ],
+    "category": "resources",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://www.scoutforschools.com/",
+    "title": "Scout",
+    "why": "Agentic student information system; enrollment, compliance and reporting in one record.",
+    "tags": [
+      "education",
+      "saas",
+      "ai"
+    ],
+    "category": "education",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://scoutco.ai/",
+    "title": "Scout AI",
+    "why": "Defence robotics foundation model; dark mission-console framing for autonomous vehicles.",
+    "tags": [
+      "defence",
+      "ai",
+      "hardware"
+    ],
+    "category": "corporate-defence",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://www.lalal.ai/",
+    "title": "LALAL.AI",
+    "why": "Stem splitter and vocal remover; one upload, one job, no clutter.",
+    "tags": [
+      "ai",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://refero.design/",
+    "title": "Refero",
+    "why": "Curated UI and UX screenshot library; searchable patterns from shipped products.",
+    "tags": [
+      "design",
+      "reference",
+      "tool"
+    ],
+    "category": "resources",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://slush.org/",
+    "title": "Slush",
+    "why": "Founder-focused startup event; dense editorial grid and a bold countdown.",
+    "tags": [
+      "editorial",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://www.duolingo.com/",
+    "title": "Duolingo",
+    "why": "Language learning at consumer scale; mascot-led onboarding that never feels like homework.",
+    "tags": [
+      "education",
+      "playful",
+      "global"
+    ],
+    "category": "education",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://www.craft.do/",
+    "title": "Craft",
+    "why": "Notes and docs app; soft product-led storytelling with a disciplined visual system.",
+    "tags": [
+      "saas",
+      "design",
+      "minimal"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://mindmarket.com/",
+    "title": "MindMarket",
+    "why": "Global qualitative research agency; one-partner positioning and clean sector navigation.",
+    "tags": [
+      "agency",
+      "global"
+    ],
+    "category": "landing-pages",
+    "added": "2026-11-28",
+    "favorite": false
+  },
+  {
+    "url": "https://vansita.design/",
+    "title": "Vansita Addanki",
+    "why": "Product designer portfolio; AI and B2B case studies beside a playful experiments shelf.",
+    "tags": [
+      "design",
+      "minimal"
+    ],
+    "category": "portfolios-creative",
+    "added": "2026-11-28",
+    "favorite": false
   }
 ]
